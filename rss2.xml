@@ -321,27 +321,8 @@ deploy:
 |   └── js #javascript源代码
 ├── _config.yml#主题配置文件
 └── README.md  #说明文档
-
-{% codeblock %}
-      ├── languages  #多语言
-      |   ├── default.yml#默认语言
-      |   └── zh-CN.yml  #中文语言
-      ├── layout #布局，根目录下的*.ejs文件是对主页，分页，存档等的控制
-      |   ├── _partial   #局部的布局，此目录下的*.ejs是对头尾等局部的控制
-      |   └── _widget#小挂件的布局，页面下方小挂件的控制
-      ├── source #源码
-      |   ├── css#css源码 
-      |   |   ├── _base  #*.styl基础css
-      |   |   ├── _partial   #*.styl局部css
-      |   |   ├── fonts  #字体
-      |   |   ├── images #图片
-      |   |   └── style.styl #*.styl引入需要的css源码
-      |   ├── fancybox   #fancybox效果源码
-      |   └── js #javascript源代码
-      ├── _config.yml#主题配置文件
-      └── README.md  #说明文档
-      {% endcodeblock %}
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;用Hexo发表文章的Markdown语法&quot;&gt;&lt;a href=&quot;#用Hexo发表文章的Markdown语法&quot; class=&quot;headerlink&quot; title=&quot;用Hexo发表文章的Markdown语法&quot;&gt;&lt;/a&gt;用Hexo发表文章的Markdown语法&lt;/h3&gt;&lt;p&gt;使用jacman或pacman主题，建议按此标准语法写：&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;test&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;├── languages  #多语言&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;└── README.md  #说明文档&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&quot;用Hexo发表文章的Markdown语法&quot;&gt;&lt;a href=&quot;#用Hexo发表文章的Markdown语法&quot; class=&quot;headerlink&quot; title=&quot;用Hexo发表文章的Markdown语法&quot;&gt;&lt;/a&gt;用Hexo发表文章的Markdown语法&lt;/h3&gt;&lt;p&gt;使用jacman或pacman主题，建议按此标准语法写：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;title: postName #文章页面上的显示名称，可以任意修改，不会出现在URL中
 date: 2013-12-02 15:30:16 #文章生成时间，一般不改，当然也可以任意修改
 categories: example #分类
