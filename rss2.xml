@@ -8,8 +8,26 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>如果我带着醉意出生，我或许会忘掉所有的悲伤！</description>
-    <pubDate>Fri, 03 Jun 2016 08:26:10 GMT</pubDate>
+    <pubDate>Fri, 03 Jun 2016 14:51:58 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Mac怎么显示隐藏文件命令</title>
+      <link>http://puhemo.tk/2016/06/03/Mac%E6%80%8E%E4%B9%88%E6%98%BE%E7%A4%BA%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E5%91%BD%E4%BB%A4/</link>
+      <guid>http://puhemo.tk/2016/06/03/Mac%E6%80%8E%E4%B9%88%E6%98%BE%E7%A4%BA%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E5%91%BD%E4%BB%A4/</guid>
+      <pubDate>Fri, 03 Jun 2016 14:47:04 GMT</pubDate>
+      <description>
+      
+        &lt;h2 id=&quot;Mac怎么显示隐藏文件命令&quot;&gt;&lt;a href=&quot;#Mac怎么显示隐藏文件命令&quot; class=&quot;headerlink&quot; title=&quot;Mac怎么显示隐藏文件命令&quot;&gt;&lt;/a&gt;Mac怎么显示隐藏文件命令&lt;/h2&gt;&lt;h3 id=&quot;隐藏文件命令：&quot;&gt;&lt;a href=&quot;#隐藏
+      
+      </description>
+      
+      <content:encoded>&lt;h2 id=&quot;Mac怎么显示隐藏文件命令&quot;&gt;&lt;a href=&quot;#Mac怎么显示隐藏文件命令&quot; class=&quot;headerlink&quot; title=&quot;Mac怎么显示隐藏文件命令&quot;&gt;&lt;/a&gt;Mac怎么显示隐藏文件命令&lt;/h2&gt;&lt;h3 id=&quot;隐藏文件命令：&quot;&gt;&lt;a href=&quot;#隐藏文件命令：&quot; class=&quot;headerlink&quot; title=&quot;隐藏文件命令：&quot;&gt;&lt;/a&gt;隐藏文件命令：&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;显示文件命令：&quot;&gt;&lt;a href=&quot;#显示文件命令：&quot; class=&quot;headerlink&quot; title=&quot;显示文件命令：&quot;&gt;&lt;/a&gt;显示文件命令：&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
+&lt;/code&gt;&lt;/pre&gt;</content:encoded>
+      
+      <comments>http://puhemo.tk/2016/06/03/Mac%E6%80%8E%E4%B9%88%E6%98%BE%E7%A4%BA%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E5%91%BD%E4%BB%A4/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>更换电脑如何转移Hexo</title>
