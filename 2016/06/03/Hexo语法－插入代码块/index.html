@@ -84,16 +84,16 @@
 
 
 
-<meta name="description" content="Hexo语法－插入代码块在文章中插入代码。别名： code    [title] [] [url] [link text]1code snippet">
+<meta name="description" content="Hexo语法－插入代码块在文章中插入代码。别名： code123&amp;#123;% codeblock [title] [lang:language] [url] [link text] %&amp;#125;code snippet&amp;#123;% endcodeblock %&amp;#125;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo语法－插入代码块">
 <meta property="og:url" content="http://puhemo.tk/2016/06/03/Hexo语法－插入代码块/index.html">
 <meta property="og:site_name" content="Puhemo's blog">
-<meta property="og:description" content="Hexo语法－插入代码块在文章中插入代码。别名： code    [title] [] [url] [link text]1code snippet">
-<meta property="og:updated_time" content="2016-06-03T15:48:25.000Z">
+<meta property="og:description" content="Hexo语法－插入代码块在文章中插入代码。别名： code123&amp;#123;% codeblock [title] [lang:language] [url] [link text] %&amp;#125;code snippet&amp;#123;% endcodeblock %&amp;#125;">
+<meta property="og:updated_time" content="2016-06-03T16:06:07.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo语法－插入代码块">
-<meta name="twitter:description" content="Hexo语法－插入代码块在文章中插入代码。别名： code    [title] [] [url] [link text]1code snippet">
+<meta name="twitter:description" content="Hexo语法－插入代码块在文章中插入代码。别名： code123&amp;#123;% codeblock [title] [lang:language] [url] [link text] %&amp;#125;code snippet&amp;#123;% endcodeblock %&amp;#125;">
 
 
 
@@ -330,12 +330,20 @@
       
 
       
-        <h2 id="Hexo语法－插入代码块"><a href="#Hexo语法－插入代码块" class="headerlink" title="Hexo语法－插入代码块"></a>Hexo语法－插入代码块</h2><p>在文章中插入代码。<br>别名： code<br>    <figure class="highlight plain"><figcaption><span>[title] [] [url] [link text]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code snippet</span><br></pre></td></tr></table></figure></p>
+        <h2 id="Hexo语法－插入代码块"><a href="#Hexo语法－插入代码块" class="headerlink" title="Hexo语法－插入代码块"></a>Hexo语法－插入代码块</h2><p>在文章中插入代码。<br>别名： code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure></p>
 <a id="more"></a>
-<h3 id="普通代码块"><a href="#普通代码块" class="headerlink" title="普通代码块"></a>普通代码块</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br></pre></td></tr></table></figure>
-<h3 id="指定语言"><a href="#指定语言" class="headerlink" title="指定语言"></a>指定语言</h3><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>
-<h3 id="附加说明"><a href="#附加说明" class="headerlink" title="附加说明"></a>附加说明</h3><figure class="highlight plain"><figcaption><span>Array.map</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">array.map(callback[, thisArg])</span><br></pre></td></tr></table></figure>
-<h3 id="附加说明和网址"><a href="#附加说明和网址" class="headerlink" title="附加说明和网址"></a>附加说明和网址</h3>
+<h3 id="普通代码块"><a href="#普通代码块" class="headerlink" title="普通代码块"></a>普通代码块</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock %&#125;</span><br><span class="line">alert(&apos;Hello World!&apos;);</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br></pre></td></tr></table></figure>
+<h3 id="指定语言"><a href="#指定语言" class="headerlink" title="指定语言"></a>指定语言</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock lang:objc %&#125;</span><br><span class="line">[rectangle setX: 10 y: 10 width: 20 height: 20];</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>
+<h3 id="附加说明"><a href="#附加说明" class="headerlink" title="附加说明"></a>附加说明</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock Array.map %&#125;</span><br><span class="line">array.map(callback[, thisArg])</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>Array.map</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">array.map(callback[, thisArg])</span><br></pre></td></tr></table></figure>
+<h3 id="附加说明和网址"><a href="#附加说明和网址" class="headerlink" title="附加说明和网址"></a>附加说明和网址</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock _.compact http://underscorejs.org/#compact Underscore.js %&#125;</span><br><span class="line">_.compact([0, 1, false, 2, &apos;&apos;, 3]);</span><br><span class="line">=&gt; [1, 2, 3]</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>_.compact</span><a href="http://underscorejs.org/#compact" target="_blank" rel="external">Underscore.js</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">_.compact([0, 1, false, 2, &apos;&apos;, 3]);</span><br><span class="line">=&gt; [1, 2, 3]</span><br></pre></td></tr></table></figure>
+<h3 id="反引号代码块"><a href="#反引号代码块" class="headerlink" title="反引号代码块"></a>反引号代码块</h3><p>另一种形式的代码块，不同的是它使用三个反引号来包裹。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">``` [language] [title] [url] [link text] code snippet ```</span><br></pre></td></tr></table></figure>
+<h2 id="参考页面"><a href="#参考页面" class="headerlink" title="参考页面"></a>参考页面</h2><p><a href="https://hexo.io/zh-cn/docs/tag-plugins.html" target="_blank" rel="external">https://hexo.io/zh-cn/docs/tag-plugins.html</a></p>
+
       
     </div>
 
@@ -489,7 +497,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo语法－插入代码块"><span class="nav-number">1.</span> <span class="nav-text">Hexo语法－插入代码块</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#普通代码块"><span class="nav-number">1.1.</span> <span class="nav-text">普通代码块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#指定语言"><span class="nav-number">1.2.</span> <span class="nav-text">指定语言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#附加说明"><span class="nav-number">1.3.</span> <span class="nav-text">附加说明</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#附加说明和网址"><span class="nav-number">1.4.</span> <span class="nav-text">附加说明和网址</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo语法－插入代码块"><span class="nav-number">1.</span> <span class="nav-text">Hexo语法－插入代码块</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#普通代码块"><span class="nav-number">1.1.</span> <span class="nav-text">普通代码块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#指定语言"><span class="nav-number">1.2.</span> <span class="nav-text">指定语言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#附加说明"><span class="nav-number">1.3.</span> <span class="nav-text">附加说明</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#附加说明和网址"><span class="nav-number">1.4.</span> <span class="nav-text">附加说明和网址</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#反引号代码块"><span class="nav-number">1.5.</span> <span class="nav-text">反引号代码块</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考页面"><span class="nav-number">2.</span> <span class="nav-text">参考页面</span></a></li></ol></div>
             
           </div>
         </section>
