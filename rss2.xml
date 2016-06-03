@@ -88,35 +88,11 @@ hexo d
       <pubDate>Thu, 02 Jun 2016 07:11:13 GMT</pubDate>
       <description>
       
-        &lt;h1 id=&quot;使用GitHub和Hexo搭建免费静态Blog&quot;&gt;&lt;a href=&quot;#使用GitHub和Hexo搭建免费静态Blog&quot; class=&quot;headerlink&quot; title=&quot;使用GitHub和Hexo搭建免费静态Blog&quot;&gt;&lt;/a&gt;使用GitHub和Hexo搭建免费静态Blog&lt;/h1&gt;&lt;h2 id=&quot;文章目录&quot;&gt;&lt;a href=&quot;#文章目录&quot; class=&quot;headerlink&quot; title=&quot;文章目录&quot;&gt;&lt;/a&gt;文章目录&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;前言&lt;/li&gt;
-&lt;li&gt;更新历史&lt;/li&gt;
-&lt;li&gt;准备工作&lt;br&gt;3.1. 了解Hexo&lt;br&gt;3.2. 安装GIT&lt;br&gt;3.3. 安装Node.JS&lt;br&gt;3.4. 安装Hexo&lt;/li&gt;
-&lt;li&gt;Hexo初始化配置&lt;br&gt;4.1. 创建Hexo文件夹&lt;br&gt;4.2. 生成静态页面&lt;br&gt;4.3. 本地查看效果&lt;/li&gt;
-&lt;li&gt;部署静态网页到GitHub&lt;br&gt;5.1. 注册设置GitHub&lt;br&gt;5.2. 同步内容至GitHub&lt;/li&gt;
-&lt;li&gt;域名和DNS&lt;br&gt;6.1. 域名推荐&lt;br&gt;6.2. DNS推荐&lt;br&gt;6.3. 设置CNAME&lt;br&gt;6.4. 添加DNS Service记录&lt;/li&gt;
-&lt;li&gt;Hexo配置修改&lt;br&gt;7.1. 知识储备&lt;br&gt;7.2. Hexo主题&lt;br&gt;7.4. 如何迁移至Hexo&lt;/li&gt;
-&lt;li&gt;Hexo命令&lt;/li&gt;
-&lt;li&gt;常见问题&lt;/li&gt;
-&lt;li&gt;推荐阅读&lt;/li&gt;
-&lt;li&gt;参考文章
+        &lt;h1 id=&quot;HEXO-Github搭建免费静态Blog&quot;&gt;&lt;a href=&quot;#HEXO-Github搭建免费静态Blog&quot; class=&quot;headerlink&quot; title=&quot;HEXO+Github搭建免费静态Blog&quot;&gt;&lt;/a&gt;HEXO+Github搭建免费静态Blog&lt;/h1&gt;
       
       </description>
       
-      <content:encoded>&lt;h1 id=&quot;使用GitHub和Hexo搭建免费静态Blog&quot;&gt;&lt;a href=&quot;#使用GitHub和Hexo搭建免费静态Blog&quot; class=&quot;headerlink&quot; title=&quot;使用GitHub和Hexo搭建免费静态Blog&quot;&gt;&lt;/a&gt;使用GitHub和Hexo搭建免费静态Blog&lt;/h1&gt;&lt;h2 id=&quot;文章目录&quot;&gt;&lt;a href=&quot;#文章目录&quot; class=&quot;headerlink&quot; title=&quot;文章目录&quot;&gt;&lt;/a&gt;文章目录&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;前言&lt;/li&gt;
-&lt;li&gt;更新历史&lt;/li&gt;
-&lt;li&gt;准备工作&lt;br&gt;3.1. 了解Hexo&lt;br&gt;3.2. 安装GIT&lt;br&gt;3.3. 安装Node.JS&lt;br&gt;3.4. 安装Hexo&lt;/li&gt;
-&lt;li&gt;Hexo初始化配置&lt;br&gt;4.1. 创建Hexo文件夹&lt;br&gt;4.2. 生成静态页面&lt;br&gt;4.3. 本地查看效果&lt;/li&gt;
-&lt;li&gt;部署静态网页到GitHub&lt;br&gt;5.1. 注册设置GitHub&lt;br&gt;5.2. 同步内容至GitHub&lt;/li&gt;
-&lt;li&gt;域名和DNS&lt;br&gt;6.1. 域名推荐&lt;br&gt;6.2. DNS推荐&lt;br&gt;6.3. 设置CNAME&lt;br&gt;6.4. 添加DNS Service记录&lt;/li&gt;
-&lt;li&gt;Hexo配置修改&lt;br&gt;7.1. 知识储备&lt;br&gt;7.2. Hexo主题&lt;br&gt;7.4. 如何迁移至Hexo&lt;/li&gt;
-&lt;li&gt;Hexo命令&lt;/li&gt;
-&lt;li&gt;常见问题&lt;/li&gt;
-&lt;li&gt;推荐阅读&lt;/li&gt;
-&lt;li&gt;参考文章&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
+      <content:encoded>&lt;h1 id=&quot;HEXO-Github搭建免费静态Blog&quot;&gt;&lt;a href=&quot;#HEXO-Github搭建免费静态Blog&quot; class=&quot;headerlink&quot; title=&quot;HEXO+Github搭建免费静态Blog&quot;&gt;&lt;/a&gt;HEXO+Github搭建免费静态Blog&lt;/h1&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;&lt;img src=&quot;http://i.v2ex.co/5bb7J7NT.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;待填坑&lt;/p&gt;
 &lt;hr&gt;
@@ -454,8 +430,7 @@ hexo new page &amp;quot;pageName&amp;quot; #新建页面
 hexo generate #生成静态页面至public目录
 hexo server #开启预览访问端口（默认端口4000，&amp;apos;ctrl + c&amp;apos;关闭server）
 hexo deploy #将.deploy目录部署到GitHub
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;###常用复合命令：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;hexo d -g #生成加部署
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;常用复合命令：&quot;&gt;&lt;a href=&quot;#常用复合命令：&quot; class=&quot;headerlink&quot; title=&quot;常用复合命令：&quot;&gt;&lt;/a&gt;常用复合命令：&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;hexo d -g #生成加部署
 hexo s -g #预览加部署
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;简写命令：&quot;&gt;&lt;a href=&quot;#简写命令：&quot; class=&quot;headerlink&quot; title=&quot;简写命令：&quot;&gt;&lt;/a&gt;简写命令：&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;hexo n #hexo new
 hexo g #hexo generate
