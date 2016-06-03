@@ -88,13 +88,14 @@ hexo d
       <pubDate>Thu, 02 Jun 2016 07:11:13 GMT</pubDate>
       <description>
       
-        &lt;h1 id=&quot;HEXO-Github搭建免费静态Blog&quot;&gt;&lt;a href=&quot;#HEXO-Github搭建免费静态Blog&quot; class=&quot;headerlink&quot; title=&quot;HEXO+Github搭建免费静态Blog&quot;&gt;&lt;/a&gt;HEXO+Github搭建免费静态Blog&lt;/h1&gt;
+        &lt;h1 id=&quot;HEXO-Github搭建免费静态Blog&quot;&gt;&lt;a href=&quot;#HEXO-Github搭建免费静态Blog&quot; class=&quot;headerlink&quot; title=&quot;HEXO+Github搭建免费静态Blog&quot;&gt;&lt;/a&gt;HEXO+Github搭建免费静态Blog&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;http://i.v2ex.co/5bb7J7NT.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;想熟悉&lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;markdown&lt;/a&gt;和纪录一些东西，于是有了这个blog和这篇文章！&lt;/p&gt;
       
       </description>
       
-      <content:encoded>&lt;h1 id=&quot;HEXO-Github搭建免费静态Blog&quot;&gt;&lt;a href=&quot;#HEXO-Github搭建免费静态Blog&quot; class=&quot;headerlink&quot; title=&quot;HEXO+Github搭建免费静态Blog&quot;&gt;&lt;/a&gt;HEXO+Github搭建免费静态Blog&lt;/h1&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;img src=&quot;http://i.v2ex.co/5bb7J7NT.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;待填坑&lt;/p&gt;
+      <content:encoded>&lt;h1 id=&quot;HEXO-Github搭建免费静态Blog&quot;&gt;&lt;a href=&quot;#HEXO-Github搭建免费静态Blog&quot; class=&quot;headerlink&quot; title=&quot;HEXO+Github搭建免费静态Blog&quot;&gt;&lt;/a&gt;HEXO+Github搭建免费静态Blog&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;http://i.v2ex.co/5bb7J7NT.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;想熟悉&lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;markdown&lt;/a&gt;和纪录一些东西，于是有了这个blog和这篇文章！&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;更新历史&quot;&gt;&lt;a href=&quot;#更新历史&quot; class=&quot;headerlink&quot; title=&quot;更新历史&quot;&gt;&lt;/a&gt;更新历史&lt;/h2&gt;&lt;p&gt;20160603: 完成初稿&lt;/p&gt;
 &lt;hr&gt;
@@ -425,6 +426,7 @@ hexo d
 &lt;li&gt;&lt;a href=&quot;https://github.com/SuperKieran/TKL&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;TKL&lt;/a&gt;: &lt;a href=&quot;https://github.com/SuperKieran/TKL&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/SuperKieran/TKL&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;如何迁移至Hexo&quot;&gt;&lt;a href=&quot;#如何迁移至Hexo&quot; class=&quot;headerlink&quot; title=&quot;如何迁移至Hexo&quot;&gt;&lt;/a&gt;如何迁移至Hexo&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://hexo.io/zh-cn/docs/migration.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://hexo.io/zh-cn/docs/migration.html&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&quot;Hexo命令&quot;&gt;&lt;a href=&quot;#Hexo命令&quot; class=&quot;headerlink&quot; title=&quot;Hexo命令&quot;&gt;&lt;/a&gt;Hexo命令&lt;/h2&gt;&lt;h3 id=&quot;常用命令：&quot;&gt;&lt;a href=&quot;#常用命令：&quot; class=&quot;headerlink&quot; title=&quot;常用命令：&quot;&gt;&lt;/a&gt;常用命令：&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;hexo new &amp;quot;postName&amp;quot; #生成文章，或者source\_posts手动编辑
 hexo new page &amp;quot;pageName&amp;quot; #新建页面
 hexo generate #生成静态页面至public目录
