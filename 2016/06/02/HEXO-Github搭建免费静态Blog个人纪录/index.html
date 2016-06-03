@@ -93,7 +93,7 @@
 <meta property="og:description" content="HEXO+Github搭建免费静态Blog
 前言想熟悉markdown和纪录一些东西，于是有了这个blog和这篇文章！">
 <meta property="og:image" content="http://i.v2ex.co/5bb7J7NT.png">
-<meta property="og:updated_time" content="2016-06-03T15:30:56.000Z">
+<meta property="og:updated_time" content="2016-06-03T15:35:08.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HEXO+Github搭建免费静态Blog">
 <meta name="twitter:description" content="HEXO+Github搭建免费静态Blog
@@ -379,14 +379,16 @@ npm install hexo --save
 <li>在主页右下角创建New repository，name必须和用户名一致如puhemo.github.io</li>
 </ol>
 <h3 id="同步内容至GitHub"><a href="#同步内容至GitHub" class="headerlink" title="同步内容至GitHub"></a>同步内容至GitHub</h3><ol>
-<li>编辑_config.yml文件，建立与git的关联(在.yml文件的最底部)<pre><code># Deployment
+<li><p>编辑_config.yml文件，建立与git的关联(在.yml文件的最底部)</p>
+<pre><code># Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
   repository: https://github.com/puhemo/puhemo.github.io
   branch: master
 </code></pre></li>
-<li>然后运行<pre><code>    npm install hexo-deployer-git --save  
+<li><p>然后运行</p>
+<pre><code>    npm install hexo-deployer-git --save  
     hexo g
     hexo d
 这样你就可以在你的 puhemo.github.io 上看到代码已经同步到git上了。
@@ -563,8 +565,7 @@ deploy:
 |   └── js #javascript源代码
 ├── _config.yml#主题配置文件
 └── README.md  #说明文档
-</code></pre><p>test<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">├── languages  #多语言</span><br><span class="line">└── README.md  #说明文档</span><br></pre></td></tr></table></figure></p>
-<h3 id="用Hexo发表文章的Markdown语法"><a href="#用Hexo发表文章的Markdown语法" class="headerlink" title="用Hexo发表文章的Markdown语法"></a>用Hexo发表文章的Markdown语法</h3><p>使用jacman或pacman主题，建议按此标准语法写：</p>
+</code></pre><h3 id="用Hexo发表文章的Markdown语法"><a href="#用Hexo发表文章的Markdown语法" class="headerlink" title="用Hexo发表文章的Markdown语法"></a>用Hexo发表文章的Markdown语法</h3><p>使用jacman或pacman主题，建议按此标准语法写：</p>
 <pre><code>title: postName #文章页面上的显示名称，可以任意修改，不会出现在URL中
 date: 2013-12-02 15:30:16 #文章生成时间，一般不改，当然也可以任意修改
 categories: example #分类
@@ -592,9 +593,9 @@ feed:
 #sitemap
 sitemap:
   path: sitemap.xml
-</code></pre><h3 id="如何设置「阅读全文」？"><a href="#如何设置「阅读全文」？" class="headerlink" title="如何设置「阅读全文」？"></a>如何设置「阅读全文」？</h3></li>
+</code></pre></li>
 </ul>
-<p>在文章中使用 <code>&lt;!-- more --&gt;</code> 手动进行截断，Hexo 提供的方式</p>
+<h3 id="如何设置「阅读全文」？"><a href="#如何设置「阅读全文」？" class="headerlink" title="如何设置「阅读全文」？"></a>如何设置「阅读全文」？</h3><p>在文章中使用 <code>&lt;!-- more --&gt;</code> 手动进行截断，Hexo 提供的方式</p>
 <p>###设置 RSS</p>
 <ul>
 <li>添加feed插件<pre><code>$ npm install hexo-generator-feed --save
@@ -840,7 +841,7 @@ hexo d #hexo deploy
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-count">5</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
