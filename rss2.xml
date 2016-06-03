@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Puhemo&#39;s blog</title>
+    <link>http://puhemo.tk/</link>
+    <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>如果我带着醉意出生，我或许会忘掉所有的悲伤！</description>
+    <pubDate>Fri, 03 Jun 2016 08:26:10 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>更换电脑如何转移Hexo</title>
+      <link>http://puhemo.tk/2016/06/03/%E6%9B%B4%E6%8D%A2%E7%94%B5%E8%84%91%E5%A6%82%E4%BD%95%E8%BD%AC%E7%A7%BBHexo/</link>
+      <guid>http://puhemo.tk/2016/06/03/%E6%9B%B4%E6%8D%A2%E7%94%B5%E8%84%91%E5%A6%82%E4%BD%95%E8%BD%AC%E7%A7%BBHexo/</guid>
+      <pubDate>Fri, 03 Jun 2016 07:12:14 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;更换电脑，在新电脑上重新部署Hexo&lt;br&gt;
+      
+      </description>
+      
+      <content:encoded>&lt;p&gt;更换电脑，在新电脑上重新部署Hexo&lt;br&gt; &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;转移文件&quot;&gt;&lt;a href=&quot;#转移文件&quot; class=&quot;headerlink&quot; title=&quot;转移文件&quot;&gt;&lt;/a&gt;转移文件&lt;/h2&gt;&lt;h3 id=&quot;拷贝文件&quot;&gt;&lt;a href=&quot;#拷贝文件&quot; class=&quot;headerlink&quot; title=&quot;拷贝文件&quot;&gt;&lt;/a&gt;拷贝文件&lt;/h3&gt;&lt;p&gt;下面就将原来的文件拷贝到新电脑中，但是要注意哪些文件是必须的，哪些文件是可以删除的。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;必须拷贝文件：&lt;br&gt;├──_config.yml&lt;br&gt;├── theme&lt;br&gt;├── scaffolds #文章模板&lt;br&gt;├── package.json #说明使用哪些包&lt;br&gt;├── .gitignore #限定在提交的时候哪些文件可以忽略&lt;br&gt;└── source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;scaffolds、package.json和.gitignore，这三个文件不是我们修改的，即使丢失了，也没有关系，我们可以建立一个新的文件夹，然后在里面执行hexo init，就会生成这三个文件，我们只需要将它们拷贝过来使用即可。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;不必拷贝文件：&lt;br&gt;├──.git #根目录&lt;br&gt;├── node_modules #npm install重新生成&lt;br&gt;├── public #hexo g重新生成&lt;br&gt;├── .deploy_git #hexo d重新生成&lt;br&gt;├── db.json #.gitignore文件记载可以忽略内容&lt;br&gt;└── .git #主题目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;部署环境&quot;&gt;&lt;a href=&quot;#部署环境&quot; class=&quot;headerlink&quot; title=&quot;部署环境&quot;&gt;&lt;/a&gt;部署环境&lt;/h2&gt;&lt;h3 id=&quot;安装Git&quot;&gt;&lt;a href=&quot;#安装Git&quot; class=&quot;headerlink&quot; title=&quot;安装Git&quot;&gt;&lt;/a&gt;安装Git&lt;/h3&gt;&lt;p&gt;从官网&lt;a href=&quot;https://git-scm.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Git&lt;/a&gt;下载git，在新电脑上安装，因为https速度慢，而且每次都要输入口令，常用的是使用ssh。使用下面方法创建：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;打开git bash，在用户主目录下运行：ssh-keygen -t rsa -C “youremail@example.com” 把其中的邮件地址换成自己的邮件地址，然后一路回车&lt;/li&gt;
+&lt;li&gt;最后完成后，会在用户主目录下生成.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH key密钥对，id_rsa是私钥，千万不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人。&lt;/li&gt;
+&lt;li&gt;登陆GitHub，打开「Settings」-&amp;gt;「SSH and GPG keys」，然后点击「new SSH key」，填上任意Title，在Key文本框里粘贴公钥id_rsa.pub文件的内容（千万不要粘贴成私钥了！），最后点击「Add SSH Key」，你就应该看到已经添加的Key。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：不要在git版本库中运行ssh，然后又将它提交，这样就把密码泄露出去了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;安装Node-JS&quot;&gt;&lt;a href=&quot;#安装Node-JS&quot; class=&quot;headerlink&quot; title=&quot;安装Node.JS&quot;&gt;&lt;/a&gt;安装Node.JS&lt;/h3&gt;&lt;p&gt;下载&lt;a href=&quot;http://nodejs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Node.JS&lt;/a&gt;并安装&lt;/p&gt;
+&lt;h3 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装hexo&lt;/h3&gt;&lt;p&gt;打开git bash客户端，输入 &lt;code&gt;npm install hexo-cli -g&lt;/code&gt;，开始安装hexo&lt;/p&gt;
+&lt;h2 id=&quot;重新部署&quot;&gt;&lt;a href=&quot;#重新部署&quot; class=&quot;headerlink&quot; title=&quot;重新部署&quot;&gt;&lt;/a&gt;重新部署&lt;/h2&gt;&lt;h3 id=&quot;模块安装&quot;&gt;&lt;a href=&quot;#模块安装&quot; class=&quot;headerlink&quot; title=&quot;模块安装&quot;&gt;&lt;/a&gt;模块安装&lt;/h3&gt;&lt;p&gt;在git bash中切换目录到新拷贝的文件夹，使用 npm install 命令，进行模块安装。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不要用hexo init初始化，部分文件已经拷贝生成，如果不慎使用，则站点配置文件_config.yml会被初始化为默认值&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;$ npm install npm install hexo-deployer-git --save #同步内容至github
+$ npm install hexo-generator-feed --save #RSS订阅
+$ npm install hexo-generator-sitemap --save #站点地图
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;插件安装后，有的需要对配置文件_config.yml进行配置，具体可以参考上面插件在github主页上的说明&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;同步内容至GitHub&quot;&gt;&lt;a href=&quot;#同步内容至GitHub&quot; class=&quot;headerlink&quot; title=&quot;同步内容至GitHub&quot;&gt;&lt;/a&gt;同步内容至GitHub&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;hexo g
+hexo d
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id=&quot;参考链接&quot;&gt;&lt;a href=&quot;#参考链接&quot; class=&quot;headerlink&quot; title=&quot;参考链接&quot;&gt;&lt;/a&gt;参考链接&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/21193762/answer/103097754&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.zhihu.com/question/21193762/answer/103097754&lt;/a&gt;&lt;/p&gt;
+</content:encoded>
+      
+      <comments>http://puhemo.tk/2016/06/03/%E6%9B%B4%E6%8D%A2%E7%94%B5%E8%84%91%E5%A6%82%E4%BD%95%E8%BD%AC%E7%A7%BBHexo/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://puhemo.tk/2016/06/03/hello-world/</link>
+      <guid>http://puhemo.tk/2016/06/03/hello-world/</guid>
+      <pubDate>Fri, 03 Jun 2016 06:25:20 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
+      
+      </description>
+      
+      <content:encoded>&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content:encoded>
+      
+      <comments>http://puhemo.tk/2016/06/03/hello-world/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>HEXO+Github搭建免费静态Blog</title>
+      <link>http://puhemo.tk/2016/06/02/HEXO-Github%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E9%9D%99%E6%80%81Blog%E4%B8%AA%E4%BA%BA%E7%BA%AA%E5%BD%95/</link>
+      <guid>http://puhemo.tk/2016/06/02/HEXO-Github%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E9%9D%99%E6%80%81Blog%E4%B8%AA%E4%BA%BA%E7%BA%AA%E5%BD%95/</guid>
+      <pubDate>Thu, 02 Jun 2016 07:11:13 GMT</pubDate>
+      <description>
+      
+        &lt;h1 id=&quot;使用GitHub和Hexo搭建免费静态Blog&quot;&gt;&lt;a href=&quot;#使用GitHub和Hexo搭建免费静态Blog&quot; class=&quot;headerlink&quot; title=&quot;使用GitHub和Hexo搭建免费静态Blog&quot;&gt;&lt;/a&gt;使用GitHub和Hexo搭建免费静态Blog&lt;/h1&gt;&lt;h2 id=&quot;文章目录&quot;&gt;&lt;a href=&quot;#文章目录&quot; class=&quot;headerlink&quot; title=&quot;文章目录&quot;&gt;&lt;/a&gt;文章目录&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;前言&lt;/li&gt;
+&lt;li&gt;更新历史&lt;/li&gt;
+&lt;li&gt;准备工作&lt;br&gt;3.1. 了解Hexo&lt;br&gt;3.2. 安装GIT&lt;br&gt;3.3. 安装Node.JS&lt;br&gt;3.4. 安装Hexo&lt;/li&gt;
+&lt;li&gt;Hexo初始化配置&lt;br&gt;4.1. 创建Hexo文件夹&lt;br&gt;4.2. 生成静态页面&lt;br&gt;4.3. 本地查看效果&lt;/li&gt;
+&lt;li&gt;部署静态网页到GitHub&lt;br&gt;5.1. 注册设置GitHub&lt;br&gt;5.2. 同步内容至GitHub&lt;/li&gt;
+&lt;li&gt;域名和DNS&lt;br&gt;6.1. 域名推荐&lt;br&gt;6.2. DNS推荐&lt;br&gt;6.3. 设置CNAME&lt;br&gt;6.4. 添加DNS Service记录&lt;/li&gt;
+&lt;li&gt;Hexo配置修改&lt;br&gt;7.1. 知识储备&lt;br&gt;7.2. Hexo主题&lt;br&gt;7.4. 如何迁移至Hexo&lt;/li&gt;
+&lt;li&gt;Hexo命令&lt;/li&gt;
+&lt;li&gt;常见问题&lt;/li&gt;
+&lt;li&gt;推荐阅读&lt;/li&gt;
+&lt;li&gt;参考文章
+      
+      </description>
+      
+      <content:encoded>&lt;h1 id=&quot;使用GitHub和Hexo搭建免费静态Blog&quot;&gt;&lt;a href=&quot;#使用GitHub和Hexo搭建免费静态Blog&quot; class=&quot;headerlink&quot; title=&quot;使用GitHub和Hexo搭建免费静态Blog&quot;&gt;&lt;/a&gt;使用GitHub和Hexo搭建免费静态Blog&lt;/h1&gt;&lt;h2 id=&quot;文章目录&quot;&gt;&lt;a href=&quot;#文章目录&quot; class=&quot;headerlink&quot; title=&quot;文章目录&quot;&gt;&lt;/a&gt;文章目录&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;前言&lt;/li&gt;
+&lt;li&gt;更新历史&lt;/li&gt;
+&lt;li&gt;准备工作&lt;br&gt;3.1. 了解Hexo&lt;br&gt;3.2. 安装GIT&lt;br&gt;3.3. 安装Node.JS&lt;br&gt;3.4. 安装Hexo&lt;/li&gt;
+&lt;li&gt;Hexo初始化配置&lt;br&gt;4.1. 创建Hexo文件夹&lt;br&gt;4.2. 生成静态页面&lt;br&gt;4.3. 本地查看效果&lt;/li&gt;
+&lt;li&gt;部署静态网页到GitHub&lt;br&gt;5.1. 注册设置GitHub&lt;br&gt;5.2. 同步内容至GitHub&lt;/li&gt;
+&lt;li&gt;域名和DNS&lt;br&gt;6.1. 域名推荐&lt;br&gt;6.2. DNS推荐&lt;br&gt;6.3. 设置CNAME&lt;br&gt;6.4. 添加DNS Service记录&lt;/li&gt;
+&lt;li&gt;Hexo配置修改&lt;br&gt;7.1. 知识储备&lt;br&gt;7.2. Hexo主题&lt;br&gt;7.4. 如何迁移至Hexo&lt;/li&gt;
+&lt;li&gt;Hexo命令&lt;/li&gt;
+&lt;li&gt;常见问题&lt;/li&gt;
+&lt;li&gt;推荐阅读&lt;/li&gt;
+&lt;li&gt;参考文章&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.v2ex.co/5bb7J7NT.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;待填坑&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;更新历史&quot;&gt;&lt;a href=&quot;#更新历史&quot; class=&quot;headerlink&quot; title=&quot;更新历史&quot;&gt;&lt;/a&gt;更新历史&lt;/h2&gt;&lt;p&gt;20160603: 完成初稿&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;h3 id=&quot;什么是-Hexo？&quot;&gt;&lt;a href=&quot;#什么是-Hexo？&quot; class=&quot;headerlink&quot; title=&quot;什么是 Hexo？&quot;&gt;&lt;/a&gt;什么是 Hexo？&lt;/h3&gt;&lt;p&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt;（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。&lt;/p&gt;
+&lt;h3 id=&quot;安装前提&quot;&gt;&lt;a href=&quot;#安装前提&quot; class=&quot;headerlink&quot; title=&quot;安装前提&quot;&gt;&lt;/a&gt;安装前提&lt;/h3&gt;&lt;p&gt;安装 Hexo 相当简单。然而在安装前，您必须检查电脑中是否已安装下列应用程序：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://nodejs.org/en/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://git-scm.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Git&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果您的电脑中已经安装上述必备程序，那么恭喜您！接下来只需要使用 npm 即可完成 Hexo 的安装。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ npm install -g hexo-cli
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Mac 用户&lt;/strong&gt;&lt;br&gt;您在编译时可能会遇到问题，请先到 App Store 安装 Xcode，Xcode 完成后，启动并进入 &lt;strong&gt;Preferences -&amp;gt; Download -&amp;gt; Command Line Tools -&amp;gt; Install&lt;/strong&gt;安装命令行工具。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;安装-Git&quot;&gt;&lt;a href=&quot;#安装-Git&quot; class=&quot;headerlink&quot; title=&quot;安装 Git&quot;&gt;&lt;/a&gt;安装 Git&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Windows：下载并安装 &lt;a href=&quot;https://git-scm.com/download/win&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;git&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Mac：下载 &lt;a href=&quot;http://sourceforge.net/projects/git-osx-installer/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;安装程序&lt;/a&gt; 安装。&lt;/li&gt;
+&lt;li&gt;Linux (Ubuntu, Debian): &lt;code&gt;sudo apt-get install git-core&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Linux (Fedora, Red Hat, CentOS): &lt;code&gt;sudo yum install git-core&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;安装-Node-js&quot;&gt;&lt;a href=&quot;#安装-Node-js&quot; class=&quot;headerlink&quot; title=&quot;安装 Node.js&quot;&gt;&lt;/a&gt;安装 Node.js&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://nodejs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Node.JS&lt;/a&gt;&lt;br&gt;下载 安装程序 来安装。&lt;/p&gt;
+&lt;p&gt;###安装 Hexo&lt;/p&gt;
+&lt;p&gt;所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ npm install -g hexo
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id=&quot;Hexo初始化配置&quot;&gt;&lt;a href=&quot;#Hexo初始化配置&quot; class=&quot;headerlink&quot; title=&quot;Hexo初始化配置&quot;&gt;&lt;/a&gt;Hexo初始化配置&lt;/h2&gt;&lt;h3 id=&quot;创建Hexo文件夹&quot;&gt;&lt;a href=&quot;#创建Hexo文件夹&quot; class=&quot;headerlink&quot; title=&quot;创建Hexo文件夹&quot;&gt;&lt;/a&gt;创建Hexo文件夹&lt;/h3&gt;&lt;p&gt;安装完成后，根据自己喜好建立目录（如E:\blog），进入Git Shell切换到该路径下E:\blog执行以下指令:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;初始化hexo&lt;pre&gt;&lt;code&gt;hexo init
+npm install hexo --save
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;生成静态页面&quot;&gt;&lt;a href=&quot;#生成静态页面&quot; class=&quot;headerlink&quot; title=&quot;生成静态页面&quot;&gt;&lt;/a&gt;生成静态页面&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;生成静态页面至hexo\public\目录&lt;pre&gt;&lt;code&gt;hexo g (或者 hexo generate)
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;本地查看效果&quot;&gt;&lt;a href=&quot;#本地查看效果&quot; class=&quot;headerlink&quot; title=&quot;本地查看效果&quot;&gt;&lt;/a&gt;本地查看效果&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;本地启动服务&lt;pre&gt;&lt;code&gt;hexo server
+&lt;/code&gt;&lt;/pre&gt;这样，我们就可以在浏览器中输入&lt;a href=&quot;http://localhost:4000/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:4000/&lt;/a&gt; 访问我们的博客啦（响应式的网站）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;部署静态网页到GitHub&quot;&gt;&lt;a href=&quot;#部署静态网页到GitHub&quot; class=&quot;headerlink&quot; title=&quot;部署静态网页到GitHub&quot;&gt;&lt;/a&gt;部署静态网页到GitHub&lt;/h2&gt;&lt;h3 id=&quot;注册并设置GitHub&quot;&gt;&lt;a href=&quot;#注册并设置GitHub&quot; class=&quot;headerlink&quot; title=&quot;注册并设置GitHub&quot;&gt;&lt;/a&gt;注册并设置GitHub&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;登录&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;，注册自定义用户名如puhemo&lt;/li&gt;
+&lt;li&gt;在主页右下角创建New repository，name必须和用户名一致如puhemo.github.io&lt;h3 id=&quot;同步内容至GitHub&quot;&gt;&lt;a href=&quot;#同步内容至GitHub&quot; class=&quot;headerlink&quot; title=&quot;同步内容至GitHub&quot;&gt;&lt;/a&gt;同步内容至GitHub&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;编辑_config.yml文件，建立与git的关联(在.yml文件的最底部)&lt;pre&gt;&lt;code&gt;# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repository: https://github.com/puhemo/puhemo.github.io
+  branch: master
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;然后运行&lt;pre&gt;&lt;code&gt;    npm install hexo-deployer-git --save  
+    hexo g
+    hexo d
+这样你就可以在你的 puhemo.github.io 上看到代码已经同步到git上了。
+在浏览器中输入你的**.github.io(例如：http://puhemo.github.io/）
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;每次有新的修改需要部署同步，都可以按照下面的步骤来：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hexo clean  
+hexo g
+hexo d     
+&lt;/code&gt;&lt;/pre&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;域名和DNS&quot;&gt;&lt;a href=&quot;#域名和DNS&quot; class=&quot;headerlink&quot; title=&quot;域名和DNS&quot;&gt;&lt;/a&gt;域名和DNS&lt;/h2&gt;&lt;h3 id=&quot;域名推荐&quot;&gt;&lt;a href=&quot;#域名推荐&quot; class=&quot;headerlink&quot; title=&quot;域名推荐&quot;&gt;&lt;/a&gt;域名推荐&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;免费域名：&lt;a href=&quot;http://www.dot.tk/zh/index.html?lang=zh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;dot.tk&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;GoDaddy makes registering Domain Names fast, simple, and affordable.&lt;br&gt;&lt;a href=&quot;http://www.godaddy.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.godaddy.com/&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.gdcodecoupon.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.gdcodecoupon.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;DNS推荐&quot;&gt;&lt;a href=&quot;#DNS推荐&quot; class=&quot;headerlink&quot; title=&quot;DNS推荐&quot;&gt;&lt;/a&gt;DNS推荐&lt;/h3&gt;&lt;p&gt;致力于为您提供最稳定、最安全的域名解析服务&lt;br&gt;&lt;a href=&quot;https://www.dnspod.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.dnspod.cn/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;设置CNAME&quot;&gt;&lt;a href=&quot;#设置CNAME&quot; class=&quot;headerlink&quot; title=&quot;设置CNAME&quot;&gt;&lt;/a&gt;设置CNAME&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;创建CNAME文件并添加到/source目录下&lt;/li&gt;
+&lt;li&gt;填写自己的域名如hellodog.com，保存结束&lt;/li&gt;
+&lt;li&gt;同步至Github: &lt;code&gt;hexo g -d&lt;/code&gt;&lt;blockquote&gt;
+&lt;p&gt;hexo会自动把CNAME复制到/puclic目录下然后将/public路径下的内容进行复制并push到远程master分支的根目录下。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果是直接在GitHub网页上添加文件的话，会遇到一个问题就是在通过&lt;code&gt;hexo g -d&lt;/code&gt;之后hexo会把根目录下的CNAME文件删除。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;添加DNS-Service记录-下面以dnspod为例&quot;&gt;&lt;a href=&quot;#添加DNS-Service记录-下面以dnspod为例&quot; class=&quot;headerlink&quot; title=&quot;添加DNS Service记录,下面以dnspod为例:&quot;&gt;&lt;/a&gt;添加DNS Service记录,下面以dnspod为例:&lt;/h3&gt;&lt;p&gt;添加两个A，主机记录写@，后面记录值写上&lt;br&gt;        192.30.252.153&lt;br&gt;        192.30.252.154&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;顶级域名适用      &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;设置域名的DNS&quot;&gt;&lt;a href=&quot;#设置域名的DNS&quot; class=&quot;headerlink&quot; title=&quot;设置域名的DNS&quot;&gt;&lt;/a&gt;设置域名的DNS&lt;/h3&gt;&lt;p&gt;在相应域名的DNS Service中添加上图中间的两条记录：&lt;br&gt;f1g1ns1.dnspod.net和f1g1ns2.dnspod.net(以dnspod为例)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;新修改域名DNS指向DNSPod的DNS域名，虽DNSPod服务器的生效时间是实时的，但因各地ISP服务商刷新域名DNS的时间不一致，所以导致解析在全球生效一般需要0–72小时哦，请您耐心的等待&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;Hexo配置修改&quot;&gt;&lt;a href=&quot;#Hexo配置修改&quot; class=&quot;headerlink&quot; title=&quot;Hexo配置修改&quot;&gt;&lt;/a&gt;Hexo配置修改&lt;/h2&gt;&lt;h3 id=&quot;整站设置&quot;&gt;&lt;a href=&quot;#整站设置&quot; class=&quot;headerlink&quot; title=&quot;整站设置&quot;&gt;&lt;/a&gt;整站设置&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/tommy351/hexo/
+
+# Site #整站的基本信息
+title: 1000 words a Day #网站标题
+subtitle: Writing 1000 Words a Day Changes My Life #网站副标题
+description: 学习总结 思考感悟 知识管理 #网站描述
+author:  puhemo #网站作者，在下方显示
+language: zh-Hans #网站语言
+
+# URL
+## If your site is put in a subdirectory
+url: puhemo.tk #你的域名
+root: /
+permalink: :year/:month/:day/:title/
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+
+# Directory
+source_dir: source
+public_dir: public
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+auto_spacing: false # Add spaces between asian characters and western characters
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+max_open_file: 100
+multi_thread: true
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+highlight:
+  enable: true
+  line_number: true
+  tab_replace:
+
+# Category &amp;amp; Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Archives
+## 2: Enable pagination
+## 1: Disable pagination
+## 0: Fully Disable
+archive: 2
+category: 2
+tag: 2
+
+# Server
+## Hexo uses Connect as a server
+## You can customize the logger format as defined in
+## http://www.senchalabs.org/connect/logger.html
+port: 4000
+server_ip: 0.0.0.0
+logger: false
+logger_format:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: H:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 15 #每页15篇文章
+pagination_dir: page
+
+# Disqus #社会化评论disqus，我使用多说，在主题中配置
+disqus_shortname:
+
+# Extensions
+## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
+## Themes: https://github.com/tommy351/hexo/wiki/Themes
+theme: next #主题设置
+exclude_generator:
+Plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+
+#sitemap
+sitemap:
+  path: sitemap.xml
+
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+# Markdown
+## https://github.com/chjj/marked
+markdown:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+
+# Stylus
+stylus:
+      compress: false
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+  type: github
+  repository: https://github.com/puhemo/puhemo.github.io.git
+  branch: master
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;修改局部页面&quot;&gt;&lt;a href=&quot;#修改局部页面&quot; class=&quot;headerlink&quot; title=&quot;修改局部页面&quot;&gt;&lt;/a&gt;修改局部页面&lt;/h3&gt;&lt;p&gt;页面展现的全部逻辑都在每个主题中控制，源代码在\blog\themes\jacman（以jacman主题为例）&lt;br&gt;      ├── languages  #多语言&lt;br&gt;      |   ├── default.yml#默认语言&lt;br&gt;      |   └── zh-CN.yml  #中文语言&lt;br&gt;      ├── layout #布局，根目录下的&lt;em&gt;.ejs文件是对主页，分页，存档等的控制&lt;br&gt;      |   ├── _partial   #局部的布局，此目录下的&lt;/em&gt;.ejs是对头尾等局部的控制&lt;br&gt;      |   └── _widget#小挂件的布局，页面下方小挂件的控制&lt;br&gt;      ├── source #源码&lt;br&gt;      |   ├── css#css源码&lt;br&gt;      |   |   ├── _base  #&lt;em&gt;.styl基础css&lt;br&gt;      |   |   ├── _partial   #&lt;/em&gt;.styl局部css&lt;br&gt;      |   |   ├── fonts  #字体&lt;br&gt;      |   |   ├── images #图片&lt;br&gt;      |   |   └── style.styl #*.styl引入需要的css源码&lt;br&gt;      |   ├── fancybox   #fancybox效果源码&lt;br&gt;      |   └── js #javascript源代码&lt;br&gt;      ├── _config.yml#主题配置文件&lt;br&gt;      └── README.md  #说明文档&lt;/p&gt;
+&lt;h3 id=&quot;用Hexo发表文章的Markdown语法&quot;&gt;&lt;a href=&quot;#用Hexo发表文章的Markdown语法&quot; class=&quot;headerlink&quot; title=&quot;用Hexo发表文章的Markdown语法&quot;&gt;&lt;/a&gt;用Hexo发表文章的Markdown语法&lt;/h3&gt;&lt;p&gt;使用jacman或pacman主题，建议按此标准语法写：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;title: postName #文章页面上的显示名称，可以任意修改，不会出现在URL中
+date: 2013-12-02 15:30:16 #文章生成时间，一般不改，当然也可以任意修改
+categories: example #分类
+tags: [tag1,tag2,tag3] #文章标签，可空，多标签请用格式，注意:后面有个空格
+description: 附加一段文章摘要，字数最好在140字以内。
+---
+
+以下正文
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;安装插件&quot;&gt;&lt;a href=&quot;#安装插件&quot; class=&quot;headerlink&quot; title=&quot;安装插件&quot;&gt;&lt;/a&gt;安装插件&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;添加sitemap和feed插件&lt;pre&gt;&lt;code&gt;$ npm install hexo-generator-sitemap
+$ npm install hexo-generator-feed
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;修改_config.yml，增加以下内容&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Extensions
+  Plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+#sitemap
+sitemap:
+  path: sitemap.xml
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;如何设置「阅读全文」？&quot;&gt;&lt;a href=&quot;#如何设置「阅读全文」？&quot; class=&quot;headerlink&quot; title=&quot;如何设置「阅读全文」？&quot;&gt;&lt;/a&gt;如何设置「阅读全文」？&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在文章中使用 &lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt; 手动进行截断，Hexo 提供的方式&lt;/p&gt;
+&lt;p&gt;###设置 RSS&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;添加feed插件&lt;pre&gt;&lt;code&gt;$ npm install hexo-generator-feed --save
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;自定义feed插件：&lt;br&gt;修改_config.yml，增加以下内容&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;type - Feed type. (atom/rss2)&lt;/li&gt;
+&lt;li&gt;path - Feed path. (Default: atom.xml/rss2.xml)&lt;/li&gt;
+&lt;li&gt;limit - Maximum number of posts in the feed (Use 0 or false to show all posts)&lt;/li&gt;
+&lt;li&gt;hub - URL of the PubSubHubbub hubs (Leave it empty if you don’t use it)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;分类和标签&quot;&gt;&lt;a href=&quot;#分类和标签&quot; class=&quot;headerlink&quot; title=&quot;分类和标签&quot;&gt;&lt;/a&gt;分类和标签&lt;/h3&gt;&lt;p&gt;只有文章支持分类和标签，您可以在 Front-matter 中设置。在其他系统中，分类和标签听起来很接近，但是在 Hexo 中两者有着明显的差别：分类具有顺序性和层次性，也就是说 Foo, Bar 不等于 Bar, Foo；而标签没有顺序和层次。&lt;br&gt;    categories:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- Diary
+tags:
+- PS3
+- Games
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;更多内容参考官方&lt;a href=&quot;https://hexo.io/zh-cn/docs/front-matter.html#%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Front-matter&lt;/a&gt;说明&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;添加「标签」页面&quot;&gt;&lt;a href=&quot;#添加「标签」页面&quot; class=&quot;headerlink&quot; title=&quot;添加「标签」页面&quot;&gt;&lt;/a&gt;添加「标签」页面&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;新建页面：&lt;pre&gt;&lt;code&gt;$ cd your-hexo-site
+$ hexo new page tags
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;设置页面类型：&lt;pre&gt;&lt;code&gt;title: 标签
+date: 2014-12-22 12:39:04
+type: &amp;quot;tags&amp;quot;
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;修改菜单：&lt;br&gt;在菜单中添加链接。编辑主题配置文件，添加 tags 到 menu 中，如下:&lt;br&gt;   menu:&lt;pre&gt;&lt;code&gt;home: /
+archives: /archives
+tags: /tags
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意：如果有启用 多说 或者 Disqus 评论，页面也会带有评论。 若需要关闭的话，请添加字段 comments 并将值设置为 false，如：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;title: 标签
+date: 2014-12-22 12:39:04
+type: &amp;quot;tags&amp;quot;
+comments: false
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;添加「分类」页面&quot;&gt;&lt;a href=&quot;#添加「分类」页面&quot; class=&quot;headerlink&quot; title=&quot;添加「分类」页面&quot;&gt;&lt;/a&gt;添加「分类」页面&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;新建页面：&lt;pre&gt;&lt;code&gt;$ cd your-hexo-site
+$ hexo new page categories
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;设置页面类型：&lt;pre&gt;&lt;code&gt;title: 分类
+date: 2014-12-22 12:39:04
+type: &amp;quot;categories&amp;quot;
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;修改菜单：&lt;br&gt;在菜单中添加链接。编辑主题配置文件，添加 categories 到 menu 中，如下:&lt;br&gt;   menu:&lt;pre&gt;&lt;code&gt;home: /
+archives: /archives
+categories : /categories    
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意：如果有启用 多说 或者 Disqus 评论，页面也会带有评论。 若需要关闭的话，请添加字段 comments 并将值设置为 false，如：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;title: 分类
+date: 2014-12-22 12:39:04
+type: &amp;quot;categories&amp;quot;
+comments: false
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;Hexo主题修改&quot;&gt;&lt;a href=&quot;#Hexo主题修改&quot; class=&quot;headerlink&quot; title=&quot;Hexo主题修改&quot;&gt;&lt;/a&gt;Hexo主题修改&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;在git上找到你想要的主题&lt;pre&gt;&lt;code&gt;#示例：Nest
+https://github.com/iissnan/hexo-theme-next
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;进入你的hexo目录（如E:\blog），执行命令，拷贝主题&lt;pre&gt;&lt;code&gt;git clone https://github.com/iissnan/hexo-theme-next themes/next
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;拷贝完成后，你会发现你的项目下的themes下多了一个next文件夹&lt;/li&gt;
+&lt;li&gt;我们还需要修改_config.yml文件中的一处来应用新的主题&lt;pre&gt;&lt;code&gt;# Extensions
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+theme: next
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;然后我们重启服务就可以在本地看到效果了&lt;pre&gt;&lt;code&gt;hexo server
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;同步到github&lt;pre&gt;&lt;code&gt;hexo clean  
+hexo g
+hexo d     
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Hexo主题推荐&quot;&gt;&lt;a href=&quot;#Hexo主题推荐&quot; class=&quot;headerlink&quot; title=&quot;Hexo主题推荐&quot;&gt;&lt;/a&gt;Hexo主题推荐&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hexojs/hexo/wiki/Themes&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;主题仓库&lt;/a&gt;: &lt;a href=&quot;https://github.com/hexojs/hexo/wiki/Themes&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/hexojs/hexo/wiki/Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/iissnan/hexo-theme-next&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NexT&lt;/a&gt;: &lt;a href=&quot;https://github.com/iissnan/hexo-theme-next&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/iissnan/hexo-theme-next&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/SuperKieran/TKL&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;TKL&lt;/a&gt;: &lt;a href=&quot;https://github.com/SuperKieran/TKL&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/SuperKieran/TKL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;如何迁移至Hexo&quot;&gt;&lt;a href=&quot;#如何迁移至Hexo&quot; class=&quot;headerlink&quot; title=&quot;如何迁移至Hexo&quot;&gt;&lt;/a&gt;如何迁移至Hexo&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://hexo.io/zh-cn/docs/migration.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://hexo.io/zh-cn/docs/migration.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Hexo命令&quot;&gt;&lt;a href=&quot;#Hexo命令&quot; class=&quot;headerlink&quot; title=&quot;Hexo命令&quot;&gt;&lt;/a&gt;Hexo命令&lt;/h2&gt;&lt;h3 id=&quot;常用命令：&quot;&gt;&lt;a href=&quot;#常用命令：&quot; class=&quot;headerlink&quot; title=&quot;常用命令：&quot;&gt;&lt;/a&gt;常用命令：&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;hexo new &amp;quot;postName&amp;quot; #生成文章，或者source\_posts手动编辑
+hexo new page &amp;quot;pageName&amp;quot; #新建页面
+hexo generate #生成静态页面至public目录
+hexo server #开启预览访问端口（默认端口4000，&amp;apos;ctrl + c&amp;apos;关闭server）
+hexo deploy #将.deploy目录部署到GitHub
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;###常用复合命令：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hexo d -g #生成加部署
+hexo s -g #预览加部署
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;简写命令：&quot;&gt;&lt;a href=&quot;#简写命令：&quot; class=&quot;headerlink&quot; title=&quot;简写命令：&quot;&gt;&lt;/a&gt;简写命令：&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;hexo n #hexo new
+hexo g #hexo generate
+hexo s #hexo server
+hexo d #hexo deploy
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id=&quot;常见问题&quot;&gt;&lt;a href=&quot;#常见问题&quot; class=&quot;headerlink&quot; title=&quot;常见问题&quot;&gt;&lt;/a&gt;常见问题&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;修改配置文件时注意YAML语法，参数冒号:后一定要留空格&lt;/li&gt;
+&lt;li&gt;中文乱码请修改文件编码格式为UTF-8&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://xuanwo.org/2014/08/14/hexo-usual-problem/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo常见问题解决方案 &lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;图床&quot;&gt;&lt;a href=&quot;#图床&quot; class=&quot;headerlink&quot; title=&quot;图床&quot;&gt;&lt;/a&gt;图床&lt;/h2&gt;&lt;p&gt;推荐使用&lt;a href=&quot;http://www.qiniu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;七牛&lt;/a&gt;，还可以使用&lt;a href=&quot;http://imgur.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;imgur&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;推荐阅读&quot;&gt;&lt;a href=&quot;#推荐阅读&quot; class=&quot;headerlink&quot; title=&quot;推荐阅读&quot;&gt;&lt;/a&gt;推荐阅读&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://hexo.io/zh-cn/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo Docs&lt;/a&gt; - &lt;a href=&quot;https://hexo.io/zh-cn/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://hexo.io/zh-cn/docs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/quick-start-setting-up-a-custom-domain/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Quick start: Setting up a custom domain&lt;/a&gt;: &lt;a href=&quot;https://help.github.com/articles/quick-start-setting-up-a-custom-domain/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://help.github.com/articles/quick-start-setting-up-a-custom-domain/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hexojs/hexo-generator-feed&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-generator-feed&lt;/a&gt;: &lt;a href=&quot;https://github.com/hexojs/hexo-generator-feed&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/hexojs/hexo-generator-feed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://theme-next.iissnan.com/theme-settings.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Next主题配置&lt;/a&gt;: &lt;a href=&quot;http://theme-next.iissnan.com/theme-settings.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://theme-next.iissnan.com/theme-settings.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;参考链接&quot;&gt;&lt;a href=&quot;#参考链接&quot; class=&quot;headerlink&quot; title=&quot;参考链接&quot;&gt;&lt;/a&gt;参考链接&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://wsgzao.github.io/post/hexo-guide/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用GitHub和Hexo搭建免费静态Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.szrf215.com/p/465830080ea9/comments/550752&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HEXO+Github,搭建属于本人的博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cdn0.jianshu.io/p/6745fe11bc7f#&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo+github搭建个人博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/5ee7f18e896b&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo + GitHub 搭建个人博客及反思&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/05289a4bc8b2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何搭建一个独立博客——简明Github Pages与Hexo教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://theme-next.iissnan.com/getting-started.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NexT使用文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ckjoker.github.io/2015/01/27/Linux-github-hexo-blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Linux下github+hexo搭建自己的博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://notes.wanghao.work/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;为NexT主题添加文章阅读量统计功能 &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+      
+      <comments>http://puhemo.tk/2016/06/02/HEXO-Github%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E9%9D%99%E6%80%81Blog%E4%B8%AA%E4%BA%BA%E7%BA%AA%E5%BD%95/#disqus_thread</comments>
+    </item>
+    
+  </channel>
+</rss>
