@@ -8,22 +8,8 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>如果我带着醉意出生，我或许会忘掉所有的悲伤！</description>
-    <pubDate>Fri, 03 Jun 2016 14:25:07 GMT</pubDate>
+    <pubDate>Fri, 03 Jun 2016 08:26:10 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>test</title>
-      <link>http://puhemo.tk/2016/06/03/test/</link>
-      <guid>http://puhemo.tk/2016/06/03/test/</guid>
-      <pubDate>Fri, 03 Jun 2016 14:25:07 GMT</pubDate>
-      <description>
-      
-      </description>
-      
-      <content:encoded></content:encoded>
-      
-      <comments>http://puhemo.tk/2016/06/03/test/#disqus_thread</comments>
-    </item>
     
     <item>
       <title>更换电脑如何转移Hexo</title>
