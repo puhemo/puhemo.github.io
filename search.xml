@@ -436,7 +436,9 @@ hexo d
 <h3 id="Hexo主题推荐"><a href="#Hexo主题推荐" class="headerlink" title="Hexo主题推荐"></a>Hexo主题推荐</h3><ul>
 <li><a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">主题仓库</a>: <a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">https://github.com/hexojs/hexo/wiki/Themes</a></li>
 <li><a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">NexT</a>: <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">https://github.com/iissnan/hexo-theme-next</a></li>
-<li><a href="https://github.com/SuperKieran/TKL" target="_blank" rel="external">TKL</a>: <a href="https://github.com/SuperKieran/TKL" target="_blank" rel="external">https://github.com/SuperKieran/TKL</a></li>
+<li><a href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank" rel="external">Hueman</a>: <a href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank" rel="external">https://github.com/ppoffice/hexo-theme-hueman</a></li>
+<li><a href="https://github.com/tufu9441/maupassant-hexo" target="_blank" rel="external">Maupassant</a>: <a href="https://github.com/tufu9441/maupassant-hexo" target="_blank" rel="external">https://github.com/tufu9441/maupassant-hexo</a></li>
+<li><a href="https://github.com/raytaylorlin/hexo-theme-raytaylorism" target="_blank" rel="external">raytaylorism</a>: <a href="https://github.com/raytaylorlin/hexo-theme-raytaylorism" target="_blank" rel="external">https://github.com/raytaylorlin/hexo-theme-raytaylorism</a></li>
 </ul>
 <h3 id="如何迁移至Hexo"><a href="#如何迁移至Hexo" class="headerlink" title="如何迁移至Hexo"></a>如何迁移至Hexo</h3><p><a href="http://hexo.io/zh-cn/docs/migration.html" target="_blank" rel="external">http://hexo.io/zh-cn/docs/migration.html</a></p>
 <hr>
