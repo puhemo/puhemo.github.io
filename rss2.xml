@@ -460,6 +460,7 @@ comments: false
 &lt;li&gt;将头像放置主题目录下的 source/uploads/ （新建uploads目录若不存在）&lt;br&gt;配置为：&lt;code&gt;avatar: /uploads/avatar.png&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;或者 放置在 source/images/ 目录下&lt;br&gt;配置为：&lt;code&gt;avatar: /images/avatar.png&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&quot;Google-分析&quot;&gt;&lt;a href=&quot;#Google-分析&quot; class=&quot;headerlink&quot; title=&quot;Google 分析&quot;&gt;&lt;/a&gt;Google 分析&lt;/h3&gt;&lt;p&gt;编辑站点配置文件，新增字段&lt;code&gt;google_analytics&lt;/code&gt;，值设置成泥的Google跟踪ID。跟踪ID通常以&lt;code&gt;UA-&lt;/code&gt;开头。&lt;br&gt;&lt;img src=&quot;http://theme-next.iissnan.com/uploads/analytics-google.png&quot; alt=&quot;ID&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Hexo主题修改&quot;&gt;&lt;a href=&quot;#Hexo主题修改&quot; class=&quot;headerlink&quot; title=&quot;Hexo主题修改&quot;&gt;&lt;/a&gt;Hexo主题修改&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;在git上找到你想要的主题&lt;pre&gt;&lt;code&gt;#示例：Nest
 https://github.com/iissnan/hexo-theme-next

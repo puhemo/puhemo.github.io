@@ -93,7 +93,8 @@
 <meta property="og:description" content="HEXO+Github搭建免费静态Blog
 前言想熟悉markdown和纪录一些东西，于是有了这个blog和这篇文章！">
 <meta property="og:image" content="http://i.v2ex.co/5bb7J7NT.png">
-<meta property="og:updated_time" content="2016-06-04T00:40:21.000Z">
+<meta property="og:image" content="http://theme-next.iissnan.com/uploads/analytics-google.png">
+<meta property="og:updated_time" content="2016-06-04T00:55:17.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HEXO+Github搭建免费静态Blog">
 <meta name="twitter:description" content="HEXO+Github搭建免费静态Blog
@@ -321,7 +322,7 @@
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
                 <a href="/2016/06/02/HEXO-Github搭建免费静态Blog个人纪录/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/02/HEXO-Github搭建免费静态Blog个人纪录/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/06/02/HEXO-Github搭建免费静态Blog个人纪录/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -682,6 +683,7 @@ comments: false
 <li>将头像放置主题目录下的 source/uploads/ （新建uploads目录若不存在）<br>配置为：<code>avatar: /uploads/avatar.png</code></li>
 <li>或者 放置在 source/images/ 目录下<br>配置为：<code>avatar: /images/avatar.png</code></li>
 </ul>
+<h3 id="Google-分析"><a href="#Google-分析" class="headerlink" title="Google 分析"></a>Google 分析</h3><p>编辑站点配置文件，新增字段<code>google_analytics</code>，值设置成泥的Google跟踪ID。跟踪ID通常以<code>UA-</code>开头。<br><img src="http://theme-next.iissnan.com/uploads/analytics-google.png" alt="ID"></p>
 <h3 id="Hexo主题修改"><a href="#Hexo主题修改" class="headerlink" title="Hexo主题修改"></a>Hexo主题修改</h3><ul>
 <li>在git上找到你想要的主题<pre><code>#示例：Nest
 https://github.com/iissnan/hexo-theme-next
@@ -813,8 +815,11 @@ hexo d #hexo deploy
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/06/02/HEXO-Github搭建免费静态Blog个人纪录/"
-           data-title="HEXO+Github搭建免费静态Blog" data-url="http://puhemo.tk/2016/06/02/HEXO-Github搭建免费静态Blog个人纪录/">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
       </div>
     
   </div>
@@ -905,7 +910,7 @@ hexo d #hexo deploy
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#HEXO-Github搭建免费静态Blog"><span class="nav-number">1.</span> <span class="nav-text">HEXO+Github搭建免费静态Blog</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#更新历史"><span class="nav-number">1.2.</span> <span class="nav-text">更新历史</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#准备工作"><span class="nav-number">1.3.</span> <span class="nav-text">准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是-Hexo？"><span class="nav-number">1.3.1.</span> <span class="nav-text">什么是 Hexo？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装前提"><span class="nav-number">1.3.2.</span> <span class="nav-text">安装前提</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装-Git"><span class="nav-number">1.3.3.</span> <span class="nav-text">安装 Git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装-Node-js"><span class="nav-number">1.3.4.</span> <span class="nav-text">安装 Node.js</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo初始化配置"><span class="nav-number">1.4.</span> <span class="nav-text">Hexo初始化配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#创建Hexo文件夹"><span class="nav-number">1.4.1.</span> <span class="nav-text">创建Hexo文件夹</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#生成静态页面"><span class="nav-number">1.4.2.</span> <span class="nav-text">生成静态页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#本地查看效果"><span class="nav-number">1.4.3.</span> <span class="nav-text">本地查看效果</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#部署静态网页到GitHub"><span class="nav-number">1.5.</span> <span class="nav-text">部署静态网页到GitHub</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#注册并设置GitHub"><span class="nav-number">1.5.1.</span> <span class="nav-text">注册并设置GitHub</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#同步内容至GitHub"><span class="nav-number">1.5.2.</span> <span class="nav-text">同步内容至GitHub</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#域名和DNS"><span class="nav-number">1.6.</span> <span class="nav-text">域名和DNS</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#域名推荐"><span class="nav-number">1.6.1.</span> <span class="nav-text">域名推荐</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#DNS推荐"><span class="nav-number">1.6.2.</span> <span class="nav-text">DNS推荐</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设置CNAME"><span class="nav-number">1.6.3.</span> <span class="nav-text">设置CNAME</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#添加DNS-Service记录-下面以dnspod为例"><span class="nav-number">1.6.4.</span> <span class="nav-text">添加DNS Service记录,下面以dnspod为例:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设置域名的DNS"><span class="nav-number">1.6.5.</span> <span class="nav-text">设置域名的DNS</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo配置修改"><span class="nav-number">1.7.</span> <span class="nav-text">Hexo配置修改</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#整站设置"><span class="nav-number">1.7.1.</span> <span class="nav-text">整站设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改局部页面"><span class="nav-number">1.7.2.</span> <span class="nav-text">修改局部页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#用Hexo发表文章的Markdown语法"><span class="nav-number">1.7.3.</span> <span class="nav-text">用Hexo发表文章的Markdown语法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装插件"><span class="nav-number">1.7.4.</span> <span class="nav-text">安装插件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#如何设置「阅读全文」？"><span class="nav-number">1.7.5.</span> <span class="nav-text">如何设置「阅读全文」？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分类和标签"><span class="nav-number">1.7.6.</span> <span class="nav-text">分类和标签</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#添加「标签」页面"><span class="nav-number">1.7.7.</span> <span class="nav-text">添加「标签」页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#添加「分类」页面"><span class="nav-number">1.7.8.</span> <span class="nav-text">添加「分类」页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设置头像"><span class="nav-number">1.7.9.</span> <span class="nav-text">设置头像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo主题修改"><span class="nav-number">1.7.10.</span> <span class="nav-text">Hexo主题修改</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo主题推荐"><span class="nav-number">1.7.11.</span> <span class="nav-text">Hexo主题推荐</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#如何迁移至Hexo"><span class="nav-number">1.7.12.</span> <span class="nav-text">如何迁移至Hexo</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo命令"><span class="nav-number">1.8.</span> <span class="nav-text">Hexo命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#常用命令："><span class="nav-number">1.8.1.</span> <span class="nav-text">常用命令：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用复合命令："><span class="nav-number">1.8.2.</span> <span class="nav-text">常用复合命令：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#简写命令："><span class="nav-number">1.8.3.</span> <span class="nav-text">简写命令：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#常见问题"><span class="nav-number">1.9.</span> <span class="nav-text">常见问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#图床"><span class="nav-number">1.10.</span> <span class="nav-text">图床</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#推荐阅读"><span class="nav-number">1.11.</span> <span class="nav-text">推荐阅读</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考链接"><span class="nav-number">1.12.</span> <span class="nav-text">参考链接</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#HEXO-Github搭建免费静态Blog"><span class="nav-number">1.</span> <span class="nav-text">HEXO+Github搭建免费静态Blog</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#更新历史"><span class="nav-number">1.2.</span> <span class="nav-text">更新历史</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#准备工作"><span class="nav-number">1.3.</span> <span class="nav-text">准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是-Hexo？"><span class="nav-number">1.3.1.</span> <span class="nav-text">什么是 Hexo？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装前提"><span class="nav-number">1.3.2.</span> <span class="nav-text">安装前提</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装-Git"><span class="nav-number">1.3.3.</span> <span class="nav-text">安装 Git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装-Node-js"><span class="nav-number">1.3.4.</span> <span class="nav-text">安装 Node.js</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo初始化配置"><span class="nav-number">1.4.</span> <span class="nav-text">Hexo初始化配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#创建Hexo文件夹"><span class="nav-number">1.4.1.</span> <span class="nav-text">创建Hexo文件夹</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#生成静态页面"><span class="nav-number">1.4.2.</span> <span class="nav-text">生成静态页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#本地查看效果"><span class="nav-number">1.4.3.</span> <span class="nav-text">本地查看效果</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#部署静态网页到GitHub"><span class="nav-number">1.5.</span> <span class="nav-text">部署静态网页到GitHub</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#注册并设置GitHub"><span class="nav-number">1.5.1.</span> <span class="nav-text">注册并设置GitHub</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#同步内容至GitHub"><span class="nav-number">1.5.2.</span> <span class="nav-text">同步内容至GitHub</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#域名和DNS"><span class="nav-number">1.6.</span> <span class="nav-text">域名和DNS</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#域名推荐"><span class="nav-number">1.6.1.</span> <span class="nav-text">域名推荐</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#DNS推荐"><span class="nav-number">1.6.2.</span> <span class="nav-text">DNS推荐</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设置CNAME"><span class="nav-number">1.6.3.</span> <span class="nav-text">设置CNAME</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#添加DNS-Service记录-下面以dnspod为例"><span class="nav-number">1.6.4.</span> <span class="nav-text">添加DNS Service记录,下面以dnspod为例:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设置域名的DNS"><span class="nav-number">1.6.5.</span> <span class="nav-text">设置域名的DNS</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo配置修改"><span class="nav-number">1.7.</span> <span class="nav-text">Hexo配置修改</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#整站设置"><span class="nav-number">1.7.1.</span> <span class="nav-text">整站设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改局部页面"><span class="nav-number">1.7.2.</span> <span class="nav-text">修改局部页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#用Hexo发表文章的Markdown语法"><span class="nav-number">1.7.3.</span> <span class="nav-text">用Hexo发表文章的Markdown语法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装插件"><span class="nav-number">1.7.4.</span> <span class="nav-text">安装插件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#如何设置「阅读全文」？"><span class="nav-number">1.7.5.</span> <span class="nav-text">如何设置「阅读全文」？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分类和标签"><span class="nav-number">1.7.6.</span> <span class="nav-text">分类和标签</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#添加「标签」页面"><span class="nav-number">1.7.7.</span> <span class="nav-text">添加「标签」页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#添加「分类」页面"><span class="nav-number">1.7.8.</span> <span class="nav-text">添加「分类」页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设置头像"><span class="nav-number">1.7.9.</span> <span class="nav-text">设置头像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Google-分析"><span class="nav-number">1.7.10.</span> <span class="nav-text">Google 分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo主题修改"><span class="nav-number">1.7.11.</span> <span class="nav-text">Hexo主题修改</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo主题推荐"><span class="nav-number">1.7.12.</span> <span class="nav-text">Hexo主题推荐</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#如何迁移至Hexo"><span class="nav-number">1.7.13.</span> <span class="nav-text">如何迁移至Hexo</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo命令"><span class="nav-number">1.8.</span> <span class="nav-text">Hexo命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#常用命令："><span class="nav-number">1.8.1.</span> <span class="nav-text">常用命令：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用复合命令："><span class="nav-number">1.8.2.</span> <span class="nav-text">常用复合命令：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#简写命令："><span class="nav-number">1.8.3.</span> <span class="nav-text">简写命令：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#常见问题"><span class="nav-number">1.9.</span> <span class="nav-text">常见问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#图床"><span class="nav-number">1.10.</span> <span class="nav-text">图床</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#推荐阅读"><span class="nav-number">1.11.</span> <span class="nav-text">推荐阅读</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考链接"><span class="nav-number">1.12.</span> <span class="nav-text">参考链接</span></a></li></ol></li></ol></div>
             
           </div>
         </section>
@@ -1019,28 +1024,30 @@ hexo d #hexo deploy
 
   
 
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"puhemo"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-    
-  
 
 
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'puhemo';
+      var disqus_identifier = '2016/06/02/HEXO-Github搭建免费静态Blog个人纪录/';
+      var disqus_title = "HEXO+Github搭建免费静态Blog";
+      var disqus_url = 'http://puhemo.tk/2016/06/02/HEXO-Github搭建免费静态Blog个人纪录/';
+
+      function run_disqus_script(disqus_script){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+      
+        run_disqus_script('embed.js');
+      
+    </script>
+  
 
 
 
