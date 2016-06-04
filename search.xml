@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[Hexo语法－插入代码块]]></title>
+      <url>http://puhemo.tk/2016/06/03/Hexo%E8%AF%AD%E6%B3%95%EF%BC%8D%E6%8F%92%E5%85%A5%E4%BB%A3%E7%A0%81%E5%9D%97/</url>
+      <content type="html"><![CDATA[<h2 id="Hexo语法－插入代码块"><a href="#Hexo语法－插入代码块" class="headerlink" title="Hexo语法－插入代码块"></a>Hexo语法－插入代码块</h2><p>在文章中插入代码。<br>别名： code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<h3 id="普通代码块"><a href="#普通代码块" class="headerlink" title="普通代码块"></a>普通代码块</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock %&#125;</span><br><span class="line">alert(&apos;Hello World!&apos;);</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br></pre></td></tr></table></figure>
+<h3 id="指定语言"><a href="#指定语言" class="headerlink" title="指定语言"></a>指定语言</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock lang:objc %&#125;</span><br><span class="line">[rectangle setX: 10 y: 10 width: 20 height: 20];</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>
+<h3 id="附加说明"><a href="#附加说明" class="headerlink" title="附加说明"></a>附加说明</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock Array.map %&#125;</span><br><span class="line">array.map(callback[, thisArg])</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>Array.map</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">array.map(callback[, thisArg])</span><br></pre></td></tr></table></figure>
+<h3 id="附加说明和网址"><a href="#附加说明和网址" class="headerlink" title="附加说明和网址"></a>附加说明和网址</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock _.compact http://underscorejs.org/#compact Underscore.js %&#125;</span><br><span class="line">_.compact([0, 1, false, 2, &apos;&apos;, 3]);</span><br><span class="line">=&gt; [1, 2, 3]</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>_.compact</span><a href="http://underscorejs.org/#compact" target="_blank" rel="external">Underscore.js</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">_.compact([0, 1, false, 2, &apos;&apos;, 3]);</span><br><span class="line">=&gt; [1, 2, 3]</span><br></pre></td></tr></table></figure>
+<h3 id="反引号代码块"><a href="#反引号代码块" class="headerlink" title="反引号代码块"></a>反引号代码块</h3><p>另一种形式的代码块，不同的是它使用三个反引号来包裹。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">``` [language] [title] [url] [link text] code snippet ```</span><br></pre></td></tr></table></figure>
+<h2 id="参考页面"><a href="#参考页面" class="headerlink" title="参考页面"></a>参考页面</h2><p><a href="https://hexo.io/zh-cn/docs/tag-plugins.html" target="_blank" rel="external">https://hexo.io/zh-cn/docs/tag-plugins.html</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Mac怎么显示隐藏文件命令]]></title>
+      <url>http://puhemo.tk/2016/06/03/Mac%E6%80%8E%E4%B9%88%E6%98%BE%E7%A4%BA%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E5%91%BD%E4%BB%A4/</url>
+      <content type="html"><![CDATA[<h2 id="Mac怎么显示隐藏文件命令"><a href="#Mac怎么显示隐藏文件命令" class="headerlink" title="Mac怎么显示隐藏文件命令"></a>Mac怎么显示隐藏文件命令</h2><h3 id="隐藏文件命令："><a href="#隐藏文件命令：" class="headerlink" title="隐藏文件命令："></a>隐藏文件命令：</h3><pre><code>defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder
+</code></pre><h3 id="显示文件命令："><a href="#显示文件命令：" class="headerlink" title="显示文件命令："></a>显示文件命令：</h3><pre><code>defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
+</code></pre>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[更换电脑如何转移Hexo]]></title>
+      <url>http://puhemo.tk/2016/06/03/%E6%9B%B4%E6%8D%A2%E7%94%B5%E8%84%91%E5%A6%82%E4%BD%95%E8%BD%AC%E7%A7%BBHexo/</url>
+      <content type="html"><![CDATA[<p>更换电脑，在新电脑上重新部署Hexo<br> <a id="more"></a></p>
+<h2 id="转移文件"><a href="#转移文件" class="headerlink" title="转移文件"></a>转移文件</h2><h3 id="拷贝文件"><a href="#拷贝文件" class="headerlink" title="拷贝文件"></a>拷贝文件</h3><p>下面就将原来的文件拷贝到新电脑中，但是要注意哪些文件是必须的，哪些文件是可以删除的。</p>
+<ul>
+<li>必须拷贝文件：<br>├──_config.yml<br>├── theme<br>├── scaffolds #文章模板<br>├── package.json #说明使用哪些包<br>├── .gitignore #限定在提交的时候哪些文件可以忽略<br>└── source</li>
+</ul>
+<blockquote>
+<p>scaffolds、package.json和.gitignore，这三个文件不是我们修改的，即使丢失了，也没有关系，我们可以建立一个新的文件夹，然后在里面执行hexo init，就会生成这三个文件，我们只需要将它们拷贝过来使用即可。</p>
+</blockquote>
+<ul>
+<li>不必拷贝文件：<br>├──.git #根目录<br>├── node_modules #npm install重新生成<br>├── public #hexo g重新生成<br>├── .deploy_git #hexo d重新生成<br>├── db.json #.gitignore文件记载可以忽略内容<br>└── .git #主题目录</li>
+</ul>
+<h2 id="部署环境"><a href="#部署环境" class="headerlink" title="部署环境"></a>部署环境</h2><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><p>从官网<a href="https://git-scm.com/" target="_blank" rel="external">Git</a>下载git，在新电脑上安装，因为https速度慢，而且每次都要输入口令，常用的是使用ssh。使用下面方法创建：</p>
+<ol>
+<li>打开git bash，在用户主目录下运行：ssh-keygen -t rsa -C “youremail@example.com” 把其中的邮件地址换成自己的邮件地址，然后一路回车</li>
+<li>最后完成后，会在用户主目录下生成.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH key密钥对，id_rsa是私钥，千万不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人。</li>
+<li>登陆GitHub，打开「Settings」-&gt;「SSH and GPG keys」，然后点击「new SSH key」，填上任意Title，在Key文本框里粘贴公钥id_rsa.pub文件的内容（千万不要粘贴成私钥了！），最后点击「Add SSH Key」，你就应该看到已经添加的Key。</li>
+</ol>
+<blockquote>
+<p><strong>注意</strong>：不要在git版本库中运行ssh，然后又将它提交，这样就把密码泄露出去了。</p>
+</blockquote>
+<h3 id="安装Node-JS"><a href="#安装Node-JS" class="headerlink" title="安装Node.JS"></a>安装Node.JS</h3><p>下载<a href="http://nodejs.org/" target="_blank" rel="external">Node.JS</a>并安装</p>
+<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><p>打开git bash客户端，输入 <code>npm install hexo-cli -g</code>，开始安装hexo</p>
+<h2 id="重新部署"><a href="#重新部署" class="headerlink" title="重新部署"></a>重新部署</h2><h3 id="模块安装"><a href="#模块安装" class="headerlink" title="模块安装"></a>模块安装</h3><p>在git bash中切换目录到新拷贝的文件夹，使用 npm install 命令，进行模块安装。</p>
+<blockquote>
+<p>不要用hexo init初始化，部分文件已经拷贝生成，如果不慎使用，则站点配置文件_config.yml会被初始化为默认值</p>
+</blockquote>
+<pre><code>$ npm install npm install hexo-deployer-git --save #同步内容至github
+$ npm install hexo-generator-feed --save #RSS订阅
+$ npm install hexo-generator-sitemap --save #站点地图
+</code></pre><blockquote>
+<p>插件安装后，有的需要对配置文件_config.yml进行配置，具体可以参考上面插件在github主页上的说明</p>
+</blockquote>
+<h3 id="同步内容至GitHub"><a href="#同步内容至GitHub" class="headerlink" title="同步内容至GitHub"></a>同步内容至GitHub</h3><pre><code>hexo g
+hexo d
+</code></pre><hr>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p><a href="https://www.zhihu.com/question/21193762/answer/103097754" target="_blank" rel="external">https://www.zhihu.com/question/21193762/answer/103097754</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[HEXO+Github搭建免费静态Blog]]></title>
+      <url>http://puhemo.tk/2016/06/02/HEXO-Github%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E9%9D%99%E6%80%81Blog%E4%B8%AA%E4%BA%BA%E7%BA%AA%E5%BD%95/</url>
+      <content type="html"><![CDATA[<h1 id="HEXO-Github搭建免费静态Blog"><a href="#HEXO-Github搭建免费静态Blog" class="headerlink" title="HEXO+Github搭建免费静态Blog"></a>HEXO+Github搭建免费静态Blog</h1><p><img src="http://i.v2ex.co/5bb7J7NT.png" alt="img"></p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>想熟悉<a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">markdown</a>和纪录一些东西，于是有了这个blog和这篇文章！</p>
+<a id="more"></a>
+<hr>
+<h2 id="更新历史"><a href="#更新历史" class="headerlink" title="更新历史"></a>更新历史</h2><p>20160603: 完成初稿</p>
+<hr>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="什么是-Hexo？"><a href="#什么是-Hexo？" class="headerlink" title="什么是 Hexo？"></a>什么是 Hexo？</h3><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+<h3 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h3><p>安装 Hexo 相当简单。然而在安装前，您必须检查电脑中是否已安装下列应用程序：</p>
+<ul>
+<li><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a></li>
+<li><a href="https://git-scm.com/" target="_blank" rel="external">Git</a></li>
+</ul>
+<p>如果您的电脑中已经安装上述必备程序，那么恭喜您！接下来只需要使用 npm 即可完成 Hexo 的安装。</p>
+<pre><code>$ npm install -g hexo-cli
+</code></pre><blockquote>
+<p><strong>Mac 用户</strong><br>您在编译时可能会遇到问题，请先到 App Store 安装 Xcode，Xcode 完成后，启动并进入 <strong>Preferences -&gt; Download -&gt; Command Line Tools -&gt; Install</strong>安装命令行工具。</p>
+</blockquote>
+<h3 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h3><ul>
+<li>Windows：下载并安装 <a href="https://git-scm.com/download/win" target="_blank" rel="external">git</a>.</li>
+<li>Mac：下载 <a href="http://sourceforge.net/projects/git-osx-installer/" target="_blank" rel="external">安装程序</a> 安装。</li>
+<li>Linux (Ubuntu, Debian): <code>sudo apt-get install git-core</code></li>
+<li>Linux (Fedora, Red Hat, CentOS): <code>sudo yum install git-core</code></li>
+</ul>
+<h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><p><a href="http://nodejs.org/" target="_blank" rel="external">Node.JS</a><br>下载 安装程序 来安装。</p>
+<p>###安装 Hexo</p>
+<p>所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。</p>
+<pre><code>$ npm install -g hexo-cli
+</code></pre><hr>
+<h2 id="Hexo初始化配置"><a href="#Hexo初始化配置" class="headerlink" title="Hexo初始化配置"></a>Hexo初始化配置</h2><h3 id="创建Hexo文件夹"><a href="#创建Hexo文件夹" class="headerlink" title="创建Hexo文件夹"></a>创建Hexo文件夹</h3><p>安装完成后，根据自己喜好建立目录（如E:\blog），进入Git Shell切换到该路径下E:\blog执行以下指令:</p>
+<ul>
+<li>初始化hexo<pre><code>hexo init
+npm install hexo --save
+</code></pre><h3 id="生成静态页面"><a href="#生成静态页面" class="headerlink" title="生成静态页面"></a>生成静态页面</h3></li>
+<li>生成静态页面至hexo\public\目录<pre><code>hexo g (或者 hexo generate)
+</code></pre><h3 id="本地查看效果"><a href="#本地查看效果" class="headerlink" title="本地查看效果"></a>本地查看效果</h3></li>
+<li>本地启动服务<pre><code>hexo server
+</code></pre>这样，我们就可以在浏览器中输入<a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 访问我们的博客啦（响应式的网站）。</li>
+</ul>
+<hr>
+<h2 id="部署静态网页到GitHub"><a href="#部署静态网页到GitHub" class="headerlink" title="部署静态网页到GitHub"></a>部署静态网页到GitHub</h2><h3 id="注册并设置GitHub"><a href="#注册并设置GitHub" class="headerlink" title="注册并设置GitHub"></a>注册并设置GitHub</h3><ol>
+<li>登录<a href="https://github.com/" target="_blank" rel="external">GitHub</a>，注册自定义用户名如puhemo</li>
+<li>在主页右下角创建New repository，name必须和用户名一致如puhemo.github.io</li>
+</ol>
+<h3 id="同步内容至GitHub"><a href="#同步内容至GitHub" class="headerlink" title="同步内容至GitHub"></a>同步内容至GitHub</h3><ol>
+<li><p>编辑_config.yml文件，建立与git的关联(在.yml文件的最底部)</p>
+<pre><code># Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repository: https://github.com/puhemo/puhemo.github.io
+  branch: master
+</code></pre></li>
+<li><p>然后运行</p>
+<pre><code>    npm install hexo-deployer-git --save  
+    hexo g
+    hexo d
+这样你就可以在你的 puhemo.github.io 上看到代码已经同步到git上了。
+在浏览器中输入你的**.github.io(例如：http://puhemo.github.io/）
+</code></pre><blockquote>
+<p>每次有新的修改需要部署同步，都可以按照下面的步骤来：</p>
+<pre><code>hexo clean  
+hexo g
+hexo d     
+</code></pre></blockquote>
+</li>
+</ol>
+<hr>
+<h2 id="域名和DNS"><a href="#域名和DNS" class="headerlink" title="域名和DNS"></a>域名和DNS</h2><h3 id="域名推荐"><a href="#域名推荐" class="headerlink" title="域名推荐"></a>域名推荐</h3><ul>
+<li><p>免费域名：<a href="http://www.dot.tk/zh/index.html?lang=zh" target="_blank" rel="external">dot.tk</a></p>
+</li>
+<li><p>GoDaddy makes registering Domain Names fast, simple, and affordable.<br><a href="http://www.godaddy.com/" target="_blank" rel="external">http://www.godaddy.com/</a><br><a href="http://www.gdcodecoupon.com/" target="_blank" rel="external">http://www.gdcodecoupon.com/</a></p>
+</li>
+</ul>
+<h3 id="DNS推荐"><a href="#DNS推荐" class="headerlink" title="DNS推荐"></a>DNS推荐</h3><p>致力于为您提供最稳定、最安全的域名解析服务<br><a href="https://www.dnspod.cn/" target="_blank" rel="external">https://www.dnspod.cn/</a></p>
+<h3 id="设置CNAME"><a href="#设置CNAME" class="headerlink" title="设置CNAME"></a>设置CNAME</h3><ol>
+<li>创建CNAME文件并添加到/source目录下</li>
+<li>填写自己的域名如hellodog.com，保存结束</li>
+<li>同步至Github: <code>hexo g -d</code><blockquote>
+<p>hexo会自动把CNAME复制到/puclic目录下然后将/public路径下的内容进行复制并push到远程master分支的根目录下。</p>
+</blockquote>
+</li>
+</ol>
+<blockquote>
+<p>如果是直接在GitHub网页上添加文件的话，会遇到一个问题就是在通过<code>hexo g -d</code>之后hexo会把根目录下的CNAME文件删除。</p>
+</blockquote>
+<h3 id="添加DNS-Service记录-下面以dnspod为例"><a href="#添加DNS-Service记录-下面以dnspod为例" class="headerlink" title="添加DNS Service记录,下面以dnspod为例:"></a>添加DNS Service记录,下面以dnspod为例:</h3><p>添加两个A，主机记录写@，后面记录值写上<br>        192.30.252.153<br>        192.30.252.154</p>
+<blockquote>
+<p>顶级域名适用      </p>
+</blockquote>
+<h3 id="设置域名的DNS"><a href="#设置域名的DNS" class="headerlink" title="设置域名的DNS"></a>设置域名的DNS</h3><p>在相应域名的DNS Service中添加上图中间的两条记录：<br>f1g1ns1.dnspod.net和f1g1ns2.dnspod.net(以dnspod为例)</p>
+<blockquote>
+<p>新修改域名DNS指向DNSPod的DNS域名，虽DNSPod服务器的生效时间是实时的，但因各地ISP服务商刷新域名DNS的时间不一致，所以导致解析在全球生效一般需要0–72小时哦，请您耐心的等待</p>
+</blockquote>
+<hr>
+<h2 id="Hexo配置修改"><a href="#Hexo配置修改" class="headerlink" title="Hexo配置修改"></a>Hexo配置修改</h2><h3 id="整站设置"><a href="#整站设置" class="headerlink" title="整站设置"></a>整站设置</h3><pre><code># Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/tommy351/hexo/
+
+# Site #整站的基本信息
+title: 1000 words a Day #网站标题
+subtitle: Writing 1000 Words a Day Changes My Life #网站副标题
+description: 学习总结 思考感悟 知识管理 #网站描述
+author:  puhemo #网站作者，在下方显示
+language: zh-Hans #网站语言
+
+# URL
+## If your site is put in a subdirectory
+url: puhemo.tk #你的域名
+root: /
+permalink: :year/:month/:day/:title/
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+
+# Directory
+source_dir: source
+public_dir: public
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+auto_spacing: false # Add spaces between asian characters and western characters
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+max_open_file: 100
+multi_thread: true
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+highlight:
+  enable: true
+  line_number: true
+  tab_replace:
+
+# Category &amp; Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Archives
+## 2: Enable pagination
+## 1: Disable pagination
+## 0: Fully Disable
+archive: 2
+category: 2
+tag: 2
+
+# Server
+## Hexo uses Connect as a server
+## You can customize the logger format as defined in
+## http://www.senchalabs.org/connect/logger.html
+port: 4000
+server_ip: 0.0.0.0
+logger: false
+logger_format:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: H:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 15 #每页15篇文章
+pagination_dir: page
+
+# Disqus #社会化评论disqus，我使用多说，在主题中配置
+disqus_shortname:
+
+# Extensions
+## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
+## Themes: https://github.com/tommy351/hexo/wiki/Themes
+theme: next #主题设置
+exclude_generator:
+Plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+
+#sitemap
+sitemap:
+  path: sitemap.xml
+
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+# Markdown
+## https://github.com/chjj/marked
+markdown:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+
+# Stylus
+stylus:
+      compress: false
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+  type: github
+  repository: https://github.com/puhemo/puhemo.github.io.git
+  branch: master
+</code></pre><h3 id="修改局部页面"><a href="#修改局部页面" class="headerlink" title="修改局部页面"></a>修改局部页面</h3><p>页面展现的全部逻辑都在每个主题中控制，源代码在\blog\themes\jacman（以jacman主题为例）</p>
+<pre><code>├── languages  #多语言
+|   ├── default.yml#默认语言
+|   └── zh-CN.yml  #中文语言
+├── layout #布局，根目录下的*.ejs文件是对主页，分页，存档等的控制
+|   ├── _partial   #局部的布局，此目录下的*.ejs是对头尾等局部的控制
+|   └── _widget#小挂件的布局，页面下方小挂件的控制
+├── source #源码
+|   ├── css#css源码 
+|   |   ├── _base  #*.styl基础css
+|   |   ├── _partial   #*.styl局部css
+|   |   ├── fonts  #字体
+|   |   ├── images #图片
+|   |   └── style.styl #*.styl引入需要的css源码
+|   ├── fancybox   #fancybox效果源码
+|   └── js #javascript源代码
+├── _config.yml#主题配置文件
+└── README.md  #说明文档
+</code></pre><h3 id="用Hexo发表文章的Markdown语法"><a href="#用Hexo发表文章的Markdown语法" class="headerlink" title="用Hexo发表文章的Markdown语法"></a>用Hexo发表文章的Markdown语法</h3><p>使用jacman或pacman主题，建议按此标准语法写：</p>
+<pre><code>title: postName #文章页面上的显示名称，可以任意修改，不会出现在URL中
+date: 2013-12-02 15:30:16 #文章生成时间，一般不改，当然也可以任意修改
+categories: example #分类
+tags: [tag1,tag2,tag3] #文章标签，可空，多标签请用格式，注意:后面有个空格
+description: 附加一段文章摘要，字数最好在140字以内。
+---
+
+以下正文
+</code></pre><h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><ul>
+<li>添加sitemap和feed插件<pre><code>$ npm install hexo-generator-sitemap
+$ npm install hexo-generator-feed
+</code></pre></li>
+<li><p>修改_config.yml，增加以下内容</p>
+<pre><code># Extensions
+  Plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+#sitemap
+sitemap:
+  path: sitemap.xml
+</code></pre></li>
+</ul>
+<h3 id="如何设置「阅读全文」？"><a href="#如何设置「阅读全文」？" class="headerlink" title="如何设置「阅读全文」？"></a>如何设置「阅读全文」？</h3><p>在文章中使用 <code>&lt;!-- more --&gt;</code> 手动进行截断，Hexo 提供的方式</p>
+<p>###设置 RSS</p>
+<ul>
+<li>添加feed插件<pre><code>$ npm install hexo-generator-feed --save
+</code></pre></li>
+<li><p>自定义feed插件：<br>修改_config.yml，增加以下内容</p>
+<pre><code>#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+</code></pre></li>
+<li>type - Feed type. (atom/rss2)</li>
+<li>path - Feed path. (Default: atom.xml/rss2.xml)</li>
+<li>limit - Maximum number of posts in the feed (Use 0 or false to show all posts)</li>
+<li>hub - URL of the PubSubHubbub hubs (Leave it empty if you don’t use it)</li>
+</ul>
+<h3 id="分类和标签"><a href="#分类和标签" class="headerlink" title="分类和标签"></a>分类和标签</h3><p>只有文章支持分类和标签，您可以在 Front-matter 中设置。在其他系统中，分类和标签听起来很接近，但是在 Hexo 中两者有着明显的差别：分类具有顺序性和层次性，也就是说 Foo, Bar 不等于 Bar, Foo；而标签没有顺序和层次。<br>    categories:</p>
+<pre><code>- Diary
+tags:
+- PS3
+- Games
+</code></pre><blockquote>
+<p>更多内容参考官方<a href="https://hexo.io/zh-cn/docs/front-matter.html#%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE" target="_blank" rel="external">Front-matter</a>说明</p>
+</blockquote>
+<h3 id="添加「标签」页面"><a href="#添加「标签」页面" class="headerlink" title="添加「标签」页面"></a>添加「标签」页面</h3><ol>
+<li>新建页面：<pre><code>$ cd your-hexo-site
+$ hexo new page tags
+</code></pre></li>
+<li>设置页面类型：<pre><code>title: 标签
+date: 2014-12-22 12:39:04
+type: &quot;tags&quot;
+---
+</code></pre></li>
+<li>修改菜单：<br>在菜单中添加链接。编辑主题配置文件，添加 tags 到 menu 中，如下:<br>   menu:<pre><code>home: /
+archives: /archives
+tags: /tags
+</code></pre></li>
+</ol>
+<blockquote>
+<p>注意：如果有启用 多说 或者 Disqus 评论，页面也会带有评论。 若需要关闭的话，请添加字段 comments 并将值设置为 false，如：</p>
+</blockquote>
+<pre><code>title: 标签
+date: 2014-12-22 12:39:04
+type: &quot;tags&quot;
+comments: false
+---
+</code></pre><h3 id="添加「分类」页面"><a href="#添加「分类」页面" class="headerlink" title="添加「分类」页面"></a>添加「分类」页面</h3><ol>
+<li>新建页面：<pre><code>$ cd your-hexo-site
+$ hexo new page categories
+</code></pre></li>
+<li>设置页面类型：<pre><code>title: 分类
+date: 2014-12-22 12:39:04
+type: &quot;categories&quot;
+---
+</code></pre></li>
+<li>修改菜单：<br>在菜单中添加链接。编辑主题配置文件，添加 categories 到 menu 中，如下:<br>   menu:<pre><code>home: /
+archives: /archives
+categories : /categories    
+</code></pre></li>
+</ol>
+<blockquote>
+<p>注意：如果有启用 多说 或者 Disqus 评论，页面也会带有评论。 若需要关闭的话，请添加字段 comments 并将值设置为 false，如：</p>
+</blockquote>
+<pre><code>title: 分类
+date: 2014-12-22 12:39:04
+type: &quot;categories&quot;
+comments: false
+---
+</code></pre><h3 id="设置头像"><a href="#设置头像" class="headerlink" title="设置头像"></a>设置头像</h3><p>编辑站点配置文件，新增字段<code>avatar</code>，值设置成头像的链接地址。其中，头像的链接地址可以是：</p>
+<ol>
+<li>完整的互联网 URI: <a href="http://example.com/avtar.png" target="_blank" rel="external">http://example.com/avtar.png</a></li>
+<li>站点内的地址: </li>
+</ol>
+<ul>
+<li>将头像放置主题目录下的 source/uploads/ （新建uploads目录若不存在）<br>配置为：<code>avatar: /uploads/avatar.png</code></li>
+<li>或者 放置在 source/images/ 目录下<br>配置为：<code>avatar: /images/avatar.png</code></li>
+</ul>
+<h3 id="Google-分析"><a href="#Google-分析" class="headerlink" title="Google 分析"></a>Google 分析</h3><p>编辑站点配置文件，新增字段<code>google_analytics</code>，值设置成泥的Google跟踪ID。跟踪ID通常以<code>UA-</code>开头。<br><img src="http://theme-next.iissnan.com/uploads/analytics-google.png" alt="ID"></p>
+<h3 id="Hexo主题修改"><a href="#Hexo主题修改" class="headerlink" title="Hexo主题修改"></a>Hexo主题修改</h3><ul>
+<li>在git上找到你想要的主题<pre><code>#示例：Nest
+https://github.com/iissnan/hexo-theme-next
+</code></pre></li>
+<li>进入你的hexo目录（如E:\blog），执行命令，拷贝主题<pre><code>git clone https://github.com/iissnan/hexo-theme-next themes/next
+</code></pre></li>
+<li>拷贝完成后，你会发现你的项目下的themes下多了一个next文件夹</li>
+<li>我们还需要修改_config.yml文件中的一处来应用新的主题<pre><code># Extensions
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+theme: next
+</code></pre></li>
+<li>然后我们重启服务就可以在本地看到效果了<pre><code>hexo server
+</code></pre></li>
+<li>同步到github<pre><code>hexo clean  
+hexo g
+hexo d     
+</code></pre></li>
+</ul>
+<h3 id="Hexo主题推荐"><a href="#Hexo主题推荐" class="headerlink" title="Hexo主题推荐"></a>Hexo主题推荐</h3><ul>
+<li><a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">主题仓库</a>: <a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">https://github.com/hexojs/hexo/wiki/Themes</a></li>
+<li><a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">NexT</a>: <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">https://github.com/iissnan/hexo-theme-next</a></li>
+<li><a href="https://github.com/SuperKieran/TKL" target="_blank" rel="external">TKL</a>: <a href="https://github.com/SuperKieran/TKL" target="_blank" rel="external">https://github.com/SuperKieran/TKL</a></li>
+</ul>
+<h3 id="如何迁移至Hexo"><a href="#如何迁移至Hexo" class="headerlink" title="如何迁移至Hexo"></a>如何迁移至Hexo</h3><p><a href="http://hexo.io/zh-cn/docs/migration.html" target="_blank" rel="external">http://hexo.io/zh-cn/docs/migration.html</a></p>
+<hr>
+<h2 id="Hexo命令"><a href="#Hexo命令" class="headerlink" title="Hexo命令"></a>Hexo命令</h2><h3 id="常用命令："><a href="#常用命令：" class="headerlink" title="常用命令："></a>常用命令：</h3><pre><code>hexo new &quot;postName&quot; #生成文章，或者source\_posts手动编辑
+hexo new page &quot;pageName&quot; #新建页面
+hexo generate #生成静态页面至public目录
+hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server）
+hexo deploy #将.deploy目录部署到GitHub
+</code></pre><h3 id="常用复合命令："><a href="#常用复合命令：" class="headerlink" title="常用复合命令："></a>常用复合命令：</h3><pre><code>hexo d -g #生成加部署
+hexo s -g #预览加部署
+</code></pre><h3 id="简写命令："><a href="#简写命令：" class="headerlink" title="简写命令："></a>简写命令：</h3><pre><code>hexo n #hexo new
+hexo g #hexo generate
+hexo s #hexo server
+hexo d #hexo deploy
+</code></pre><hr>
+<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><ol>
+<li>修改配置文件时注意YAML语法，参数冒号:后一定要留空格</li>
+<li>中文乱码请修改文件编码格式为UTF-8</li>
+<li><a href="https://xuanwo.org/2014/08/14/hexo-usual-problem/" target="_blank" rel="external">Hexo常见问题解决方案 </a></li>
+</ol>
+<hr>
+<h2 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h2><p>推荐使用<a href="http://www.qiniu.com/" target="_blank" rel="external">七牛</a>，还可以使用<a href="http://imgur.com/" target="_blank" rel="external">imgur</a></p>
+<hr>
+<h2 id="推荐阅读"><a href="#推荐阅读" class="headerlink" title="推荐阅读"></a>推荐阅读</h2><ul>
+<li><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo Docs</a> - <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">https://hexo.io/zh-cn/docs/</a></li>
+<li><a href="https://help.github.com/articles/quick-start-setting-up-a-custom-domain/" target="_blank" rel="external">Quick start: Setting up a custom domain</a>: <a href="https://help.github.com/articles/quick-start-setting-up-a-custom-domain/" target="_blank" rel="external">https://help.github.com/articles/quick-start-setting-up-a-custom-domain/</a></li>
+<li><a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="external">hexo-generator-feed</a>: <a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="external">https://github.com/hexojs/hexo-generator-feed</a></li>
+<li><a href="http://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="external">Next主题配置</a>: <a href="http://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="external">http://theme-next.iissnan.com/theme-settings.html</a></li>
+</ul>
+<hr>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ul>
+<li><a href="http://wsgzao.github.io/post/hexo-guide/" target="_blank" rel="external">使用GitHub和Hexo搭建免费静态Blog</a></li>
+<li><a href="http://blog.szrf215.com/p/465830080ea9/comments/550752" target="_blank" rel="external">HEXO+Github,搭建属于本人的博客</a></li>
+<li><a href="http://cdn0.jianshu.io/p/6745fe11bc7f#" target="_blank" rel="external">hexo+github搭建个人博客</a></li>
+<li><a href="http://www.jianshu.com/p/5ee7f18e896b" target="_blank" rel="external">Hexo + GitHub 搭建个人博客及反思</a></li>
+<li><a href="http://www.jianshu.com/p/05289a4bc8b2" target="_blank" rel="external">如何搭建一个独立博客——简明Github Pages与Hexo教程</a></li>
+<li><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">NexT使用文档</a></li>
+<li><a href="https://ckjoker.github.io/2015/01/27/Linux-github-hexo-blog/" target="_blank" rel="external">Linux下github+hexo搭建自己的博客</a></li>
+<li><a href="http://notes.wanghao.work/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html" target="_blank" rel="external">为NexT主题添加文章阅读量统计功能 </a></li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>http://puhemo.tk/2016/06/01/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br><a id="more"></a></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    </entry>
+    
+  
+  
+</search>
