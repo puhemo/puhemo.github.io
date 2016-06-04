@@ -451,7 +451,16 @@ date: 2014-12-22 12:39:04
 type: &amp;quot;categories&amp;quot;
 comments: false
 ---
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;Hexo主题修改&quot;&gt;&lt;a href=&quot;#Hexo主题修改&quot; class=&quot;headerlink&quot; title=&quot;Hexo主题修改&quot;&gt;&lt;/a&gt;Hexo主题修改&lt;/h3&gt;&lt;ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;设置头像&quot;&gt;&lt;a href=&quot;#设置头像&quot; class=&quot;headerlink&quot; title=&quot;设置头像&quot;&gt;&lt;/a&gt;设置头像&lt;/h3&gt;&lt;p&gt;编辑站点配置文件，新增字段&lt;code&gt;avatar&lt;/code&gt;，值设置成头像的链接地址。其中，头像的链接地址可以是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;完整的互联网 URI: &lt;a href=&quot;http://example.com/avtar.png&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://example.com/avtar.png&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;站点内的地址: &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;将头像放置主题目录下的 source/uploads/ （新建uploads目录若不存在）&lt;br&gt;配置为：&lt;code&gt;avatar: /uploads/avatar.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;或者 放置在 source/images/ 目录下&lt;br&gt;配置为：&lt;code&gt;avatar: /images/avatar.png&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Hexo主题修改&quot;&gt;&lt;a href=&quot;#Hexo主题修改&quot; class=&quot;headerlink&quot; title=&quot;Hexo主题修改&quot;&gt;&lt;/a&gt;Hexo主题修改&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;在git上找到你想要的主题&lt;pre&gt;&lt;code&gt;#示例：Nest
 https://github.com/iissnan/hexo-theme-next
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
