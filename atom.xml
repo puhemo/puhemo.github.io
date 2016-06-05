@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-05T11:25:40.000Z</updated>
+  <updated>2016-06-05T11:48:11.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -14,6 +14,135 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>电子书网站汇总</title>
+    <link href="http://puhemo.tk/2016/06/05/%E7%94%B5%E5%AD%90%E4%B9%A6%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB/"/>
+    <id>http://puhemo.tk/2016/06/05/电子书网站汇总/</id>
+    <published>2016-06-05T11:48:11.000Z</published>
+    <updated>2016-06-05T11:48:11.000Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown简明教程</title>
+    <link href="http://puhemo.tk/2016/06/05/Markdown%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/"/>
+    <id>http://puhemo.tk/2016/06/05/Markdown简明教程/</id>
+    <published>2016-06-05T11:30:43.000Z</published>
+    <updated>2016-06-05T11:48:51.000Z</updated>
+    
+    <content type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt; 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。&lt;/blockquote&gt;
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;适用人群&quot;&gt;&lt;a href=&quot;#适用人群&quot; class=&quot;headerlink&quot; title=&quot;适用人群&quot;&gt;&lt;/a&gt;适用人群&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt; 是为那些需要经常码字或者进行文字排版的、对码字手速和排版顺畅度有要求的人群设计的。这些人包括经常需要写文档的码农、博客写手、网站小编、出版业人士等等。&lt;/p&gt;
+&lt;h2 id=&quot;推荐软件&quot;&gt;&lt;a href=&quot;#推荐软件&quot; class=&quot;headerlink&quot; title=&quot;推荐软件&quot;&gt;&lt;/a&gt;推荐软件&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.typora.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Typora&lt;/a&gt;: 一款极简的&lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt; 编辑器，适用于windows和mac平台。&lt;/p&gt;
+&lt;h2 id=&quot;Markdown-语法规则&quot;&gt;&lt;a href=&quot;#Markdown-语法规则&quot; class=&quot;headerlink&quot; title=&quot;Markdown 语法规则&quot;&gt;&lt;/a&gt;Markdown 语法规则&lt;/h2&gt;&lt;h3 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;# 一级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;## 二级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;### 三级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#### 四级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;##### 五级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;###### 六级标题&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;在 &lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt;  中，如果一段文字被定义为标题，只要在这段文字前加&lt;code&gt;#&lt;/code&gt; 号即可。总共六级标题，建议在井号后加一个空格，这是&lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt; 标准语法。&lt;/p&gt;
+&lt;h3 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/a&gt;列表&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt;  支持有序列表和无序列表。&lt;br&gt;无序列表使用星号、加号或是减号作为列表标记：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;* a&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;* b&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;* c&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;有序列表则使用数字接着一个英文句点：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1. a&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2. b&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3. c&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：星号或英文句点后需加一个空格&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;引用&quot;&gt;&lt;a href=&quot;#引用&quot; class=&quot;headerlink&quot; title=&quot;引用&quot;&gt;&lt;/a&gt;引用&lt;/h3&gt;&lt;p&gt;如果你需要引用一小段别处的句子，那么就要用引用的格式。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;例如这样&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;只需要在文本前加入 &lt;code&gt;&amp;gt;&lt;/code&gt;这种尖括号（大于号）即可&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; 这是引用&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;插入图片&quot;&gt;&lt;a href=&quot;#插入图片&quot; class=&quot;headerlink&quot; title=&quot;插入图片&quot;&gt;&lt;/a&gt;插入图片&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;![选填](链接)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;详细叙述如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个惊叹号 &lt;code&gt;!&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;接着一个方括号&lt;code&gt;[]&lt;/code&gt;，里面放上图片的替代文字&lt;/li&gt;
+&lt;li&gt;接着一个普通括号&lt;code&gt;()&lt;/code&gt;，里面放上图片的网址。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;超链接&quot;&gt;&lt;a href=&quot;#超链接&quot; class=&quot;headerlink&quot; title=&quot;超链接&quot;&gt;&lt;/a&gt;超链接&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;[文字](链接)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;详细叙述如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;接着一个方括号&lt;code&gt;[]&lt;/code&gt;，里面放上文字&lt;/li&gt;
+&lt;li&gt;接着一个普通括号&lt;code&gt;()&lt;/code&gt;，里面放上图片的网址。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;粗体和斜体&quot;&gt;&lt;a href=&quot;#粗体和斜体&quot; class=&quot;headerlink&quot; title=&quot;粗体和斜体&quot;&gt;&lt;/a&gt;粗体和斜体&lt;/h3&gt;&lt;p&gt;用两个&lt;code&gt;*&lt;/code&gt;包含一段文本就是粗体的语法，用一个 &lt;code&gt;*&lt;/code&gt; 包含一段文本就是斜体的语法&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;**A** #这是粗体&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;*B* #这是斜体&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;表格&quot;&gt;&lt;a href=&quot;#表格&quot; class=&quot;headerlink&quot; title=&quot;表格&quot;&gt;&lt;/a&gt;表格&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt; 的表格功能比较难用，&lt;a href=&quot;http://www.typora.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Typora&lt;/a&gt;提供了像 Office 一样的表格编辑能力。通过菜单栏或快捷键可以插入表格，&lt;a href=&quot;http://www.typora.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Typora&lt;/a&gt; 会弹出一个表格插入设置，你可以预先设定好行数和列数。&lt;/p&gt;
+&lt;p&gt;示例：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;| Tables        | Are           | Cool  |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| ------------- |:-------------:| -----:|&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| col 3 is      | right-aligned | $1600 |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| col 2 is      | centered      |   $12 |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| zebra stripes | are neat      |    $1 |&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;效果：&lt;br&gt;| Tables        |      Are      |  Cool |&lt;br&gt;| ————- | :———–: | —-: |&lt;br&gt;| col 3 is      | right-aligned | $1600 |&lt;br&gt;| col 2 is      |   centered    |   $12 |&lt;br&gt;| zebra stripes |   are neat    |    $1 |&lt;/p&gt;
+&lt;h3 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;代码框：&lt;br&gt;用两个反引号 ` 把中间的代码包裹起来，如 &lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;`code`&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;代码区域：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;缩进 4 个空格或是 1 个制表符（Tab键）&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;​&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;    code&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;​&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;六个反引号也可以：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;​&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;三个反引号(```)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;代码&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;三个反引号(```)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;​&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;分割线&quot;&gt;&lt;a href=&quot;#分割线&quot; class=&quot;headerlink&quot; title=&quot;分割线&quot;&gt;&lt;/a&gt;分割线&lt;/h3&gt;&lt;p&gt;另起一行，连续输入三个星号&lt;code&gt;***&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;首行缩进&quot;&gt;&lt;a href=&quot;#首行缩进&quot; class=&quot;headerlink&quot; title=&quot;首行缩进&quot;&gt;&lt;/a&gt;首行缩进&lt;/h3&gt;&lt;p&gt;在段首加入&lt;code&gt;&amp;amp;ensp;&lt;/code&gt;来输入一个半方空格.加入&lt;code&gt;&amp;amp;emsp;&lt;/code&gt;来输入一个全方空格&lt;br&gt;&lt;strong&gt;示例&lt;/strong&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;&amp;amp;emsp;&amp;amp;emsp;一语未了，只听后院中有人笑声，说：“我来迟了，不曾迎接远客！&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;  一语未了，只听后院中有人笑声，说：“我来迟了，不曾迎接远客！”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;图片居中（html语法）&quot;&gt;&lt;a href=&quot;#图片居中（html语法）&quot; class=&quot;headerlink&quot; title=&quot;图片居中（html语法）&quot;&gt;&lt;/a&gt;图片居中（html语法）&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;div align=center&amp;gt; &amp;lt;img src=&amp;quot;link&amp;quot; width=&amp;quot;400&amp;quot; height=&amp;quot;400&amp;quot; alt=&amp;quot;test&amp;quot;/&amp;gt; &amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;文字颜色（html语法）&quot;&gt;&lt;a href=&quot;#文字颜色（html语法）&quot; class=&quot;headerlink&quot; title=&quot;文字颜色（html语法）&quot;&gt;&lt;/a&gt;文字颜色（html语法）&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;font color=&amp;quot;white&amp;quot;&amp;gt;文字&amp;lt;font&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Markdown-免费编辑器&quot;&gt;&lt;a href=&quot;#Markdown-免费编辑器&quot; class=&quot;headerlink&quot; title=&quot;Markdown 免费编辑器&quot;&gt;&lt;/a&gt;Markdown 免费编辑器&lt;/h2&gt;&lt;p&gt;Windows 平台&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.typora.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Typora&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://markdownpad.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MarkdownPad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code52.org/DownmarkerWPF/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MarkPad&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Linux 平台&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://sourceforge.net/p/retext/home/ReText/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ReText&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mac 平台&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.typora.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Typora&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mouapp.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mou&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在线编辑器&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;简书&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://markable.in/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markable.in&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://dillinger.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Dillinger.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;浏览器插件&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/oknndfeeopgpibecfjljjfanledpbkog&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MaDe&lt;/a&gt; (Chrome)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;参考链接&quot;&gt;&lt;a href=&quot;#参考链接&quot; class=&quot;headerlink&quot; title=&quot;参考链接&quot;&gt;&lt;/a&gt;参考链接&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://wowubuntu.com/markdown/#list&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown 官方文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sspai.com/25137&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;认识与入门 Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/9d94660a96f1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MarkDown使用小技巧&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot;&gt;Markdown&lt;/a&gt; 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
+    
+    
+      <category term="Markdown" scheme="http://puhemo.tk/tags/Markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo语法－插入代码块</title>
