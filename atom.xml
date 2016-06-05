@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-05T13:27:30.000Z</updated>
+  <updated>2016-06-05T12:18:23.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -14,49 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Puhemo&#39;s bookshelf: read</title>
-    <link href="http://puhemo.tk/2016/06/05/Puhemo-s-bookshelf-read/"/>
-    <id>http://puhemo.tk/2016/06/05/Puhemo-s-bookshelf-read/</id>
-    <published>2016-06-05T13:26:48.000Z</published>
-    <updated>2016-06-05T13:27:30.000Z</updated>
-    
-    <content type="html">&lt;pre&gt;&lt;code&gt;  &amp;lt;style type=&amp;quot;text/css&amp;quot; media=&amp;quot;screen&amp;quot;&amp;gt;
-    .gr_grid_container {
-      /* customize grid container div here. eg: width: 500px; */
-    }
-
-    .gr_grid_book_container {
-      /* customize book cover container div here */
-      float: left;
-      width: 98px;
-      height: 160px;
-      padding: 0px 0px;
-      overflow: hidden;
-    }
-  &amp;lt;/style&amp;gt;
-  &amp;lt;div id=&amp;quot;gr_grid_widget_1465133107&amp;quot;&amp;gt;
-    &amp;lt;!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work --&amp;gt;
-        &amp;lt;h2&amp;gt;
-  &amp;lt;a style=&amp;quot;text-decoration: none;&amp;quot; href=&amp;quot;https://www.goodreads.com/review/list/55713614-puhemo?shelf=read&amp;amp;utm_medium=api&amp;amp;utm_source=grid_widget&amp;quot;&amp;gt;Puhemo&amp;apos;s bookshelf: read&amp;lt;/a&amp;gt;
-&amp;lt;/h2&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;  &lt;div class=&quot;gr_grid_container&quot;&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;A Street Cat Named Bob: And How He Saved My Life&quot; href=&quot;https://www.goodreads.com/book/show/16045156-a-street-cat-named-bob&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;A Street Cat Named Bob: And How He Saved My Life&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1376362077m/16045156.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;小城&quot; href=&quot;https://www.goodreads.com/book/show/30183857&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;小城&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1463186519m/30183857.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;无人生还&quot; href=&quot;https://www.goodreads.com/book/show/28766460&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;无人生还&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1453871681m/28766460.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;东方快车谋杀案 (Hercule Poirot, #10)&quot; href=&quot;https://www.goodreads.com/book/show/30114093&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;东方快车谋杀案&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1462416138m/30114093.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;漫长的告别&quot; href=&quot;https://www.goodreads.com/book/show/30184391&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;漫长的告别&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1463196796m/30184391.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;罗杰疑案 (Hercule Poirot, #4)&quot; href=&quot;https://www.goodreads.com/book/show/29753426&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;罗杰疑案&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1459500593m/29753426.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;ABC谋杀案 (Hercule Poirot, #13)&quot; href=&quot;https://www.goodreads.com/book/show/28531011-abc&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;ABC谋杀案&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1452677358m/28531011.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;尼罗河上的惨案 (Hercule Poirot, #17)&quot; href=&quot;https://www.goodreads.com/book/show/30120016&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;尼罗河上的惨案&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1462501395m/30120016.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;一个园丁的一年:一个波西米亚园丁的幸福生活（全球热卖  久违了，泥土、阳光和花的芬芳！） (恰佩克系列) (Chinese Edition)&quot; href=&quot;https://www.goodreads.com/book/show/19370932&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;一个园丁的一年:一个波西米亚园丁的幸福生活（全球热卖  久违了，泥土、阳光和花的芬芳！） (恰佩克系列)&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1386744842m/19370932.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;Y的悲剧&quot; href=&quot;https://www.goodreads.com/book/show/30190997-y&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;Y的悲剧&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1463305722m/30190997.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;大教堂 (Chinese Edition)&quot; href=&quot;https://www.goodreads.com/book/show/19441802&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;大教堂&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1386938320m/19441802.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;未来边缘&quot; href=&quot;https://www.goodreads.com/book/show/25908942&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;未来边缘&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1436888978m/25908942.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;禅与摩托车维修艺术&quot; href=&quot;https://www.goodreads.com/book/show/30224340&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;禅与摩托车维修艺术&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1463534186m/30224340.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;蚕:（哈利波特作者J.K.罗琳创作推理小说侦探小说，纽约时报上榜畅销图书，当当网5星级图书，情节百转千回，引人入胜，是备受称赞的科莫兰·斯特莱克推理系列第二部）&quot; href=&quot;https://www.goodreads.com/book/show/30238423&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;蚕:（哈利波特作者J.K.罗琳创作推理小说侦探小说，纽约时报上榜畅销图书，当当网5星级图书，情节百转千回，引人入胜，是备受称赞的科莫兰·斯特莱克推理系列第二部）&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1463726976m/30238423.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;象与骑象人：幸福的假设 (Chinese Edition)&quot; href=&quot;https://www.goodreads.com/book/show/19211725&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;象与骑象人：幸福的假设&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1386265742m/19211725.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;献给阿尔吉侬的花束 (理想国)&quot; href=&quot;https://www.goodreads.com/book/show/28477658&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;献给阿尔吉侬的花束&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1452168404m/28477658.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;你一生的故事 (译林幻系列)&quot; href=&quot;https://www.goodreads.com/book/show/25851016&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;你一生的故事&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1436062088m/25851016.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;斯通纳&quot; href=&quot;https://www.goodreads.com/book/show/30298467&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;斯通纳&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1464311650m/30298467.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;这些人 那些事&quot; href=&quot;https://www.goodreads.com/book/show/30298600&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;这些人 那些事&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1464313631m/30298600.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;div class=&quot;gr_grid_book_container&quot;&gt;&lt;a title=&quot;一个人的朝圣 (Chinese Edition)&quot; href=&quot;https://www.goodreads.com/book/show/18850209&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img alt=&quot;一个人的朝圣&quot; border=&quot;0&quot; src=&quot;https://d.gr-assets.com/books/1384843212m/18850209.jpg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;    &lt;br style=&quot;clear: both&quot;&gt;&lt;br&gt;&lt;a class=&quot;gr_grid_branding&quot; style=&quot;font-size: .9em; color: #382110; text-decoration: none; float: right; clear: both&quot; href=&quot;https://www.goodreads.com/user/show/55713614-puhemo&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Puhemo’s favorite books »&lt;/a&gt;&lt;br&gt;  &lt;noscript&gt;&lt;br&gt;Share &lt;a href=&quot;/&quot;&gt;book reviews&lt;/a&gt; and ratings with Puhemo, and even join a &lt;a href=&quot;/group&quot;&gt;book club&lt;/a&gt; on Goodreads.&lt;/noscript&gt;&lt;br&gt;  &lt;/div&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;/div&amp;gt;
-&amp;lt;script src=&amp;quot;https://www.goodreads.com/review/grid_widget/55713614.Puhemo&amp;apos;s%20bookshelf:%20read?cover_size=medium&amp;amp;hide_link=&amp;amp;hide_title=&amp;amp;num_books=20&amp;amp;order=a&amp;amp;shelf=read&amp;amp;sort=date_added&amp;amp;widget_id=1465133107&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code&gt;  &amp;lt;style type=&amp;quot;text/css&amp;quot; media=&amp;quot;screen&amp;quot;&amp;gt;
-    .gr_grid_container {
-      /* customize grid container div
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>免费电子书网站汇总</title>
