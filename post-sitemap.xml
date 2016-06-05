@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://puhemo.tk/2016/06/02/HEXO-Github%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E9%9D%99%E6%80%81Blog%E4%B8%AA%E4%BA%BA%E7%BA%AA%E5%BD%95/</loc>
+        <lastmod>2016-06-05T12:21:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://puhemo.tk/2016/06/05/%E7%94%B5%E5%AD%90%E4%B9%A6%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB/</loc>
         <lastmod>2016-06-05T12:18:23.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -49,14 +57,6 @@
     <url>
         <loc>http://puhemo.tk/2016/06/03/%E6%9B%B4%E6%8D%A2%E7%94%B5%E8%84%91%E5%A6%82%E4%BD%95%E8%BD%AC%E7%A7%BBHexo/</loc>
         <lastmod>2016-06-05T11:24:08.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://puhemo.tk/2016/06/02/HEXO-Github%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E9%9D%99%E6%80%81Blog%E4%B8%AA%E4%BA%BA%E7%BA%AA%E5%BD%95/</loc>
-        <lastmod>2016-06-05T11:23:18.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
