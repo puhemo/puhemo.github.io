@@ -878,6 +878,12 @@ a {
 #header .header-nav .social .Twitter::before {
   content: '\f099';
 }
+#header .header-nav .social .Goodreads {
+  background: #55cff8;
+}
+#header .header-nav .social .Goodreads::before {
+  content: '\f02d';
+}
 #header .header-nav .social .LinkedIn {
   background: #005a87;
 }
