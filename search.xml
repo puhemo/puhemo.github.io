@@ -6,7 +6,7 @@
     <entry>
       <title><![CDATA[Hexo语法－插入iframe]]></title>
       <url>http://puhemo.tk/2016/06/05/Hexo%E8%AF%AD%E6%B3%95%EF%BC%8D%E6%8F%92%E5%85%A5iframe/</url>
-      <content type="html"><![CDATA[<figure class="highlight plain"><figcaption><span>http://www.typora.io/ 600 300</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+      <content type="html"><![CDATA[<p><code>iframe http://hexo.io/ 600 300</code></p>
 ]]></content>
     </entry>
     
