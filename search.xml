@@ -6,7 +6,7 @@
     <entry>
       <title><![CDATA[Hexo语法－插入代码块]]></title>
       <url>http://puhemo.tk/2016/06/03/Hexo%E8%AF%AD%E6%B3%95%EF%BC%8D%E6%8F%92%E5%85%A5%E4%BB%A3%E7%A0%81%E5%9D%97/</url>
-      <content type="html"><![CDATA[<h2 id="Hexo语法－插入代码块"><a href="#Hexo语法－插入代码块" class="headerlink" title="Hexo语法－插入代码块"></a>Hexo语法－插入代码块</h2><p>在文章中插入代码。<br>别名： code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure></p>
+      <content type="html"><![CDATA[<p>在文章中插入代码。<br>别名： code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure></p>
 <a id="more"></a>
 <h3 id="普通代码块"><a href="#普通代码块" class="headerlink" title="普通代码块"></a>普通代码块</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock %&#125;</span><br><span class="line">alert(&apos;Hello World!&apos;);</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br></pre></td></tr></table></figure>
@@ -25,7 +25,7 @@
     <entry>
       <title><![CDATA[Mac怎么显示隐藏文件命令]]></title>
       <url>http://puhemo.tk/2016/06/03/Mac%E6%80%8E%E4%B9%88%E6%98%BE%E7%A4%BA%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E5%91%BD%E4%BB%A4/</url>
-      <content type="html"><![CDATA[<h2 id="Mac怎么显示隐藏文件命令"><a href="#Mac怎么显示隐藏文件命令" class="headerlink" title="Mac怎么显示隐藏文件命令"></a>Mac怎么显示隐藏文件命令</h2><h3 id="隐藏文件命令："><a href="#隐藏文件命令：" class="headerlink" title="隐藏文件命令："></a>隐藏文件命令：</h3><pre><code>defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder
+      <content type="html"><![CDATA[<h3 id="隐藏文件命令："><a href="#隐藏文件命令：" class="headerlink" title="隐藏文件命令："></a>隐藏文件命令：</h3><pre><code>defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder
 </code></pre><h3 id="显示文件命令："><a href="#显示文件命令：" class="headerlink" title="显示文件命令："></a>显示文件命令：</h3><pre><code>defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
 </code></pre>]]></content>
     </entry>
@@ -33,8 +33,7 @@
     <entry>
       <title><![CDATA[更换电脑如何转移Hexo]]></title>
       <url>http://puhemo.tk/2016/06/03/%E6%9B%B4%E6%8D%A2%E7%94%B5%E8%84%91%E5%A6%82%E4%BD%95%E8%BD%AC%E7%A7%BBHexo/</url>
-      <content type="html"><![CDATA[<p>更换电脑，在新电脑上重新部署Hexo<br> <a id="more"></a></p>
-<h2 id="转移文件"><a href="#转移文件" class="headerlink" title="转移文件"></a>转移文件</h2><h3 id="拷贝文件"><a href="#拷贝文件" class="headerlink" title="拷贝文件"></a>拷贝文件</h3><p>下面就将原来的文件拷贝到新电脑中，但是要注意哪些文件是必须的，哪些文件是可以删除的。</p>
+      <content type="html"><![CDATA[<h2 id="转移文件"><a href="#转移文件" class="headerlink" title="转移文件"></a>转移文件</h2><h3 id="拷贝文件"><a href="#拷贝文件" class="headerlink" title="拷贝文件"></a>拷贝文件</h3><p>下面就将原来的文件拷贝到新电脑中，但是要注意哪些文件是必须的，哪些文件是可以删除的。<br><a id="more"></a></p>
 <ul>
 <li>必须拷贝文件：<br>├──_config.yml<br>├── theme<br>├── scaffolds #文章模板<br>├── package.json #说明使用哪些包<br>├── .gitignore #限定在提交的时候哪些文件可以忽略<br>└── source</li>
 </ul>
@@ -75,7 +74,7 @@ hexo d
     <entry>
       <title><![CDATA[HEXO+Github搭建免费静态Blog]]></title>
       <url>http://puhemo.tk/2016/06/02/HEXO-Github%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E9%9D%99%E6%80%81Blog%E4%B8%AA%E4%BA%BA%E7%BA%AA%E5%BD%95/</url>
-      <content type="html"><![CDATA[<h1 id="HEXO-Github搭建免费静态Blog"><a href="#HEXO-Github搭建免费静态Blog" class="headerlink" title="HEXO+Github搭建免费静态Blog"></a>HEXO+Github搭建免费静态Blog</h1><p><img src="http://i.v2ex.co/5bb7J7NT.png" alt="img"></p>
+      <content type="html"><![CDATA[<p><img src="http://i.v2ex.co/5bb7J7NT.png" alt="img"></p>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>想熟悉<a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">markdown</a>和纪录一些东西，于是有了这个blog和这篇文章！</p>
 <a id="more"></a>
 <hr>

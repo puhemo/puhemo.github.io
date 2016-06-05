@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-03T16:06:07.000Z</updated>
+  <updated>2016-06-05T11:25:40.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://puhemo.tk/2016/06/03/Hexo%E8%AF%AD%E6%B3%95%EF%BC%8D%E6%8F%92%E5%85%A5%E4%BB%A3%E7%A0%81%E5%9D%97/"/>
     <id>http://puhemo.tk/2016/06/03/Hexo语法－插入代码块/</id>
     <published>2016-06-03T15:39:16.000Z</published>
-    <updated>2016-06-03T16:06:07.000Z</updated>
+    <updated>2016-06-05T11:25:40.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Hexo语法－插入代码块&quot;&gt;&lt;a href=&quot;#Hexo语法－插入代码块&quot; class=&quot;headerlink&quot; title=&quot;Hexo语法－插入代码块&quot;&gt;&lt;/a&gt;Hexo语法－插入代码块&lt;/h2&gt;&lt;p&gt;在文章中插入代码。&lt;br&gt;别名： code&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% codeblock [title] [lang:language] [url] [link text] %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;code snippet&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% endcodeblock %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;在文章中插入代码。&lt;br&gt;别名： code&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% codeblock [title] [lang:language] [url] [link text] %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;code snippet&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% endcodeblock %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h3 id=&quot;普通代码块&quot;&gt;&lt;a href=&quot;#普通代码块&quot; class=&quot;headerlink&quot; title=&quot;普通代码块&quot;&gt;&lt;/a&gt;普通代码块&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% codeblock %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;alert(&amp;apos;Hello World!&amp;apos;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% endcodeblock %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;alert(&amp;apos;Hello World!&amp;apos;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -39,11 +39,11 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Hexo语法－插入代码块&quot;&gt;&lt;a href=&quot;#Hexo语法－插入代码块&quot; class=&quot;headerlink&quot; title=&quot;Hexo语法－插入代码块&quot;&gt;&lt;/a&gt;Hexo语法－插入代码块&lt;/h2&gt;&lt;p&gt;在文章中插入代码。&lt;br&gt;别名： code&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% codeblock [title] [lang:language] [url] [link text] %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;code snippet&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% endcodeblock %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+      &lt;p&gt;在文章中插入代码。&lt;br&gt;别名： code&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% codeblock [title] [lang:language] [url] [link text] %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;code snippet&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% endcodeblock %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
     
     </summary>
     
-      <category term="Hexo" scheme="http://puhemo.tk/categories/Hexo/"/>
+      <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
     
     
       <category term="Hexo" scheme="http://puhemo.tk/tags/Hexo/"/>
@@ -55,19 +55,19 @@
     <link href="http://puhemo.tk/2016/06/03/Mac%E6%80%8E%E4%B9%88%E6%98%BE%E7%A4%BA%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E5%91%BD%E4%BB%A4/"/>
     <id>http://puhemo.tk/2016/06/03/Mac怎么显示隐藏文件命令/</id>
     <published>2016-06-03T14:47:04.000Z</published>
-    <updated>2016-06-03T14:51:58.000Z</updated>
+    <updated>2016-06-05T11:25:08.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Mac怎么显示隐藏文件命令&quot;&gt;&lt;a href=&quot;#Mac怎么显示隐藏文件命令&quot; class=&quot;headerlink&quot; title=&quot;Mac怎么显示隐藏文件命令&quot;&gt;&lt;/a&gt;Mac怎么显示隐藏文件命令&lt;/h2&gt;&lt;h3 id=&quot;隐藏文件命令：&quot;&gt;&lt;a href=&quot;#隐藏文件命令：&quot; class=&quot;headerlink&quot; title=&quot;隐藏文件命令：&quot;&gt;&lt;/a&gt;隐藏文件命令：&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder
+    <content type="html">&lt;h3 id=&quot;隐藏文件命令：&quot;&gt;&lt;a href=&quot;#隐藏文件命令：&quot; class=&quot;headerlink&quot; title=&quot;隐藏文件命令：&quot;&gt;&lt;/a&gt;隐藏文件命令：&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;显示文件命令：&quot;&gt;&lt;a href=&quot;#显示文件命令：&quot; class=&quot;headerlink&quot; title=&quot;显示文件命令：&quot;&gt;&lt;/a&gt;显示文件命令：&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
 &lt;/code&gt;&lt;/pre&gt;</content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Mac怎么显示隐藏文件命令&quot;&gt;&lt;a href=&quot;#Mac怎么显示隐藏文件命令&quot; class=&quot;headerlink&quot; title=&quot;Mac怎么显示隐藏文件命令&quot;&gt;&lt;/a&gt;Mac怎么显示隐藏文件命令&lt;/h2&gt;&lt;h3 id=&quot;隐藏文件命令：&quot;&gt;&lt;a href=&quot;#隐藏
+      &lt;h3 id=&quot;隐藏文件命令：&quot;&gt;&lt;a href=&quot;#隐藏文件命令：&quot; class=&quot;headerlink&quot; title=&quot;隐藏文件命令：&quot;&gt;&lt;/a&gt;隐藏文件命令：&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;defaults write com.apple.finder AppleShowA
     
     </summary>
     
-      <category term="mac" scheme="http://puhemo.tk/categories/mac/"/>
+      <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
     
     
       <category term="mac" scheme="http://puhemo.tk/tags/mac/"/>
@@ -79,10 +79,9 @@
     <link href="http://puhemo.tk/2016/06/03/%E6%9B%B4%E6%8D%A2%E7%94%B5%E8%84%91%E5%A6%82%E4%BD%95%E8%BD%AC%E7%A7%BBHexo/"/>
     <id>http://puhemo.tk/2016/06/03/更换电脑如何转移Hexo/</id>
     <published>2016-06-03T07:12:14.000Z</published>
-    <updated>2016-06-03T08:26:10.000Z</updated>
+    <updated>2016-06-05T11:24:08.000Z</updated>
     
-    <content type="html">&lt;p&gt;更换电脑，在新电脑上重新部署Hexo&lt;br&gt; &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;转移文件&quot;&gt;&lt;a href=&quot;#转移文件&quot; class=&quot;headerlink&quot; title=&quot;转移文件&quot;&gt;&lt;/a&gt;转移文件&lt;/h2&gt;&lt;h3 id=&quot;拷贝文件&quot;&gt;&lt;a href=&quot;#拷贝文件&quot; class=&quot;headerlink&quot; title=&quot;拷贝文件&quot;&gt;&lt;/a&gt;拷贝文件&lt;/h3&gt;&lt;p&gt;下面就将原来的文件拷贝到新电脑中，但是要注意哪些文件是必须的，哪些文件是可以删除的。&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;转移文件&quot;&gt;&lt;a href=&quot;#转移文件&quot; class=&quot;headerlink&quot; title=&quot;转移文件&quot;&gt;&lt;/a&gt;转移文件&lt;/h2&gt;&lt;h3 id=&quot;拷贝文件&quot;&gt;&lt;a href=&quot;#拷贝文件&quot; class=&quot;headerlink&quot; title=&quot;拷贝文件&quot;&gt;&lt;/a&gt;拷贝文件&lt;/h3&gt;&lt;p&gt;下面就将原来的文件拷贝到新电脑中，但是要注意哪些文件是必须的，哪些文件是可以删除的。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;必须拷贝文件：&lt;br&gt;├──_config.yml&lt;br&gt;├── theme&lt;br&gt;├── scaffolds #文章模板&lt;br&gt;├── package.json #说明使用哪些包&lt;br&gt;├── .gitignore #限定在提交的时候哪些文件可以忽略&lt;br&gt;└── source&lt;/li&gt;
 &lt;/ul&gt;
@@ -121,11 +120,11 @@ hexo d
     
     <summary type="html">
     
-      &lt;p&gt;更换电脑，在新电脑上重新部署Hexo&lt;br&gt;
+      &lt;h2 id=&quot;转移文件&quot;&gt;&lt;a href=&quot;#转移文件&quot; class=&quot;headerlink&quot; title=&quot;转移文件&quot;&gt;&lt;/a&gt;转移文件&lt;/h2&gt;&lt;h3 id=&quot;拷贝文件&quot;&gt;&lt;a href=&quot;#拷贝文件&quot; class=&quot;headerlink&quot; title=&quot;拷贝文件&quot;&gt;&lt;/a&gt;拷贝文件&lt;/h3&gt;&lt;p&gt;下面就将原来的文件拷贝到新电脑中，但是要注意哪些文件是必须的，哪些文件是可以删除的。&lt;br&gt;
     
     </summary>
     
-      <category term="Hexo" scheme="http://puhemo.tk/categories/Hexo/"/>
+      <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
     
     
       <category term="Hexo" scheme="http://puhemo.tk/tags/Hexo/"/>
@@ -137,9 +136,9 @@ hexo d
     <link href="http://puhemo.tk/2016/06/02/HEXO-Github%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E9%9D%99%E6%80%81Blog%E4%B8%AA%E4%BA%BA%E7%BA%AA%E5%BD%95/"/>
     <id>http://puhemo.tk/2016/06/02/HEXO-Github搭建免费静态Blog个人纪录/</id>
     <published>2016-06-02T07:11:13.000Z</published>
-    <updated>2016-06-04T02:44:44.000Z</updated>
+    <updated>2016-06-05T11:23:18.000Z</updated>
     
-    <content type="html">&lt;h1 id=&quot;HEXO-Github搭建免费静态Blog&quot;&gt;&lt;a href=&quot;#HEXO-Github搭建免费静态Blog&quot; class=&quot;headerlink&quot; title=&quot;HEXO+Github搭建免费静态Blog&quot;&gt;&lt;/a&gt;HEXO+Github搭建免费静态Blog&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;http://i.v2ex.co/5bb7J7NT.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.v2ex.co/5bb7J7NT.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;想熟悉&lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;markdown&lt;/a&gt;和纪录一些东西，于是有了这个blog和这篇文章！&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;hr&gt;
@@ -547,12 +546,12 @@ hexo d #hexo deploy
     
     <summary type="html">
     
-      &lt;h1 id=&quot;HEXO-Github搭建免费静态Blog&quot;&gt;&lt;a href=&quot;#HEXO-Github搭建免费静态Blog&quot; class=&quot;headerlink&quot; title=&quot;HEXO+Github搭建免费静态Blog&quot;&gt;&lt;/a&gt;HEXO+Github搭建免费静态Blog&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;http://i.v2ex.co/5bb7J7NT.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;http://i.v2ex.co/5bb7J7NT.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;想熟悉&lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;markdown&lt;/a&gt;和纪录一些东西，于是有了这个blog和这篇文章！&lt;/p&gt;
     
     </summary>
     
-      <category term="Hexo" scheme="http://puhemo.tk/categories/Hexo/"/>
+      <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
     
     
       <category term="Hexo" scheme="http://puhemo.tk/tags/Hexo/"/>
