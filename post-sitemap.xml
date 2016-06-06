@@ -7,16 +7,24 @@
     </url>
 
     <url>
-        <loc>http://puhemo.tk/2016/06/03/hexo-change-pc/</loc>
-        <lastmod>2016-06-06T15:36:13.000Z</lastmod>
+        <loc>http://puhemo.tk/2016/06/02/hexo-github/</loc>
+        <lastmod>2016-06-06T16:07:26.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://puhemo.tk/2016/06/02/hexo-github/</loc>
-        <lastmod>2016-06-06T15:35:42.000Z</lastmod>
+        <loc>http://puhemo.tk/2016/06/05/markdown/</loc>
+        <lastmod>2016-06-06T16:06:13.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/2016/06/03/hexo-change-pc/</loc>
+        <lastmod>2016-06-06T15:36:13.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -41,14 +49,6 @@
     <url>
         <loc>http://puhemo.tk/2016/06/05/ebook-site/</loc>
         <lastmod>2016-06-06T15:33:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://puhemo.tk/2016/06/05/markdown/</loc>
-        <lastmod>2016-06-06T15:30:41.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

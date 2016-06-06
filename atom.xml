@@ -117,7 +117,7 @@
     <link href="http://puhemo.tk/2016/06/05/markdown/"/>
     <id>http://puhemo.tk/2016/06/05/markdown/</id>
     <published>2016-06-05T11:30:43.000Z</published>
-    <updated>2016-06-06T15:30:41.000Z</updated>
+    <updated>2016-06-06T16:06:13.000Z</updated>
     
     <content type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt; 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。&lt;/blockquote&gt;
 
@@ -209,6 +209,7 @@
 &lt;li&gt;&lt;a href=&quot;http://wowubuntu.com/markdown/#list&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown 官方文档&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://sspai.com/25137&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;认识与入门 Markdown&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/9d94660a96f1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MarkDown使用小技巧&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/JohnTsai/p/4027229.html#jump&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MarkDown技巧：两种方式实现页内跳转&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     
@@ -346,7 +347,7 @@ hexo d
     <link href="http://puhemo.tk/2016/06/02/hexo-github/"/>
     <id>http://puhemo.tk/2016/06/02/hexo-github/</id>
     <published>2016-06-02T07:11:13.000Z</published>
-    <updated>2016-06-06T15:35:42.000Z</updated>
+    <updated>2016-06-06T16:07:26.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.v2ex.co/5bb7J7NT.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;想熟悉&lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;markdown&lt;/a&gt;和纪录一些东西，于是有了这个blog和这篇文章！&lt;/p&gt;
@@ -751,6 +752,7 @@ hexo d #hexo deploy
 &lt;li&gt;&lt;a href=&quot;http://theme-next.iissnan.com/getting-started.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NexT使用文档&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ckjoker.github.io/2015/01/27/Linux-github-hexo-blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Linux下github+hexo搭建自己的博客&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://notes.wanghao.work/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;为NexT主题添加文章阅读量统计功能 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.think-diff.me/2016/05/28/travis-ci-deploy-blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;用Travis CI自动部署Hexo博客&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     

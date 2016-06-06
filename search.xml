@@ -177,6 +177,7 @@
 <li><a href="http://wowubuntu.com/markdown/#list" target="_blank" rel="external">Markdown 官方文档</a></li>
 <li><a href="http://sspai.com/25137" target="_blank" rel="external">认识与入门 Markdown</a></li>
 <li><a href="http://www.jianshu.com/p/9d94660a96f1" target="_blank" rel="external">MarkDown使用小技巧</a></li>
+<li><a href="http://www.cnblogs.com/JohnTsai/p/4027229.html#jump" target="_blank" rel="external">MarkDown技巧：两种方式实现页内跳转</a></li>
 </ul>
 ]]></content>
     </entry>
@@ -655,6 +656,7 @@ hexo d #hexo deploy
 <li><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">NexT使用文档</a></li>
 <li><a href="https://ckjoker.github.io/2015/01/27/Linux-github-hexo-blog/" target="_blank" rel="external">Linux下github+hexo搭建自己的博客</a></li>
 <li><a href="http://notes.wanghao.work/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html" target="_blank" rel="external">为NexT主题添加文章阅读量统计功能 </a></li>
+<li><a href="http://www.think-diff.me/2016/05/28/travis-ci-deploy-blog/" target="_blank" rel="external">用Travis CI自动部署Hexo博客</a></li>
 </ul>
 ]]></content>
     </entry>
