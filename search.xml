@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[免费电子书网站汇总]]></title>
-      <url>http://puhemo.tk/2016/06/05/%E7%94%B5%E5%AD%90%E4%B9%A6%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB/</url>
+      <url>http://puhemo.tk/2016/06/05/ebook-site/</url>
       <content type="html"><![CDATA[<p>本文基于文章《<a href="http://www.lefashn.com/other/resource.htm" target="_blank" rel="external">免费电子书网站汇总</a>》修改而来，在此感谢原作者<a href="http://weibo.com/p/1005052142733793" target="_blank" rel="external">设定控</a>。原文久未更新，有些网站已不再适用，故修改以便个人使用。<br><a id="more"></a></p>
 <h2 id="中文电子书网站"><a href="#中文电子书网站" class="headerlink" title="中文电子书网站"></a>中文电子书网站</h2><ol>
 <li><h4 id="亚马逊-Kindle-商店免费电子书"><a href="#亚马逊-Kindle-商店免费电子书" class="headerlink" title="亚马逊 Kindle 商店免费电子书"></a><a href="https://www.amazon.cn/Kindle%E5%85%8D%E8%B4%B9%E7%94%B5%E5%AD%90%E4%B9%A6/b/ref=sa_menu_kindle_l3_b116175071?ie=UTF8&amp;node=116175071" target="_blank" rel="external">亚马逊 Kindle 商店免费电子书</a></h4><p>亚马逊提供上万本免费电子书，包括免费中文电子书和免费外文电子书。这些免费电子书大多属于经典的公版图书，当然也有少量比较新的图书。非常好的资源，可以善加利用。</p>
@@ -183,7 +183,7 @@
     
     <entry>
       <title><![CDATA[Hexo语法－插入代码块]]></title>
-      <url>http://puhemo.tk/2016/06/03/Hexo%E8%AF%AD%E6%B3%95%EF%BC%8D%E6%8F%92%E5%85%A5%E4%BB%A3%E7%A0%81%E5%9D%97/</url>
+      <url>http://puhemo.tk/2016/06/03/hexo-code/</url>
       <content type="html"><![CDATA[<p>在文章中插入代码。<br>别名： code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure></p>
 <a id="more"></a>
 <h3 id="普通代码块"><a href="#普通代码块" class="headerlink" title="普通代码块"></a>普通代码块</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock %&#125;</span><br><span class="line">alert(&apos;Hello World!&apos;);</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
@@ -202,7 +202,7 @@
     
     <entry>
       <title><![CDATA[Mac怎么显示隐藏文件命令]]></title>
-      <url>http://puhemo.tk/2016/06/03/Mac%E6%80%8E%E4%B9%88%E6%98%BE%E7%A4%BA%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E5%91%BD%E4%BB%A4/</url>
+      <url>http://puhemo.tk/2016/06/03/mac-hide-file/</url>
       <content type="html"><![CDATA[<h3 id="隐藏文件命令："><a href="#隐藏文件命令：" class="headerlink" title="隐藏文件命令："></a>隐藏文件命令：</h3><pre><code>defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder
 </code></pre><h3 id="显示文件命令："><a href="#显示文件命令：" class="headerlink" title="显示文件命令："></a>显示文件命令：</h3><pre><code>defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
 </code></pre>]]></content>
@@ -210,7 +210,7 @@
     
     <entry>
       <title><![CDATA[更换电脑如何转移Hexo]]></title>
-      <url>http://puhemo.tk/2016/06/03/%E6%9B%B4%E6%8D%A2%E7%94%B5%E8%84%91%E5%A6%82%E4%BD%95%E8%BD%AC%E7%A7%BBHexo/</url>
+      <url>http://puhemo.tk/2016/06/03/hexo-change-pc/</url>
       <content type="html"><![CDATA[<h2 id="转移文件"><a href="#转移文件" class="headerlink" title="转移文件"></a>转移文件</h2><h3 id="拷贝文件"><a href="#拷贝文件" class="headerlink" title="拷贝文件"></a>拷贝文件</h3><p>下面就将原来的文件拷贝到新电脑中，但是要注意哪些文件是必须的，哪些文件是可以删除的。<br><a id="more"></a></p>
 <ul>
 <li>必须拷贝文件：<br>├──_config.yml<br>├── theme<br>├── scaffolds #文章模板<br>├── package.json #说明使用哪些包<br>├── .gitignore #限定在提交的时候哪些文件可以忽略<br>└── source</li>
@@ -251,7 +251,7 @@ hexo d
     
     <entry>
       <title><![CDATA[HEXO+Github搭建免费静态Blog]]></title>
-      <url>http://puhemo.tk/2016/06/02/HEXO-Github%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E9%9D%99%E6%80%81Blog%E4%B8%AA%E4%BA%BA%E7%BA%AA%E5%BD%95/</url>
+      <url>http://puhemo.tk/2016/06/02/hexo-github/</url>
       <content type="html"><![CDATA[<p><img src="http://i.v2ex.co/5bb7J7NT.png" alt="img"></p>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>想熟悉<a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">markdown</a>和纪录一些东西，于是有了这个blog和这篇文章！</p>
 <a id="more"></a>
