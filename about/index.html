@@ -15,16 +15,16 @@
 
 
 
-<meta name="description" content="转移文件拷贝文件下面就将原来的文件拷贝到新电脑中，但是要注意哪些文件是必须的，哪些文件是可以删除的。">
-<meta property="og:type" content="article">
-<meta property="og:title" content="更换电脑如何转移Hexo">
-<meta property="og:url" content="http://puhemo.tk/2016/06/03/hexo-change-pc/index.html">
+<meta name="description" content="如果我带着醉意出生，我或许会忘掉所有的悲伤！">
+<meta property="og:type" content="website">
+<meta property="og:title" content="about">
+<meta property="og:url" content="http://puhemo.tk/about/index.html">
 <meta property="og:site_name" content="Puhemo's blog">
-<meta property="og:description" content="转移文件拷贝文件下面就将原来的文件拷贝到新电脑中，但是要注意哪些文件是必须的，哪些文件是可以删除的。">
-<meta property="og:updated_time" content="2016-06-06T15:36:13.000Z">
+<meta property="og:description" content="如果我带着醉意出生，我或许会忘掉所有的悲伤！">
+<meta property="og:updated_time" content="2016-06-06T15:40:40.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="更换电脑如何转移Hexo">
-<meta name="twitter:description" content="转移文件拷贝文件下面就将原来的文件拷贝到新电脑中，但是要注意哪些文件是必须的，哪些文件是可以删除的。">
+<meta name="twitter:title" content="about">
+<meta name="twitter:description" content="如果我带着醉意出生，我或许会忘掉所有的悲伤！">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -56,7 +56,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>更换电脑如何转移Hexo | Puhemo&#39;s blog</title>
+<title>about | Puhemo&#39;s blog</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -66,7 +66,7 @@
         fancybox: true,
         animate: true,
         isHome: false,
-        isPost: true,
+        isPost: false,
         isArchive: false,
         isTag: false,
         isCategory: false,
@@ -280,11 +280,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap"><article id="post-hexo-change-pc" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/06/03/hexo-change-pc/" class="article-date">
-      <time datetime="2016-06-03T07:12:14.000Z" itemprop="datePublished">2016-06-03</time>
+      <a href="/about/index.html" class="article-date">
+      <time datetime="2016-06-06T15:40:40.000Z" itemprop="datePublished">2016-06-06</time>
 </a>
     </div>
   
@@ -297,7 +297,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      更换电脑如何转移Hexo
+      about
     </h1>
   
 
@@ -305,16 +305,8 @@
       
       <div class="article-info article-info-post">
         
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/术/">术</a>
-    </div>
-
 
         
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
-    </div>
-
         <div class="clearfix"></div>
       </div>
       
@@ -322,127 +314,36 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h2 id="转移文件"><a href="#转移文件" class="headerlink" title="转移文件"></a>转移文件</h2><h3 id="拷贝文件"><a href="#拷贝文件" class="headerlink" title="拷贝文件"></a>拷贝文件</h3><p>下面就将原来的文件拷贝到新电脑中，但是要注意哪些文件是必须的，哪些文件是可以删除的。<br><a id="more"></a></p>
-<ul>
-<li>必须拷贝文件：<br>├──_config.yml<br>├── theme<br>├── scaffolds #文章模板<br>├── package.json #说明使用哪些包<br>├── .gitignore #限定在提交的时候哪些文件可以忽略<br>└── source</li>
-</ul>
-<blockquote>
-<p>scaffolds、package.json和.gitignore，这三个文件不是我们修改的，即使丢失了，也没有关系，我们可以建立一个新的文件夹，然后在里面执行hexo init，就会生成这三个文件，我们只需要将它们拷贝过来使用即可。</p>
-</blockquote>
-<ul>
-<li>不必拷贝文件：<br>├──.git #根目录<br>├── node_modules #npm install重新生成<br>├── public #hexo g重新生成<br>├── .deploy_git #hexo d重新生成<br>├── db.json #.gitignore文件记载可以忽略内容<br>└── .git #主题目录</li>
-</ul>
-<h2 id="部署环境"><a href="#部署环境" class="headerlink" title="部署环境"></a>部署环境</h2><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><p>从官网<a href="https://git-scm.com/" target="_blank" rel="external">Git</a>下载git，在新电脑上安装，因为https速度慢，而且每次都要输入口令，常用的是使用ssh。使用下面方法创建：</p>
-<ol>
-<li>打开git bash，在用户主目录下运行：ssh-keygen -t rsa -C “youremail@example.com” 把其中的邮件地址换成自己的邮件地址，然后一路回车</li>
-<li>最后完成后，会在用户主目录下生成.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH key密钥对，id_rsa是私钥，千万不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人。</li>
-<li>登陆GitHub，打开「Settings」-&gt;「SSH and GPG keys」，然后点击「new SSH key」，填上任意Title，在Key文本框里粘贴公钥id_rsa.pub文件的内容（千万不要粘贴成私钥了！），最后点击「Add SSH Key」，你就应该看到已经添加的Key。</li>
-</ol>
-<blockquote>
-<p><strong>注意</strong>：不要在git版本库中运行ssh，然后又将它提交，这样就把密码泄露出去了。</p>
-</blockquote>
-<h3 id="安装Node-JS"><a href="#安装Node-JS" class="headerlink" title="安装Node.JS"></a>安装Node.JS</h3><p>下载<a href="http://nodejs.org/" target="_blank" rel="external">Node.JS</a>并安装</p>
-<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><p>打开git bash客户端，输入 <code>npm install hexo-cli -g</code>，开始安装hexo</p>
-<h2 id="重新部署"><a href="#重新部署" class="headerlink" title="重新部署"></a>重新部署</h2><h3 id="模块安装"><a href="#模块安装" class="headerlink" title="模块安装"></a>模块安装</h3><p>在git bash中切换目录到新拷贝的文件夹，使用 npm install 命令，进行模块安装。</p>
-<blockquote>
-<p>不要用hexo init初始化，部分文件已经拷贝生成，如果不慎使用，则站点配置文件_config.yml会被初始化为默认值</p>
-</blockquote>
-<pre><code>$ npm install npm install hexo-deployer-git --save #同步内容至github
-$ npm install hexo-generator-feed --save #RSS订阅
-$ npm install hexo-generator-sitemap --save #站点地图
-</code></pre><blockquote>
-<p>插件安装后，有的需要对配置文件_config.yml进行配置，具体可以参考上面插件在github主页上的说明</p>
-</blockquote>
-<h3 id="同步内容至GitHub"><a href="#同步内容至GitHub" class="headerlink" title="同步内容至GitHub"></a>同步内容至GitHub</h3><pre><code>hexo g
-hexo d
-</code></pre><hr>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p><a href="https://www.zhihu.com/question/21193762/answer/103097754" target="_blank" rel="external">https://www.zhihu.com/question/21193762/answer/103097754</a></p>
+              <style>
+    .article-meta { display: none; }
+    #container .article .article-title { padding-right: 0; }
+    .article-header {
+        padding: 0;
+        padding-top: 26px;
+        border-left: none;
+        text-align: center;
+    }
+    .article-header:hover { border-left: none; }
+    .article-title { font-size: 1.6em }
+    .article-entry hr { margin: 0;}
+    .article-meta,
+    #container .article-info-post.article-info { display: none;}
+    #container .article .article-title { padding: 0; }
+</style>
 
+
+          
+        
       
     </div>
     
   </div>
   
     
-    <div class="copyright">
-        <p><span>本文标题:</span><a href="/2016/06/03/hexo-change-pc/">更换电脑如何转移Hexo</a></p>
-        <p><span>文章作者:</span><a href="/" title="回到主页">Puhemo</a></p>
-        <p><span>发布时间:</span>2016-06-03, 15:12:14</p>
-        <p><span>最后更新:</span>2016-06-06, 23:36:13</p>
-        <p>
-            <span>原始链接:</span><a class="post-url" href="/2016/06/03/hexo-change-pc/" title="更换电脑如何转移Hexo">http://puhemo.tk/2016/06/03/hexo-change-pc/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://puhemo.tk/2016/06/03/hexo-change-pc/　　作者: Puhemo" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
-            <script> var clipboard = new Clipboard('.copy-path'); </script>
-        </p>
-        <p>
-            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
-        </p>
-    </div>
 
-
-
-    <nav id="article-nav">
-        
-            <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2016/06/03/mac-hide-file/">
-                    Mac怎么显示隐藏文件命令
-                </a>
-            </div>
-        
-        
-            <div id="article-nav-older" class="article-nav-title">
-                <a href="/2016/06/02/hexo-github/">
-                    HEXO+Github搭建免费静态Blog
-                </a>
-            </div>
-        
-    </nav>
 
   
 </article>
-
-    <div id="toc" class="toc-article">
-    <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#转移文件"><span class="toc-number">1.</span> <span class="toc-text">转移文件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#拷贝文件"><span class="toc-number">1.1.</span> <span class="toc-text">拷贝文件</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#部署环境"><span class="toc-number">2.</span> <span class="toc-text">部署环境</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装Git"><span class="toc-number">2.1.</span> <span class="toc-text">安装Git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装Node-JS"><span class="toc-number">2.2.</span> <span class="toc-text">安装Node.JS</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装hexo"><span class="toc-number">2.3.</span> <span class="toc-text">安装hexo</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#重新部署"><span class="toc-number">3.</span> <span class="toc-text">重新部署</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#模块安装"><span class="toc-number">3.1.</span> <span class="toc-text">模块安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#同步内容至GitHub"><span class="toc-number">3.2.</span> <span class="toc-text">同步内容至GitHub</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考链接"><span class="toc-number">4.</span> <span class="toc-text">参考链接</span></a></li></ol>
-</div>
-<style>
-    .left-col .switch-btn {
-        display: none;
-    }
-    .left-col .switch-area {
-        display: none;
-    }
-</style>
-
-<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
-<script>
-    var valueHide = "隐藏目录";
-    var valueShow = "显示目录";
-
-    if ($(".left-col").is(":hidden")) {
-        $("#tocButton").attr("value", valueShow);
-    }
-
-    $("#tocButton").click(function() {
-        if ($("#toc").is(":hidden")) {
-            $("#tocButton").attr("value", valueHide);
-            $("#toc").slideDown(320);
-            $(".switch-btn, .switch-area").fadeOut(300);
-        }
-        else {
-            $("#tocButton").attr("value", valueShow);
-            $("#toc").slideUp(350);
-            $(".switch-btn, .switch-area").fadeIn(500);
-        }
-    })
-
-    if ($(".toc").length < 1) {
-        $("#toc, #tocButton").hide();
-        $(".switch-btn, .switch-area").show();
-    }
-</script>
-
-
 
 
 
@@ -460,7 +361,7 @@ hexo d
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"更换电脑如何转移Hexo　| Puhemo's blog　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"about　| Puhemo's blog　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -491,26 +392,6 @@ hexo d
 </section>
     
 
-
-
-
-    <div class="scroll" id="post-nav-button">
-        
-            <a href="/2016/06/03/mac-hide-file/" title="上一篇: Mac怎么显示隐藏文件命令">
-                <i class="fa fa-angle-left"></i>
-            </a>
-        
-
-        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
-
-        
-            <a href="/2016/06/02/hexo-github/" title="下一篇: HEXO+Github搭建免费静态Blog">
-                <i class="fa fa-angle-right"></i>
-            </a>
-        
-    </div>
-
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/06/05/ebook-site/">免费电子书网站汇总</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/05/markdown/">Markdown简明教程</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/03/hexo-code/">Hexo语法－插入代码块</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/03/mac-hide-file/">Mac怎么显示隐藏文件命令</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/03/hexo-change-pc/">更换电脑如何转移Hexo</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/02/hexo-github/">HEXO+Github搭建免费静态Blog</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/01/hello-world/">Hello World</a></li></ul>
 
 
 
