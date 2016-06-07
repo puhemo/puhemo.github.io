@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-07T13:33:56.000Z</updated>
+  <updated>2016-06-07T13:36:41.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://puhemo.tk/2016/06/07/%E5%B8%B8%E7%94%A8%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4/"/>
     <id>http://puhemo.tk/2016/06/07/常用终端命令/</id>
     <published>2016-06-07T13:10:34.000Z</published>
-    <updated>2016-06-07T13:33:56.000Z</updated>
+    <updated>2016-06-07T13:36:41.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;Windows-Commands&quot;&gt;&lt;a href=&quot;#Windows-Commands&quot; class=&quot;headerlink&quot; title=&quot;Windows Commands&quot;&gt;&lt;/a&gt;Windows Commands&lt;/h2&gt;&lt;p&gt;These are commands that may be used in the default command interpreter, cmd.exe, as well as Powershell.&lt;br&gt;&amp;lt;!- more -&amp;gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -44,7 +44,7 @@
 &lt;li&gt;&lt;code&gt;quit()&lt;/code&gt; or ctrl + D -Tells “End Of File” to Python on Mac and GNU/Linux.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;quit()&lt;/code&gt; or ctrl + C -Kills Python process on Mac and GNU/Linux.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;参考链接&quot;&gt;&lt;a href=&quot;#参考链接&quot; class=&quot;headerlink&quot; title=&quot;参考链接&quot;&gt;&lt;/a&gt;参考链接&lt;/h2&gt;&lt;p&gt;［Pythonlearn:resources-week01］(&lt;a href=&quot;https://share.coursera.org/wiki/index.php/Pythonlearn:resources-week01&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://share.coursera.org/wiki/index.php/Pythonlearn:resources-week01&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&quot;参考链接&quot;&gt;&lt;a href=&quot;#参考链接&quot; class=&quot;headerlink&quot; title=&quot;参考链接&quot;&gt;&lt;/a&gt;参考链接&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://share.coursera.org/wiki/index.php/Pythonlearn:resources-week01&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pythonlearn:resources-week01&lt;/a&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -55,6 +55,8 @@
     
       <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
     
+    
+      <category term="Python" scheme="http://puhemo.tk/tags/Python/"/>
     
       <category term="Windows" scheme="http://puhemo.tk/tags/Windows/"/>
     
