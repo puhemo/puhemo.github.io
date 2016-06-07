@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-07T12:07:49.000Z</updated>
+  <updated>2016-06-07T13:24:56.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -14,6 +14,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>常用终端命令</title>
+    <link href="http://puhemo.tk/2016/06/07/%E5%B8%B8%E7%94%A8%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4/"/>
+    <id>http://puhemo.tk/2016/06/07/常用终端命令/</id>
+    <published>2016-06-07T13:10:34.000Z</published>
+    <updated>2016-06-07T13:24:56.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Windows-Commands&quot;&gt;&lt;a href=&quot;#Windows-Commands&quot; class=&quot;headerlink&quot; title=&quot;Windows Commands&quot;&gt;&lt;/a&gt;Windows Commands&lt;/h2&gt;&lt;p&gt;These are commands that may be used in the default command interpreter, cmd.exe, as well as Powershell.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cd&lt;/code&gt; - display current directory. Short for “change directory”.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd ..&lt;/code&gt; - move up the directory tree one level. Doing this from C:\Users\JohnSmith\Desktop will take you to C:\Users\JohnSmith, for example.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd \&lt;/code&gt; - brings you back to the root of the current drive&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cls&lt;/code&gt; - Clear the screen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Mac-amp-GNU-Linux-Commands&quot;&gt;&lt;a href=&quot;#Mac-amp-GNU-Linux-Commands&quot; class=&quot;headerlink&quot; title=&quot;Mac &amp;amp; GNU/Linux Commands&quot;&gt;&lt;/a&gt;Mac &amp;amp; GNU/Linux Commands&lt;/h2&gt;&lt;p&gt;These are commands that may be used in a common command interpreter, bash, which is installed by default on most Mac or GNU/Linux systems, but may not apply 100% in other command shells, such as fish, or zsh for instance.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;pwd - short for “print working directory.” Displays the directory you are currently in.&lt;/li&gt;
+&lt;li&gt;cd - a quick change directory back to $HOME directory. Short for “change directory”.&lt;/li&gt;
+&lt;li&gt;cd .. - move up the directory tree one level. Doing this from /home/johnsmith/Desktop will take you to /home/johnsmith, for example.&lt;/li&gt;
+&lt;li&gt;cd / - brings you back to the root of the current drive&lt;/li&gt;
+&lt;li&gt;ls - Display a list of files and folders, very fast.&lt;/li&gt;
+&lt;li&gt;ls -l - Displays a detailed list of files and folders.&lt;/li&gt;
+&lt;li&gt;clear - Clear the screen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;参考链接&quot;&gt;&lt;a href=&quot;#参考链接&quot; class=&quot;headerlink&quot; title=&quot;参考链接&quot;&gt;&lt;/a&gt;参考链接&lt;/h2&gt;&lt;p&gt;［Pythonlearn:resources-week01］(&lt;a href=&quot;https://share.coursera.org/wiki/index.php/Pythonlearn:resources-week01&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://share.coursera.org/wiki/index.php/Pythonlearn:resources-week01&lt;/a&gt;)&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Windows-Commands&quot;&gt;&lt;a href=&quot;#Windows-Commands&quot; class=&quot;headerlink&quot; title=&quot;Windows Commands&quot;&gt;&lt;/a&gt;Windows Commands&lt;/h2&gt;&lt;p&gt;These are comm
+    
+    </summary>
+    
+      <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
+    
+    
+      <category term="Windows" scheme="http://puhemo.tk/tags/Windows/"/>
+    
+      <category term="Commands" scheme="http://puhemo.tk/tags/Commands/"/>
+    
+      <category term="Mac" scheme="http://puhemo.tk/tags/Mac/"/>
+    
+      <category term="Linux" scheme="http://puhemo.tk/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo技巧－文章置顶</title>
