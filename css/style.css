@@ -486,6 +486,11 @@ a {
   }
   #container .toc-article .toc-title {
     display: none;
+    padding: 0.3em;
+    color: #fff;
+    background: #d3d3d3;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
   }
   #container .toc-article .toc {
     padding: 0.5em;
@@ -495,7 +500,7 @@ a {
     padding: 0.5em;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    background: rgba(255,255,255,0.75);
+    background: rgba(255,255,255,0.85);
   }
   #container .toc-article ol ol {
     padding: 0.1em 0;
@@ -503,6 +508,9 @@ a {
   }
   #container .toc-article a {
     color: #767676;
+  }
+  #container li.toc-item {
+    line-height: 1.2;
   }
   #container .copyright {
     width: 90%;
@@ -543,6 +551,9 @@ a {
   }
   #container .copyright .copy-path {
     display: none;
+  }
+  #container .tags a {
+    line-height: 45px;
   }
 }
 .header-author {
@@ -719,7 +730,6 @@ a {
 }
 #header .switch-part2 {
   left: 100%;
-  top: 20px;
   overflow-y: auto;
   max-height: 260px;
   font-size: 0.75rem;
@@ -1077,6 +1087,14 @@ body .ui-tooltip {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.youyan {
+  padding: 20px 40px;
+}
+@media (max-width: 767px) {
+  .youyan {
+    padding: 20px 10px;
+  }
 }
 .archives-wrap {
   position: relative;
@@ -1633,17 +1651,17 @@ li:hover {
 }
 #tocButton {
   position: fixed;
-  border: none;
   left: 220px;
   top: 385px;
-  background: none;
   font-size: 0.9em;
   font-weight: bold;
+  font-family: inherit;
   color: #d3d3d3;
   cursor: pointer;
-  font-family: inherit;
-  outline: none; /*Remove button border when clicked.*/
-  -webkit-appearance: none; /*Remove iOS button style*/
+  background: none;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
 }
 #tocButton:hover {
   color: #88acdb;
@@ -1654,53 +1672,68 @@ li:hover {
   top: 378px;
   bottom: 1em;
   left: 0;
-  margin-left: 0em;
+  margin-left: 0;
   padding: 6px 10px 10px 50px;
   -webkit-border-radius: 2.8%;
   border-radius: 2.8%;
   overflow: auto;
 }
 #toc {
-  float: right;
   font-size: 0.9rem;
   line-height: 1.65em;
-}
-#toc a {
-  color: #808080;
-}
-#toc a:visited {
-  color: #f48385;
-}
-#toc a:hover {
-  color: #88acdb;
-  text-decoration: none;
-}
-#toc li:hover {
-  background: none;
-}
-#toc li:hover li:hover {
-  background: rgba(158,188,226,0.21);
 }
 #toc .toc-title {
   font-weight: bold;
   color: #808080;
 }
-#toc .toc {
+#toc .toc-title.clickable {
+  cursor: pointer;
+}
+#toc .toc-title.clickable:hover {
+  color: #88acdb;
+}
+#toc .toc-title.clickable:active {
+  color: #d3d3d3;
+}
+#toc ol.toc {
+  margin-left: 0;
   padding: 0.7em;
   padding-right: 0;
 }
-#toc .toc li {
+#toc ol.toc li.toc-item {
   list-style-type: none;
 }
-#toc ol {
-  margin-left: 0;
+#toc ol.toc li.toc-item i {
+  display: inline-block;
+  margin-left: -0.9em;
+  width: 0.9em;
+  color: #b3b3b3;
+  font-weight: bold;
+  cursor: pointer;
 }
-#toc .toc-child {
+#toc ol.toc li.toc-item i:hover {
+  color: #000;
+}
+#toc ol.toc li.toc-item i.hide {
+  display: none;
+}
+#toc ol.toc li.toc-item:hover {
+  background: none;
+}
+#toc ol.toc a.toc-link {
+  color: #808080;
+}
+#toc ol.toc a.toc-link:visited {
+  color: #f48385;
+}
+#toc ol.toc a.toc-link:hover {
+  color: #88acdb;
+  text-decoration: none;
+  background: rgba(158,188,226,0.21);
+}
+#toc ol.toc ol.toc-child {
   padding-left: 1.25em;
   margin: 4px 0;
-}
-#toc .toc-link:hover {
-  background: rgba(158,188,226,0.21);
 }
 .copyright {
   width: 85%;
@@ -2919,14 +2952,6 @@ pre .javascript .function {
   padding: 0;
   height: 100%;
   overflow: hidden;
-}
-.youyan {
-  padding: 20px 40px;
-}
-@media (max-width: 767px) {
-  .youyan {
-    padding: 20px 10px;
-  }
 }
 .search {
   width: 68%;
