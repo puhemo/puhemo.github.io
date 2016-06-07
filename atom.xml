@@ -577,7 +577,7 @@ hexo d
     <link href="http://puhemo.tk/2016/06/02/hexo-github/"/>
     <id>http://puhemo.tk/2016/06/02/hexo-github/</id>
     <published>2016-06-02T07:11:13.000Z</published>
-    <updated>2016-06-07T15:15:54.000Z</updated>
+    <updated>2016-06-07T15:20:22.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.v2ex.co/5bb7J7NT.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;想熟悉&lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;markdown&lt;/a&gt;和纪录一些东西，于是有了这个blog和这篇文章！&lt;/p&gt;
@@ -650,7 +650,7 @@ hexo d
 &lt;hr&gt;
 &lt;h2 id=&quot;域名和DNS&quot;&gt;&lt;a href=&quot;#域名和DNS&quot; class=&quot;headerlink&quot; title=&quot;域名和DNS&quot;&gt;&lt;/a&gt;域名和DNS&lt;/h2&gt;&lt;h3 id=&quot;域名推荐&quot;&gt;&lt;a href=&quot;#域名推荐&quot; class=&quot;headerlink&quot; title=&quot;域名推荐&quot;&gt;&lt;/a&gt;域名推荐&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;免费域名：&lt;a href=&quot;http://www.dot.tk/zh/index.html?lang=zh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;dot.tk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;GoDaddy makes registering Domain Names fast, simple, and affordable.&lt;br&gt;&lt;a href=&quot;http://www.godaddy.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.godaddy.com/&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.gdcodecoupon.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.gdcodecoupon.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GoDaddy makes registering Domain Names fast, simple, and affordable.&lt;br&gt; &lt;a href=&quot;http://www.godaddy.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.godaddy.com/&lt;/a&gt;&lt;br&gt; &lt;a href=&quot;http://www.gdcodecoupon.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.gdcodecoupon.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;DNS推荐&quot;&gt;&lt;a href=&quot;#DNS推荐&quot; class=&quot;headerlink&quot; title=&quot;DNS推荐&quot;&gt;&lt;/a&gt;DNS推荐&lt;/h3&gt;&lt;p&gt;致力于为您提供最稳定、最安全的域名解析服务&lt;br&gt;&lt;a href=&quot;https://www.dnspod.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.dnspod.cn/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;设置CNAME&quot;&gt;&lt;a href=&quot;#设置CNAME&quot; class=&quot;headerlink&quot; title=&quot;设置CNAME&quot;&gt;&lt;/a&gt;设置CNAME&lt;/h3&gt;&lt;ol&gt;
@@ -811,7 +811,7 @@ deploy:
 &lt;li&gt;&lt;p&gt;添加feed插件&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-feed --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;自定义feed插件：&lt;br&gt;修改_config.yml，增加以下内容&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;自定义feed插件:&lt;br&gt;修改_config.yml，增加以下内容&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;#Feed Atom&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;feed:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  type: atom&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  path: atom.xml&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  limit: 20&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;type - Feed type. (atom/rss2)&lt;/p&gt;
