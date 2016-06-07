@@ -6,8 +6,7 @@
     <entry>
       <title><![CDATA[常用终端命令]]></title>
       <url>http://puhemo.tk/2016/06/07/%E5%B8%B8%E7%94%A8%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4/</url>
-      <content type="html"><![CDATA[<h2 id="Windows-Commands"><a href="#Windows-Commands" class="headerlink" title="Windows Commands"></a>Windows Commands</h2><p>These are commands that may be used in the default command interpreter, cmd.exe, as well as Powershell.</p>
-<p>&lt;!- more -&gt;</p>
+      <content type="html"><![CDATA[<h2 id="Windows-Commands"><a href="#Windows-Commands" class="headerlink" title="Windows Commands"></a>Windows Commands</h2><p>These are commands that may be used in the default command interpreter, cmd.exe, as well as Powershell.<br><a id="more"></a></p>
 <ul>
 <li><code>cd</code> - display current directory. Short for “change directory”.</li>
 <li><code>cd ..</code> - move up the directory tree one level. Doing this from C:\Users\JohnSmith\Desktop will take you to C:\Users\JohnSmith, for example.</li>
