@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-07T13:24:56.000Z</updated>
+  <updated>2016-06-07T13:33:56.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://puhemo.tk/2016/06/07/%E5%B8%B8%E7%94%A8%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4/"/>
     <id>http://puhemo.tk/2016/06/07/常用终端命令/</id>
     <published>2016-06-07T13:10:34.000Z</published>
-    <updated>2016-06-07T13:24:56.000Z</updated>
+    <updated>2016-06-07T13:33:56.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Windows-Commands&quot;&gt;&lt;a href=&quot;#Windows-Commands&quot; class=&quot;headerlink&quot; title=&quot;Windows Commands&quot;&gt;&lt;/a&gt;Windows Commands&lt;/h2&gt;&lt;p&gt;These are commands that may be used in the default command interpreter, cmd.exe, as well as Powershell.&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;Windows-Commands&quot;&gt;&lt;a href=&quot;#Windows-Commands&quot; class=&quot;headerlink&quot; title=&quot;Windows Commands&quot;&gt;&lt;/a&gt;Windows Commands&lt;/h2&gt;&lt;p&gt;These are commands that may be used in the default command interpreter, cmd.exe, as well as Powershell.&lt;br&gt;&amp;lt;!- more -&amp;gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;cd&lt;/code&gt; - display current directory. Short for “change directory”.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;cd ..&lt;/code&gt; - move up the directory tree one level. Doing this from C:\Users\JohnSmith\Desktop will take you to C:\Users\JohnSmith, for example.&lt;/li&gt;
@@ -31,13 +31,18 @@
 &lt;/ul&gt;
 &lt;h2 id=&quot;Mac-amp-GNU-Linux-Commands&quot;&gt;&lt;a href=&quot;#Mac-amp-GNU-Linux-Commands&quot; class=&quot;headerlink&quot; title=&quot;Mac &amp;amp; GNU/Linux Commands&quot;&gt;&lt;/a&gt;Mac &amp;amp; GNU/Linux Commands&lt;/h2&gt;&lt;p&gt;These are commands that may be used in a common command interpreter, bash, which is installed by default on most Mac or GNU/Linux systems, but may not apply 100% in other command shells, such as fish, or zsh for instance.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;pwd - short for “print working directory.” Displays the directory you are currently in.&lt;/li&gt;
-&lt;li&gt;cd - a quick change directory back to $HOME directory. Short for “change directory”.&lt;/li&gt;
-&lt;li&gt;cd .. - move up the directory tree one level. Doing this from /home/johnsmith/Desktop will take you to /home/johnsmith, for example.&lt;/li&gt;
-&lt;li&gt;cd / - brings you back to the root of the current drive&lt;/li&gt;
-&lt;li&gt;ls - Display a list of files and folders, very fast.&lt;/li&gt;
-&lt;li&gt;ls -l - Displays a detailed list of files and folders.&lt;/li&gt;
-&lt;li&gt;clear - Clear the screen&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pwd&lt;/code&gt; - short for “print working directory.” Displays the directory you are currently in.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd&lt;/code&gt; - a quick change directory back to $HOME directory. Short for “change directory”.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd ..&lt;/code&gt; - move up the directory tree one level. Doing this from /home/johnsmith/Desktop will take you to /home/johnsmith, for example.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd /&lt;/code&gt; - brings you back to the root of the current drive&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls&lt;/code&gt; - Display a list of files and folders, very fast.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls -l&lt;/code&gt; - Displays a detailed list of files and folders.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;clear&lt;/code&gt; - Clear the screen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Python-commands&quot;&gt;&lt;a href=&quot;#Python-commands&quot; class=&quot;headerlink&quot; title=&quot;Python commands&quot;&gt;&lt;/a&gt;Python commands&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;quit()&lt;/code&gt; or ctrl + Z or exit() -ends Python on Windows.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;quit()&lt;/code&gt; or ctrl + D -Tells “End Of File” to Python on Mac and GNU/Linux.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;quit()&lt;/code&gt; or ctrl + C -Kills Python process on Mac and GNU/Linux.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;参考链接&quot;&gt;&lt;a href=&quot;#参考链接&quot; class=&quot;headerlink&quot; title=&quot;参考链接&quot;&gt;&lt;/a&gt;参考链接&lt;/h2&gt;&lt;p&gt;［Pythonlearn:resources-week01］(&lt;a href=&quot;https://share.coursera.org/wiki/index.php/Pythonlearn:resources-week01&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://share.coursera.org/wiki/index.php/Pythonlearn:resources-week01&lt;/a&gt;)&lt;/p&gt;
 </content>
