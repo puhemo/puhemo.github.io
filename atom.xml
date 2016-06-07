@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-07T11:31:20.000Z</updated>
+  <updated>2016-06-07T12:03:21.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo技巧－文章置顶</title>
+    <link href="http://puhemo.tk/2016/06/07/hexo-top/"/>
+    <id>http://puhemo.tk/2016/06/07/hexo-top/</id>
+    <published>2016-06-07T11:53:54.000Z</published>
+    <updated>2016-06-07T12:03:21.000Z</updated>
+    
+    <content type="html">&lt;p&gt;本文转载于文章&lt;a href=&quot;http://www.netcan666.com/2015/11/22/%E8%A7%A3%E5%86%B3Hexo%E7%BD%AE%E9%A1%B6%E9%97%AE%E9%A2%98/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;解决Hexo置顶问题&lt;/a&gt;，在此感谢原作者&lt;a href=&quot;http://www.netcan666.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Netcan&lt;/a&gt;，修改以便个人查阅。&lt;/p&gt;
+&lt;p&gt;修改node_modules/hexo-generator-index/lib/generator.js文件，只需要在&lt;code&gt;front-matter&lt;/code&gt;中设置需要置顶文章的&lt;code&gt;top&lt;/code&gt;值，将会根据&lt;code&gt;top&lt;/code&gt;值大小来选择置顶顺序。（大的在前面）&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;apos;use strict&amp;apos;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;var pagination = require(&amp;apos;hexo-pagination&amp;apos;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;module.exports = function(locals)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  var config = this.config;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  var posts = locals.posts;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    posts.data = posts.data.sort(function(a, b) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        if(a.top &amp;amp;&amp;amp; b.top) &amp;#123; // 两篇文章top都有定义&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            if(a.top == b.top) return b.date - a.date; // 若top值一样则按照文章日期降序排&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            else return b.top - a.top; // 否则按照top值降序排&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        else if(a.top &amp;amp;&amp;amp; !b.top) &amp;#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            return -1;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        else if(!a.top &amp;amp;&amp;amp; b.top) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            return 1;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        else return b.date - a.date; // 都没定义按照文章日期降序排&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  var paginationDir = config.pagination_dir || &amp;apos;page&amp;apos;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  return pagination(&amp;apos;&amp;apos;, posts, &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    perPage: config.index_generator.per_page,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    layout: [&amp;apos;index&amp;apos;, &amp;apos;archive&amp;apos;],&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    format: paginationDir + &amp;apos;/%d/&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    data: &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      __index: true&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文转载于文章&lt;a href=&quot;http://www.netcan666.com/2015/11/22/%E8%A7%A3%E5%86%B3Hexo%E7%BD%AE%E9%A1%B6%E9%97%AE%E9%A2%98/&quot; target=&quot;_blank&quot; rel=&quot;ext
+    
+    </summary>
+    
+      <category term="技" scheme="http://puhemo.tk/categories/%E6%8A%80/"/>
+    
+    
+      <category term="Hexo" scheme="http://puhemo.tk/tags/Hexo/"/>
+    
+      <category term="Nodejs" scheme="http://puhemo.tk/tags/Nodejs/"/>
+    
+  </entry>
   
   <entry>
     <title>大家的编程 (Python 入门)--学习纪录</title>
