@@ -577,7 +577,7 @@ hexo d
     <link href="http://puhemo.tk/2016/06/02/hexo-github/"/>
     <id>http://puhemo.tk/2016/06/02/hexo-github/</id>
     <published>2016-06-02T07:11:13.000Z</published>
-    <updated>2016-06-07T15:28:07.000Z</updated>
+    <updated>2016-06-07T15:30:17.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.v2ex.co/5bb7J7NT.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;想熟悉&lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;markdown&lt;/a&gt;和纪录一些东西，于是有了这个blog和这篇文章！&lt;/p&gt;
@@ -807,9 +807,8 @@ deploy:
 ├── _config.yml#主题配置文件
 └── README.md  #说明文档
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;如何设置「阅读全文」？&quot;&gt;&lt;a href=&quot;#如何设置「阅读全文」？&quot; class=&quot;headerlink&quot; title=&quot;如何设置「阅读全文」？&quot;&gt;&lt;/a&gt;如何设置「阅读全文」？&lt;/h3&gt;&lt;p&gt;在文章中使用 &lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt; 手动进行截断，Hexo 提供的方式&lt;/p&gt;
-&lt;h3 id=&quot;设置-RSS&quot;&gt;&lt;a href=&quot;#设置-RSS&quot; class=&quot;headerlink&quot; title=&quot;设置 RSS&quot;&gt;&lt;/a&gt;设置 RSS&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;添加feed插件: &lt;code&gt;$ npm install hexo-generator-feed --save&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;h3 id=&quot;设置-RSS&quot;&gt;&lt;a href=&quot;#设置-RSS&quot; class=&quot;headerlink&quot; title=&quot;设置 RSS&quot;&gt;&lt;/a&gt;设置 RSS&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;添加feed插件: &lt;code&gt;$ npm install hexo-generator-feed --save&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;自定义feed插件:&lt;br&gt;修改_config.yml，增加以下内容&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;#Feed Atom
 feed:
@@ -820,7 +819,7 @@ feed:
 &lt;p&gt;type - Feed type. (atom/rss2)&lt;br&gt;path - Feed path. (Default: atom.xml/rss2.xml)&lt;br&gt;limit - Maximum number of posts in the feed (Use 0 or false to show all posts)&lt;br&gt;hub - URL of the PubSubHubbub hubs (Leave it empty if you don’t use it)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 &lt;h3 id=&quot;分类和标签&quot;&gt;&lt;a href=&quot;#分类和标签&quot; class=&quot;headerlink&quot; title=&quot;分类和标签&quot;&gt;&lt;/a&gt;分类和标签&lt;/h3&gt;&lt;p&gt;只有文章支持分类和标签，您可以在 Front-matter 中设置。在其他系统中，分类和标签听起来很接近，但是在 Hexo 中两者有着明显的差别：分类具有顺序性和层次性，也就是说 Foo, Bar 不等于 Bar, Foo；而标签没有顺序和层次。&lt;br&gt;    categories:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;- Diary
 tags:

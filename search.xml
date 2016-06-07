@@ -653,9 +653,8 @@ deploy:
 ├── _config.yml#主题配置文件
 └── README.md  #说明文档
 </code></pre><h3 id="如何设置「阅读全文」？"><a href="#如何设置「阅读全文」？" class="headerlink" title="如何设置「阅读全文」？"></a>如何设置「阅读全文」？</h3><p>在文章中使用 <code>&lt;!-- more --&gt;</code> 手动进行截断，Hexo 提供的方式</p>
-<h3 id="设置-RSS"><a href="#设置-RSS" class="headerlink" title="设置 RSS"></a>设置 RSS</h3><ul>
-<li><p>添加feed插件: <code>$ npm install hexo-generator-feed --save</code></p>
-</li>
+<h3 id="设置-RSS"><a href="#设置-RSS" class="headerlink" title="设置 RSS"></a>设置 RSS</h3><ol>
+<li>添加feed插件: <code>$ npm install hexo-generator-feed --save</code></li>
 <li><p>自定义feed插件:<br>修改_config.yml，增加以下内容</p>
 <pre><code>#Feed Atom
 feed:
@@ -666,7 +665,7 @@ feed:
 <p>type - Feed type. (atom/rss2)<br>path - Feed path. (Default: atom.xml/rss2.xml)<br>limit - Maximum number of posts in the feed (Use 0 or false to show all posts)<br>hub - URL of the PubSubHubbub hubs (Leave it empty if you don’t use it)</p>
 </blockquote>
 </li>
-</ul>
+</ol>
 <h3 id="分类和标签"><a href="#分类和标签" class="headerlink" title="分类和标签"></a>分类和标签</h3><p>只有文章支持分类和标签，您可以在 Front-matter 中设置。在其他系统中，分类和标签听起来很接近，但是在 Hexo 中两者有着明显的差别：分类具有顺序性和层次性，也就是说 Foo, Bar 不等于 Bar, Foo；而标签没有顺序和层次。<br>    categories:</p>
 <pre><code>- Diary
 tags:
