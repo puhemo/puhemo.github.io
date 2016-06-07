@@ -44,13 +44,6 @@
     </url>
 
     <url>
-        <loc>http://puhemo.tk/tags/Python/</loc>
-        <lastmod>2016-06-07T14:21:07.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://puhemo.tk/tags/Windows/</loc>
         <lastmod>2016-06-07T14:21:07.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -74,6 +67,13 @@
     <url>
         <loc>http://puhemo.tk/tags/Linux/</loc>
         <lastmod>2016-06-07T14:21:07.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/Python/</loc>
+        <lastmod>2016-06-07T14:26:05.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
