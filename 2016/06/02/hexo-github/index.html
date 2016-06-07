@@ -23,7 +23,7 @@
 <meta property="og:description" content="前言想熟悉markdown和纪录一些东西，于是有了这个blog和这篇文章！">
 <meta property="og:image" content="http://i.v2ex.co/5bb7J7NT.png">
 <meta property="og:image" content="http://theme-next.iissnan.com/uploads/analytics-google.png">
-<meta property="og:updated_time" content="2016-06-07T12:35:34.000Z">
+<meta property="og:updated_time" content="2016-06-07T15:15:54.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HEXO+Github搭建免费静态Blog">
 <meta name="twitter:description" content="前言想熟悉markdown和纪录一些东西，于是有了这个blog和这篇文章！">
@@ -329,7 +329,10 @@
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>想熟悉<a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">markdown</a>和纪录一些东西，于是有了这个blog和这篇文章！</p>
 <a id="more"></a>
 <hr>
-<h2 id="更新历史"><a href="#更新历史" class="headerlink" title="更新历史"></a>更新历史</h2><p>20160603: 完成初稿</p>
+<h2 id="更新历史"><a href="#更新历史" class="headerlink" title="更新历史"></a>更新历史</h2><ul>
+<li>20160607: 修正错误和排版</li>
+<li>20160603: 完成初稿</li>
+</ul>
 <hr>
 <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="什么是-Hexo？"><a href="#什么是-Hexo？" class="headerlink" title="什么是 Hexo？"></a>什么是 Hexo？</h3><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
 <h3 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h3><p>安装 Hexo 相当简单。然而在安装前，您必须检查电脑中是否已安装下列应用程序：</p>
@@ -349,8 +352,7 @@
 <li>Linux (Fedora, Red Hat, CentOS): <code>sudo yum install git-core</code></li>
 </ul>
 <h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><p><a href="http://nodejs.org/" target="_blank" rel="external">Node.JS</a><br>下载 安装程序 来安装。</p>
-<p>###安装 Hexo</p>
-<p>所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。</p>
+<h3 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><p>所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。</p>
 <pre><code>$ npm install -g hexo-cli
 </code></pre><hr>
 <h2 id="Hexo初始化配置"><a href="#Hexo初始化配置" class="headerlink" title="Hexo初始化配置"></a>Hexo初始化配置</h2><h3 id="创建Hexo文件夹"><a href="#创建Hexo文件夹" class="headerlink" title="创建Hexo文件夹"></a>创建Hexo文件夹</h3><p>安装完成后，根据自己喜好建立目录（如E:\blog），进入Git Shell切换到该路径下E:\blog执行以下指令:</p>
@@ -393,23 +395,18 @@ hexo d
 </ol>
 <hr>
 <h2 id="域名和DNS"><a href="#域名和DNS" class="headerlink" title="域名和DNS"></a>域名和DNS</h2><h3 id="域名推荐"><a href="#域名推荐" class="headerlink" title="域名推荐"></a>域名推荐</h3><ul>
-<li><p>免费域名：<a href="http://www.dot.tk/zh/index.html?lang=zh" target="_blank" rel="external">dot.tk</a></p>
-</li>
-<li><p>GoDaddy makes registering Domain Names fast, simple, and affordable.<br><a href="http://www.godaddy.com/" target="_blank" rel="external">http://www.godaddy.com/</a><br><a href="http://www.gdcodecoupon.com/" target="_blank" rel="external">http://www.gdcodecoupon.com/</a></p>
-</li>
+<li>免费域名：<a href="http://www.dot.tk/zh/index.html?lang=zh" target="_blank" rel="external">dot.tk</a></li>
+<li>GoDaddy makes registering Domain Names fast, simple, and affordable.<br><a href="http://www.godaddy.com/" target="_blank" rel="external">http://www.godaddy.com/</a><br><a href="http://www.gdcodecoupon.com/" target="_blank" rel="external">http://www.gdcodecoupon.com/</a></li>
 </ul>
 <h3 id="DNS推荐"><a href="#DNS推荐" class="headerlink" title="DNS推荐"></a>DNS推荐</h3><p>致力于为您提供最稳定、最安全的域名解析服务<br><a href="https://www.dnspod.cn/" target="_blank" rel="external">https://www.dnspod.cn/</a></p>
 <h3 id="设置CNAME"><a href="#设置CNAME" class="headerlink" title="设置CNAME"></a>设置CNAME</h3><ol>
 <li>创建CNAME文件并添加到/source目录下</li>
 <li>填写自己的域名如hellodog.com，保存结束</li>
-<li>同步至Github: <code>hexo g -d</code><blockquote>
-<p>hexo会自动把CNAME复制到/puclic目录下然后将/public路径下的内容进行复制并push到远程master分支的根目录下。</p>
+<li>同步至Github: <code>hexo g -d</code><br>hexo会自动把CNAME复制到/puclic目录下然后将/public路径下的内容进行复制并push到远程master分支的根目录下。<blockquote>
+<p>如果是直接在GitHub网页上添加文件的话，会遇到一个问题就是在通过<code>hexo g -d</code>之后hexo会把根目录下的CNAME文件删除。</p>
 </blockquote>
 </li>
 </ol>
-<blockquote>
-<p>如果是直接在GitHub网页上添加文件的话，会遇到一个问题就是在通过<code>hexo g -d</code>之后hexo会把根目录下的CNAME文件删除。</p>
-</blockquote>
 <h3 id="添加DNS-Service记录-下面以dnspod为例"><a href="#添加DNS-Service记录-下面以dnspod为例" class="headerlink" title="添加DNS Service记录,下面以dnspod为例:"></a>添加DNS Service记录,下面以dnspod为例:</h3><p>添加两个A，主机记录写@，后面记录值写上<br>        192.30.252.153<br>        192.30.252.154</p>
 <blockquote>
 <p>顶级域名适用      </p>
@@ -555,49 +552,16 @@ deploy:
 |   └── js #javascript源代码
 ├── _config.yml#主题配置文件
 └── README.md  #说明文档
-</code></pre><h3 id="用Hexo发表文章的Markdown语法"><a href="#用Hexo发表文章的Markdown语法" class="headerlink" title="用Hexo发表文章的Markdown语法"></a>用Hexo发表文章的Markdown语法</h3><p>使用jacman或pacman主题，建议按此标准语法写：</p>
-<pre><code>title: postName #文章页面上的显示名称，可以任意修改，不会出现在URL中
-date: 2013-12-02 15:30:16 #文章生成时间，一般不改，当然也可以任意修改
-categories: example #分类
-tags: [tag1,tag2,tag3] #文章标签，可空，多标签请用格式，注意:后面有个空格
-description: 附加一段文章摘要，字数最好在140字以内。
----
-
-以下正文
-</code></pre><h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><ul>
-<li>添加sitemap和feed插件<pre><code>$ npm install hexo-generator-sitemap
-$ npm install hexo-generator-feed
-</code></pre></li>
-<li><p>修改_config.yml，增加以下内容</p>
-<pre><code># Extensions
-  Plugins:
-- hexo-generator-feed
-- hexo-generator-sitemap
-
-#Feed Atom
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-
-#sitemap
-sitemap:
-  path: sitemap.xml
-</code></pre></li>
-</ul>
-<h3 id="如何设置「阅读全文」？"><a href="#如何设置「阅读全文」？" class="headerlink" title="如何设置「阅读全文」？"></a>如何设置「阅读全文」？</h3><p>在文章中使用 <code>&lt;!-- more --&gt;</code> 手动进行截断，Hexo 提供的方式</p>
-<p>###设置 RSS</p>
-<ul>
-<li>添加feed插件<pre><code>$ npm install hexo-generator-feed --save
-</code></pre></li>
+</code></pre><h3 id="如何设置「阅读全文」？"><a href="#如何设置「阅读全文」？" class="headerlink" title="如何设置「阅读全文」？"></a>如何设置「阅读全文」？</h3><p>在文章中使用 <code>&lt;!-- more --&gt;</code> 手动进行截断，Hexo 提供的方式</p>
+<h3 id="设置-RSS"><a href="#设置-RSS" class="headerlink" title="设置 RSS"></a>设置 RSS</h3><ul>
+<li><p>添加feed插件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure>
+</li>
 <li><p>自定义feed插件：<br>修改_config.yml，增加以下内容</p>
-<pre><code>#Feed Atom
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-</code></pre></li>
-<li>type - Feed type. (atom/rss2)</li>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#Feed Atom</span><br><span class="line">feed:</span><br><span class="line">  type: atom</span><br><span class="line">  path: atom.xml</span><br><span class="line">  limit: 20</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>type - Feed type. (atom/rss2)</p>
+</li>
 <li>path - Feed path. (Default: atom.xml/rss2.xml)</li>
 <li>limit - Maximum number of posts in the feed (Use 0 or false to show all posts)</li>
 <li>hub - URL of the PubSubHubbub hubs (Leave it empty if you don’t use it)</li>
@@ -690,7 +654,6 @@ hexo d
 <li><a href="https://github.com/tufu9441/maupassant-hexo" target="_blank" rel="external">Maupassant</a>: <a href="https://github.com/tufu9441/maupassant-hexo" target="_blank" rel="external">https://github.com/tufu9441/maupassant-hexo</a></li>
 <li><a href="https://github.com/raytaylorlin/hexo-theme-raytaylorism" target="_blank" rel="external">raytaylorism</a>: <a href="https://github.com/raytaylorlin/hexo-theme-raytaylorism" target="_blank" rel="external">https://github.com/raytaylorlin/hexo-theme-raytaylorism</a></li>
 </ul>
-<h3 id="如何迁移至Hexo"><a href="#如何迁移至Hexo" class="headerlink" title="如何迁移至Hexo"></a>如何迁移至Hexo</h3><p><a href="http://hexo.io/zh-cn/docs/migration.html" target="_blank" rel="external">http://hexo.io/zh-cn/docs/migration.html</a></p>
 <hr>
 <h2 id="Hexo命令"><a href="#Hexo命令" class="headerlink" title="Hexo命令"></a>Hexo命令</h2><h3 id="常用命令："><a href="#常用命令：" class="headerlink" title="常用命令："></a>常用命令：</h3><pre><code>hexo new &quot;postName&quot; #生成文章，或者source\_posts手动编辑
 hexo new page &quot;pageName&quot; #新建页面
@@ -710,7 +673,7 @@ hexo d #hexo deploy
 <li><a href="https://xuanwo.org/2014/08/14/hexo-usual-problem/" target="_blank" rel="external">Hexo常见问题解决方案 </a></li>
 </ol>
 <hr>
-<h2 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h2><p>推荐使用<a href="http://www.qiniu.com/" target="_blank" rel="external">七牛</a>，还可以使用<a href="http://imgur.com/" target="_blank" rel="external">imgur</a></p>
+<h2 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h2><p>推荐使用<a href="http://www.qiniu.com/" target="_blank" rel="external">七牛</a>，还可以使用<a href="http://imgur.com/" target="_blank" rel="external">imgur</a>(国内不稳定)</p>
 <hr>
 <h2 id="推荐阅读"><a href="#推荐阅读" class="headerlink" title="推荐阅读"></a>推荐阅读</h2><ul>
 <li><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo Docs</a> - <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">https://hexo.io/zh-cn/docs/</a></li>
@@ -729,6 +692,7 @@ hexo d #hexo deploy
 <li><a href="https://ckjoker.github.io/2015/01/27/Linux-github-hexo-blog/" target="_blank" rel="external">Linux下github+hexo搭建自己的博客</a></li>
 <li><a href="http://notes.wanghao.work/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html" target="_blank" rel="external">为NexT主题添加文章阅读量统计功能 </a></li>
 <li><a href="http://www.think-diff.me/2016/05/28/travis-ci-deploy-blog/" target="_blank" rel="external">用Travis CI自动部署Hexo博客</a></li>
+<li><a href="http://hexo.io/zh-cn/docs/migration.html" target="_blank" rel="external">如何迁移至Hexo</a></li>
 </ul>
 
       
@@ -741,7 +705,7 @@ hexo d #hexo deploy
         <p><span>本文标题:</span><a href="/2016/06/02/hexo-github/">HEXO+Github搭建免费静态Blog</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">Puhemo</a></p>
         <p><span>发布时间:</span>2016-06-02, 15:11:13</p>
-        <p><span>最后更新:</span>2016-06-07, 20:35:34</p>
+        <p><span>最后更新:</span>2016-06-07, 23:15:54</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/06/02/hexo-github/" title="HEXO+Github搭建免费静态Blog">http://puhemo.tk/2016/06/02/hexo-github/</a>
             <span class="copy-path" data-clipboard-text="原文: http://puhemo.tk/2016/06/02/hexo-github/　　作者: Puhemo" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -776,7 +740,7 @@ hexo d #hexo deploy
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更新历史"><span class="toc-number">2.</span> <span class="toc-text">更新历史</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#准备工作"><span class="toc-number">3.</span> <span class="toc-text">准备工作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#什么是-Hexo？"><span class="toc-number">3.1.</span> <span class="toc-text">什么是 Hexo？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装前提"><span class="toc-number">3.2.</span> <span class="toc-text">安装前提</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装-Git"><span class="toc-number">3.3.</span> <span class="toc-text">安装 Git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装-Node-js"><span class="toc-number">3.4.</span> <span class="toc-text">安装 Node.js</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo初始化配置"><span class="toc-number">4.</span> <span class="toc-text">Hexo初始化配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#创建Hexo文件夹"><span class="toc-number">4.1.</span> <span class="toc-text">创建Hexo文件夹</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#生成静态页面"><span class="toc-number">4.2.</span> <span class="toc-text">生成静态页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#本地查看效果"><span class="toc-number">4.3.</span> <span class="toc-text">本地查看效果</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#部署静态网页到GitHub"><span class="toc-number">5.</span> <span class="toc-text">部署静态网页到GitHub</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#注册并设置GitHub"><span class="toc-number">5.1.</span> <span class="toc-text">注册并设置GitHub</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#同步内容至GitHub"><span class="toc-number">5.2.</span> <span class="toc-text">同步内容至GitHub</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#域名和DNS"><span class="toc-number">6.</span> <span class="toc-text">域名和DNS</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#域名推荐"><span class="toc-number">6.1.</span> <span class="toc-text">域名推荐</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DNS推荐"><span class="toc-number">6.2.</span> <span class="toc-text">DNS推荐</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#设置CNAME"><span class="toc-number">6.3.</span> <span class="toc-text">设置CNAME</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加DNS-Service记录-下面以dnspod为例"><span class="toc-number">6.4.</span> <span class="toc-text">添加DNS Service记录,下面以dnspod为例:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#设置域名的DNS"><span class="toc-number">6.5.</span> <span class="toc-text">设置域名的DNS</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo配置修改"><span class="toc-number">7.</span> <span class="toc-text">Hexo配置修改</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#整站设置"><span class="toc-number">7.1.</span> <span class="toc-text">整站设置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#修改局部页面"><span class="toc-number">7.2.</span> <span class="toc-text">修改局部页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#用Hexo发表文章的Markdown语法"><span class="toc-number">7.3.</span> <span class="toc-text">用Hexo发表文章的Markdown语法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装插件"><span class="toc-number">7.4.</span> <span class="toc-text">安装插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#如何设置「阅读全文」？"><span class="toc-number">7.5.</span> <span class="toc-text">如何设置「阅读全文」？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#分类和标签"><span class="toc-number">7.6.</span> <span class="toc-text">分类和标签</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加「标签」页面"><span class="toc-number">7.7.</span> <span class="toc-text">添加「标签」页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加「分类」页面"><span class="toc-number">7.8.</span> <span class="toc-text">添加「分类」页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#设置头像"><span class="toc-number">7.9.</span> <span class="toc-text">设置头像</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Google-分析"><span class="toc-number">7.10.</span> <span class="toc-text">Google 分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo主题修改"><span class="toc-number">7.11.</span> <span class="toc-text">Hexo主题修改</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo主题推荐"><span class="toc-number">7.12.</span> <span class="toc-text">Hexo主题推荐</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#如何迁移至Hexo"><span class="toc-number">7.13.</span> <span class="toc-text">如何迁移至Hexo</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo命令"><span class="toc-number">8.</span> <span class="toc-text">Hexo命令</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#常用命令："><span class="toc-number">8.1.</span> <span class="toc-text">常用命令：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#常用复合命令："><span class="toc-number">8.2.</span> <span class="toc-text">常用复合命令：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#简写命令："><span class="toc-number">8.3.</span> <span class="toc-text">简写命令：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常见问题"><span class="toc-number">9.</span> <span class="toc-text">常见问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#图床"><span class="toc-number">10.</span> <span class="toc-text">图床</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#推荐阅读"><span class="toc-number">11.</span> <span class="toc-text">推荐阅读</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考链接"><span class="toc-number">12.</span> <span class="toc-text">参考链接</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更新历史"><span class="toc-number">2.</span> <span class="toc-text">更新历史</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#准备工作"><span class="toc-number">3.</span> <span class="toc-text">准备工作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#什么是-Hexo？"><span class="toc-number">3.1.</span> <span class="toc-text">什么是 Hexo？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装前提"><span class="toc-number">3.2.</span> <span class="toc-text">安装前提</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装-Git"><span class="toc-number">3.3.</span> <span class="toc-text">安装 Git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装-Node-js"><span class="toc-number">3.4.</span> <span class="toc-text">安装 Node.js</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装-Hexo"><span class="toc-number">3.5.</span> <span class="toc-text">安装 Hexo</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo初始化配置"><span class="toc-number">4.</span> <span class="toc-text">Hexo初始化配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#创建Hexo文件夹"><span class="toc-number">4.1.</span> <span class="toc-text">创建Hexo文件夹</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#生成静态页面"><span class="toc-number">4.2.</span> <span class="toc-text">生成静态页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#本地查看效果"><span class="toc-number">4.3.</span> <span class="toc-text">本地查看效果</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#部署静态网页到GitHub"><span class="toc-number">5.</span> <span class="toc-text">部署静态网页到GitHub</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#注册并设置GitHub"><span class="toc-number">5.1.</span> <span class="toc-text">注册并设置GitHub</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#同步内容至GitHub"><span class="toc-number">5.2.</span> <span class="toc-text">同步内容至GitHub</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#域名和DNS"><span class="toc-number">6.</span> <span class="toc-text">域名和DNS</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#域名推荐"><span class="toc-number">6.1.</span> <span class="toc-text">域名推荐</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DNS推荐"><span class="toc-number">6.2.</span> <span class="toc-text">DNS推荐</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#设置CNAME"><span class="toc-number">6.3.</span> <span class="toc-text">设置CNAME</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加DNS-Service记录-下面以dnspod为例"><span class="toc-number">6.4.</span> <span class="toc-text">添加DNS Service记录,下面以dnspod为例:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#设置域名的DNS"><span class="toc-number">6.5.</span> <span class="toc-text">设置域名的DNS</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo配置修改"><span class="toc-number">7.</span> <span class="toc-text">Hexo配置修改</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#整站设置"><span class="toc-number">7.1.</span> <span class="toc-text">整站设置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#修改局部页面"><span class="toc-number">7.2.</span> <span class="toc-text">修改局部页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#如何设置「阅读全文」？"><span class="toc-number">7.3.</span> <span class="toc-text">如何设置「阅读全文」？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#设置-RSS"><span class="toc-number">7.4.</span> <span class="toc-text">设置 RSS</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#分类和标签"><span class="toc-number">7.5.</span> <span class="toc-text">分类和标签</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加「标签」页面"><span class="toc-number">7.6.</span> <span class="toc-text">添加「标签」页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加「分类」页面"><span class="toc-number">7.7.</span> <span class="toc-text">添加「分类」页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#设置头像"><span class="toc-number">7.8.</span> <span class="toc-text">设置头像</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Google-分析"><span class="toc-number">7.9.</span> <span class="toc-text">Google 分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo主题修改"><span class="toc-number">7.10.</span> <span class="toc-text">Hexo主题修改</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo主题推荐"><span class="toc-number">7.11.</span> <span class="toc-text">Hexo主题推荐</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo命令"><span class="toc-number">8.</span> <span class="toc-text">Hexo命令</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#常用命令："><span class="toc-number">8.1.</span> <span class="toc-text">常用命令：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#常用复合命令："><span class="toc-number">8.2.</span> <span class="toc-text">常用复合命令：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#简写命令："><span class="toc-number">8.3.</span> <span class="toc-text">简写命令：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常见问题"><span class="toc-number">9.</span> <span class="toc-text">常见问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#图床"><span class="toc-number">10.</span> <span class="toc-text">图床</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#推荐阅读"><span class="toc-number">11.</span> <span class="toc-text">推荐阅读</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考链接"><span class="toc-number">12.</span> <span class="toc-text">参考链接</span></a></li></ol>
 </div>
 <style>
     .left-col .switch-btn,
