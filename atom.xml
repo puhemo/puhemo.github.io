@@ -100,7 +100,7 @@
     <link href="http://puhemo.tk/2016/06/07/python/"/>
     <id>http://puhemo.tk/2016/06/07/python/</id>
     <published>2016-06-07T11:29:35.000Z</published>
-    <updated>2016-06-07T14:56:50.000Z</updated>
+    <updated>2016-06-07T15:31:52.000Z</updated>
     
     <content type="html">&lt;p&gt;  简单记录个人学习 大家的编程 (Python 入门)的学习记录和相关资料。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -217,19 +217,13 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://sololearn.com/Play/Python&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SoloLearn&lt;/a&gt;: 编程在线学习平台&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;Books&quot;&gt;&lt;a href=&quot;#Books&quot; class=&quot;headerlink&quot; title=&quot;Books&quot;&gt;&lt;/a&gt;Books&lt;/h3&gt;&lt;ul&gt;
+&lt;h3 id=&quot;Books&quot;&gt;&lt;a href=&quot;#Books&quot; class=&quot;headerlink&quot; title=&quot;Books&quot;&gt;&lt;/a&gt;Books&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;http://greenteapress.com/wp/think-python/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Think Python: How to Think Like a Computer Scientist&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://openbookproject.net/thinkcs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;How to Think Like a Computer Scientist: Learning with Python&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://learnpythonthehardway.org/book/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;strong&gt;Learn Python the Hard Way&lt;/strong&gt;&lt;/a&gt;: 练习册&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://inventwithpython.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Inventwithpython&lt;/a&gt;: 游戏设计&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://python.swaroopch.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;A Byte of Python&lt;/a&gt;: For Python3&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 </content>
     
     <summary type="html">
