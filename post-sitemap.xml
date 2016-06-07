@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://puhemo.tk/2016/06/07/test/</loc>
+        <lastmod>2016-06-07T12:23:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://puhemo.tk/2016/06/07/hexo-top/</loc>
         <lastmod>2016-06-07T12:07:49.000Z</lastmod>
         <changefreq>weekly</changefreq>

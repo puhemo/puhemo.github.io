@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-07T12:07:49.000Z</updated>
+  <updated>2016-06-07T12:23:20.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -14,6 +14,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://puhemo.tk/2016/06/07/test/"/>
+    <id>http://puhemo.tk/2016/06/07/test/</id>
+    <published>2016-06-07T12:22:54.000Z</published>
+    <updated>2016-06-07T12:23:20.000Z</updated>
+    
+    <content type="html">&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;form id=&amp;quot;search-form&amp;quot;&amp;gt; &amp;lt;!-- 搜索框相关 --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;lt;input type=&amp;quot;text&amp;quot; id=&amp;quot;local-search-input&amp;quot; name=&amp;quot;q&amp;quot; results=&amp;quot;0&amp;quot; placeholder=&amp;quot;search...&amp;quot; class=&amp;quot;search form-control&amp;quot; autocomplete=&amp;quot;off&amp;quot; autocorrect=&amp;quot;off&amp;quot;/&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;lt;i class=&amp;quot;fa fa-times&amp;quot; onclick=&amp;quot;resetSearch()&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;!-- 清空/重置搜索框 --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;/form&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;div id=&amp;quot;local-search-result&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;!-- 搜索结果区 --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;p class=&amp;apos;no-result&amp;apos;&amp;gt;No results found &amp;lt;/p&amp;gt; &amp;lt;!-- 无匹配时显示，注意请在 CSS 中设置默认隐藏 --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hexo技巧－文章置顶</title>
