@@ -56,8 +56,6 @@
       <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
     
     
-      <category term="Python" scheme="http://puhemo.tk/tags/Python/"/>
-    
       <category term="Windows" scheme="http://puhemo.tk/tags/Windows/"/>
     
       <category term="Commands" scheme="http://puhemo.tk/tags/Commands/"/>
@@ -65,6 +63,8 @@
       <category term="Mac" scheme="http://puhemo.tk/tags/Mac/"/>
     
       <category term="Linux" scheme="http://puhemo.tk/tags/Linux/"/>
+    
+      <category term="Python" scheme="http://puhemo.tk/tags/Python/"/>
     
   </entry>
   
@@ -100,7 +100,7 @@
     <link href="http://puhemo.tk/2016/06/07/python/"/>
     <id>http://puhemo.tk/2016/06/07/python/</id>
     <published>2016-06-07T11:29:35.000Z</published>
-    <updated>2016-06-07T14:38:58.000Z</updated>
+    <updated>2016-06-07T14:41:02.000Z</updated>
     
     <content type="html">&lt;p&gt;  简单记录个人学习 大家的编程 (Python 入门)的学习记录和相关资料。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
