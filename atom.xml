@@ -56,6 +56,8 @@
       <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
     
     
+      <category term="Python" scheme="http://puhemo.tk/tags/Python/"/>
+    
       <category term="Windows" scheme="http://puhemo.tk/tags/Windows/"/>
     
       <category term="Commands" scheme="http://puhemo.tk/tags/Commands/"/>
@@ -63,8 +65,6 @@
       <category term="Mac" scheme="http://puhemo.tk/tags/Mac/"/>
     
       <category term="Linux" scheme="http://puhemo.tk/tags/Linux/"/>
-    
-      <category term="Python" scheme="http://puhemo.tk/tags/Python/"/>
     
   </entry>
   
@@ -341,7 +341,7 @@
     <link href="http://puhemo.tk/2016/06/05/markdown/"/>
     <id>http://puhemo.tk/2016/06/05/markdown/</id>
     <published>2016-06-05T11:30:43.000Z</published>
-    <updated>2016-06-06T16:06:13.000Z</updated>
+    <updated>2016-06-07T15:42:09.000Z</updated>
     
     <content type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt; 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。&lt;/blockquote&gt;
 
@@ -380,23 +380,18 @@
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;**A** #这是粗体&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;*B* #这是斜体&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;表格&quot;&gt;&lt;a href=&quot;#表格&quot; class=&quot;headerlink&quot; title=&quot;表格&quot;&gt;&lt;/a&gt;表格&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt; 的表格功能比较难用，&lt;a href=&quot;http://www.typora.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Typora&lt;/a&gt;提供了像 Office 一样的表格编辑能力。通过菜单栏或快捷键可以插入表格，&lt;a href=&quot;http://www.typora.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Typora&lt;/a&gt; 会弹出一个表格插入设置，你可以预先设定好行数和列数。&lt;/p&gt;
 &lt;p&gt;示例：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;| Tables        | Are           | Cool  |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| ------------- |:-------------:| -----:|&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| col 3 is      | right-aligned | $1600 |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| col 2 is      | centered      |   $12 |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| zebra stripes | are neat      |    $1 |&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;效果：&lt;br&gt;| Tables        |      Are      |  Cool |&lt;br&gt;| ————- | :———–: | —-: |&lt;br&gt;| col 3 is      | right-aligned | $1600 |&lt;br&gt;| col 2 is      |   centered    |   $12 |&lt;br&gt;| zebra stripes |   are neat    |    $1 |&lt;/p&gt;
-&lt;h3 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;代码框：&lt;br&gt;用两个反引号 ` 把中间的代码包裹起来，如 &lt;/p&gt;
+&lt;p&gt;效果：&lt;br&gt;|    Tables     |      Are      | Cool  |&lt;br&gt;| :———–: | :———–: | :—: |&lt;br&gt;|   col 3 is    | right-aligned | $1600 |&lt;br&gt;|   col 2 is    |   centered    |  $12  |&lt;br&gt;| zebra stripes |   are neat    |  $1   |&lt;/p&gt;
+&lt;h3 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;代码框：&lt;br&gt;  用两个反引号 ` 把中间的代码包裹起来，如 &lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;`code`&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;代码区域：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;缩进 4 个空格或是 1 个制表符（Tab键）&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;​&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;    code&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;​&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;六个反引号也可以：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;​&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;三个反引号(```)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;代码&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;三个反引号(```)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;​&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;&lt;p&gt;代码区域：&lt;br&gt;2.1 缩进 4 个空格或是 1 个制表符（Tab键）&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;code&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;2.2 六个反引号：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;三个反引号(```)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;代码&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;三个反引号(```)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;分割线&quot;&gt;&lt;a href=&quot;#分割线&quot; class=&quot;headerlink&quot; title=&quot;分割线&quot;&gt;&lt;/a&gt;分割线&lt;/h3&gt;&lt;p&gt;另起一行，连续输入三个星号&lt;code&gt;***&lt;/code&gt;&lt;/p&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;进阶技巧&quot;&gt;&lt;a href=&quot;#进阶技巧&quot; class=&quot;headerlink&quot; title=&quot;进阶技巧&quot;&gt;&lt;/a&gt;进阶技巧&lt;/h2&gt;&lt;h3 id=&quot;分割线&quot;&gt;&lt;a href=&quot;#分割线&quot; class=&quot;headerlink&quot; title=&quot;分割线&quot;&gt;&lt;/a&gt;分割线&lt;/h3&gt;&lt;p&gt;另起一行，连续输入三个星号&lt;code&gt;***&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&quot;首行缩进&quot;&gt;&lt;a href=&quot;#首行缩进&quot; class=&quot;headerlink&quot; title=&quot;首行缩进&quot;&gt;&lt;/a&gt;首行缩进&lt;/h3&gt;&lt;p&gt;在段首加入&lt;code&gt;&amp;amp;ensp;&lt;/code&gt;来输入一个半方空格.加入&lt;code&gt;&amp;amp;emsp;&lt;/code&gt;来输入一个全方空格&lt;br&gt;&lt;strong&gt;示例&lt;/strong&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;&amp;amp;emsp;&amp;amp;emsp;一语未了，只听后院中有人笑声，说：“我来迟了，不曾迎接远客！&amp;quot;&lt;/code&gt;&lt;/p&gt;
