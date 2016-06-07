@@ -47,7 +47,7 @@
     <link href="http://puhemo.tk/2016/06/07/python/"/>
     <id>http://puhemo.tk/2016/06/07/python/</id>
     <published>2016-06-07T11:29:35.000Z</published>
-    <updated>2016-06-07T11:31:20.000Z</updated>
+    <updated>2016-06-07T12:34:20.000Z</updated>
     
     <content type="html">&lt;p&gt;  简单记录个人学习 大家的编程 (Python 入门)的学习记录和相关资料。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -86,12 +86,8 @@
 &lt;/ul&gt;
 &lt;h4 id=&quot;Week-2&quot;&gt;&lt;a href=&quot;#Week-2&quot; class=&quot;headerlink&quot; title=&quot;Week 2&quot;&gt;&lt;/a&gt;&lt;strong&gt;Week 2&lt;/strong&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Installingand Using Python&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Installing     Python – Overview&lt;/p&gt;
-&lt;p&gt;-  Using Python in this Class&lt;/p&gt;
-&lt;p&gt;-  Python Code Playground&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Recommended:     Install Python - Windows 8&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Installing     Python – Overview&lt;br&gt; -  Using Python in this Class&lt;br&gt; -  Python Code Playground&lt;/li&gt;
+&lt;li&gt;Recommended:     Install Python - Windows 8&lt;/li&gt;
 &lt;li&gt;Recommended:     Using Python - Macintosh&lt;/li&gt;
 &lt;li&gt;Recommended:     Using Python on a Raspberry Pi&lt;/li&gt;
 &lt;li&gt;Recommended:     Install Python - Windows Vista&lt;/li&gt;

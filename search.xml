@@ -52,12 +52,8 @@
 </ul>
 <h4 id="Week-2"><a href="#Week-2" class="headerlink" title="Week 2"></a><strong>Week 2</strong></h4><p><strong>Installingand Using Python</strong></p>
 <ul>
-<li><p>Installing     Python – Overview</p>
-<p>-  Using Python in this Class</p>
-<p>-  Python Code Playground</p>
-</li>
-<li><p>Recommended:     Install Python - Windows 8</p>
-</li>
+<li>Installing     Python – Overview<br> -  Using Python in this Class<br> -  Python Code Playground</li>
+<li>Recommended:     Install Python - Windows 8</li>
 <li>Recommended:     Using Python - Macintosh</li>
 <li>Recommended:     Using Python on a Raspberry Pi</li>
 <li>Recommended:     Install Python - Windows Vista</li>
