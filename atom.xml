@@ -577,7 +577,7 @@ hexo d
     <link href="http://puhemo.tk/2016/06/02/hexo-github/"/>
     <id>http://puhemo.tk/2016/06/02/hexo-github/</id>
     <published>2016-06-02T07:11:13.000Z</published>
-    <updated>2016-06-07T15:20:22.000Z</updated>
+    <updated>2016-06-07T15:24:35.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.v2ex.co/5bb7J7NT.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;想熟悉&lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;markdown&lt;/a&gt;和纪录一些东西，于是有了这个blog和这篇文章！&lt;/p&gt;
@@ -808,12 +808,15 @@ deploy:
 └── README.md  #说明文档
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;如何设置「阅读全文」？&quot;&gt;&lt;a href=&quot;#如何设置「阅读全文」？&quot; class=&quot;headerlink&quot; title=&quot;如何设置「阅读全文」？&quot;&gt;&lt;/a&gt;如何设置「阅读全文」？&lt;/h3&gt;&lt;p&gt;在文章中使用 &lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt; 手动进行截断，Hexo 提供的方式&lt;/p&gt;
 &lt;h3 id=&quot;设置-RSS&quot;&gt;&lt;a href=&quot;#设置-RSS&quot; class=&quot;headerlink&quot; title=&quot;设置 RSS&quot;&gt;&lt;/a&gt;设置 RSS&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;添加feed插件&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-feed --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;li&gt;&lt;p&gt;添加feed插件&lt;br&gt;&lt;code&gt;$ npm install hexo-generator-feed --save&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;自定义feed插件:&lt;br&gt;修改_config.yml，增加以下内容&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;#Feed Atom&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;feed:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  type: atom&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  path: atom.xml&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  limit: 20&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
+&lt;pre&gt;&lt;code&gt;#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;type - Feed type. (atom/rss2)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;path - Feed path. (Default: atom.xml/rss2.xml)&lt;/li&gt;
