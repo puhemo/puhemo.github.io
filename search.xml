@@ -5,13 +5,14 @@
     
     <entry>
       <title><![CDATA[常用终端命令]]></title>
-      <url>http://puhemo.tk/2016/06/07/%E5%B8%B8%E7%94%A8%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4/</url>
+      <url>http://puhemo.tk/2016/06/07/commands/</url>
       <content type="html"><![CDATA[<h2 id="Windows-Commands"><a href="#Windows-Commands" class="headerlink" title="Windows Commands"></a>Windows Commands</h2><p>These are commands that may be used in the default command interpreter, cmd.exe, as well as Powershell.<br><a id="more"></a></p>
 <ul>
 <li><code>cd</code> - display current directory. Short for “change directory”.</li>
 <li><code>cd ..</code> - move up the directory tree one level. Doing this from C:\Users\JohnSmith\Desktop will take you to C:\Users\JohnSmith, for example.</li>
 <li><code>cd \</code> - brings you back to the root of the current drive</li>
 <li><code>cls</code> - Clear the screen</li>
+<li><code>X</code>: - takes you to the last used location on drive X (typically, use C: or D:). It defaults to the root directory if you have not previously cd’d to anywhere on that drive.</li>
 </ul>
 <h2 id="Mac-amp-GNU-Linux-Commands"><a href="#Mac-amp-GNU-Linux-Commands" class="headerlink" title="Mac &amp; GNU/Linux Commands"></a>Mac &amp; GNU/Linux Commands</h2><p>These are commands that may be used in a common command interpreter, bash, which is installed by default on most Mac or GNU/Linux systems, but may not apply 100% in other command shells, such as fish, or zsh for instance.</p>
 <ul>
@@ -765,10 +766,10 @@ hexo d #hexo deploy
 <h2 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h2><p>推荐使用<a href="http://www.qiniu.com/" target="_blank" rel="external">七牛</a>，还可以使用<a href="http://imgur.com/" target="_blank" rel="external">imgur</a>(国内不稳定)</p>
 <hr>
 <h2 id="推荐阅读"><a href="#推荐阅读" class="headerlink" title="推荐阅读"></a>推荐阅读</h2><ul>
-<li><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo Docs</a> - <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">https://hexo.io/zh-cn/docs/</a></li>
-<li><a href="https://help.github.com/articles/quick-start-setting-up-a-custom-domain/" target="_blank" rel="external">Quick start: Setting up a custom domain</a>: <a href="https://help.github.com/articles/quick-start-setting-up-a-custom-domain/" target="_blank" rel="external">https://help.github.com/articles/quick-start-setting-up-a-custom-domain/</a></li>
-<li><a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="external">hexo-generator-feed</a>: <a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="external">https://github.com/hexojs/hexo-generator-feed</a></li>
-<li><a href="http://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="external">Next主题配置</a>: <a href="http://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="external">http://theme-next.iissnan.com/theme-settings.html</a></li>
+<li><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo Docs</a></li>
+<li><a href="https://help.github.com/articles/quick-start-setting-up-a-custom-domain/" target="_blank" rel="external">Quick start: Setting up a custom domain</a></li>
+<li><a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="external">hexo-generator-feed</a></li>
+<li><a href="http://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="external">Next主题配置</a></li>
 </ul>
 <hr>
 <h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ul>

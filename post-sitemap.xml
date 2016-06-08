@@ -7,6 +7,30 @@
     </url>
 
     <url>
+        <loc>http://puhemo.tk/2016/06/02/hexo-github/</loc>
+        <lastmod>2016-06-08T11:24:48.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/2016/06/07/commands/</loc>
+        <lastmod>2016-06-08T11:21:54.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/2016/06/05/ebook-site/</loc>
+        <lastmod>2016-06-08T11:20:38.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://puhemo.tk/2016/06/05/markdown/</loc>
         <lastmod>2016-06-07T15:42:09.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,22 +41,6 @@
     <url>
         <loc>http://puhemo.tk/2016/06/07/python/</loc>
         <lastmod>2016-06-07T15:31:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://puhemo.tk/2016/06/02/hexo-github/</loc>
-        <lastmod>2016-06-07T15:30:17.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://puhemo.tk/2016/06/07/%E5%B8%B8%E7%94%A8%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4/</loc>
-        <lastmod>2016-06-07T14:21:07.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -65,14 +73,6 @@
     <url>
         <loc>http://puhemo.tk/2016/06/03/hexo-code/</loc>
         <lastmod>2016-06-06T15:34:31.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://puhemo.tk/2016/06/05/ebook-site/</loc>
-        <lastmod>2016-06-06T15:33:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

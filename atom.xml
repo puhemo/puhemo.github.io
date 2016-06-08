@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-07T14:21:07.000Z</updated>
+  <updated>2016-06-08T11:21:54.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>常用终端命令</title>
-    <link href="http://puhemo.tk/2016/06/07/%E5%B8%B8%E7%94%A8%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4/"/>
-    <id>http://puhemo.tk/2016/06/07/常用终端命令/</id>
+    <link href="http://puhemo.tk/2016/06/07/commands/"/>
+    <id>http://puhemo.tk/2016/06/07/commands/</id>
     <published>2016-06-07T13:10:34.000Z</published>
-    <updated>2016-06-07T14:21:07.000Z</updated>
+    <updated>2016-06-08T11:21:54.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;Windows-Commands&quot;&gt;&lt;a href=&quot;#Windows-Commands&quot; class=&quot;headerlink&quot; title=&quot;Windows Commands&quot;&gt;&lt;/a&gt;Windows Commands&lt;/h2&gt;&lt;p&gt;These are commands that may be used in the default command interpreter, cmd.exe, as well as Powershell.&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -28,6 +28,7 @@
 &lt;li&gt;&lt;code&gt;cd ..&lt;/code&gt; - move up the directory tree one level. Doing this from C:\Users\JohnSmith\Desktop will take you to C:\Users\JohnSmith, for example.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;cd \&lt;/code&gt; - brings you back to the root of the current drive&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;cls&lt;/code&gt; - Clear the screen&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;X&lt;/code&gt;: - takes you to the last used location on drive X (typically, use C: or D:). It defaults to the root directory if you have not previously cd’d to anywhere on that drive.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Mac-amp-GNU-Linux-Commands&quot;&gt;&lt;a href=&quot;#Mac-amp-GNU-Linux-Commands&quot; class=&quot;headerlink&quot; title=&quot;Mac &amp;amp; GNU/Linux Commands&quot;&gt;&lt;/a&gt;Mac &amp;amp; GNU/Linux Commands&lt;/h2&gt;&lt;p&gt;These are commands that may be used in a common command interpreter, bash, which is installed by default on most Mac or GNU/Linux systems, but may not apply 100% in other command shells, such as fish, or zsh for instance.&lt;/p&gt;
 &lt;ul&gt;
@@ -244,7 +245,7 @@
     <link href="http://puhemo.tk/2016/06/05/ebook-site/"/>
     <id>http://puhemo.tk/2016/06/05/ebook-site/</id>
     <published>2016-06-05T11:48:11.000Z</published>
-    <updated>2016-06-06T15:33:54.000Z</updated>
+    <updated>2016-06-08T11:20:38.000Z</updated>
     
     <content type="html">&lt;p&gt;本文基于文章《&lt;a href=&quot;http://www.lefashn.com/other/resource.htm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;免费电子书网站汇总&lt;/a&gt;》修改而来，在此感谢原作者&lt;a href=&quot;http://weibo.com/p/1005052142733793&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;设定控&lt;/a&gt;。原文久未更新，有些网站已不再适用，故修改以便个人使用。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;中文电子书网站&quot;&gt;&lt;a href=&quot;#中文电子书网站&quot; class=&quot;headerlink&quot; title=&quot;中文电子书网站&quot;&gt;&lt;/a&gt;中文电子书网站&lt;/h2&gt;&lt;ol&gt;
@@ -332,7 +333,7 @@
       <category term="书" scheme="http://puhemo.tk/categories/%E4%B9%A6/"/>
     
     
-      <category term="电子书" scheme="http://puhemo.tk/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
+      <category term="Ebook" scheme="http://puhemo.tk/tags/Ebook/"/>
     
   </entry>
   
@@ -566,7 +567,7 @@ hexo d
     <link href="http://puhemo.tk/2016/06/02/hexo-github/"/>
     <id>http://puhemo.tk/2016/06/02/hexo-github/</id>
     <published>2016-06-02T07:11:13.000Z</published>
-    <updated>2016-06-07T15:30:17.000Z</updated>
+    <updated>2016-06-08T11:24:48.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.v2ex.co/5bb7J7NT.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;想熟悉&lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;markdown&lt;/a&gt;和纪录一些东西，于是有了这个blog和这篇文章！&lt;/p&gt;
@@ -919,10 +920,10 @@ hexo d #hexo deploy
 &lt;h2 id=&quot;图床&quot;&gt;&lt;a href=&quot;#图床&quot; class=&quot;headerlink&quot; title=&quot;图床&quot;&gt;&lt;/a&gt;图床&lt;/h2&gt;&lt;p&gt;推荐使用&lt;a href=&quot;http://www.qiniu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;七牛&lt;/a&gt;，还可以使用&lt;a href=&quot;http://imgur.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;imgur&lt;/a&gt;(国内不稳定)&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;推荐阅读&quot;&gt;&lt;a href=&quot;#推荐阅读&quot; class=&quot;headerlink&quot; title=&quot;推荐阅读&quot;&gt;&lt;/a&gt;推荐阅读&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://hexo.io/zh-cn/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo Docs&lt;/a&gt; - &lt;a href=&quot;https://hexo.io/zh-cn/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://hexo.io/zh-cn/docs/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/quick-start-setting-up-a-custom-domain/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Quick start: Setting up a custom domain&lt;/a&gt;: &lt;a href=&quot;https://help.github.com/articles/quick-start-setting-up-a-custom-domain/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://help.github.com/articles/quick-start-setting-up-a-custom-domain/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/hexojs/hexo-generator-feed&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-generator-feed&lt;/a&gt;: &lt;a href=&quot;https://github.com/hexojs/hexo-generator-feed&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/hexojs/hexo-generator-feed&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://theme-next.iissnan.com/theme-settings.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Next主题配置&lt;/a&gt;: &lt;a href=&quot;http://theme-next.iissnan.com/theme-settings.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://theme-next.iissnan.com/theme-settings.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hexo.io/zh-cn/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/quick-start-setting-up-a-custom-domain/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Quick start: Setting up a custom domain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hexojs/hexo-generator-feed&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-generator-feed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://theme-next.iissnan.com/theme-settings.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Next主题配置&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;参考链接&quot;&gt;&lt;a href=&quot;#参考链接&quot; class=&quot;headerlink&quot; title=&quot;参考链接&quot;&gt;&lt;/a&gt;参考链接&lt;/h2&gt;&lt;ul&gt;
