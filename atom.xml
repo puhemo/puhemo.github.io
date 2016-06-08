@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-08T11:21:54.000Z</updated>
+  <updated>2016-06-08T11:36:20.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -14,6 +14,102 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python语法--Variable</title>
+    <link href="http://puhemo.tk/2016/06/08/Python%E8%AF%AD%E6%B3%95-Variable/"/>
+    <id>http://puhemo.tk/2016/06/08/Python语法-Variable/</id>
+    <published>2016-06-08T11:33:49.000Z</published>
+    <updated>2016-06-08T11:36:20.000Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;Python语法–Variable&quot;&gt;&lt;a href=&quot;#Python语法–Variable&quot; class=&quot;headerlink&quot; title=&quot;Python语法–Variable&quot;&gt;&lt;/a&gt;Python语法–Variable&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;学习笔记&lt;/strong&gt;：本文属于自用笔记，仅供参考。&lt;/p&gt;
+&lt;h2 id=&quot;Variable-Assignment&quot;&gt;&lt;a href=&quot;#Variable-Assignment&quot; class=&quot;headerlink&quot; title=&quot;Variable Assignment&quot;&gt;&lt;/a&gt;Variable Assignment&lt;/h2&gt;&lt;p&gt;Python Python语法–Variable are lines of code that do something. The most common type of statement you’ll probably come across are assignment statements.&lt;/p&gt;
+&lt;p&gt;&amp;lt;– more –&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;N.B.:&lt;/strong&gt; Although we can understand simple programs using this description, and many programming languages, including C, C++, and Java, do exactly this, Python doesn’t. Instead, a variable points to a storage location containing its current value, and so does every variable with that same value. If its value is changed by assignment then, instead of changing its storage location to that value, a new location is set to the value if it’s not already in memory, then the variable is changed to point to that new location–but other variables pointing to the old location still point there. Moreover, Python assumes small integers (-5 to +256) are very likely to be used, so they’re automatically stored when the system is initialized, ready to be used (a process called memoization). So, to be quite accurate:&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;x = 5  # sets variable x to point to the location storing 5 (memoized during system initialization)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;y = x  # sets y to point to the location x presently does (so the location storing 5)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;x = x + 1 # sets variable x to point to the location storing 6 (memoized during system initialization)--but y still points to 5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;y = 3.14  # stores 3.14 in a new memory location unless it has already been used and so is already available (has been memoized), and sets y to point to it &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;w = y  # sets w to point to the same value y presently points to (3.14)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;z = 3.14  # sets z to point to 3.14, the same value as y and w presently point to&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;So instead of thinking of a variable being a named location whose value gets changed, it’s more accurate to think of a variable as a name on a sticky note that gets moved and stuck to a location storing its new value (after storing that value if it hasn’t been used previously). Note that we have just one location storing value 3.14, but three variables (w, y, and z) presently share that value. If any one of them changes, the value in that location doesn’t change; instead, that variable now points to a different location containing that new value and the other two still “point to” 3.14.&lt;/p&gt;
+&lt;h2 id=&quot;Assigning-from-Mathematical-Expressions&quot;&gt;&lt;a href=&quot;#Assigning-from-Mathematical-Expressions&quot; class=&quot;headerlink&quot; title=&quot;Assigning from Mathematical Expressions&quot;&gt;&lt;/a&gt;Assigning from Mathematical Expressions&lt;/h2&gt;&lt;p&gt;More complex mathematical expressions can be evaluated for variable assignment than just numeric literals. This can be achieved by way of the following operators:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Addition ( + )&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;x = 5 + 10&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Subtraction ( - )&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;x = 5 - 10&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Multiplication ( * )&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;x = 5 * 10&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Power ( ** )&lt;ul&gt;
+&lt;li&gt;Exponentiation ( 510 )&lt;code&gt;x = 5**10&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt; operator can also be utilized for root calculations since roots are just fraction exponents ( 10 = 101/2 )`x = 10&lt;/strong&gt;.5`&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Division ( / )&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;x = 5  / 10&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Modulus ( % )&lt;ul&gt;
+&lt;li&gt;Used to return the remainder of a division instead of the quotient answer ( 10 % 3 = 1, since 3 * 3 = 9 and 10 - 9 leaves a remainder 1 )&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;x = 10 % 3&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Nota Bene:&lt;/em&gt; There is a marked difference between &lt;em&gt;integer number&lt;/em&gt; division and &lt;em&gt;floating point number&lt;/em&gt; division. Because Python treats these two numeric types distinctly different, you might get erroneous answers when doing division operations without precaution. (read more on &lt;strong&gt;Data Types: Other Caveats&lt;/strong&gt; below)&lt;/p&gt;
+&lt;h2 id=&quot;参考链接&quot;&gt;&lt;a href=&quot;#参考链接&quot; class=&quot;headerlink&quot; title=&quot;参考链接&quot;&gt;&lt;/a&gt;参考链接&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://share.coursera.org/wiki/index.php/Pythonlearn:resources-week01&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pythonlearn:resources-week01&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Python语法–Variable&quot;&gt;&lt;a href=&quot;#Python语法–Variable&quot; class=&quot;headerlink&quot; title=&quot;Python语法–Variable&quot;&gt;&lt;/a&gt;Python语法–Variable&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;学习
+    
+    </summary>
+    
+      <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
+    
+    
+      <category term="Python" scheme="http://puhemo.tk/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python语法--Conditional Steps, repeated steps, loop</title>
+    <link href="http://puhemo.tk/2016/06/08/python-loop/"/>
+    <id>http://puhemo.tk/2016/06/08/python-loop/</id>
+    <published>2016-06-08T11:31:07.000Z</published>
+    <updated>2016-06-08T11:35:31.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;strong&gt;学习笔记&lt;/strong&gt;：本文属于自用笔记，仅供参考。&lt;/p&gt;
+&lt;p&gt;&amp;lt;– more –&amp;gt;&lt;/p&gt;
+&lt;h2 id=&quot;Conditional-Steps-条件语句-if-…-elif-else&quot;&gt;&lt;a href=&quot;#Conditional-Steps-条件语句-if-…-elif-else&quot; class=&quot;headerlink&quot; title=&quot;Conditional Steps(条件语句) - if … elif .. else&quot;&gt;&lt;/a&gt;Conditional Steps(条件语句) - if … elif .. else&lt;/h2&gt;&lt;p&gt;Python条件语句是通过一条或多条语句的执行结果（True或者False）来决定执行的代码块。&lt;/p&gt;
+  &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;if (expression):&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   (command)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;elif (expression):&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   (command)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;else:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   (command)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Conditional-Steps-条件语句-Multi-elif-if-…-elif-else&quot;&gt;&lt;a href=&quot;#Conditional-Steps-条件语句-Multi-elif-if-…-elif-else&quot; class=&quot;headerlink&quot; title=&quot;Conditional Steps(条件语句) (Multi elif) - if … elif .. else&quot;&gt;&lt;/a&gt;Conditional Steps(条件语句) (Multi elif) - if … elif .. else&lt;/h2&gt;  &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;if x &amp;lt; 0:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    x = 0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    print &amp;apos;negative changed to zero&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;elif x == 0:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    print &amp;apos;zero&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;elif x == 1:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    print &amp;apos;single&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;elif x == 2:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    print &amp;apos;double&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;else:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    print &amp;apos;more&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Repeated-steps（循环语句）-while&quot;&gt;&lt;a href=&quot;#Repeated-steps（循环语句）-while&quot; class=&quot;headerlink&quot; title=&quot;Repeated steps（循环语句） - while&quot;&gt;&lt;/a&gt;Repeated steps（循环语句） - while&lt;/h2&gt;&lt;p&gt;Python 编程中 while 语句用于循环执行程序，即在某条件下，循环执行某段程序，以处理需要重复处理的相同任务&lt;/p&gt;
+  &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;while i &amp;lt; 6:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    print &amp;quot;At the top i is %d&amp;quot; % i&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Repeated-steps（循环语句）-another-example&quot;&gt;&lt;a href=&quot;#Repeated-steps（循环语句）-another-example&quot; class=&quot;headerlink&quot; title=&quot;Repeated steps（循环语句） - another example&quot;&gt;&lt;/a&gt;Repeated steps（循环语句） - another example&lt;/h2&gt;&lt;p&gt;Python 编程中 while 语句用于循环执行程序，即在某条件下，循环执行某段程序，以处理需要重复处理的相同任务&lt;/p&gt;
+&lt;p&gt;  Assign a value to i which is greater than 2&lt;/p&gt;
+  &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;while i &amp;gt; 2:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    print &amp;quot;Right now i is %d&amp;quot; % i&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    i=i-1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Loop（循环语句）-for&quot;&gt;&lt;a href=&quot;#Loop（循环语句）-for&quot; class=&quot;headerlink&quot; title=&quot;Loop（循环语句） - for&quot;&gt;&lt;/a&gt;Loop（循环语句） - for&lt;/h2&gt;&lt;p&gt;Python for循环可以遍历任何序列的项目，如一个列表或者一个字符串&lt;/p&gt;
+  &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;for (y) in (x):&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    (command)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;参考链接&quot;&gt;&lt;a href=&quot;#参考链接&quot; class=&quot;headerlink&quot; title=&quot;参考链接&quot;&gt;&lt;/a&gt;参考链接&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://share.coursera.org/wiki/index.php/Pythonlearn:resources-week01&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pythonlearn:resources-week01&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.runoob.com/python/python-if-statement.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Python 基础教程&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;学习笔记&lt;/strong&gt;：本文属于自用笔记，仅供参考。&lt;/p&gt;
+&lt;p&gt;&amp;lt;– more –&amp;gt;&lt;/p&gt;
+&lt;h2 id=&quot;Conditional-Steps-条件语句-if-…-elif-else&quot;&gt;&lt;a href=&quot;#Conditional-Ste
+    
+    </summary>
+    
+      <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
+    
+    
+      <category term="Python" scheme="http://puhemo.tk/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>常用终端命令</title>
@@ -101,7 +197,7 @@
     <link href="http://puhemo.tk/2016/06/07/python/"/>
     <id>http://puhemo.tk/2016/06/07/python/</id>
     <published>2016-06-07T11:29:35.000Z</published>
-    <updated>2016-06-07T15:31:52.000Z</updated>
+    <updated>2016-06-08T11:37:18.000Z</updated>
     
     <content type="html">&lt;p&gt;  简单记录个人学习 大家的编程 (Python 入门)的学习记录和相关资料。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -109,6 +205,13 @@
 &lt;li&gt;20160607: 完成ChapterOne&lt;/li&gt;
 &lt;li&gt;20160607: 完成Getting Started with Python学习框架&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&quot;学习笔记&quot;&gt;&lt;a href=&quot;#学习笔记&quot; class=&quot;headerlink&quot; title=&quot;学习笔记&quot;&gt;&lt;/a&gt;学习笔记&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;20160608: [Python语法–Conditional Steps, repeated steps, loop][2]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;20160607: [常用终端命令][1]&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;[1]:&lt;br&gt;[2]:&lt;/p&gt;
 &lt;h2 id=&quot;教材&quot;&gt;&lt;a href=&quot;#教材&quot; class=&quot;headerlink&quot; title=&quot;教材&quot;&gt;&lt;/a&gt;教材&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Python for Informatics: Exploring Information&lt;/p&gt;
 &lt;ul&gt;

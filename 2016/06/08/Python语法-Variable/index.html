@@ -15,19 +15,19 @@
 
 
 
-<meta name="description" content="隐藏文件命令：defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder
-显示文件命令：defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder">
+<meta name="description" content="Python语法–Variable学习笔记：本文属于自用笔记，仅供参考。
+Variable AssignmentPython Python语法–Variable are lines of code that do something. The most common type of statement you’ll probably come across are assignment state">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Mac怎么显示隐藏文件命令">
-<meta property="og:url" content="http://puhemo.tk/2016/06/03/mac-hide-file/index.html">
+<meta property="og:title" content="Python语法--Variable">
+<meta property="og:url" content="http://puhemo.tk/2016/06/08/Python语法-Variable/index.html">
 <meta property="og:site_name" content="Puhemo's blog">
-<meta property="og:description" content="隐藏文件命令：defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder
-显示文件命令：defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder">
-<meta property="og:updated_time" content="2016-06-06T15:35:12.000Z">
+<meta property="og:description" content="Python语法–Variable学习笔记：本文属于自用笔记，仅供参考。
+Variable AssignmentPython Python语法–Variable are lines of code that do something. The most common type of statement you’ll probably come across are assignment state">
+<meta property="og:updated_time" content="2016-06-08T11:36:20.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mac怎么显示隐藏文件命令">
-<meta name="twitter:description" content="隐藏文件命令：defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder
-显示文件命令：defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder">
+<meta name="twitter:title" content="Python语法--Variable">
+<meta name="twitter:description" content="Python语法–Variable学习笔记：本文属于自用笔记，仅供参考。
+Variable AssignmentPython Python语法–Variable are lines of code that do something. The most common type of statement you’ll probably come across are assignment state">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -59,7 +59,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>Mac怎么显示隐藏文件命令 | Puhemo&#39;s blog</title>
+<title>Python语法--Variable | Puhemo&#39;s blog</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -283,11 +283,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap"><article id="post-mac-hide-file" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-Python语法-Variable" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/06/03/mac-hide-file/" class="article-date">
-      <time datetime="2016-06-03T14:47:04.000Z" itemprop="datePublished">2016-06-03</time>
+      <a href="/2016/06/08/Python语法-Variable/" class="article-date">
+      <time datetime="2016-06-08T11:33:49.000Z" itemprop="datePublished">2016-06-08</time>
 </a>
     </div>
   
@@ -300,7 +300,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Mac怎么显示隐藏文件命令
+      Python语法--Variable
     </h1>
   
 
@@ -315,7 +315,7 @@
 
         
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mac/">mac</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python/">Python</a></li></ul>
     </div>
 
         <div class="clearfix"></div>
@@ -325,9 +325,44 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h3 id="隐藏文件命令："><a href="#隐藏文件命令：" class="headerlink" title="隐藏文件命令："></a>隐藏文件命令：</h3><pre><code>defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder
-</code></pre><h3 id="显示文件命令："><a href="#显示文件命令：" class="headerlink" title="显示文件命令："></a>显示文件命令：</h3><pre><code>defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
-</code></pre>
+        <h1 id="Python语法–Variable"><a href="#Python语法–Variable" class="headerlink" title="Python语法–Variable"></a>Python语法–Variable</h1><p><strong>学习笔记</strong>：本文属于自用笔记，仅供参考。</p>
+<h2 id="Variable-Assignment"><a href="#Variable-Assignment" class="headerlink" title="Variable Assignment"></a>Variable Assignment</h2><p>Python Python语法–Variable are lines of code that do something. The most common type of statement you’ll probably come across are assignment statements.</p>
+<p>&lt;– more –&gt;</p>
+<p><strong>N.B.:</strong> Although we can understand simple programs using this description, and many programming languages, including C, C++, and Java, do exactly this, Python doesn’t. Instead, a variable points to a storage location containing its current value, and so does every variable with that same value. If its value is changed by assignment then, instead of changing its storage location to that value, a new location is set to the value if it’s not already in memory, then the variable is changed to point to that new location–but other variables pointing to the old location still point there. Moreover, Python assumes small integers (-5 to +256) are very likely to be used, so they’re automatically stored when the system is initialized, ready to be used (a process called memoization). So, to be quite accurate:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">x = 5  # sets variable x to point to the location storing 5 (memoized during system initialization)</span><br><span class="line"></span><br><span class="line">y = x  # sets y to point to the location x presently does (so the location storing 5)</span><br><span class="line"></span><br><span class="line">x = x + 1 # sets variable x to point to the location storing 6 (memoized during system initialization)--but y still points to 5</span><br><span class="line"></span><br><span class="line">y = 3.14  # stores 3.14 in a new memory location unless it has already been used and so is already available (has been memoized), and sets y to point to it </span><br><span class="line"></span><br><span class="line">w = y  # sets w to point to the same value y presently points to (3.14)</span><br><span class="line"></span><br><span class="line">z = 3.14  # sets z to point to 3.14, the same value as y and w presently point to</span><br></pre></td></tr></table></figure>
+<p>So instead of thinking of a variable being a named location whose value gets changed, it’s more accurate to think of a variable as a name on a sticky note that gets moved and stuck to a location storing its new value (after storing that value if it hasn’t been used previously). Note that we have just one location storing value 3.14, but three variables (w, y, and z) presently share that value. If any one of them changes, the value in that location doesn’t change; instead, that variable now points to a different location containing that new value and the other two still “point to” 3.14.</p>
+<h2 id="Assigning-from-Mathematical-Expressions"><a href="#Assigning-from-Mathematical-Expressions" class="headerlink" title="Assigning from Mathematical Expressions"></a>Assigning from Mathematical Expressions</h2><p>More complex mathematical expressions can be evaluated for variable assignment than just numeric literals. This can be achieved by way of the following operators:</p>
+<ul>
+<li>Addition ( + )<ul>
+<li><code>x = 5 + 10</code></li>
+</ul>
+</li>
+<li>Subtraction ( - )<ul>
+<li><code>x = 5 - 10</code></li>
+</ul>
+</li>
+<li>Multiplication ( * )<ul>
+<li><code>x = 5 * 10</code></li>
+</ul>
+</li>
+<li>Power ( ** )<ul>
+<li>Exponentiation ( 510 )<code>x = 5**10</code></li>
+<li>The <strong> operator can also be utilized for root calculations since roots are just fraction exponents ( 10 = 101/2 )`x = 10</strong>.5`</li>
+</ul>
+</li>
+<li>Division ( / )<ul>
+<li><code>x = 5  / 10</code></li>
+</ul>
+</li>
+<li>Modulus ( % )<ul>
+<li>Used to return the remainder of a division instead of the quotient answer ( 10 % 3 = 1, since 3 * 3 = 9 and 10 - 9 leaves a remainder 1 )</li>
+<li><code>x = 10 % 3</code></li>
+</ul>
+</li>
+</ul>
+<p><em>Nota Bene:</em> There is a marked difference between <em>integer number</em> division and <em>floating point number</em> division. Because Python treats these two numeric types distinctly different, you might get erroneous answers when doing division operations without precaution. (read more on <strong>Data Types: Other Caveats</strong> below)</p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p><a href="https://share.coursera.org/wiki/index.php/Pythonlearn:resources-week01" target="_blank" rel="external">Pythonlearn:resources-week01</a></p>
+
       
     </div>
     
@@ -335,13 +370,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2016/06/03/mac-hide-file/">Mac怎么显示隐藏文件命令</a></p>
+        <p><span>本文标题:</span><a href="/2016/06/08/Python语法-Variable/">Python语法--Variable</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">Puhemo</a></p>
-        <p><span>发布时间:</span>2016-06-03, 22:47:04</p>
-        <p><span>最后更新:</span>2016-06-06, 23:35:12</p>
+        <p><span>发布时间:</span>2016-06-08, 19:33:49</p>
+        <p><span>最后更新:</span>2016-06-08, 19:36:20</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2016/06/03/mac-hide-file/" title="Mac怎么显示隐藏文件命令">http://puhemo.tk/2016/06/03/mac-hide-file/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://puhemo.tk/2016/06/03/mac-hide-file/　　作者: Puhemo" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2016/06/08/Python语法-Variable/" title="Python语法--Variable">http://puhemo.tk/2016/06/08/Python语法-Variable/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://puhemo.tk/2016/06/08/Python语法-Variable/　　作者: Puhemo" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -353,16 +388,10 @@
 
     <nav id="article-nav">
         
-            <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2016/06/03/hexo-code/">
-                    Hexo语法－插入代码块
-                </a>
-            </div>
-        
         
             <div id="article-nav-older" class="article-nav-title">
-                <a href="/2016/06/03/hexo-change-pc/">
-                    更换电脑如何转移Hexo
+                <a href="/2016/06/08/python-loop/">
+                    Python语法--Conditional Steps, repeated steps, loop
                 </a>
             </div>
         
@@ -373,7 +402,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#隐藏文件命令："><span class="toc-number">1.</span> <span class="toc-text">隐藏文件命令：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#显示文件命令："><span class="toc-number">2.</span> <span class="toc-text">显示文件命令：</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Python语法–Variable"><span class="toc-number">1.</span> <span class="toc-text">Python语法–Variable</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Variable-Assignment"><span class="toc-number">1.1.</span> <span class="toc-text">Variable Assignment</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Assigning-from-Mathematical-Expressions"><span class="toc-number">1.2.</span> <span class="toc-text">Assigning from Mathematical Expressions</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考链接"><span class="toc-number">1.3.</span> <span class="toc-text">参考链接</span></a></li></ol></li></ol>
 </div>
 <style>
     .left-col .switch-btn,
@@ -404,7 +433,7 @@
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"Mac怎么显示隐藏文件命令　| Puhemo's blog　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"Python语法--Variable　| Puhemo's blog　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -440,15 +469,13 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2016/06/03/hexo-code/" title="上一篇: Hexo语法－插入代码块">
-                <i class="fa fa-angle-left"></i>
-            </a>
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
         
 
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/2016/06/03/hexo-change-pc/" title="下一篇: 更换电脑如何转移Hexo">
+            <a href="/2016/06/08/python-loop/" title="下一篇: Python语法--Conditional Steps, repeated steps, loop">
                 <i class="fa fa-angle-right"></i>
             </a>
         

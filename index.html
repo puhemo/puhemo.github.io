@@ -427,6 +427,178 @@
 
 
   
+    <article id="post-Python语法-Variable" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/06/08/Python语法-Variable/" class="article-date">
+      <time datetime="2016-06-08T11:33:49.000Z" itemprop="datePublished">2016-06-08</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/06/08/Python语法-Variable/">Python语法--Variable</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h1 id="Python语法–Variable"><a href="#Python语法–Variable" class="headerlink" title="Python语法–Variable"></a>Python语法–Variable</h1><p><strong>学习笔记</strong>：本文属于自用笔记，仅供参考。</p>
+<h2 id="Variable-Assignment"><a href="#Variable-Assignment" class="headerlink" title="Variable Assignment"></a>Variable Assignment</h2><p>Python Python语法–Variable are lines of code that do something. The most common type of statement you’ll probably come across are assignment statements.</p>
+<p>&lt;– more –&gt;</p>
+<p><strong>N.B.:</strong> Although we can understand simple programs using this description, and many programming languages, including C, C++, and Java, do exactly this, Python doesn’t. Instead, a variable points to a storage location containing its current value, and so does every variable with that same value. If its value is changed by assignment then, instead of changing its storage location to that value, a new location is set to the value if it’s not already in memory, then the variable is changed to point to that new location–but other variables pointing to the old location still point there. Moreover, Python assumes small integers (-5 to +256) are very likely to be used, so they’re automatically stored when the system is initialized, ready to be used (a process called memoization). So, to be quite accurate:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">x = 5  # sets variable x to point to the location storing 5 (memoized during system initialization)</span><br><span class="line"></span><br><span class="line">y = x  # sets y to point to the location x presently does (so the location storing 5)</span><br><span class="line"></span><br><span class="line">x = x + 1 # sets variable x to point to the location storing 6 (memoized during system initialization)--but y still points to 5</span><br><span class="line"></span><br><span class="line">y = 3.14  # stores 3.14 in a new memory location unless it has already been used and so is already available (has been memoized), and sets y to point to it </span><br><span class="line"></span><br><span class="line">w = y  # sets w to point to the same value y presently points to (3.14)</span><br><span class="line"></span><br><span class="line">z = 3.14  # sets z to point to 3.14, the same value as y and w presently point to</span><br></pre></td></tr></table></figure>
+<p>So instead of thinking of a variable being a named location whose value gets changed, it’s more accurate to think of a variable as a name on a sticky note that gets moved and stuck to a location storing its new value (after storing that value if it hasn’t been used previously). Note that we have just one location storing value 3.14, but three variables (w, y, and z) presently share that value. If any one of them changes, the value in that location doesn’t change; instead, that variable now points to a different location containing that new value and the other two still “point to” 3.14.</p>
+<h2 id="Assigning-from-Mathematical-Expressions"><a href="#Assigning-from-Mathematical-Expressions" class="headerlink" title="Assigning from Mathematical Expressions"></a>Assigning from Mathematical Expressions</h2><p>More complex mathematical expressions can be evaluated for variable assignment than just numeric literals. This can be achieved by way of the following operators:</p>
+<ul>
+<li>Addition ( + )<ul>
+<li><code>x = 5 + 10</code></li>
+</ul>
+</li>
+<li>Subtraction ( - )<ul>
+<li><code>x = 5 - 10</code></li>
+</ul>
+</li>
+<li>Multiplication ( * )<ul>
+<li><code>x = 5 * 10</code></li>
+</ul>
+</li>
+<li>Power ( ** )<ul>
+<li>Exponentiation ( 510 )<code>x = 5**10</code></li>
+<li>The <strong> operator can also be utilized for root calculations since roots are just fraction exponents ( 10 = 101/2 )`x = 10</strong>.5`</li>
+</ul>
+</li>
+<li>Division ( / )<ul>
+<li><code>x = 5  / 10</code></li>
+</ul>
+</li>
+<li>Modulus ( % )<ul>
+<li>Used to return the remainder of a division instead of the quotient answer ( 10 % 3 = 1, since 3 * 3 = 9 and 10 - 9 leaves a remainder 1 )</li>
+<li><code>x = 10 % 3</code></li>
+</ul>
+</li>
+</ul>
+<p><em>Nota Bene:</em> There is a marked difference between <em>integer number</em> division and <em>floating point number</em> division. Because Python treats these two numeric types distinctly different, you might get erroneous answers when doing division operations without precaution. (read more on <strong>Data Types: Other Caveats</strong> below)</p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p><a href="https://share.coursera.org/wiki/index.php/Pythonlearn:resources-week01" target="_blank" rel="external">Pythonlearn:resources-week01</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/术/">术</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python/">Python</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-python-loop" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/06/08/python-loop/" class="article-date">
+      <time datetime="2016-06-08T11:31:07.000Z" itemprop="datePublished">2016-06-08</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/06/08/python-loop/">Python语法--Conditional Steps, repeated steps, loop</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p><strong>学习笔记</strong>：本文属于自用笔记，仅供参考。</p>
+<p>&lt;– more –&gt;</p>
+<h2 id="Conditional-Steps-条件语句-if-…-elif-else"><a href="#Conditional-Steps-条件语句-if-…-elif-else" class="headerlink" title="Conditional Steps(条件语句) - if … elif .. else"></a>Conditional Steps(条件语句) - if … elif .. else</h2><p>Python条件语句是通过一条或多条语句的执行结果（True或者False）来决定执行的代码块。</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">if (expression):</span><br><span class="line">   (command)</span><br><span class="line">elif (expression):</span><br><span class="line">   (command)</span><br><span class="line">else:</span><br><span class="line">   (command)</span><br></pre></td></tr></table></figure>
+<h2 id="Conditional-Steps-条件语句-Multi-elif-if-…-elif-else"><a href="#Conditional-Steps-条件语句-Multi-elif-if-…-elif-else" class="headerlink" title="Conditional Steps(条件语句) (Multi elif) - if … elif .. else"></a>Conditional Steps(条件语句) (Multi elif) - if … elif .. else</h2>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">if x &lt; 0:</span><br><span class="line">    x = 0</span><br><span class="line">    print &apos;negative changed to zero&apos;</span><br><span class="line">elif x == 0:</span><br><span class="line">    print &apos;zero&apos;</span><br><span class="line">elif x == 1:</span><br><span class="line">    print &apos;single&apos;</span><br><span class="line">elif x == 2:</span><br><span class="line">    print &apos;double&apos;</span><br><span class="line">else:</span><br><span class="line">    print &apos;more&apos;</span><br></pre></td></tr></table></figure>
+<h2 id="Repeated-steps（循环语句）-while"><a href="#Repeated-steps（循环语句）-while" class="headerlink" title="Repeated steps（循环语句） - while"></a>Repeated steps（循环语句） - while</h2><p>Python 编程中 while 语句用于循环执行程序，即在某条件下，循环执行某段程序，以处理需要重复处理的相同任务</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">while i &lt; 6:</span><br><span class="line">    print &quot;At the top i is %d&quot; % i</span><br></pre></td></tr></table></figure>
+<h2 id="Repeated-steps（循环语句）-another-example"><a href="#Repeated-steps（循环语句）-another-example" class="headerlink" title="Repeated steps（循环语句） - another example"></a>Repeated steps（循环语句） - another example</h2><p>Python 编程中 while 语句用于循环执行程序，即在某条件下，循环执行某段程序，以处理需要重复处理的相同任务</p>
+<p>  Assign a value to i which is greater than 2</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">while i &gt; 2:</span><br><span class="line">    print &quot;Right now i is %d&quot; % i</span><br><span class="line">    i=i-1</span><br></pre></td></tr></table></figure>
+<h2 id="Loop（循环语句）-for"><a href="#Loop（循环语句）-for" class="headerlink" title="Loop（循环语句） - for"></a>Loop（循环语句） - for</h2><p>Python for循环可以遍历任何序列的项目，如一个列表或者一个字符串</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">for (y) in (x):</span><br><span class="line">    (command)</span><br></pre></td></tr></table></figure>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p><a href="https://share.coursera.org/wiki/index.php/Pythonlearn:resources-week01" target="_blank" rel="external">Pythonlearn:resources-week01</a><br><a href="http://www.runoob.com/python/python-if-statement.html" target="_blank" rel="external">Python 基础教程</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/术/">术</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python/">Python</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-commands" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -820,138 +992,10 @@
 
 
   
-    <article id="post-hexo-change-pc" class="article article-type-post" itemscope itemprop="blogPost">
   
-    <div class="article-meta">
-      <a href="/2016/06/03/hexo-change-pc/" class="article-date">
-      <time datetime="2016-06-03T07:12:14.000Z" itemprop="datePublished">2016-06-03</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/03/hexo-change-pc/">更换电脑如何转移Hexo</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <h2 id="转移文件"><a href="#转移文件" class="headerlink" title="转移文件"></a>转移文件</h2><h3 id="拷贝文件"><a href="#拷贝文件" class="headerlink" title="拷贝文件"></a>拷贝文件</h3><p>下面就将原来的文件拷贝到新电脑中，但是要注意哪些文件是必须的，哪些文件是可以删除的。<br>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/术/">术</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/06/03/hexo-change-pc/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/01/hello-world/" class="article-date">
-      <time datetime="2016-06-01T07:11:13.000Z" itemprop="datePublished">2016-06-01</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/01/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<br>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/杂/">杂</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/06/01/hello-world/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
+    <nav id="page-nav">
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+    </nav>
   
 </div>
       <footer id="footer">
