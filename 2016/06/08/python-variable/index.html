@@ -15,19 +15,19 @@
 
 
 
-<meta name="description" content="Python语法–Variable学习笔记：本文属于自用笔记，仅供参考。
-Variable AssignmentPython Python语法–Variable are lines of code that do something. The most common type of statement you’ll probably come across are assignment state">
+<meta name="description" content="学习笔记：本文属于自用笔记，仅供参考。
+Variable AssignmentPython Python语法–Variable are lines of code that do something. The most common type of statement you’ll probably come across are assignment statements.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python语法--Variable">
 <meta property="og:url" content="http://puhemo.tk/2016/06/08/python-variable/index.html">
 <meta property="og:site_name" content="Puhemo's blog">
-<meta property="og:description" content="Python语法–Variable学习笔记：本文属于自用笔记，仅供参考。
-Variable AssignmentPython Python语法–Variable are lines of code that do something. The most common type of statement you’ll probably come across are assignment state">
-<meta property="og:updated_time" content="2016-06-08T11:41:24.000Z">
+<meta property="og:description" content="学习笔记：本文属于自用笔记，仅供参考。
+Variable AssignmentPython Python语法–Variable are lines of code that do something. The most common type of statement you’ll probably come across are assignment statements.">
+<meta property="og:updated_time" content="2016-06-08T11:44:35.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python语法--Variable">
-<meta name="twitter:description" content="Python语法–Variable学习笔记：本文属于自用笔记，仅供参考。
-Variable AssignmentPython Python语法–Variable are lines of code that do something. The most common type of statement you’ll probably come across are assignment state">
+<meta name="twitter:description" content="学习笔记：本文属于自用笔记，仅供参考。
+Variable AssignmentPython Python语法–Variable are lines of code that do something. The most common type of statement you’ll probably come across are assignment statements.">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -325,9 +325,8 @@ Variable AssignmentPython Python语法–Variable are lines of code that do some
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h1 id="Python语法–Variable"><a href="#Python语法–Variable" class="headerlink" title="Python语法–Variable"></a>Python语法–Variable</h1><p><strong>学习笔记</strong>：本文属于自用笔记，仅供参考。</p>
-<h2 id="Variable-Assignment"><a href="#Variable-Assignment" class="headerlink" title="Variable Assignment"></a>Variable Assignment</h2><p>Python Python语法–Variable are lines of code that do something. The most common type of statement you’ll probably come across are assignment statements.</p>
-<p>&lt;– more –&gt;</p>
+        <p><strong>学习笔记</strong>：本文属于自用笔记，仅供参考。</p>
+<h2 id="Variable-Assignment"><a href="#Variable-Assignment" class="headerlink" title="Variable Assignment"></a>Variable Assignment</h2><p>Python Python语法–Variable are lines of code that do something. The most common type of statement you’ll probably come across are assignment statements.<br><a id="more"></a></p>
 <p><strong>N.B.:</strong> Although we can understand simple programs using this description, and many programming languages, including C, C++, and Java, do exactly this, Python doesn’t. Instead, a variable points to a storage location containing its current value, and so does every variable with that same value. If its value is changed by assignment then, instead of changing its storage location to that value, a new location is set to the value if it’s not already in memory, then the variable is changed to point to that new location–but other variables pointing to the old location still point there. Moreover, Python assumes small integers (-5 to +256) are very likely to be used, so they’re automatically stored when the system is initialized, ready to be used (a process called memoization). So, to be quite accurate:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">x = 5  # sets variable x to point to the location storing 5 (memoized during system initialization)</span><br><span class="line"></span><br><span class="line">y = x  # sets y to point to the location x presently does (so the location storing 5)</span><br><span class="line"></span><br><span class="line">x = x + 1 # sets variable x to point to the location storing 6 (memoized during system initialization)--but y still points to 5</span><br><span class="line"></span><br><span class="line">y = 3.14  # stores 3.14 in a new memory location unless it has already been used and so is already available (has been memoized), and sets y to point to it </span><br><span class="line"></span><br><span class="line">w = y  # sets w to point to the same value y presently points to (3.14)</span><br><span class="line"></span><br><span class="line">z = 3.14  # sets z to point to 3.14, the same value as y and w presently point to</span><br></pre></td></tr></table></figure>
 <p>So instead of thinking of a variable being a named location whose value gets changed, it’s more accurate to think of a variable as a name on a sticky note that gets moved and stuck to a location storing its new value (after storing that value if it hasn’t been used previously). Note that we have just one location storing value 3.14, but three variables (w, y, and z) presently share that value. If any one of them changes, the value in that location doesn’t change; instead, that variable now points to a different location containing that new value and the other two still “point to” 3.14.</p>
@@ -373,7 +372,7 @@ Variable AssignmentPython Python语法–Variable are lines of code that do some
         <p><span>本文标题:</span><a href="/2016/06/08/python-variable/">Python语法--Variable</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">Puhemo</a></p>
         <p><span>发布时间:</span>2016-06-08, 19:33:49</p>
-        <p><span>最后更新:</span>2016-06-08, 19:41:24</p>
+        <p><span>最后更新:</span>2016-06-08, 19:44:35</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/06/08/python-variable/" title="Python语法--Variable">http://puhemo.tk/2016/06/08/python-variable/</a>
             <span class="copy-path" data-clipboard-text="原文: http://puhemo.tk/2016/06/08/python-variable/　　作者: Puhemo" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -402,7 +401,7 @@ Variable AssignmentPython Python语法–Variable are lines of code that do some
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Python语法–Variable"><span class="toc-number">1.</span> <span class="toc-text">Python语法–Variable</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Variable-Assignment"><span class="toc-number">1.1.</span> <span class="toc-text">Variable Assignment</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Assigning-from-Mathematical-Expressions"><span class="toc-number">1.2.</span> <span class="toc-text">Assigning from Mathematical Expressions</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考链接"><span class="toc-number">1.3.</span> <span class="toc-text">参考链接</span></a></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Variable-Assignment"><span class="toc-number">1.</span> <span class="toc-text">Variable Assignment</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Assigning-from-Mathematical-Expressions"><span class="toc-number">2.</span> <span class="toc-text">Assigning from Mathematical Expressions</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考链接"><span class="toc-number">3.</span> <span class="toc-text">参考链接</span></a></li></ol>
 </div>
 <style>
     .left-col .switch-btn,
