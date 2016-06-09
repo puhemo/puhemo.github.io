@@ -366,6 +366,7 @@
       <content type="html"><![CDATA[<blockquote class="blockquote-center"><a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank" rel="external">Markdown</a> 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。</blockquote>
 
 <a id="more"></a>
+<p>[TOC]</p>
 <h2 id="适用人群"><a href="#适用人群" class="headerlink" title="适用人群"></a>适用人群</h2><p><a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank" rel="external">Markdown</a> 是为那些需要经常码字或者进行文字排版的、对码字手速和排版顺畅度有要求的人群设计的。这些人包括经常需要写文档的码农、博客写手、网站小编、出版业人士等等。</p>
 <h2 id="推荐软件"><a href="#推荐软件" class="headerlink" title="推荐软件"></a>推荐软件</h2><p><a href="http://www.typora.io/" target="_blank" rel="external">Typora</a>: 一款极简的<a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank" rel="external">Markdown</a> 编辑器，适用于windows和mac平台。</p>
 <h2 id="Markdown-语法规则"><a href="#Markdown-语法规则" class="headerlink" title="Markdown 语法规则"></a>Markdown 语法规则</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure>
@@ -390,14 +391,14 @@
 <li>接着一个方括号<code>[]</code>，里面放上图片的替代文字</li>
 <li>接着一个普通括号<code>()</code>，里面放上图片的网址。</li>
 </ul>
-<h3 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">文字</span>](<span class="link">链接</span>)</span><br></pre></td></tr></table></figure>
+<h3 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h3><p>Markdown支持两种类型的超链接：<strong>inline</strong>和<strong>reference</strong></p>
+<h3 id="inline"><a href="#inline" class="headerlink" title="inline"></a>inline</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">文字</span>](<span class="link">http://example.com/ "标题"</span>)</span><br><span class="line">[<span class="string">文字</span>](<span class="link">http://example.com/</span>)</span><br></pre></td></tr></table></figure>
 <p>详细叙述如下：</p>
 <ul>
 <li>接着一个方括号<code>[]</code>，里面放上文字</li>
 <li>接着一个普通括号<code>()</code>，里面放上图片的网址。</li>
 </ul>
-<h3 id="粗体和斜体"><a href="#粗体和斜体" class="headerlink" title="粗体和斜体"></a>粗体和斜体</h3><p>用两个<code>*</code>包含一段文本就是粗体的语法，用一个 <code>*</code> 包含一段文本就是斜体的语法</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**A**</span> #这是粗体</span><br><span class="line"><span class="emphasis">*B*</span> #这是斜体</span><br></pre></td></tr></table></figure>
+<h4 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">文字</span>][<span class="symbol">id</span>]</span><br><span class="line"></span><br><span class="line">[<span class="symbol">id</span>]: <span class="link">http://example.com/  "可选标题"</span></span><br><span class="line"></span><br><span class="line"><span class="section">### 粗体和斜体</span></span><br><span class="line"></span><br><span class="line">用两个<span class="code">`*`</span>包含一段文本就是粗体的语法，用一个 <span class="code">`*`</span> 包含一段文本就是斜体的语法</span><br><span class="line"></span><br><span class="line">​<span class="code">```markdown</span><br><span class="line">**A** #这是粗体</span><br><span class="line">*B* #这是斜体</span></span><br></pre></td></tr></table></figure>
 <h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p><a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank" rel="external">Markdown</a> 的表格功能比较难用，<a href="http://www.typora.io/" target="_blank" rel="external">Typora</a>提供了像 Office 一样的表格编辑能力。通过菜单栏或快捷键可以插入表格，<a href="http://www.typora.io/" target="_blank" rel="external">Typora</a> 会弹出一个表格插入设置，你可以预先设定好行数和列数。</p>
 <p>示例：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">| Tables        | Are           | Cool  |</span><br><span class="line">| ------------- |:-------------:| -----:|</span><br><span class="line">| col 3 is      | right-aligned | $1600 |</span><br><span class="line">| col 2 is      | centered      |   $12 |</span><br><span class="line">| zebra stripes | are neat      |    $1 |</span><br></pre></td></tr></table></figure></p>
 <p>效果：<br>|    Tables     |      Are      | Cool  |<br>| :———–: | :———–: | :—: |<br>|   col 3 is    | right-aligned | $1600 |<br>|   col 2 is    |   centered    |  $12  |<br>| zebra stripes |   are neat    |  $1   |</p>
@@ -407,18 +408,38 @@
 </li>
 <li><p>代码区域：<br>2.1 缩进 4 个空格或是 1 个制表符（Tab键）</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code</span><br></pre></td></tr></table></figure>
-<p>2.2 六个反引号：</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">三个反引号(<span class="code">```)</span><br><span class="line">代码</span><br><span class="line">三个反引号(```)</span></span><br></pre></td></tr></table></figure>
+<p>2.2 反引号：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">示例:</span><br><span class="line"></span><br><span class="line">​</span><br></pre></td></tr></table></figure>
+<p>function test() {<br>  console.log(“notice the blank line before this function?”);<br>}<br>​<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">代码高亮:</span><br><span class="line">​```ruby</span><br><span class="line">require &apos;redcarpet&apos;</span><br><span class="line">markdown = Redcarpet.new(&quot;Hello World!&quot;)</span><br><span class="line">puts markdown.to_html</span><br><span class="line">​</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">### 分割线</span><br><span class="line"></span><br><span class="line">另起一行，连续输入三个星号` *** `</span><br><span class="line"></span><br><span class="line">### 任务列表</span><br><span class="line"></span><br><span class="line">任务列表项目标记为[]或[ X] （未完成或完全）。</span><br><span class="line">示例：</span><br><span class="line"></span><br><span class="line">``` markdown</span><br><span class="line">- [ ] a</span><br><span class="line">- [ ] b</span><br><span class="line">- [ ] c</span><br><span class="line">- [ ] d</span><br><span class="line">- [x] e</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<h2 id="进阶技巧"><a href="#进阶技巧" class="headerlink" title="进阶技巧"></a>进阶技巧</h2><h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><p>另起一行，连续输入三个星号<code>***</code></p>
-<h3 id="首行缩进"><a href="#首行缩进" class="headerlink" title="首行缩进"></a>首行缩进</h3><p>在段首加入<code>&amp;ensp;</code>来输入一个半方空格.加入<code>&amp;emsp;</code>来输入一个全方空格<br><strong>示例</strong>：</p>
+<p>效果:</p>
+<ul>
+<li>[ ] a</li>
+<li>[ ] b</li>
+<li>[ ] c</li>
+<li>[ ] d</li>
+<li>[x] e</li>
+</ul>
+<blockquote>
+<p>你可以点击复选框修改任务状态</p>
+</blockquote>
+<h3 id="注脚"><a href="#注脚" class="headerlink" title="注脚"></a>注脚</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">你可以创建一个像这样注脚[^注脚].</span><br><span class="line"></span><br><span class="line">[<span class="symbol">^注脚</span>]: <span class="link">这是注脚的内容.</span></span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<p>你可以创建一个像这样的注脚<a href="这是注脚的内容.">^注脚</a>.</p>
+<p>鼠标放在注脚上，可以看到注脚的内容.</p>
+<h3 id="目录-TOC"><a href="#目录-TOC" class="headerlink" title="目录 (TOC)"></a>目录 (TOC)</h3><p>输入<code>[ TOC ]</code>，然后按回车键将创建“目录”，从文章提取所有标题，目录会自动更新。</p>
+<h3 id="网址"><a href="#网址" class="headerlink" title="网址"></a>网址</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;http://example.com/&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><p><code>~~示例~~</code><br><del>示例</del></p>
+<h2 id="进阶技巧"><a href="#进阶技巧" class="headerlink" title="进阶技巧"></a>进阶技巧</h2><h3 id="首行缩进"><a href="#首行缩进" class="headerlink" title="首行缩进"></a>首行缩进</h3><p>在段首加入<code>&amp;ensp;</code>来输入一个半方空格.加入<code>&amp;emsp;</code>来输入一个全方空格<br><strong>示例</strong>：</p>
 <blockquote>
 <p><code>&amp;emsp;&amp;emsp;一语未了，只听后院中有人笑声，说：“我来迟了，不曾迎接远客！&quot;</code></p>
 <p>  一语未了，只听后院中有人笑声，说：“我来迟了，不曾迎接远客！”</p>
 </blockquote>
 <h3 id="图片居中（html语法）"><a href="#图片居中（html语法）" class="headerlink" title="图片居中（html语法）"></a>图片居中（html语法）</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">align</span>=<span class="string">center</span>&gt;</span> <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"link"</span> <span class="attr">width</span>=<span class="string">"400"</span> <span class="attr">height</span>=<span class="string">"400"</span> <span class="attr">alt</span>=<span class="string">"test"</span>/&gt;</span> <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h3 id="文字颜色（html语法）"><a href="#文字颜色（html语法）" class="headerlink" title="文字颜色（html语法）"></a>文字颜色（html语法）</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">"white"</span>&gt;</span>文字<span class="tag">&lt;<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="下划线（HTML语法）"><a href="#下划线（HTML语法）" class="headerlink" title="下划线（HTML语法）"></a>下划线（HTML语法）</h3><p><code>&lt;u&gt;下划线&lt;/u&gt;</code><br><u>下划线</u>.</p>
+<h3 id="文字颜色（html语法）"><a href="#文字颜色（html语法）" class="headerlink" title="文字颜色（html语法）"></a>文字颜色（html语法）</h3><p>​<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">"white"</span>&gt;</span>文字<span class="tag">&lt;<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
 <h2 id="Markdown-免费编辑器"><a href="#Markdown-免费编辑器" class="headerlink" title="Markdown 免费编辑器"></a>Markdown 免费编辑器</h2><p>Windows 平台</p>
 <ul>
 <li><a href="http://www.typora.io/" target="_blank" rel="external">Typora</a></li>
@@ -450,6 +471,7 @@
 <li><a href="http://www.jianshu.com/p/9d94660a96f1" target="_blank" rel="external">MarkDown使用小技巧</a></li>
 <li><a href="http://www.cnblogs.com/JohnTsai/p/4027229.html#jump" target="_blank" rel="external">MarkDown技巧：两种方式实现页内跳转</a></li>
 </ul>
+<p>```</p>
 ]]></content>
     </entry>
     
