@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-09T13:12:10.000Z</updated>
+  <updated>2016-06-09T13:26:34.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -20,16 +20,17 @@
     <link href="http://puhemo.tk/2016/06/09/send-to-kindle/"/>
     <id>http://puhemo.tk/2016/06/09/send-to-kindle/</id>
     <published>2016-06-09T13:08:41.000Z</published>
-    <updated>2016-06-09T13:12:10.000Z</updated>
+    <updated>2016-06-09T13:26:34.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;邮箱推送&quot;&gt;&lt;a href=&quot;#邮箱推送&quot; class=&quot;headerlink&quot; title=&quot;邮箱推送&quot;&gt;&lt;/a&gt;邮箱推送&lt;/h2&gt;&lt;p&gt; Kindle 推送是指亚马逊提供的一个“&lt;a href=&quot;http://www.amazon.cn/gp/help/customer/display.html?nodeId=200767340&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle 个人文档服务&lt;/a&gt;”，我们只需要一个亚马逊账号，就可以通过以电子邮箱发送附件的方式，免费把 Kindle 所支持的文档或电子书推送到亚马逊提供的个人文档云存储中。当云端接收到了你推送的文档，将会自动转换格式（比如你推送的是 txt 格式会转换成 azw 格式）并同步到与此账号绑定的 Kindle 设备中。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2014/04/kindle-push-theory.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;邮箱推送&quot;&gt;&lt;a href=&quot;#邮箱推送&quot; class=&quot;headerlink&quot; title=&quot;邮箱推送&quot;&gt;&lt;/a&gt;邮箱推送&lt;/h2&gt;&lt;p&gt; Kindle 推送是指亚马逊提供的一个“&lt;a href=&quot;http://www.amazon.cn/gp/help/customer/display.html?nodeId=200767340&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle 个人文档服务&lt;/a&gt;”，我们只需要一个亚马逊账号，就可以通过以电子邮箱发送附件的方式，免费把 Kindle 所支持的文档或电子书推送到亚马逊提供的个人文档云存储中。当云端接收到了你推送的文档，将会自动转换格式（比如你推送的是 txt 格式会转换成 azw 格式）并同步到与此账号绑定的 Kindle 设备中。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/fRleq7I.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;详细步骤&quot;&gt;&lt;a href=&quot;#详细步骤&quot; class=&quot;headerlink&quot; title=&quot;详细步骤&quot;&gt;&lt;/a&gt;详细步骤&lt;/h3&gt;&lt;h4 id=&quot;1、注册一个电子邮箱（已有邮箱忽略此步骤）&quot;&gt;&lt;a href=&quot;#1、注册一个电子邮箱（已有邮箱忽略此步骤）&quot; class=&quot;headerlink&quot; title=&quot;1、注册一个电子邮箱（已有邮箱忽略此步骤）&quot;&gt;&lt;/a&gt;1、注册一个电子邮箱（已有邮箱忽略此步骤）&lt;/h4&gt;&lt;p&gt;可以使用任意邮箱如 163 邮箱、&lt;del&gt;Gmail 邮箱&lt;/del&gt;、QQ 邮箱、新浪邮箱等。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;目前 Gmail 在大陆处于被封锁状态，暂时无法使用。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&quot;2、获取接收推送的邮箱地址&quot;&gt;&lt;a href=&quot;#2、获取接收推送的邮箱地址&quot; class=&quot;headerlink&quot; title=&quot;2、获取接收推送的邮箱地址&quot;&gt;&lt;/a&gt;2、获取接收推送的邮箱地址&lt;/h4&gt;&lt;p&gt;用电脑上的浏览器&lt;a href=&quot;https://www.amazon.cn/gp/css/homepage.html/ref=nav_yam_ya&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;登录亚马逊账户&lt;/a&gt;，将鼠标悬左上角的导航，依次展开“浏览全部分类” -&amp;gt; “Kindle 电子书阅读器”（或鼠标悬浮在“我的账户”上），在展开的菜单中找到“管理内容和设备”这个分类。点击【&lt;a href=&quot;https://www.amazon.cn/gp/digital/fiona/manage?ref=sa_menu_kindle_l3_device&amp;amp;#manageDevices&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;管理我的内容和设备&lt;/a&gt;】进入“管理我的内容和设备”页面，然后再点击【&lt;a href=&quot;https://www.amazon.cn/mn/dcw/myx.html/ref=kinw_myk_redirect#/home/devices/1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;我的设备&lt;/a&gt;】选项卡，在设备列表中选中你的 Kindle 设备，页面会显示你的用户名、设备的型号以及序列号等信息。&lt;/p&gt;
 &lt;p&gt;在页面中找到“&lt;strong&gt;电子邮箱&lt;/strong&gt;”这一项，有个类似“&lt;em&gt;*&lt;/em&gt;@kindle.cn”字样的邮箱地址（@前的名字可点击编辑自定义），这就是接收推送文档的目标邮箱，请记录这个邮箱地址（或者将它添加到你的邮箱联系人中方便选择），要推送的电子书或文档就是通过发送到这个邮箱到达亚马逊云端的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2015/02/kindle-email.png&quot; alt=&quot;kindle-email&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/mqFoTna.png&quot; alt=&quot;kindle-email&quot;&gt;&lt;/p&gt;
 &lt;p&gt;除此之外，还可以直接在 Kindle 中获取。在 Kindle 中依次点击 &lt;code&gt;菜单 -&amp;gt; 设置 -&amp;gt; 设备选项 -&amp;gt; 个性化您的 Kindl&lt;/code&gt;”，可以看到一个“〖发送至 Kindle〗电子邮件地址”，这就是接收推送的邮箱地址。&lt;/p&gt;
 &lt;h4 id=&quot;3、添加推送邮箱地址到已认可邮箱列表&quot;&gt;&lt;a href=&quot;#3、添加推送邮箱地址到已认可邮箱列表&quot; class=&quot;headerlink&quot; title=&quot;3、添加推送邮箱地址到已认可邮箱列表&quot;&gt;&lt;/a&gt;3、添加推送邮箱地址到已认可邮箱列表&lt;/h4&gt;&lt;p&gt;为防止恶意内容推送，亚马逊的个人文档推送机制只接收已认可的发件人电子邮箱列表中的邮箱，所以需要在【&lt;a href=&quot;https://www.amazon.cn/mn/dcw/myx.html/ref=kinw_myk_redirect#/home/settings/payment&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;设置&lt;/a&gt;】页面底部找到“已认可的发件人电子邮箱列表”这一项，点击“添加认可的电子邮箱”把第一步申请的邮箱地址（或已有邮箱地址）添加进去。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2015/02/add-email.png&quot; alt=&quot;add-email&quot;&gt;&lt;/p&gt;
@@ -51,7 +52,7 @@
 &lt;li&gt;手动填写网址推送&lt;/li&gt;
 &lt;li&gt;浏览器插件自动推送&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;Send-to-Kindle-微信推送&quot;&gt;&lt;a href=&quot;#Send-to-Kindle-微信推送&quot; class=&quot;headerlink&quot; title=&quot;Send to Kindle: 微信推送&quot;&gt;&lt;/a&gt;Send to Kindle: 微信推送&lt;/h2&gt;&lt;p&gt;Kindle 官方推出的微信推送功能&lt;br&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2015/03/kindle-weixin-step.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Send-to-Kindle-微信推送&quot;&gt;&lt;a href=&quot;#Send-to-Kindle-微信推送&quot; class=&quot;headerlink&quot; title=&quot;Send to Kindle: 微信推送&quot;&gt;&lt;/a&gt;Send to Kindle: 微信推送&lt;/h2&gt;&lt;p&gt;Kindle 官方推出的微信推送功能&lt;br&gt;&lt;img src=&quot;http://i.imgur.com/SufxbvJ.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Readability-定时或立即把长文推送到-Kindle&quot;&gt;&lt;a href=&quot;#Readability-定时或立即把长文推送到-Kindle&quot; class=&quot;headerlink&quot; title=&quot;Readability: 定时或立即把长文推送到 Kindle&quot;&gt;&lt;/a&gt;Readability: 定时或立即把长文推送到 Kindle&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.readability.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Readability &lt;/a&gt;是一款免费的阅读服务平台,支持“推送到 Kindle”功能，你可以把当前浏览的文章立即推送到 Kindle 中阅读，也可以设置定时推送，按照每周或每天的频率，把你存储下来的文章集结成册按时推送到你的 Kindle 中阅读。&lt;/p&gt;
 &lt;h2 id=&quot;RSS推送服务&quot;&gt;&lt;a href=&quot;#RSS推送服务&quot; class=&quot;headerlink&quot; title=&quot;RSS推送服务&quot;&gt;&lt;/a&gt;RSS推送服务&lt;/h2&gt;&lt;h3 id=&quot;Dogear（推荐）&quot;&gt;&lt;a href=&quot;#Dogear（推荐）&quot; class=&quot;headerlink&quot; title=&quot;Dogear（推荐）&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.dogear.cn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Dogear&lt;/a&gt;（推荐）&lt;/h3&gt;&lt;p&gt;全文RSS和微信公众号推送服务，支持Kindle、多看和Nook等移动电子阅读设备 &lt;/p&gt;
 &lt;blockquote&gt;
@@ -95,7 +96,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;邮箱推送&quot;&gt;&lt;a href=&quot;#邮箱推送&quot; class=&quot;headerlink&quot; title=&quot;邮箱推送&quot;&gt;&lt;/a&gt;邮箱推送&lt;/h2&gt;&lt;p&gt; Kindle 推送是指亚马逊提供的一个“&lt;a href=&quot;http://www.amazon.cn/gp/help/customer/display.html?nodeId=200767340&quot;&gt;Kindle 个人文档服务&lt;/a&gt;”，我们只需要一个亚马逊账号，就可以通过以电子邮箱发送附件的方式，免费把 Kindle 所支持的文档或电子书推送到亚马逊提供的个人文档云存储中。当云端接收到了你推送的文档，将会自动转换格式（比如你推送的是 txt 格式会转换成 azw 格式）并同步到与此账号绑定的 Kindle 设备中。&lt;br&gt;
+      &lt;h2 id=&quot;邮箱推送&quot;&gt;&lt;a href=&quot;#邮箱推送&quot; class=&quot;headerlink&quot; title=&quot;邮箱推送&quot;&gt;&lt;/a&gt;邮箱推送&lt;/h2&gt;&lt;p&gt; Kindle 推送是指亚马逊提供的一个“&lt;a href=&quot;http://www.amazon.cn/gp/help/cus
     
     </summary>
     
