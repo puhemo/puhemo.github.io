@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-09T13:26:34.000Z</updated>
+  <updated>2016-06-09T13:30:39.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://puhemo.tk/2016/06/09/send-to-kindle/"/>
     <id>http://puhemo.tk/2016/06/09/send-to-kindle/</id>
     <published>2016-06-09T13:08:41.000Z</published>
-    <updated>2016-06-09T13:26:34.000Z</updated>
+    <updated>2016-06-09T13:30:39.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;邮箱推送&quot;&gt;&lt;a href=&quot;#邮箱推送&quot; class=&quot;headerlink&quot; title=&quot;邮箱推送&quot;&gt;&lt;/a&gt;邮箱推送&lt;/h2&gt;&lt;p&gt; Kindle 推送是指亚马逊提供的一个“&lt;a href=&quot;http://www.amazon.cn/gp/help/customer/display.html?nodeId=200767340&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle 个人文档服务&lt;/a&gt;”，我们只需要一个亚马逊账号，就可以通过以电子邮箱发送附件的方式，免费把 Kindle 所支持的文档或电子书推送到亚马逊提供的个人文档云存储中。当云端接收到了你推送的文档，将会自动转换格式（比如你推送的是 txt 格式会转换成 azw 格式）并同步到与此账号绑定的 Kindle 设备中。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/fRleq7I.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -33,7 +33,7 @@
 &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/mqFoTna.png&quot; alt=&quot;kindle-email&quot;&gt;&lt;/p&gt;
 &lt;p&gt;除此之外，还可以直接在 Kindle 中获取。在 Kindle 中依次点击 &lt;code&gt;菜单 -&amp;gt; 设置 -&amp;gt; 设备选项 -&amp;gt; 个性化您的 Kindl&lt;/code&gt;”，可以看到一个“〖发送至 Kindle〗电子邮件地址”，这就是接收推送的邮箱地址。&lt;/p&gt;
 &lt;h4 id=&quot;3、添加推送邮箱地址到已认可邮箱列表&quot;&gt;&lt;a href=&quot;#3、添加推送邮箱地址到已认可邮箱列表&quot; class=&quot;headerlink&quot; title=&quot;3、添加推送邮箱地址到已认可邮箱列表&quot;&gt;&lt;/a&gt;3、添加推送邮箱地址到已认可邮箱列表&lt;/h4&gt;&lt;p&gt;为防止恶意内容推送，亚马逊的个人文档推送机制只接收已认可的发件人电子邮箱列表中的邮箱，所以需要在【&lt;a href=&quot;https://www.amazon.cn/mn/dcw/myx.html/ref=kinw_myk_redirect#/home/settings/payment&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;设置&lt;/a&gt;】页面底部找到“已认可的发件人电子邮箱列表”这一项，点击“添加认可的电子邮箱”把第一步申请的邮箱地址（或已有邮箱地址）添加进去。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2015/02/add-email.png&quot; alt=&quot;add-email&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/OvD5GoX.png&quot; alt=&quot;add-email&quot;&gt;&lt;/p&gt;
 &lt;h4 id=&quot;4、推送文档或电子书到-Kindle&quot;&gt;&lt;a href=&quot;#4、推送文档或电子书到-Kindle&quot; class=&quot;headerlink&quot; title=&quot;4、推送文档或电子书到 Kindle&quot;&gt;&lt;/a&gt;4、推送文档或电子书到 Kindle&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;登录上一步添加的那个受信任的电子邮箱，新建一封邮件。&lt;/p&gt;
 &lt;/li&gt;
@@ -180,7 +180,7 @@
     <link href="http://puhemo.tk/2016/06/09/kindle-html/"/>
     <id>http://puhemo.tk/2016/06/09/kindle-html/</id>
     <published>2016-06-09T12:48:34.000Z</published>
-    <updated>2016-06-09T12:55:59.000Z</updated>
+    <updated>2016-06-09T13:51:30.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;将-Kindle-标注读书笔记导出为HTML-文档&quot;&gt;&lt;a href=&quot;#将-Kindle-标注读书笔记导出为HTML-文档&quot; class=&quot;headerlink&quot; title=&quot;将 Kindle 标注读书笔记导出为HTML 文档&quot;&gt;&lt;/a&gt;将 Kindle 标注读书笔记导出为HTML 文档&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;本文基于文章《&lt;a href=&quot;http://kindlefere.com/post/110.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Clippings Fere：让“我的剪贴”变得更易读&lt;/a&gt;》修改而来。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;爱用 Kindle 标注和做笔记的的小伙伴们，现在你可以用 Clippings Fere 整理和阅读 Kindle 的剪贴文件啦！它可以大大改善 Kindle 中的“我的剪贴”文件“My Clippings.txt”的阅读体验！&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -209,16 +209,16 @@
 &lt;/blockquote&gt;
 &lt;p&gt;###四、软件界面&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Windows 版界面：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2015/07/clippings-fere_win_beta.jpg&quot; alt=&quot;clippings-fere_win_beta&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/cPsFKQI.jpg&quot; alt=&quot;clippings-fere_win_beta&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Mac OS X 版界面：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2015/07/clippings-fere_mac_beta.jpg&quot; alt=&quot;clippings-fere_mac_beta&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/AIaSOnp.jpg&quot; alt=&quot;clippings-fere_mac_beta&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;五、转换效果&quot;&gt;&lt;a href=&quot;#五、转换效果&quot; class=&quot;headerlink&quot; title=&quot;五、转换效果&quot;&gt;&lt;/a&gt;五、转换效果&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;转换前的文本文档：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2016/03/clippings-fere-before.jpg&quot; alt=&quot;clippings-fere-before&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/WnShYfe.jpg&quot; alt=&quot;clippings-fere-before&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;转换后的页面效果：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2016/03/snapshot_1.jpg&quot; alt=&quot;snapshot_1&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2016/03/snapshot_2.jpg&quot; alt=&quot;snapshot_2&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2016/03/snapshot_3.jpg&quot; alt=&quot;snapshot_3&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2016/03/snapshot_4.jpg&quot; alt=&quot;snapshot_4&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/97tTN92.jpg&quot; alt=&quot;snapshot_1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/lnYQ8aM.jpg&quot; alt=&quot;snapshot_2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/7WaGp0B.jpg&quot; alt=&quot;snapshot_3&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/g9qkoUH.jpg&quot; alt=&quot;snapshot_4&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;将-Kindle-标注读书笔记导出为HTML-MarkDown-文档&quot;&gt;&lt;a href=&quot;#将-Kindle-标注读书笔记导出为HTML-MarkDown-文档&quot; class=&quot;headerlink&quot; title=&quot;将 Kindle 标注读书笔记导出为HTML/MarkDown 文档&quot;&gt;&lt;/a&gt;将 Kindle 标注读书笔记导出为HTML/MarkDown 文档&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/BadTudou/KindleNote&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;KindleNote&lt;/a&gt;可以使你Kindle阅读器中的笔记变得更易阅读。通过对Kindle的笔记文件进行整理、分析，使得笔记片段合并为完整笔记。 &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;网站开发中&lt;/p&gt;
@@ -259,24 +259,24 @@
     <link href="http://puhemo.tk/2016/06/09/kindle-evernote/"/>
     <id>http://puhemo.tk/2016/06/09/kindle-evernote/</id>
     <published>2016-06-09T12:39:49.000Z</published>
-    <updated>2016-06-09T12:56:21.000Z</updated>
+    <updated>2016-06-09T13:45:59.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;将-Kindle-标注读书笔记导出到-Evernote&quot;&gt;&lt;a href=&quot;#将-Kindle-标注读书笔记导出到-Evernote&quot; class=&quot;headerlink&quot; title=&quot;将 Kindle 标注读书笔记导出到 Evernote&quot;&gt;&lt;/a&gt;将 Kindle 标注读书笔记导出到 Evernote&lt;/h2&gt;&lt;p&gt;kindle笔记管理做的很不近人意，本文收集了一些将kindle原生系统下笔记转移到Evernote的方法。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Clippings-io-推荐&quot;&gt;&lt;a href=&quot;#Clippings-io-推荐&quot; class=&quot;headerlink&quot; title=&quot;Clippings.io(推荐)&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://Clippings.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Clippings.io&lt;/a&gt;(推荐)&lt;/h3&gt;&lt;p&gt;一个在线Kindle笔记管理网站，支持导出到印象笔记和evernote。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;注册&lt;a href=&quot;http://Clippings.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Clippings.io&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;将 Kindle 连接到电脑，按在 Documents 文件夹下找到 My Clippings 的 txt 文件，将该文件上传；&lt;br&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/696227-4cc7b1579f75b9fe.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;将 Kindle 连接到电脑，按在 Documents 文件夹下找到 My Clippings 的 txt 文件，将该文件上传；&lt;br&gt;&lt;img src=&quot;http://i.imgur.com/W2FG8bs.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;注意：上传的文件一定要确保是kindle系统创建出来的标注和笔记格式，如果格式被修改过，那么clippings是无法识别的.&lt;br&gt;&lt;a href=&quot;http://kmate.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle Mate&lt;/a&gt;可用于修改kindle标注和笔记&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;导入成功后，就能在列表中看到自己的笔记和标注了，每条笔记都提供了修改、删除、添加、打标签和收藏的功能。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/56077-1c5051759cc4acce.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/D3UCq4ih.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;在&lt;a href=&quot;http://Clippings.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Clippings.io&lt;/a&gt;—&amp;gt;设置里面可以选择要添加的标签；导出时建议选择为&lt;strong&gt;每一个本书创建一个笔记本&lt;/strong&gt;，这样笔记是连续的，方便看； &lt;/li&gt;
-&lt;li&gt;导出到印象笔记–配置笔记导出格式和要求，可以选择整本书导出，或者将收藏的笔记导出&lt;br&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/696227-64c93323ed631ff8.png&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
-&lt;li&gt;登录印象笔记账户后，在笔记本&lt;a href=&quot;http://Clippings.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Clippings.io&lt;/a&gt;下面就可以看到。下面是在印象笔记中的效果：（标签是自动添加的）&lt;br&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/696227-a3898b624347b66c.png&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
+&lt;li&gt;导出到印象笔记–配置笔记导出格式和要求，可以选择整本书导出，或者将收藏的笔记导出&lt;br&gt;&lt;img src=&quot;http://i.imgur.com/bjmZK5ph.png&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
+&lt;li&gt;登录印象笔记账户后，在笔记本&lt;a href=&quot;http://Clippings.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Clippings.io&lt;/a&gt;下面就可以看到。下面是在印象笔记中的效果：（标签是自动添加的）&lt;br&gt;&lt;img src=&quot;http://i.imgur.com/lP5Odbq.png&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
 &lt;p&gt;使用&lt;a href=&quot;https://appcenter.yinxiang.com/app/notedup/windows/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NoteDup&lt;/a&gt;将国际版evernote笔记迁移至印象笔记&lt;/p&gt;
@@ -287,7 +287,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt;查看印象笔记帐户的私有邮箱地址方法：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;网页版：设置—帐户一览，最下面&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/3d79d337750aac1b3ebd43d198dc0f8f_b.png&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
+&lt;li&gt;网页版：设置—帐户一览，最下面&lt;br&gt;&lt;img src=&quot;http://i.imgur.com/1jIyCs5.png&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
 &lt;li&gt;Windows: 菜单栏&amp;gt;工具&amp;gt;帐户信息;&lt;/li&gt;
 &lt;li&gt;Mac: 主界面左上方点击用户名，进入帐户信息;&lt;/li&gt;
 &lt;li&gt;Android: 设置&amp;gt;帐户信息&amp;gt;私有邮箱地址;&lt;/li&gt;
@@ -341,13 +341,13 @@
     <link href="http://puhemo.tk/2016/06/09/kindle-mate/"/>
     <id>http://puhemo.tk/2016/06/09/kindle-mate/</id>
     <published>2016-06-09T12:25:06.000Z</published>
-    <updated>2016-06-09T12:56:09.000Z</updated>
+    <updated>2016-06-09T13:34:55.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;用Kindle-Mate修改和同步Kindle-标注与笔记&quot;&gt;&lt;a href=&quot;#用Kindle-Mate修改和同步Kindle-标注与笔记&quot; class=&quot;headerlink&quot; title=&quot;用Kindle Mate修改和同步Kindle 标注与笔记&quot;&gt;&lt;/a&gt;用&lt;a href=&quot;http://kmate.me/cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle Mate&lt;/a&gt;修改和同步Kindle 标注与笔记&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://kmate.me/cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle Mate&lt;/a&gt;是Kindle标注、Kindle笔记、Kindle生词本内容管理程序。Kindle Mate运行在计算机上，同步导入Kindle标注笔记与生词本、提供各种书籍作者分类、内容搜索与导出等管理功能，帮助提升Kindle深度阅读与语言学习用户体验。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;仅支持Windows平台&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;http://kmate.me/wp-content/uploads/2016/04/Kindle-Mate-Main.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/qWBJTR8h.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;主要功能&quot;&gt;&lt;a href=&quot;#主要功能&quot; class=&quot;headerlink&quot; title=&quot;主要功能&quot;&gt;&lt;/a&gt;主要功能&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;支持全系列Kindle设备&lt;ul&gt;
 &lt;li&gt;支持Kindle 3,4,5/Kindle Touch,Kindle Paperwhite 1代/2代/3代,Kindle Voyage/Kindle Oasis&lt;/li&gt;

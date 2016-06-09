@@ -58,48 +58,6 @@
     </url>
 
     <url>
-        <loc>http://puhemo.tk/tags/KindleNote/</loc>
-        <lastmod>2016-06-09T12:55:59.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://puhemo.tk/tags/kindle-Mate/</loc>
-        <lastmod>2016-06-09T12:56:09.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://puhemo.tk/tags/Evernote/</loc>
-        <lastmod>2016-06-09T12:56:21.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://puhemo.tk/tags/Clippings-io/</loc>
-        <lastmod>2016-06-09T12:56:21.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://puhemo.tk/tags/IFTTT/</loc>
-        <lastmod>2016-06-09T12:56:21.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://puhemo.tk/tags/Clippings-Fere/</loc>
-        <lastmod>2016-06-09T12:56:21.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://puhemo.tk/tags/Markdown/</loc>
         <lastmod>2016-06-09T13:00:09.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -142,50 +100,92 @@
     </url>
 
     <url>
-        <loc>http://puhemo.tk/tags/Kindle/</loc>
-        <lastmod>2016-06-09T13:26:34.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://puhemo.tk/tags/Push-To-Kindle/</loc>
-        <lastmod>2016-06-09T13:26:34.000Z</lastmod>
+        <lastmod>2016-06-09T13:30:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://puhemo.tk/tags/Send-to-Kindle/</loc>
-        <lastmod>2016-06-09T13:26:34.000Z</lastmod>
+        <lastmod>2016-06-09T13:30:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://puhemo.tk/tags/Readability/</loc>
-        <lastmod>2016-06-09T13:26:34.000Z</lastmod>
+        <lastmod>2016-06-09T13:30:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://puhemo.tk/tags/RSS/</loc>
-        <lastmod>2016-06-09T13:26:34.000Z</lastmod>
+        <lastmod>2016-06-09T13:30:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://puhemo.tk/tags/KindleEar/</loc>
-        <lastmod>2016-06-09T13:26:34.000Z</lastmod>
+        <lastmod>2016-06-09T13:30:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://puhemo.tk/tags/Calibre/</loc>
-        <lastmod>2016-06-09T13:26:34.000Z</lastmod>
+        <lastmod>2016-06-09T13:30:39.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/kindle-Mate/</loc>
+        <lastmod>2016-06-09T13:34:55.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/Evernote/</loc>
+        <lastmod>2016-06-09T13:45:59.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/Clippings-io/</loc>
+        <lastmod>2016-06-09T13:45:59.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/IFTTT/</loc>
+        <lastmod>2016-06-09T13:45:59.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/Kindle/</loc>
+        <lastmod>2016-06-09T13:51:30.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/Clippings-Fere/</loc>
+        <lastmod>2016-06-09T13:51:30.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/KindleNote/</loc>
+        <lastmod>2016-06-09T13:51:30.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

@@ -17,7 +17,7 @@
 <p><img src="http://i.imgur.com/mqFoTna.png" alt="kindle-email"></p>
 <p>除此之外，还可以直接在 Kindle 中获取。在 Kindle 中依次点击 <code>菜单 -&gt; 设置 -&gt; 设备选项 -&gt; 个性化您的 Kindl</code>”，可以看到一个“〖发送至 Kindle〗电子邮件地址”，这就是接收推送的邮箱地址。</p>
 <h4 id="3、添加推送邮箱地址到已认可邮箱列表"><a href="#3、添加推送邮箱地址到已认可邮箱列表" class="headerlink" title="3、添加推送邮箱地址到已认可邮箱列表"></a>3、添加推送邮箱地址到已认可邮箱列表</h4><p>为防止恶意内容推送，亚马逊的个人文档推送机制只接收已认可的发件人电子邮箱列表中的邮箱，所以需要在【<a href="https://www.amazon.cn/mn/dcw/myx.html/ref=kinw_myk_redirect#/home/settings/payment" target="_blank" rel="external">设置</a>】页面底部找到“已认可的发件人电子邮箱列表”这一项，点击“添加认可的电子邮箱”把第一步申请的邮箱地址（或已有邮箱地址）添加进去。</p>
-<p><img src="http://kindlefere.com/wp-content/uploads/2015/02/add-email.png" alt="add-email"></p>
+<p><img src="http://i.imgur.com/OvD5GoX.png" alt="add-email"></p>
 <h4 id="4、推送文档或电子书到-Kindle"><a href="#4、推送文档或电子书到-Kindle" class="headerlink" title="4、推送文档或电子书到 Kindle"></a>4、推送文档或电子书到 Kindle</h4><ol>
 <li><p>登录上一步添加的那个受信任的电子邮箱，新建一封邮件。</p>
 </li>
@@ -127,16 +127,16 @@
 </blockquote>
 <p>###四、软件界面</p>
 <p><strong>Windows 版界面：</strong></p>
-<p><img src="http://kindlefere.com/wp-content/uploads/2015/07/clippings-fere_win_beta.jpg" alt="clippings-fere_win_beta"></p>
+<p><img src="http://i.imgur.com/cPsFKQI.jpg" alt="clippings-fere_win_beta"></p>
 <p><strong>Mac OS X 版界面：</strong></p>
-<p><img src="http://kindlefere.com/wp-content/uploads/2015/07/clippings-fere_mac_beta.jpg" alt="clippings-fere_mac_beta"></p>
+<p><img src="http://i.imgur.com/AIaSOnp.jpg" alt="clippings-fere_mac_beta"></p>
 <h3 id="五、转换效果"><a href="#五、转换效果" class="headerlink" title="五、转换效果"></a>五、转换效果</h3><p><strong>转换前的文本文档：</strong></p>
-<p><img src="http://kindlefere.com/wp-content/uploads/2016/03/clippings-fere-before.jpg" alt="clippings-fere-before"></p>
+<p><img src="http://i.imgur.com/WnShYfe.jpg" alt="clippings-fere-before"></p>
 <p><strong>转换后的页面效果：</strong></p>
-<p><img src="http://kindlefere.com/wp-content/uploads/2016/03/snapshot_1.jpg" alt="snapshot_1"></p>
-<p><img src="http://kindlefere.com/wp-content/uploads/2016/03/snapshot_2.jpg" alt="snapshot_2"></p>
-<p><img src="http://kindlefere.com/wp-content/uploads/2016/03/snapshot_3.jpg" alt="snapshot_3"></p>
-<p><img src="http://kindlefere.com/wp-content/uploads/2016/03/snapshot_4.jpg" alt="snapshot_4"></p>
+<p><img src="http://i.imgur.com/97tTN92.jpg" alt="snapshot_1"></p>
+<p><img src="http://i.imgur.com/lnYQ8aM.jpg" alt="snapshot_2"></p>
+<p><img src="http://i.imgur.com/7WaGp0B.jpg" alt="snapshot_3"></p>
+<p><img src="http://i.imgur.com/g9qkoUH.jpg" alt="snapshot_4"></p>
 <h2 id="将-Kindle-标注读书笔记导出为HTML-MarkDown-文档"><a href="#将-Kindle-标注读书笔记导出为HTML-MarkDown-文档" class="headerlink" title="将 Kindle 标注读书笔记导出为HTML/MarkDown 文档"></a>将 Kindle 标注读书笔记导出为HTML/MarkDown 文档</h2><p><a href="https://github.com/BadTudou/KindleNote" target="_blank" rel="external">KindleNote</a>可以使你Kindle阅读器中的笔记变得更易阅读。通过对Kindle的笔记文件进行整理、分析，使得笔记片段合并为完整笔记。 </p>
 <blockquote>
 <p>网站开发中</p>
@@ -162,18 +162,18 @@
 <h3 id="Clippings-io-推荐"><a href="#Clippings-io-推荐" class="headerlink" title="Clippings.io(推荐)"></a><a href="http://Clippings.io" target="_blank" rel="external">Clippings.io</a>(推荐)</h3><p>一个在线Kindle笔记管理网站，支持导出到印象笔记和evernote。</p>
 <ol>
 <li>注册<a href="http://Clippings.io" target="_blank" rel="external">Clippings.io</a></li>
-<li><p>将 Kindle 连接到电脑，按在 Documents 文件夹下找到 My Clippings 的 txt 文件，将该文件上传；<br><img src="http://upload-images.jianshu.io/upload_images/696227-4cc7b1579f75b9fe.png" alt=""></p>
+<li><p>将 Kindle 连接到电脑，按在 Documents 文件夹下找到 My Clippings 的 txt 文件，将该文件上传；<br><img src="http://i.imgur.com/W2FG8bs.png" alt=""></p>
 <blockquote>
 <p>注意：上传的文件一定要确保是kindle系统创建出来的标注和笔记格式，如果格式被修改过，那么clippings是无法识别的.<br><a href="http://kmate.me/" target="_blank" rel="external">Kindle Mate</a>可用于修改kindle标注和笔记</p>
 </blockquote>
 <p>导入成功后，就能在列表中看到自己的笔记和标注了，每条笔记都提供了修改、删除、添加、打标签和收藏的功能。</p>
 <blockquote>
-<p><img src="http://upload-images.jianshu.io/upload_images/56077-1c5051759cc4acce.png" alt=""></p>
+<p><img src="http://i.imgur.com/D3UCq4ih.png" alt=""></p>
 </blockquote>
 </li>
 <li>在<a href="http://Clippings.io" target="_blank" rel="external">Clippings.io</a>—&gt;设置里面可以选择要添加的标签；导出时建议选择为<strong>每一个本书创建一个笔记本</strong>，这样笔记是连续的，方便看； </li>
-<li>导出到印象笔记–配置笔记导出格式和要求，可以选择整本书导出，或者将收藏的笔记导出<br><img src="http://upload-images.jianshu.io/upload_images/696227-64c93323ed631ff8.png" alt=""></li>
-<li>登录印象笔记账户后，在笔记本<a href="http://Clippings.io" target="_blank" rel="external">Clippings.io</a>下面就可以看到。下面是在印象笔记中的效果：（标签是自动添加的）<br><img src="http://upload-images.jianshu.io/upload_images/696227-a3898b624347b66c.png" alt=""></li>
+<li>导出到印象笔记–配置笔记导出格式和要求，可以选择整本书导出，或者将收藏的笔记导出<br><img src="http://i.imgur.com/bjmZK5ph.png" alt=""></li>
+<li>登录印象笔记账户后，在笔记本<a href="http://Clippings.io" target="_blank" rel="external">Clippings.io</a>下面就可以看到。下面是在印象笔记中的效果：（标签是自动添加的）<br><img src="http://i.imgur.com/lP5Odbq.png" alt=""></li>
 </ol>
 <blockquote>
 <p>使用<a href="https://appcenter.yinxiang.com/app/notedup/windows/" target="_blank" rel="external">NoteDup</a>将国际版evernote笔记迁移至印象笔记</p>
@@ -184,7 +184,7 @@
 </blockquote>
 <p>查看印象笔记帐户的私有邮箱地址方法：</p>
 <ul>
-<li>网页版：设置—帐户一览，最下面<br><img src="https://pic4.zhimg.com/3d79d337750aac1b3ebd43d198dc0f8f_b.png" alt=""></li>
+<li>网页版：设置—帐户一览，最下面<br><img src="http://i.imgur.com/1jIyCs5.png" alt=""></li>
 <li>Windows: 菜单栏&gt;工具&gt;帐户信息;</li>
 <li>Mac: 主界面左上方点击用户名，进入帐户信息;</li>
 <li>Android: 设置&gt;帐户信息&gt;私有邮箱地址;</li>
@@ -220,7 +220,7 @@
 <blockquote>
 <p>仅支持Windows平台</p>
 </blockquote>
-<p><img src="http://kmate.me/wp-content/uploads/2016/04/Kindle-Mate-Main.png" alt=""></p>
+<p><img src="http://i.imgur.com/qWBJTR8h.png" alt=""></p>
 <h3 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h3><ol>
 <li>支持全系列Kindle设备<ul>
 <li>支持Kindle 3,4,5/Kindle Touch,Kindle Paperwhite 1代/2代/3代,Kindle Voyage/Kindle Oasis</li>
