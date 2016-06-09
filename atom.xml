@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-09T13:30:39.000Z</updated>
+  <updated>2016-06-09T14:13:26.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -20,10 +20,9 @@
     <link href="http://puhemo.tk/2016/06/09/send-to-kindle/"/>
     <id>http://puhemo.tk/2016/06/09/send-to-kindle/</id>
     <published>2016-06-09T13:08:41.000Z</published>
-    <updated>2016-06-09T13:30:39.000Z</updated>
+    <updated>2016-06-09T14:13:26.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;邮箱推送&quot;&gt;&lt;a href=&quot;#邮箱推送&quot; class=&quot;headerlink&quot; title=&quot;邮箱推送&quot;&gt;&lt;/a&gt;邮箱推送&lt;/h2&gt;&lt;p&gt; Kindle 推送是指亚马逊提供的一个“&lt;a href=&quot;http://www.amazon.cn/gp/help/customer/display.html?nodeId=200767340&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle 个人文档服务&lt;/a&gt;”，我们只需要一个亚马逊账号，就可以通过以电子邮箱发送附件的方式，免费把 Kindle 所支持的文档或电子书推送到亚马逊提供的个人文档云存储中。当云端接收到了你推送的文档，将会自动转换格式（比如你推送的是 txt 格式会转换成 azw 格式）并同步到与此账号绑定的 Kindle 设备中。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/fRleq7I.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;邮箱推送&quot;&gt;&lt;a href=&quot;#邮箱推送&quot; class=&quot;headerlink&quot; title=&quot;邮箱推送&quot;&gt;&lt;/a&gt;邮箱推送&lt;/h2&gt;&lt;p&gt; Kindle 推送是指亚马逊提供的一个“&lt;a href=&quot;http://www.amazon.cn/gp/help/customer/display.html?nodeId=200767340&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle 个人文档服务&lt;/a&gt;”，我们只需要一个亚马逊账号，就可以通过以电子邮箱发送附件的方式，免费把 Kindle 所支持的文档或电子书推送到亚马逊提供的个人文档云存储中。当云端接收到了你推送的文档，将会自动转换格式（比如你推送的是 txt 格式会转换成 azw 格式）并同步到与此账号绑定的 Kindle 设备中。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;http://i.imgur.com/fRleq7I.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;详细步骤&quot;&gt;&lt;a href=&quot;#详细步骤&quot; class=&quot;headerlink&quot; title=&quot;详细步骤&quot;&gt;&lt;/a&gt;详细步骤&lt;/h3&gt;&lt;h4 id=&quot;1、注册一个电子邮箱（已有邮箱忽略此步骤）&quot;&gt;&lt;a href=&quot;#1、注册一个电子邮箱（已有邮箱忽略此步骤）&quot; class=&quot;headerlink&quot; title=&quot;1、注册一个电子邮箱（已有邮箱忽略此步骤）&quot;&gt;&lt;/a&gt;1、注册一个电子邮箱（已有邮箱忽略此步骤）&lt;/h4&gt;&lt;p&gt;可以使用任意邮箱如 163 邮箱、&lt;del&gt;Gmail 邮箱&lt;/del&gt;、QQ 邮箱、新浪邮箱等。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;目前 Gmail 在大陆处于被封锁状态，暂时无法使用。&lt;/p&gt;
@@ -96,7 +95,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;邮箱推送&quot;&gt;&lt;a href=&quot;#邮箱推送&quot; class=&quot;headerlink&quot; title=&quot;邮箱推送&quot;&gt;&lt;/a&gt;邮箱推送&lt;/h2&gt;&lt;p&gt; Kindle 推送是指亚马逊提供的一个“&lt;a href=&quot;http://www.amazon.cn/gp/help/cus
+      &lt;h2 id=&quot;邮箱推送&quot;&gt;&lt;a href=&quot;#邮箱推送&quot; class=&quot;headerlink&quot; title=&quot;邮箱推送&quot;&gt;&lt;/a&gt;邮箱推送&lt;/h2&gt;&lt;p&gt; Kindle 推送是指亚马逊提供的一个“&lt;a href=&quot;http://www.amazon.cn/gp/help/customer/display.html?nodeId=200767340&quot;&gt;Kindle 个人文档服务&lt;/a&gt;”，我们只需要一个亚马逊账号，就可以通过以电子邮箱发送附件的方式，免费把 Kindle 所支持的文档或电子书推送到亚马逊提供的个人文档云存储中。当云端接收到了你推送的文档，将会自动转换格式（比如你推送的是 txt 格式会转换成 azw 格式）并同步到与此账号绑定的 Kindle 设备中。&lt;br&gt;
     
     </summary>
     
@@ -326,13 +325,13 @@
     
       <category term="Kindle" scheme="http://puhemo.tk/tags/Kindle/"/>
     
-      <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
-    
       <category term="Evernote" scheme="http://puhemo.tk/tags/Evernote/"/>
     
       <category term="Clippings.io" scheme="http://puhemo.tk/tags/Clippings-io/"/>
     
       <category term="IFTTT" scheme="http://puhemo.tk/tags/IFTTT/"/>
+    
+      <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
     
   </entry>
   
