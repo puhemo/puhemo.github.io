@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-08T14:18:39.000Z</updated>
+  <updated>2016-06-09T12:28:14.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -14,6 +14,74 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kindle 标注与笔记整理（1）</title>
+    <link href="http://puhemo.tk/2016/06/09/Kindle-%E6%A0%87%E6%B3%A8%E4%B8%8E%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86%EF%BC%881%EF%BC%89/"/>
+    <id>http://puhemo.tk/2016/06/09/Kindle-标注与笔记整理（1）/</id>
+    <published>2016-06-09T12:25:06.000Z</published>
+    <updated>2016-06-09T12:28:14.000Z</updated>
+    
+    <content type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h2 id=&quot;用Kindle-Mate修改和同步Kindle-标注与笔记&quot;&gt;&lt;a href=&quot;#用Kindle-Mate修改和同步Kindle-标注与笔记&quot; class=&quot;headerlink&quot; title=&quot;用Kindle Mate修改和同步Kindle 标注与笔记&quot;&gt;&lt;/a&gt;用&lt;a href=&quot;http://kmate.me/cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle Mate&lt;/a&gt;修改和同步Kindle 标注与笔记&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://kmate.me/cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle Mate&lt;/a&gt;是Kindle标注、Kindle笔记、Kindle生词本内容管理程序。Kindle Mate运行在计算机上，同步导入Kindle标注笔记与生词本、提供各种书籍作者分类、内容搜索与导出等管理功能，帮助提升Kindle深度阅读与语言学习用户体验。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;仅支持Windows平台&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://kmate.me/wp-content/uploads/2016/04/Kindle-Mate-Main.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;主要功能&quot;&gt;&lt;a href=&quot;#主要功能&quot; class=&quot;headerlink&quot; title=&quot;主要功能&quot;&gt;&lt;/a&gt;主要功能&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;支持全系列Kindle设备&lt;ul&gt;
+&lt;li&gt;支持Kindle 3,4,5/Kindle Touch,Kindle Paperwhite 1代/2代/3代,Kindle Voyage/Kindle Oasis&lt;/li&gt;
+&lt;li&gt;支持多国语言环境的Kindle标注、Kindle笔记&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Kindle标注(高亮)及笔记同步、导出管理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按书籍、作者进行标注笔记&lt;strong&gt;自动整理分类&lt;/strong&gt;，自动从Kindle设备导入，识别更新内容及重复内容&lt;/li&gt;
+&lt;li&gt;支持标注与笔记&lt;strong&gt;关联显示&lt;/strong&gt;。浏览标注或笔记时，将自动关联显示相应的笔记或标注&lt;/li&gt;
+&lt;li&gt;支持各种&lt;strong&gt;标注笔记的复制与导出格式&lt;/strong&gt;。自定义格式包括可选择标注笔记内容、书籍、作者、页面位置、日期的复制、导出。 支持按书籍、作者归类的批量导出&lt;/li&gt;
+&lt;li&gt;支持&lt;strong&gt;标注笔记编辑管理&lt;/strong&gt;。可以对原有Kindle中的标注与笔记进行编辑管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Kindle生词本同步、导出管理&lt;ul&gt;
+&lt;li&gt;自动同步导入Kindle生词本。对于生词、原型、用法、词频、书籍作者等分类管理与浏览学习&lt;/li&gt;
+&lt;li&gt;支持快速批量进行生词学习与管理同步&lt;/li&gt;
+&lt;li&gt;支持从金山词霸在线、必应词典、WordNet 3.1自动下载最新英汉或英英词典释义供英语学习浏览&lt;/li&gt;
+&lt;li&gt;支持&lt;strong&gt;生词本自定义导出格式&lt;/strong&gt;，包括生词、原型、用法、释义的内容复制与导出&lt;/li&gt;
+&lt;li&gt;支持Kindle生词本导出为有道生词本、金山词霸、欧陆词典、必应生词本与Anki记忆库，Excel等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;集中全文内容搜索与快速标签访问&lt;ul&gt;
+&lt;li&gt;支持标注笔记的全文检索笔记内容、页面位置、书籍作者等；对生词本全文检索生词、用法、释义&lt;/li&gt;
+&lt;li&gt;支持浏览学习列表中快速设置颜色标签进行分组管理与搜索视图中的快速访问&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;下载地址&quot;&gt;&lt;a href=&quot;#下载地址&quot; class=&quot;headerlink&quot; title=&quot;下载地址&quot;&gt;&lt;/a&gt;下载地址&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Windows 系统&lt;/strong&gt;：&lt;a href=&quot;http://pan.baidu.com/s/1i3Hocol&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度盘&lt;/a&gt;  &lt;a href=&quot;https://www.dropbox.com/sh/ngb6bqklpe6ab8b/AACkKBT5wGB4MbHYjrXD77QHa?dl=0&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Dropbox&lt;/a&gt;  &lt;a href=&quot;https://onedrive.live.com/redir?resid=D3C7AC8E97D26436%218192&amp;amp;authkey=%21ANIzrv2qTO7hDow&amp;amp;ithint=folder%2czip&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;OneDrive&lt;/a&gt;  &lt;a href=&quot;https://sourceforge.net/projects/kmate/files/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SourceForge&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;常用快捷键&quot;&gt;&lt;a href=&quot;#常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;常用快捷键&quot;&gt;&lt;/a&gt;常用快捷键&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;F2: 导入数据&lt;/li&gt;
+&lt;li&gt;F6: Kindle阅历&lt;/li&gt;
+&lt;li&gt;F10: 同步到Kindle&lt;/li&gt;
+&lt;li&gt;F12: 管理生词本释意&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;推荐阅读&quot;&gt;&lt;a href=&quot;#推荐阅读&quot; class=&quot;headerlink&quot; title=&quot;推荐阅读&quot;&gt;&lt;/a&gt;推荐阅读&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://kmate.me/guide/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle Mate 使用帮助指南&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h2 id=&quot;用Kindle-Mate修改和同步Kindle-标注与笔记&quot;&gt;&lt;a href=&quot;#用Kindle-Mate修改和同步Kindle-标注与笔记&quot; class=&quot;headerlink&quot; title=&quot;用Kindle Mate修改和同步Kindle 标注与笔记&quot;&gt;&lt;/a&gt;用&lt;a href=&quot;http://kmate.me/cn/&quot;&gt;Kindle Mate&lt;/a&gt;修改和同步Kindle 标注与笔记&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://kmate.me/cn/&quot;&gt;Kindle Mate&lt;/a&gt;是Kindle标注、Kindle笔记、Kindle生词本内容管理程序。Kindle Mate运行在计算机上，同步导入Kindle标注笔记与生词本、提供各种书籍作者分类、内容搜索与导出等管理功能，帮助提升Kindle深度阅读与语言学习用户体验。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="技" scheme="http://puhemo.tk/categories/%E6%8A%80/"/>
+    
+    
+      <category term="Kindle" scheme="http://puhemo.tk/tags/Kindle/"/>
+    
+      <category term="kindle Mate" scheme="http://puhemo.tk/tags/kindle-Mate/"/>
+    
+  </entry>
   
   <entry>
     <title>Python语法--Variable</title>
@@ -484,7 +552,7 @@
     <link href="http://puhemo.tk/2016/06/05/markdown/"/>
     <id>http://puhemo.tk/2016/06/05/markdown/</id>
     <published>2016-06-05T11:30:43.000Z</published>
-    <updated>2016-06-09T12:21:13.000Z</updated>
+    <updated>2016-06-09T12:24:03.000Z</updated>
     
     <content type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt; 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。&lt;/blockquote&gt;
 
@@ -575,7 +643,7 @@
 &lt;li&gt;&lt;p&gt;代码区域：&lt;br&gt;2.1 缩进 4 个空格或是 1 个制表符（Tab键）&lt;/p&gt;
 &lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;code&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;2.2 反引号：&lt;/p&gt;
-&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;​‘’‘ruby&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;require &#39;redcarpet&#39;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;markdown = Redcarpet.new(&quot;Hello World!&quot;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;puts markdown.to_html&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;​&#39;&#39;&#39;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;‘’‘ruby&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;require &#39;redcarpet&#39;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;markdown = Redcarpet.new(&quot;Hello World!&quot;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;puts markdown.to_html&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&#39;&#39;&#39;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&quot;目录-TOC&quot;&gt;&lt;a href=&quot;#目录-TOC&quot; class=&quot;headerlink&quot; title=&quot;目录 (TOC)&quot;&gt;&lt;/a&gt;目录 (TOC)&lt;/h3&gt;&lt;p&gt;输入&lt;code&gt;[ TOC ]&lt;/code&gt;，然后按回车键将创建“目录”，从文章提取所有标题，目录会自动更新。&lt;/p&gt;
