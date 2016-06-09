@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-09T12:51:23.000Z</updated>
+  <updated>2016-06-09T13:01:17.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -16,11 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Python 错误提示</title>
+    <link href="http://puhemo.tk/2016/06/09/python-error/"/>
+    <id>http://puhemo.tk/2016/06/09/python-error/</id>
+    <published>2016-06-09T12:55:39.000Z</published>
+    <updated>2016-06-09T13:01:17.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;SyntaxError&quot;&gt;&lt;a href=&quot;#SyntaxError&quot; class=&quot;headerlink&quot; title=&quot;SyntaxError&quot;&gt;&lt;/a&gt;SyntaxError&lt;/h2&gt;&lt;h3 id=&quot;SyntaxError-non-ascii-character-‘-xe6’-in-file&quot;&gt;&lt;a href=&quot;#SyntaxError-non-ascii-character-‘-xe6’-in-file&quot; class=&quot;headerlink&quot; title=&quot;SyntaxError: non-ascii character ‘ xe6’ in file&quot;&gt;&lt;/a&gt;SyntaxError: non-ascii character ‘ xe6’ in file&lt;/h3&gt;&lt;p&gt;中文注释乱码问题&lt;br&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;代码开始的第一行添加如下一条语句：&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# This Python file uses the following encoding: utf-8&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;或添加语句为：&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# encoding: utf-8&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;SyntaxError&quot;&gt;&lt;a href=&quot;#SyntaxError&quot; class=&quot;headerlink&quot; title=&quot;SyntaxError&quot;&gt;&lt;/a&gt;SyntaxError&lt;/h2&gt;&lt;h3 id=&quot;SyntaxError-non-ascii-character-‘-xe6’-in-file&quot;&gt;&lt;a href=&quot;#SyntaxError-non-ascii-character-‘-xe6’-in-file&quot; class=&quot;headerlink&quot; title=&quot;SyntaxError: non-ascii character ‘ xe6’ in file&quot;&gt;&lt;/a&gt;SyntaxError: non-ascii character ‘ xe6’ in file&lt;/h3&gt;&lt;p&gt;中文注释乱码问题&lt;br&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;代码开始的第一行添加如下一条语句：&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# This Python file uses the following encoding: utf-8&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;或添加语句为：&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# encoding: utf-8&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
+    
+    
+      <category term="Python" scheme="http://puhemo.tk/tags/Python/"/>
+    
+      <category term="Error" scheme="http://puhemo.tk/tags/Error/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Kindle 标注与笔记整理（3）</title>
     <link href="http://puhemo.tk/2016/06/09/kindle-html/"/>
     <id>http://puhemo.tk/2016/06/09/kindle-html/</id>
     <published>2016-06-09T12:48:34.000Z</published>
-    <updated>2016-06-09T12:51:23.000Z</updated>
+    <updated>2016-06-09T12:55:59.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;将-Kindle-标注读书笔记导出为HTML-文档&quot;&gt;&lt;a href=&quot;#将-Kindle-标注读书笔记导出为HTML-文档&quot; class=&quot;headerlink&quot; title=&quot;将 Kindle 标注读书笔记导出为HTML 文档&quot;&gt;&lt;/a&gt;将 Kindle 标注读书笔记导出为HTML 文档&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;本文基于文章《&lt;a href=&quot;http://kindlefere.com/post/110.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Clippings Fere：让“我的剪贴”变得更易读&lt;/a&gt;》修改而来。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;爱用 Kindle 标注和做笔记的的小伙伴们，现在你可以用 Clippings Fere 整理和阅读 Kindle 的剪贴文件啦！它可以大大改善 Kindle 中的“我的剪贴”文件“My Clippings.txt”的阅读体验！&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -83,7 +108,7 @@
     
     </summary>
     
-      <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
+      <category term="器" scheme="http://puhemo.tk/categories/%E5%99%A8/"/>
     
     
       <category term="Kindle" scheme="http://puhemo.tk/tags/Kindle/"/>
@@ -99,7 +124,7 @@
     <link href="http://puhemo.tk/2016/06/09/kindle-evernote/"/>
     <id>http://puhemo.tk/2016/06/09/kindle-evernote/</id>
     <published>2016-06-09T12:39:49.000Z</published>
-    <updated>2016-06-09T12:51:56.000Z</updated>
+    <updated>2016-06-09T12:56:21.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;将-Kindle-标注读书笔记导出到-Evernote&quot;&gt;&lt;a href=&quot;#将-Kindle-标注读书笔记导出到-Evernote&quot; class=&quot;headerlink&quot; title=&quot;将 Kindle 标注读书笔记导出到 Evernote&quot;&gt;&lt;/a&gt;将 Kindle 标注读书笔记导出到 Evernote&lt;/h2&gt;&lt;p&gt;kindle笔记管理做的很不近人意，本文收集了一些将kindle原生系统下笔记转移到Evernote的方法。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Clippings-io-推荐&quot;&gt;&lt;a href=&quot;#Clippings-io-推荐&quot; class=&quot;headerlink&quot; title=&quot;Clippings.io(推荐)&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://Clippings.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Clippings.io&lt;/a&gt;(推荐)&lt;/h3&gt;&lt;p&gt;一个在线Kindle笔记管理网站，支持导出到印象笔记和evernote。&lt;/p&gt;
@@ -161,7 +186,7 @@
     
     </summary>
     
-      <category term="技" scheme="http://puhemo.tk/categories/%E6%8A%80/"/>
+      <category term="器" scheme="http://puhemo.tk/categories/%E5%99%A8/"/>
     
     
       <category term="Kindle" scheme="http://puhemo.tk/tags/Kindle/"/>
@@ -181,7 +206,7 @@
     <link href="http://puhemo.tk/2016/06/09/kindle-mate/"/>
     <id>http://puhemo.tk/2016/06/09/kindle-mate/</id>
     <published>2016-06-09T12:25:06.000Z</published>
-    <updated>2016-06-09T12:38:59.000Z</updated>
+    <updated>2016-06-09T12:56:09.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;用Kindle-Mate修改和同步Kindle-标注与笔记&quot;&gt;&lt;a href=&quot;#用Kindle-Mate修改和同步Kindle-标注与笔记&quot; class=&quot;headerlink&quot; title=&quot;用Kindle Mate修改和同步Kindle 标注与笔记&quot;&gt;&lt;/a&gt;用&lt;a href=&quot;http://kmate.me/cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle Mate&lt;/a&gt;修改和同步Kindle 标注与笔记&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://kmate.me/cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle Mate&lt;/a&gt;是Kindle标注、Kindle笔记、Kindle生词本内容管理程序。Kindle Mate运行在计算机上，同步导入Kindle标注笔记与生词本、提供各种书籍作者分类、内容搜索与导出等管理功能，帮助提升Kindle深度阅读与语言学习用户体验。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -232,7 +257,7 @@
     
     </summary>
     
-      <category term="技" scheme="http://puhemo.tk/categories/%E6%8A%80/"/>
+      <category term="器" scheme="http://puhemo.tk/categories/%E5%99%A8/"/>
     
     
       <category term="Kindle" scheme="http://puhemo.tk/tags/Kindle/"/>
@@ -246,7 +271,7 @@
     <link href="http://puhemo.tk/2016/06/08/python-variable/"/>
     <id>http://puhemo.tk/2016/06/08/python-variable/</id>
     <published>2016-06-08T11:33:49.000Z</published>
-    <updated>2016-06-08T14:18:39.000Z</updated>
+    <updated>2016-06-09T12:59:13.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;学习笔记&lt;/strong&gt;：本文属于自用笔记，仅供参考。&lt;/p&gt;
 &lt;h2 id=&quot;Variable-Naming&quot;&gt;&lt;a href=&quot;#Variable-Naming&quot; class=&quot;headerlink&quot; title=&quot;Variable Naming&quot;&gt;&lt;/a&gt;Variable Naming&lt;/h2&gt;&lt;p&gt;Nota Bene: Python is a case sensitive programming language. Be aware of this when you first name and subsequently use your variables. For instance, leapyear, Leapyear, leapYear, and LeapYear will actually be viewed as 4 &lt;strong&gt;different&lt;/strong&gt; variables by Python even if you intended the same thing, a “leap year,” but simply mistyped.&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -339,6 +364,8 @@
       <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
     
     
+      <category term="Syntax" scheme="http://puhemo.tk/tags/Syntax/"/>
+    
       <category term="Python" scheme="http://puhemo.tk/tags/Python/"/>
     
   </entry>
@@ -348,7 +375,7 @@
     <link href="http://puhemo.tk/2016/06/08/python-loop/"/>
     <id>http://puhemo.tk/2016/06/08/python-loop/</id>
     <published>2016-06-08T11:31:07.000Z</published>
-    <updated>2016-06-08T13:43:08.000Z</updated>
+    <updated>2016-06-09T13:00:37.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;学习笔记&lt;/strong&gt;：本文属于自用笔记，仅供参考。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -373,6 +400,8 @@
     
       <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
     
+    
+      <category term="Syntax" scheme="http://puhemo.tk/tags/Syntax/"/>
     
       <category term="Python" scheme="http://puhemo.tk/tags/Python/"/>
     
@@ -710,12 +739,11 @@
     <link href="http://puhemo.tk/2016/06/05/markdown/"/>
     <id>http://puhemo.tk/2016/06/05/markdown/</id>
     <published>2016-06-05T11:30:43.000Z</published>
-    <updated>2016-06-09T12:24:03.000Z</updated>
+    <updated>2016-06-09T13:00:09.000Z</updated>
     
     <content type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt; 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。&lt;/blockquote&gt;
 
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h2 id=&quot;适用人群&quot;&gt;&lt;a href=&quot;#适用人群&quot; class=&quot;headerlink&quot; title=&quot;适用人群&quot;&gt;&lt;/a&gt;适用人群&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt; 是为那些需要经常码字或者进行文字排版的、对码字手速和排版顺畅度有要求的人群设计的。这些人包括经常需要写文档的码农、博客写手、网站小编、出版业人士等等。&lt;/p&gt;
 &lt;h2 id=&quot;推荐软件&quot;&gt;&lt;a href=&quot;#推荐软件&quot; class=&quot;headerlink&quot; title=&quot;推荐软件&quot;&gt;&lt;/a&gt;推荐软件&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.typora.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Typora&lt;/a&gt;: 一款极简的&lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt; 编辑器，适用于windows和mac平台。&lt;/p&gt;
 &lt;h2 id=&quot;Markdown-语法规则&quot;&gt;&lt;a href=&quot;#Markdown-语法规则&quot; class=&quot;headerlink&quot; title=&quot;Markdown 语法规则&quot;&gt;&lt;/a&gt;Markdown 语法规则&lt;/h2&gt;&lt;h3 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h3&gt;&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;# 一级标题&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;## 二级标题&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;### 三级标题&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;#### 四级标题&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;##### 五级标题&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;###### 六级标题&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -858,6 +886,8 @@
       <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
     
     
+      <category term="Syntax" scheme="http://puhemo.tk/tags/Syntax/"/>
+    
       <category term="Markdown" scheme="http://puhemo.tk/tags/Markdown/"/>
     
       <category term="HTML" scheme="http://puhemo.tk/tags/HTML/"/>
@@ -869,7 +899,7 @@
     <link href="http://puhemo.tk/2016/06/03/hexo-code/"/>
     <id>http://puhemo.tk/2016/06/03/hexo-code/</id>
     <published>2016-06-03T15:39:16.000Z</published>
-    <updated>2016-06-08T13:40:06.000Z</updated>
+    <updated>2016-06-09T13:00:20.000Z</updated>
     
     <content type="html">&lt;p&gt;在文章中插入代码。&lt;br&gt;别名： code&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% codeblock [title] [lang:language] [url] [link text] %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;code snippet&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% endcodeblock %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -896,6 +926,8 @@
     
     
       <category term="Hexo" scheme="http://puhemo.tk/tags/Hexo/"/>
+    
+      <category term="Syntax" scheme="http://puhemo.tk/tags/Syntax/"/>
     
   </entry>
   
