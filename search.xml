@@ -4,13 +4,79 @@
   
     
     <entry>
+      <title><![CDATA[Kindle 标注与笔记整理（2）]]></title>
+      <url>http://puhemo.tk/2016/06/09/Kindle-%E6%A0%87%E6%B3%A8%E4%B8%8E%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86%EF%BC%882%EF%BC%89/</url>
+      <content type="html"><![CDATA[<h2 id="将-Kindle-标注读书笔记导出到-Evernote"><a href="#将-Kindle-标注读书笔记导出到-Evernote" class="headerlink" title="将 Kindle 标注读书笔记导出到 Evernote"></a>将 Kindle 标注读书笔记导出到 Evernote</h2><p>kindle笔记管理做的很不近人意，本文收集了一些将kindle原生系统下笔记转移到Evernote的方法。<br><a id="more"></a></p>
+<h3 id="Clippings-io-推荐"><a href="#Clippings-io-推荐" class="headerlink" title="Clippings.io(推荐)"></a><a href="http://Clippings.io" target="_blank" rel="external">Clippings.io</a>(推荐)</h3><p>一个在线Kindle笔记管理网站，支持导出到印象笔记和evernote。</p>
+<ol>
+<li>注册<a href="http://Clippings.io" target="_blank" rel="external">Clippings.io</a></li>
+<li><p>将 Kindle 连接到电脑，按在 Documents 文件夹下找到 My Clippings 的 txt 文件，将该文件上传；<br><img src="http://upload-images.jianshu.io/upload_images/696227-4cc7b1579f75b9fe.png" alt=""></p>
+<blockquote>
+<p>注意：上传的文件一定要确保是kindle系统创建出来的标注和笔记格式，如果格式被修改过，那么clippings是无法识别的.<br><a href="http://kmate.me/" target="_blank" rel="external">Kindle Mate</a>可用于修改kindle标注和笔记</p>
+</blockquote>
+<p>导入成功后，就能在列表中看到自己的笔记和标注了，每条笔记都提供了修改、删除、添加、打标签和收藏的功能。</p>
+<blockquote>
+<p><img src="http://upload-images.jianshu.io/upload_images/56077-1c5051759cc4acce.png" alt=""></p>
+</blockquote>
+</li>
+<li>在<a href="http://Clippings.io" target="_blank" rel="external">Clippings.io</a>—&gt;设置里面可以选择要添加的标签；导出时建议选择为<strong>每一个本书创建一个笔记本</strong>，这样笔记是连续的，方便看； </li>
+<li>导出到印象笔记–配置笔记导出格式和要求，可以选择整本书导出，或者将收藏的笔记导出<br><img src="http://upload-images.jianshu.io/upload_images/696227-64c93323ed631ff8.png" alt=""></li>
+<li>登录印象笔记账户后，在笔记本<a href="http://Clippings.io" target="_blank" rel="external">Clippings.io</a>下面就可以看到。下面是在印象笔记中的效果：（标签是自动添加的）<br><img src="http://upload-images.jianshu.io/upload_images/696227-a3898b624347b66c.png" alt=""></li>
+</ol>
+<blockquote>
+<p>使用<a href="https://appcenter.yinxiang.com/app/notedup/windows/" target="_blank" rel="external">NoteDup</a>将国际版evernote笔记迁移至印象笔记</p>
+</blockquote>
+<h3 id="发送到印象笔记私有邮箱地址"><a href="#发送到印象笔记私有邮箱地址" class="headerlink" title="发送到印象笔记私有邮箱地址"></a>发送到印象笔记私有邮箱地址</h3><p>最新版本kindle系统支持通过邮件分享，把邮件转发到你的印象笔记私有邮箱地址 (类似 <username>.xxxxx@m.yinxiang.com） 就可以保存邮件到印象笔记。</username></p>
+<blockquote>
+<p>付费账户可以申请去掉私有邮箱中的随机码</p>
+</blockquote>
+<p>查看印象笔记帐户的私有邮箱地址方法：</p>
+<ul>
+<li><p>网页版：设置—帐户一览，最下面<br><img src="https://pic4.zhimg.com/3d79d337750aac1b3ebd43d198dc0f8f_b.png" alt=""></p>
+</li>
+<li><p>Windows: 菜单栏&gt;工具&gt;帐户信息;</p>
+</li>
+<li><p>Mac: 主界面左上方点击用户名，进入帐户信息;</p>
+</li>
+<li><p>Android: 设置&gt;帐户信息&gt;私有邮箱地址;</p>
+</li>
+<li><p>iPhone, iPad 点击主界面左上角用户名&gt;通用设置&gt;私有邮箱地址;</p>
+</li>
+</ul>
+<h3 id="新浪微博-IFTTT"><a href="#新浪微博-IFTTT" class="headerlink" title="新浪微博+IFTTT"></a>新浪微博+IFTTT</h3><blockquote>
+<p>微博有字数限制</p>
+</blockquote>
+<p>Kindle 系统中支持分享到新浪微博，分享的时候需要保证kindle联网</p>
+<ul>
+<li><p>在<a href="https://ifttt.com/" target="_blank" rel="external">IFTTT</a>中设置新建一条微博自动保存到印象笔记(<a href="https://ifttt.com/recipes/216888-" target="_blank" rel="external">备份微博到印象笔记 by ryekee</a>)</p>
+<blockquote>
+<p>不想自动保存所有新建微博就注册一个微博小号</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="Clippings-Fere"><a href="#Clippings-Fere" class="headerlink" title="Clippings Fere"></a><a href="http://kindlefere.com/post/110.html" target="_blank" rel="external">Clippings Fere</a></h3><p>Clippings Fere 是一个使用 Python 写的小软件，可以帮你把 Kindle 中的纯文本文档 My Clippings.txt 转换成有着更佳阅读体验的 HTML 文档，方便整理和阅读 Kindle 中的标注和读书笔记。</p>
+<blockquote>
+<p>本方法仅适用于 Windows 版 Evernote</p>
+</blockquote>
+<ol>
+<li>安装<a href="http://kindlefere.com/post/110.html" target="_blank" rel="external">Clippings Fere</a> </li>
+<li>转换My Clippings.txt 为HTML文件(参考<a href="http://kindlefere.com/post/110.html" target="_blank" rel="external">Kindle 标注与笔记整理（3）</a>)</li>
+<li>打开 Evernote（印象笔记），在菜单栏中一次点击“工具 -&gt; 导入文件夹”，导入刚才生成的 html 文件夹。<blockquote>
+<p>导入后，每本书为一条笔记。</p>
+</blockquote>
+</li>
+</ol>
+<h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><p><a href="https://www.zhihu.com/question/22356174/answer/21121444" target="_blank" rel="external">如何将 Kindle 标注读书笔记导出到 Evernote 印象笔记？ </a><br><a href="https://www.zhihu.com/question/24455868/answer/27856132" target="_blank" rel="external">如何保存邮件到印象笔记 Evernote？</a><br><a href="http://www.jianshu.com/p/a1c274b95b23" target="_blank" rel="external">技能Get | 读书笔记 从Kindle到EverNote</a><br><a href="http://www.jianshu.com/p/e739f1f3385c" target="_blank" rel="external">kindle党的福音——笔记管理工具Clippings</a><br><a href="http://kindlefere.com/post/110.html" target="_blank" rel="external">Clippings Fere：让“我的剪贴”变得更易读</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Kindle 标注与笔记整理（1）]]></title>
       <url>http://puhemo.tk/2016/06/09/kindle-mate/</url>
       <content type="html"><![CDATA[<h2 id="用Kindle-Mate修改和同步Kindle-标注与笔记"><a href="#用Kindle-Mate修改和同步Kindle-标注与笔记" class="headerlink" title="用Kindle Mate修改和同步Kindle 标注与笔记"></a>用<a href="http://kmate.me/cn/" target="_blank" rel="external">Kindle Mate</a>修改和同步Kindle 标注与笔记</h2><p><a href="http://kmate.me/cn/" target="_blank" rel="external">Kindle Mate</a>是Kindle标注、Kindle笔记、Kindle生词本内容管理程序。Kindle Mate运行在计算机上，同步导入Kindle标注笔记与生词本、提供各种书籍作者分类、内容搜索与导出等管理功能，帮助提升Kindle深度阅读与语言学习用户体验。<br><a id="more"></a></p>
 <blockquote>
 <p>仅支持Windows平台</p>
 </blockquote>
-<!-- toc -->
 <p><img src="http://kmate.me/wp-content/uploads/2016/04/Kindle-Mate-Main.png" alt=""></p>
 <h3 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h3><ol>
 <li>支持全系列Kindle设备<ul>

@@ -86,15 +86,57 @@
     </url>
 
     <url>
-        <loc>http://puhemo.tk/tags/Kindle/</loc>
-        <lastmod>2016-06-09T12:37:36.000Z</lastmod>
+        <loc>http://puhemo.tk/tags/kindle-Mate/</loc>
+        <lastmod>2016-06-09T12:38:59.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://puhemo.tk/tags/kindle-Mate/</loc>
-        <lastmod>2016-06-09T12:37:36.000Z</lastmod>
+        <loc>http://puhemo.tk/tags/Kindle/</loc>
+        <lastmod>2016-06-09T12:43:43.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/Evernote/</loc>
+        <lastmod>2016-06-09T12:43:43.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/Clippings-io/</loc>
+        <lastmod>2016-06-09T12:43:43.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/IFTTT/</loc>
+        <lastmod>2016-06-09T12:43:43.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/Weibo/</loc>
+        <lastmod>2016-06-09T12:43:43.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/NoteDup/</loc>
+        <lastmod>2016-06-09T12:43:43.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/Clippings-Fere/</loc>
+        <lastmod>2016-06-09T12:43:43.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
