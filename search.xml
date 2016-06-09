@@ -5,13 +5,12 @@
     
     <entry>
       <title><![CDATA[Kindle 标注与笔记整理（1）]]></title>
-      <url>http://puhemo.tk/2016/06/09/Kindle-%E6%A0%87%E6%B3%A8%E4%B8%8E%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86%EF%BC%881%EF%BC%89/</url>
-      <content type="html"><![CDATA[<p>[TOC]</p>
-<h2 id="用Kindle-Mate修改和同步Kindle-标注与笔记"><a href="#用Kindle-Mate修改和同步Kindle-标注与笔记" class="headerlink" title="用Kindle Mate修改和同步Kindle 标注与笔记"></a>用<a href="http://kmate.me/cn/" target="_blank" rel="external">Kindle Mate</a>修改和同步Kindle 标注与笔记</h2><p><a href="http://kmate.me/cn/" target="_blank" rel="external">Kindle Mate</a>是Kindle标注、Kindle笔记、Kindle生词本内容管理程序。Kindle Mate运行在计算机上，同步导入Kindle标注笔记与生词本、提供各种书籍作者分类、内容搜索与导出等管理功能，帮助提升Kindle深度阅读与语言学习用户体验。<br><a id="more"></a></p>
+      <url>http://puhemo.tk/2016/06/09/kindle-mate/</url>
+      <content type="html"><![CDATA[<h2 id="用Kindle-Mate修改和同步Kindle-标注与笔记"><a href="#用Kindle-Mate修改和同步Kindle-标注与笔记" class="headerlink" title="用Kindle Mate修改和同步Kindle 标注与笔记"></a>用<a href="http://kmate.me/cn/" target="_blank" rel="external">Kindle Mate</a>修改和同步Kindle 标注与笔记</h2><p><a href="http://kmate.me/cn/" target="_blank" rel="external">Kindle Mate</a>是Kindle标注、Kindle笔记、Kindle生词本内容管理程序。Kindle Mate运行在计算机上，同步导入Kindle标注笔记与生词本、提供各种书籍作者分类、内容搜索与导出等管理功能，帮助提升Kindle深度阅读与语言学习用户体验。<br><a id="more"></a></p>
 <blockquote>
 <p>仅支持Windows平台</p>
 </blockquote>
-<p>[TOC]</p>
+<p>&lt;%- toc(page.content) %&gt;</p>
 <p><img src="http://kmate.me/wp-content/uploads/2016/04/Kindle-Mate-Main.png" alt=""></p>
 <h3 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h3><ol>
 <li>支持全系列Kindle设备<ul>
