@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-09T13:01:17.000Z</updated>
+  <updated>2016-06-09T13:06:02.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -14,6 +14,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python导出Kindle笔记--待解决</title>
+    <link href="http://puhemo.tk/2016/06/09/python-kindle/"/>
+    <id>http://puhemo.tk/2016/06/09/python-kindle/</id>
+    <published>2016-06-09T13:04:01.000Z</published>
+    <updated>2016-06-09T13:06:02.000Z</updated>
+    
+    <content type="html">&lt;p&gt;程序会在桌面创建一个文件夹，为每一本书创建一个TXT文件，里面是每一本书的摘录（Kindle内的摘录是按时间顺序存放的），只保留下正文，位置、时间全都舍去。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h3&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# encoding: utf-8&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; os&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;note_path=&lt;span class=&quot;string&quot;&gt;&#39;G:\documents\My Clippings.txt&#39;&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;#My Clippings文档路径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;f=open(note_path,&lt;span class=&quot;string&quot;&gt;&#39;r+&#39;&lt;/span&gt;) &lt;span class=&quot;comment&quot;&gt;#打开Clippings文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;digest_path=&lt;span class=&quot;string&quot;&gt;&#39;/Users/Administrator/Desktop/digest/&#39;&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;#笔记保存位置&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;os.mkdir(digest_path) &lt;span class=&quot;comment&quot;&gt;#新建digest文件夹&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;True&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    onenote=[]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; range(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        line=f.readline()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;not&lt;/span&gt; line:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            exit()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        onenote.append(line)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    book_note=open(&lt;span class=&quot;string&quot;&gt;&#39;%s%s.txt&#39;&lt;/span&gt;%(digest_path,onenote[&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;]),&lt;span class=&quot;string&quot;&gt;&#39;a+&#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    book_note.write(onenote[&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;]+&lt;span class=&quot;string&quot;&gt;&#39;\n&#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    book_note.close()&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;运行报错&quot;&gt;&lt;a href=&quot;#运行报错&quot; class=&quot;headerlink&quot; title=&quot;运行报错&quot;&gt;&lt;/a&gt;运行报错&lt;/h3&gt;&lt;p&gt;  &lt;code&gt;IOError: [Errno 22] invalid mod (&amp;#39;a&amp;#39;) or filename&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;可能原因&quot;&gt;&lt;a href=&quot;#可能原因&quot; class=&quot;headerlink&quot; title=&quot;可能原因&quot;&gt;&lt;/a&gt;可能原因&lt;/h3&gt;&lt;p&gt;文件名问题&lt;/p&gt;
+&lt;h3 id=&quot;代码来源&quot;&gt;&lt;a href=&quot;#代码来源&quot; class=&quot;headerlink&quot; title=&quot;代码来源&quot;&gt;&lt;/a&gt;代码来源&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/23031778#&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.zhihu.com/question/23031778#&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;程序会在桌面创建一个文件夹，为每一本书创建一个TXT文件，里面是每一本书的摘录（Kindle内的摘录是按时间顺序存放的），只保留下正文，位置、时间全都舍去。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
+    
+    
+      <category term="Kindle" scheme="http://puhemo.tk/tags/Kindle/"/>
+    
+      <category term="Python" scheme="http://puhemo.tk/tags/Python/"/>
+    
+      <category term="Error" scheme="http://puhemo.tk/tags/Error/"/>
+    
+  </entry>
   
   <entry>
     <title>Python 错误提示</title>
@@ -191,13 +222,13 @@
     
       <category term="Kindle" scheme="http://puhemo.tk/tags/Kindle/"/>
     
+      <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
+    
       <category term="Evernote" scheme="http://puhemo.tk/tags/Evernote/"/>
     
       <category term="Clippings.io" scheme="http://puhemo.tk/tags/Clippings-io/"/>
     
       <category term="IFTTT" scheme="http://puhemo.tk/tags/IFTTT/"/>
-    
-      <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
     
   </entry>
   
