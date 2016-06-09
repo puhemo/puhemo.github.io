@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-09T12:43:43.000Z</updated>
+  <updated>2016-06-09T12:46:31.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>Kindle 标注与笔记整理（2）</title>
-    <link href="http://puhemo.tk/2016/06/09/Kindle-%E6%A0%87%E6%B3%A8%E4%B8%8E%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86%EF%BC%882%EF%BC%89/"/>
-    <id>http://puhemo.tk/2016/06/09/Kindle-标注与笔记整理（2）/</id>
+    <link href="http://puhemo.tk/2016/06/09/kindle-evernote/"/>
+    <id>http://puhemo.tk/2016/06/09/kindle-evernote/</id>
     <published>2016-06-09T12:39:49.000Z</published>
-    <updated>2016-06-09T12:43:43.000Z</updated>
+    <updated>2016-06-09T12:46:31.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;将-Kindle-标注读书笔记导出到-Evernote&quot;&gt;&lt;a href=&quot;#将-Kindle-标注读书笔记导出到-Evernote&quot; class=&quot;headerlink&quot; title=&quot;将 Kindle 标注读书笔记导出到 Evernote&quot;&gt;&lt;/a&gt;将 Kindle 标注读书笔记导出到 Evernote&lt;/h2&gt;&lt;p&gt;kindle笔记管理做的很不近人意，本文收集了一些将kindle原生系统下笔记转移到Evernote的方法。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Clippings-io-推荐&quot;&gt;&lt;a href=&quot;#Clippings-io-推荐&quot; class=&quot;headerlink&quot; title=&quot;Clippings.io(推荐)&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://Clippings.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Clippings.io&lt;/a&gt;(推荐)&lt;/h3&gt;&lt;p&gt;一个在线Kindle笔记管理网站，支持导出到印象笔记和evernote。&lt;/p&gt;
@@ -48,16 +48,11 @@
 &lt;/blockquote&gt;
 &lt;p&gt;查看印象笔记帐户的私有邮箱地址方法：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;网页版：设置—帐户一览，最下面&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/3d79d337750aac1b3ebd43d198dc0f8f_b.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Windows: 菜单栏&amp;gt;工具&amp;gt;帐户信息;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Mac: 主界面左上方点击用户名，进入帐户信息;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Android: 设置&amp;gt;帐户信息&amp;gt;私有邮箱地址;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;iPhone, iPad 点击主界面左上角用户名&amp;gt;通用设置&amp;gt;私有邮箱地址;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;网页版：设置—帐户一览，最下面&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/3d79d337750aac1b3ebd43d198dc0f8f_b.png&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Windows: 菜单栏&amp;gt;工具&amp;gt;帐户信息;&lt;/li&gt;
+&lt;li&gt;Mac: 主界面左上方点击用户名，进入帐户信息;&lt;/li&gt;
+&lt;li&gt;Android: 设置&amp;gt;帐户信息&amp;gt;私有邮箱地址;&lt;/li&gt;
+&lt;li&gt;iPhone, iPad 点击主界面左上角用户名&amp;gt;通用设置&amp;gt;私有邮箱地址;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;新浪微博-IFTTT&quot;&gt;&lt;a href=&quot;#新浪微博-IFTTT&quot; class=&quot;headerlink&quot; title=&quot;新浪微博+IFTTT&quot;&gt;&lt;/a&gt;新浪微博+IFTTT&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;微博有字数限制&lt;/p&gt;
