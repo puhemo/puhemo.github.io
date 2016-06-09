@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-09T12:46:31.000Z</updated>
+  <updated>2016-06-09T12:51:23.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -16,11 +16,90 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Kindle 标注与笔记整理（3）</title>
+    <link href="http://puhemo.tk/2016/06/09/kindle-html/"/>
+    <id>http://puhemo.tk/2016/06/09/kindle-html/</id>
+    <published>2016-06-09T12:48:34.000Z</published>
+    <updated>2016-06-09T12:51:23.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;将-Kindle-标注读书笔记导出为HTML-文档&quot;&gt;&lt;a href=&quot;#将-Kindle-标注读书笔记导出为HTML-文档&quot; class=&quot;headerlink&quot; title=&quot;将 Kindle 标注读书笔记导出为HTML 文档&quot;&gt;&lt;/a&gt;将 Kindle 标注读书笔记导出为HTML 文档&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;本文基于文章《&lt;a href=&quot;http://kindlefere.com/post/110.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Clippings Fere：让“我的剪贴”变得更易读&lt;/a&gt;》修改而来。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;爱用 Kindle 标注和做笔记的的小伙伴们，现在你可以用 Clippings Fere 整理和阅读 Kindle 的剪贴文件啦！它可以大大改善 Kindle 中的“我的剪贴”文件“My Clippings.txt”的阅读体验！&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;一、简介&quot;&gt;&lt;a href=&quot;#一、简介&quot; class=&quot;headerlink&quot; title=&quot;一、简介&quot;&gt;&lt;/a&gt;一、简介&lt;/h3&gt;&lt;p&gt;Clippings Fere 是一个使用 Python 写的小软件，可以帮你把 Kindle 中的纯文本文档 My Clippings.txt 转换成有着更佳阅读体验的 HTML 文档，方便整理和阅读 Kindle 中的标注和读书笔记。&lt;/p&gt;
+&lt;h3 id=&quot;二、-软件下载&quot;&gt;&lt;a href=&quot;#二、-软件下载&quot; class=&quot;headerlink&quot; title=&quot;二、 软件下载&quot;&gt;&lt;/a&gt;二、 软件下载&lt;/h3&gt;&lt;p&gt;剪贴伴侣（Clippings Fere） 目前支持 Windows 和 Mac OS X系统，请下载适用于您的版本：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Windows 系统（5.7MB）：&lt;/strong&gt;&lt;a href=&quot;http://pan.baidu.com/s/1cdW6U6&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度网盘&lt;/a&gt; ｜ &lt;a href=&quot;https://yunpan.cn/OcPr2eLEf8D4pB&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;360网盘&lt;/a&gt;［ 4436 ］｜ &lt;a href=&quot;https://drive.google.com/file/d/0Bx2_5pZK58S2TWw3YjdiRV8yWk0/view?usp=sharing&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GDrive&lt;/a&gt; ｜ &lt;a href=&quot;https://www.dropbox.com/s/frcd0157cx7kup3/Clippings-Fere_Beta_20160427.zip?dl=0&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;DropBox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mac OS X 系统（6.4MB）：&lt;/strong&gt;&lt;a href=&quot;http://pan.baidu.com/s/1qY7qnxi&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度网盘&lt;/a&gt; ｜ &lt;a href=&quot;https://yunpan.cn/OcPr2nRrIzBVnM&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;360网盘&lt;/a&gt;［ 283d ］｜ &lt;a href=&quot;https://drive.google.com/file/d/0Bx2_5pZK58S2YTd2Q0pZaGlqTnM/view?usp=sharing&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GDrive&lt;/a&gt; ｜ &lt;a href=&quot;https://www.dropbox.com/s/yyoodhjf9eh1ysi/Clippings-Fere_Beta_20160427.dmg?dl=0&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;DropBox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;提示 1：本工具仅适用于 Kindle 原生系统。&lt;/li&gt;
+&lt;li&gt;提示 2：请注意无论何时候都要注意备份自己的 My Clippings.txt 文件，不要随意删除。&lt;/li&gt;
+&lt;li&gt;提示 3：本工具是由 Python 语言编写并用 PyInstaller 打包，可能会被防病毒软件误报，请忽略。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;三、使用方法&quot;&gt;&lt;a href=&quot;#三、使用方法&quot; class=&quot;headerlink&quot; title=&quot;三、使用方法&quot;&gt;&lt;/a&gt;三、使用方法&lt;/h3&gt;&lt;p&gt;Windows 系统下和 Mac OS X 系统下的使用方法是一致的，具体操作步骤如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用 USB 数据线将 Kindle 连接到电脑，直到“计算机”或“我的电脑”中出现 Kindle 盘符；&lt;/li&gt;
+&lt;li&gt;运行 Clippings Fere，软件会自动检测 My Clippings.txt 文件，若没检测到请手动选择；&lt;/li&gt;
+&lt;li&gt;选择输出目录并点击“立即转换”，会在目标目录生成一个“MyClippings”文件夹；&lt;/li&gt;
+&lt;li&gt;打开“MyClippings”文件夹，点击 index.html 即可轻松查看所有剪贴内容。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;导入到 Evernote（印象笔记）的临时方法&lt;br&gt;本方法仅适用于 Windows 版 Evernote。通过 Clippings Fere 把 My Clippings.txt 转换后，可以在 MyCippings 文件夹里找到 html 文件夹。打开 Evernote（印象笔记），在菜单栏中一次点击“工具 -&amp;gt; 导入文件夹”，在弹出的对话框中，点击【添加(A)…】按钮，选择刚才生成的那个 html 文件夹，然后点击确定，再次点击确定，即可把转换好的笔记导入进来了。导入后，每本书为一条笔记。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;###四、软件界面&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Windows 版界面：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2015/07/clippings-fere_win_beta.jpg&quot; alt=&quot;clippings-fere_win_beta&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mac OS X 版界面：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2015/07/clippings-fere_mac_beta.jpg&quot; alt=&quot;clippings-fere_mac_beta&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;五、转换效果&quot;&gt;&lt;a href=&quot;#五、转换效果&quot; class=&quot;headerlink&quot; title=&quot;五、转换效果&quot;&gt;&lt;/a&gt;五、转换效果&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;转换前的文本文档：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2016/03/clippings-fere-before.jpg&quot; alt=&quot;clippings-fere-before&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;转换后的页面效果：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2016/03/snapshot_1.jpg&quot; alt=&quot;snapshot_1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2016/03/snapshot_2.jpg&quot; alt=&quot;snapshot_2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2016/03/snapshot_3.jpg&quot; alt=&quot;snapshot_3&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://kindlefere.com/wp-content/uploads/2016/03/snapshot_4.jpg&quot; alt=&quot;snapshot_4&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;将-Kindle-标注读书笔记导出为HTML-MarkDown-文档&quot;&gt;&lt;a href=&quot;#将-Kindle-标注读书笔记导出为HTML-MarkDown-文档&quot; class=&quot;headerlink&quot; title=&quot;将 Kindle 标注读书笔记导出为HTML/MarkDown 文档&quot;&gt;&lt;/a&gt;将 Kindle 标注读书笔记导出为HTML/MarkDown 文档&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/BadTudou/KindleNote&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;KindleNote&lt;/a&gt;可以使你Kindle阅读器中的笔记变得更易阅读。通过对Kindle的笔记文件进行整理、分析，使得笔记片段合并为完整笔记。 &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;网站开发中&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;一、特色&quot;&gt;&lt;a href=&quot;#一、特色&quot; class=&quot;headerlink&quot; title=&quot;一、特色&quot;&gt;&lt;/a&gt;一、特色&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;自动合并笔记片段&lt;/li&gt;
+&lt;li&gt;自动按笔记排序，支持笔记查找&lt;/li&gt;
+&lt;li&gt;离线模式，另存为HTML即可在无网络状态下使用&lt;/li&gt;
+&lt;li&gt;MarkDown导出&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;二、使用方法&quot;&gt;&lt;a href=&quot;#二、使用方法&quot; class=&quot;headerlink&quot; title=&quot;二、使用方法&quot;&gt;&lt;/a&gt;二、使用方法&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;打开&lt;a href=&quot;http://119.29.227.85/kindlenote/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;KindleNote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;进入Kindle的磁盘，上传 Kindle盘符:\documents\My Clippings.txt文件&lt;/li&gt;
+&lt;li&gt;等待程序对笔记文件进行处理，完成&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;将-Kindle-标注读书笔记导出为HTML-文档&quot;&gt;&lt;a href=&quot;#将-Kindle-标注读书笔记导出为HTML-文档&quot; class=&quot;headerlink&quot; title=&quot;将 Kindle 标注读书笔记导出为HTML 文档&quot;&gt;&lt;/a&gt;将 Kindle 标注读书笔记导出为HTML 文档&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;本文基于文章《&lt;a href=&quot;http://kindlefere.com/post/110.html&quot;&gt;Clippings Fere：让“我的剪贴”变得更易读&lt;/a&gt;》修改而来。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;爱用 Kindle 标注和做笔记的的小伙伴们，现在你可以用 Clippings Fere 整理和阅读 Kindle 的剪贴文件啦！它可以大大改善 Kindle 中的“我的剪贴”文件“My Clippings.txt”的阅读体验！&lt;br&gt;
+    
+    </summary>
+    
+      <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
+    
+    
+      <category term="Kindle" scheme="http://puhemo.tk/tags/Kindle/"/>
+    
+      <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
+    
+      <category term="KindleNote" scheme="http://puhemo.tk/tags/KindleNote/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Kindle 标注与笔记整理（2）</title>
     <link href="http://puhemo.tk/2016/06/09/kindle-evernote/"/>
     <id>http://puhemo.tk/2016/06/09/kindle-evernote/</id>
     <published>2016-06-09T12:39:49.000Z</published>
-    <updated>2016-06-09T12:46:31.000Z</updated>
+    <updated>2016-06-09T12:51:56.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;将-Kindle-标注读书笔记导出到-Evernote&quot;&gt;&lt;a href=&quot;#将-Kindle-标注读书笔记导出到-Evernote&quot; class=&quot;headerlink&quot; title=&quot;将 Kindle 标注读书笔记导出到 Evernote&quot;&gt;&lt;/a&gt;将 Kindle 标注读书笔记导出到 Evernote&lt;/h2&gt;&lt;p&gt;kindle笔记管理做的很不近人意，本文收集了一些将kindle原生系统下笔记转移到Evernote的方法。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Clippings-io-推荐&quot;&gt;&lt;a href=&quot;#Clippings-io-推荐&quot; class=&quot;headerlink&quot; title=&quot;Clippings.io(推荐)&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://Clippings.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Clippings.io&lt;/a&gt;(推荐)&lt;/h3&gt;&lt;p&gt;一个在线Kindle笔记管理网站，支持导出到印象笔记和evernote。&lt;/p&gt;
@@ -57,14 +136,10 @@
 &lt;h3 id=&quot;新浪微博-IFTTT&quot;&gt;&lt;a href=&quot;#新浪微博-IFTTT&quot; class=&quot;headerlink&quot; title=&quot;新浪微博+IFTTT&quot;&gt;&lt;/a&gt;新浪微博+IFTTT&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;微博有字数限制&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Kindle 系统中支持分享到新浪微博，分享的时候需要保证kindle联网&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;在&lt;a href=&quot;https://ifttt.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;IFTTT&lt;/a&gt;中设置新建一条微博自动保存到印象笔记(&lt;a href=&quot;https://ifttt.com/recipes/216888-&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;备份微博到印象笔记 by ryekee&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Kindle 系统中支持分享到新浪微博，分享的时候需要保证kindle联网，&lt;br&gt;在&lt;a href=&quot;https://ifttt.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;IFTTT&lt;/a&gt;中设置新建一条微博自动保存到印象笔记(&lt;a href=&quot;https://ifttt.com/recipes/216888-&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;备份微博到印象笔记 by ryekee&lt;/a&gt;)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;不想自动保存所有新建微博就注册一个微博小号&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3 id=&quot;Clippings-Fere&quot;&gt;&lt;a href=&quot;#Clippings-Fere&quot; class=&quot;headerlink&quot; title=&quot;Clippings Fere&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://kindlefere.com/post/110.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Clippings Fere&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Clippings Fere 是一个使用 Python 写的小软件，可以帮你把 Kindle 中的纯文本文档 My Clippings.txt 转换成有着更佳阅读体验的 HTML 文档，方便整理和阅读 Kindle 中的标注和读书笔记。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;本方法仅适用于 Windows 版 Evernote&lt;/p&gt;
@@ -96,10 +171,6 @@
       <category term="Clippings.io" scheme="http://puhemo.tk/tags/Clippings-io/"/>
     
       <category term="IFTTT" scheme="http://puhemo.tk/tags/IFTTT/"/>
-    
-      <category term="Weibo" scheme="http://puhemo.tk/tags/Weibo/"/>
-    
-      <category term="NoteDup" scheme="http://puhemo.tk/tags/NoteDup/"/>
     
       <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
     
