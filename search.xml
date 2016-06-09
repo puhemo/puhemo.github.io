@@ -4,6 +4,81 @@
   
     
     <entry>
+      <title><![CDATA[Kindle推送]]></title>
+      <url>http://puhemo.tk/2016/06/09/send-to-kindle/</url>
+      <content type="html"><![CDATA[<h2 id="邮箱推送"><a href="#邮箱推送" class="headerlink" title="邮箱推送"></a>邮箱推送</h2><p> Kindle 推送是指亚马逊提供的一个“<a href="http://www.amazon.cn/gp/help/customer/display.html?nodeId=200767340" target="_blank" rel="external">Kindle 个人文档服务</a>”，我们只需要一个亚马逊账号，就可以通过以电子邮箱发送附件的方式，免费把 Kindle 所支持的文档或电子书推送到亚马逊提供的个人文档云存储中。当云端接收到了你推送的文档，将会自动转换格式（比如你推送的是 txt 格式会转换成 azw 格式）并同步到与此账号绑定的 Kindle 设备中。<br><a id="more"></a><br><img src="http://kindlefere.com/wp-content/uploads/2014/04/kindle-push-theory.jpg" alt=""></p>
+<h3 id="详细步骤"><a href="#详细步骤" class="headerlink" title="详细步骤"></a>详细步骤</h3><h4 id="1、注册一个电子邮箱（已有邮箱忽略此步骤）"><a href="#1、注册一个电子邮箱（已有邮箱忽略此步骤）" class="headerlink" title="1、注册一个电子邮箱（已有邮箱忽略此步骤）"></a>1、注册一个电子邮箱（已有邮箱忽略此步骤）</h4><p>可以使用任意邮箱如 163 邮箱、<del>Gmail 邮箱</del>、QQ 邮箱、新浪邮箱等。</p>
+<blockquote>
+<p>目前 Gmail 在大陆处于被封锁状态，暂时无法使用。</p>
+</blockquote>
+<h4 id="2、获取接收推送的邮箱地址"><a href="#2、获取接收推送的邮箱地址" class="headerlink" title="2、获取接收推送的邮箱地址"></a>2、获取接收推送的邮箱地址</h4><p>用电脑上的浏览器<a href="https://www.amazon.cn/gp/css/homepage.html/ref=nav_yam_ya" target="_blank" rel="external">登录亚马逊账户</a>，将鼠标悬左上角的导航，依次展开“浏览全部分类” -&gt; “Kindle 电子书阅读器”（或鼠标悬浮在“我的账户”上），在展开的菜单中找到“管理内容和设备”这个分类。点击【<a href="https://www.amazon.cn/gp/digital/fiona/manage?ref=sa_menu_kindle_l3_device&amp;#manageDevices" target="_blank" rel="external">管理我的内容和设备</a>】进入“管理我的内容和设备”页面，然后再点击【<a href="https://www.amazon.cn/mn/dcw/myx.html/ref=kinw_myk_redirect#/home/devices/1" target="_blank" rel="external">我的设备</a>】选项卡，在设备列表中选中你的 Kindle 设备，页面会显示你的用户名、设备的型号以及序列号等信息。</p>
+<p>在页面中找到“<strong>电子邮箱</strong>”这一项，有个类似“<em>*</em>@kindle.cn”字样的邮箱地址（@前的名字可点击编辑自定义），这就是接收推送文档的目标邮箱，请记录这个邮箱地址（或者将它添加到你的邮箱联系人中方便选择），要推送的电子书或文档就是通过发送到这个邮箱到达亚马逊云端的。</p>
+<p><img src="http://kindlefere.com/wp-content/uploads/2015/02/kindle-email.png" alt="kindle-email"></p>
+<p>除此之外，还可以直接在 Kindle 中获取。在 Kindle 中依次点击 <code>菜单 -&gt; 设置 -&gt; 设备选项 -&gt; 个性化您的 Kindl</code>”，可以看到一个“〖发送至 Kindle〗电子邮件地址”，这就是接收推送的邮箱地址。</p>
+<h4 id="3、添加推送邮箱地址到已认可邮箱列表"><a href="#3、添加推送邮箱地址到已认可邮箱列表" class="headerlink" title="3、添加推送邮箱地址到已认可邮箱列表"></a>3、添加推送邮箱地址到已认可邮箱列表</h4><p>为防止恶意内容推送，亚马逊的个人文档推送机制只接收已认可的发件人电子邮箱列表中的邮箱，所以需要在【<a href="https://www.amazon.cn/mn/dcw/myx.html/ref=kinw_myk_redirect#/home/settings/payment" target="_blank" rel="external">设置</a>】页面底部找到“已认可的发件人电子邮箱列表”这一项，点击“添加认可的电子邮箱”把第一步申请的邮箱地址（或已有邮箱地址）添加进去。</p>
+<p><img src="http://kindlefere.com/wp-content/uploads/2015/02/add-email.png" alt="add-email"></p>
+<h4 id="4、推送文档或电子书到-Kindle"><a href="#4、推送文档或电子书到-Kindle" class="headerlink" title="4、推送文档或电子书到 Kindle"></a>4、推送文档或电子书到 Kindle</h4><ol>
+<li><p>登录上一步添加的那个受信任的电子邮箱，新建一封邮件。</p>
+</li>
+<li><p>收件人填写第 4 步所记录的类似“<strong>*\</strong>@kindle.cn**”的目标邮箱地址，主题和内容可随意填写或者干脆不填写。</p>
+<blockquote>
+<p>若想把发送的诸如 TXT、PDF 文档自动转化为 Kindle 专有格式可以在电子邮件的主题栏中填写”convert”</p>
+</blockquote>
+</li>
+<li><p>然后添加要推送的文档或电子书到附件，点击发送。</p>
+</li>
+<li><p>稍等片刻，你的 Kindle 就可以收到推送的内容了（如果你推送的内容不被支持会收到一份“你发送至Kindle的邮件未附任何文件附件”的提示回信）。</p>
+</li>
+</ol>
+<hr>
+<h2 id="Push-To-Kindle-把网页文章推送到-Kindle"><a href="#Push-To-Kindle-把网页文章推送到-Kindle" class="headerlink" title="Push To Kindle: 把网页文章推送到 Kindle"></a><a href="http://fivefilters.org/kindle-it/" target="_blank" rel="external">Push To Kindle</a>: 把网页文章推送到 Kindle</h2><ul>
+<li>手动填写网址推送</li>
+<li>浏览器插件自动推送</li>
+</ul>
+<h2 id="Send-to-Kindle-微信推送"><a href="#Send-to-Kindle-微信推送" class="headerlink" title="Send to Kindle: 微信推送"></a>Send to Kindle: 微信推送</h2><p>Kindle 官方推出的微信推送功能<br><img src="http://kindlefere.com/wp-content/uploads/2015/03/kindle-weixin-step.png" alt=""></p>
+<h2 id="Readability-定时或立即把长文推送到-Kindle"><a href="#Readability-定时或立即把长文推送到-Kindle" class="headerlink" title="Readability: 定时或立即把长文推送到 Kindle"></a>Readability: 定时或立即把长文推送到 Kindle</h2><p><a href="https://www.readability.com/" target="_blank" rel="external">Readability </a>是一款免费的阅读服务平台,支持“推送到 Kindle”功能，你可以把当前浏览的文章立即推送到 Kindle 中阅读，也可以设置定时推送，按照每周或每天的频率，把你存储下来的文章集结成册按时推送到你的 Kindle 中阅读。</p>
+<h2 id="RSS推送服务"><a href="#RSS推送服务" class="headerlink" title="RSS推送服务"></a>RSS推送服务</h2><h3 id="Dogear（推荐）"><a href="#Dogear（推荐）" class="headerlink" title="Dogear（推荐）"></a><a href="http://www.dogear.cn" target="_blank" rel="external">Dogear</a>（推荐）</h3><p>全文RSS和微信公众号推送服务，支持Kindle、多看和Nook等移动电子阅读设备 </p>
+<blockquote>
+<p>免费版可满足大部分人的要求</p>
+</blockquote>
+<h3 id="Hikindle"><a href="#Hikindle" class="headerlink" title="Hikindle"></a><a href="http://www.hikindle.com/" target="_blank" rel="external">Hikindle</a></h3><p>RSS资源较少，不支持添加RSS，期刊为主</p>
+<blockquote>
+<p>rss订阅免费，期刊订阅收费</p>
+</blockquote>
+<h3 id="kindle4rss"><a href="#kindle4rss" class="headerlink" title="kindle4rss"></a><a href="http://kindle4rss.com/" target="_blank" rel="external">kindle4rss</a></h3><p>Kindle4RSS是一个让你订阅RSS Feed新闻并定时推送到Kindle的服务</p>
+<h3 id="KindleEar-推荐"><a href="#KindleEar-推荐" class="headerlink" title="KindleEar(推荐)"></a><a href="https://github.com/cdhigh/KindleEar" target="_blank" rel="external">KindleEar</a>(推荐)</h3><p><a href="https://github.com/cdhigh/KindleEar" target="_blank" rel="external">KindleEar</a>是部署在Google Appengine上的免费应用，主要功能是自动定期通过RSS收集网络文章然后制作成图文并茂的电子书推送至你的Kindle。</p>
+<h4 id="主要特性："><a href="#主要特性：" class="headerlink" title="主要特性："></a>主要特性：</h4><ul>
+<li>自定义RSS</li>
+<li>支持RSS全文抓取</li>
+<li>多账号管理，也就是支持多kindle</li>
+<li>带图的杂志格式MOBI</li>
+<li>自动每天定时推送</li>
+<li>强大并且方便的邮件中转服务</li>
+<li>和Evernote/Pocket/Instapaper等系统的集成</li>
+</ul>
+<h4 id="KindleEar–FAQ"><a href="#KindleEar–FAQ" class="headerlink" title="KindleEar–FAQ"></a><a href="http://kindle.xuhehuan.com/static/faq.html#whatis" target="_blank" rel="external">KindleEar–FAQ</a></h4><h4 id="KindleEar-搭建教程"><a href="#KindleEar-搭建教程" class="headerlink" title="KindleEar 搭建教程"></a><a href="http://kindlefere.com/post/19.html" target="_blank" rel="external">KindleEar 搭建教程</a></h4><h2 id="kindle小技巧"><a href="#kindle小技巧" class="headerlink" title="kindle小技巧"></a>kindle小技巧</h2><ul>
+<li><a href="https://link.zhihu.com/?target=http%3A//t.bookdna.cn" target="_blank" rel="external">Kindle特价书</a></li>
+<li>内置浏览器访问网盘可以直接下载支持格式的电子书</li>
+<li>把PDF发送到Kindle的时候，邮件主题写convert，系统会自动把pdf转换成适合kindle阅读的格式。（只限英文文字PDF）<pre><code>&gt; [Tip: Typing &quot;convert&quot; in the subject of the e-mail converts your document to Kindle format before delivering it to your devices and Amazon Cloud Drive. ZIP files are automatically opened by the conversion service, converted to Kindle format, and are stored in your content library.][3]
+</code></pre></li>
+</ul>
+<h2 id="推荐阅读"><a href="#推荐阅读" class="headerlink" title="推荐阅读"></a>推荐阅读</h2><ul>
+<li><a href="http://kindlefere.com/post/256.html" target="_blank" rel="external">Calibre 使用教程之抓取 RSS 制成电子书</a></li>
+<li><a href="http://kindlefere.com/post/11.html" target="_blank" rel="external">Calibre 使用教程之邮件一键推送电子书</a></li>
+<li><a href="http://kindlefere.com/post/19.html" target="_blank" rel="external">KindleEar 搭建教程：推送 RSS 订阅到 Kindle</a></li>
+<li><a href="http://htmlpreview.github.io/?https://github.com/cdhigh/KindleEar/blob/master/static/faq.html" target="_blank" rel="external">KindleEar–FAQ</a></li>
+</ul>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ul>
+<li><a href="https://www.zhihu.com/question/27741189" target="_blank" rel="external">Kindle 有哪些鲜为人知的使用技巧？</a></li>
+<li><a href="http://kindlefere.com/post/3.html" target="_blank" rel="external">Kindle 推送教程：教你用电子邮箱推送电子书</a></li>
+<li><a href="http://kindlefere.com/post/174.html" target="_blank" rel="external">Push To Kindle：把网页文章推送到 Kindle</a></li>
+<li><a href="http://kindlefere.com/post/103.html" target="_blank" rel="external">Send to Kindle 官方测试版：微信长文 Kindle 来读</a></li>
+<li><a href="http://kindlefere.com/post/312.html" target="_blank" rel="external">Readability：定时或立即把长文推送到 Kindle</a></li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Python导出Kindle笔记--待解决]]></title>
       <url>http://puhemo.tk/2016/06/09/python-kindle/</url>
       <content type="html"><![CDATA[<p>程序会在桌面创建一个文件夹，为每一本书创建一个TXT文件，里面是每一本书的摘录（Kindle内的摘录是按时间顺序存放的），只保留下正文，位置、时间全都舍去。<br><a id="more"></a></p>
