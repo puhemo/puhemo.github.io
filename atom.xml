@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-09T14:13:26.000Z</updated>
+  <updated>2016-06-12T11:40:10.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -14,6 +14,56 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Adding Google Analytics and Googe Adsense to a Jekyll Website</title>
+    <link href="http://puhemo.tk/2016/06/12/google-jekyll/"/>
+    <id>http://puhemo.tk/2016/06/12/google-jekyll/</id>
+    <published>2016-06-12T11:37:18.000Z</published>
+    <updated>2016-06-12T11:40:10.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Google-Analytics&quot;&gt;&lt;a href=&quot;#Google-Analytics&quot; class=&quot;headerlink&quot; title=&quot;Google Analytics&quot;&gt;&lt;/a&gt;Google Analytics&lt;/h2&gt;&lt;p&gt;Google Analytics allows you to get information about your site’s  visitors such as the devices or OS they were using and their location. It goes without saying that information like this can be very useful for deciding how best to deliver content.&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;1-Sign-up&quot;&gt;&lt;a href=&quot;#1-Sign-up&quot; class=&quot;headerlink&quot; title=&quot;1. Sign up&quot;&gt;&lt;/a&gt;1. Sign up&lt;/h3&gt;&lt;p&gt;   Signing up for Google Analytics is quick easy. Simply follow the steps here: &lt;a href=&quot;https://www.google.com/analytics/web/?hl=en&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google Analytics&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;2-Placing-the-code-within-your-site&quot;&gt;&lt;a href=&quot;#2-Placing-the-code-within-your-site&quot; class=&quot;headerlink&quot; title=&quot;2. Placing the code within your site&quot;&gt;&lt;/a&gt;2. Placing the code within your site&lt;/h3&gt;&lt;p&gt;   Once you are signed up, you will be provided with some tracking code!&lt;br&gt;   Copy this code and I recommend that you paste it within the _layouts/default.html file, right towards the top within the &lt;strong&gt;head&lt;/strong&gt; tag. This will ensure that the code snippet will be added to every page so you can keep track of your whole website.&lt;/p&gt;
+&lt;h3 id=&quot;3-Reporting&quot;&gt;&lt;a href=&quot;#3-Reporting&quot; class=&quot;headerlink&quot; title=&quot;3. Reporting&quot;&gt;&lt;/a&gt;3. Reporting&lt;/h3&gt;&lt;p&gt;   Now you are all set up, simply publish your website (note your site must be live for this to take effect). Then, within the Google Analytics home page, select the &lt;strong&gt;Reporting&lt;/strong&gt; tab at the top of the page. From here you will be able to see the reports for the number of page views, geospatial information, technology and even your site’s behavior.&lt;/p&gt;
+&lt;h2 id=&quot;Google-Adsense&quot;&gt;&lt;a href=&quot;#Google-Adsense&quot; class=&quot;headerlink&quot; title=&quot;Google Adsense&quot;&gt;&lt;/a&gt;Google Adsense&lt;/h2&gt;&lt;p&gt;Google AdSense allows you to publish advertisements on your website to help build revenue from your site.&lt;/p&gt;
+&lt;h3 id=&quot;1-Sign-up-1&quot;&gt;&lt;a href=&quot;#1-Sign-up-1&quot; class=&quot;headerlink&quot; title=&quot;1. Sign up&quot;&gt;&lt;/a&gt;1. Sign up&lt;/h3&gt;&lt;p&gt;   Quickly sign up for Adsense using the following link: &lt;a href=&quot;https://www.google.co.uk/intl/en/adsense/start/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google Adsense&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;   The registration process is relatively simple, by mouse clicks and some personal information input can be made out. It is not necessary to prepare the bank card number and other personal information until mention.The audit process is comparatively long, we need to wait 7-10 days.&lt;/p&gt;
+&lt;h3 id=&quot;2-Generate-ad-tags&quot;&gt;&lt;a href=&quot;#2-Generate-ad-tags&quot; class=&quot;headerlink&quot; title=&quot;2. Generate ad tags&quot;&gt;&lt;/a&gt;2. Generate ad tags&lt;/h3&gt;&lt;p&gt;   Afterward the first instance, we can make some preliminary google ads and embedded code generation to your blog. After the final pass, official ads will be displayed on the blog.&lt;/p&gt;
+&lt;p&gt;   Login google ads to get ad code, where two of the most critical parts of is &lt;code&gt;the data-ad-client&lt;/code&gt; and &lt;code&gt;data-ad-slot&lt;/code&gt;. The other remaining parts are style information (also can modify as you like)&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;undefined&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- sidebar --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;ins&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;adsbygoogle&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;display:inline-block;width:300px;height:600px&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;attr&quot;&gt;data-ad-client&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;ca-pub-5984522345984184&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;attr&quot;&gt;data-ad-slot&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;9439014959&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;ins&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;javascript&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(adsbygoogle = &lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;.adsbygoogle || []).push(&amp;#123;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;3-Placing-the-code-within-your-site&quot;&gt;&lt;a href=&quot;#3-Placing-the-code-within-your-site&quot; class=&quot;headerlink&quot; title=&quot;3. Placing the code within your site&quot;&gt;&lt;/a&gt;3. Placing the code within your site&lt;/h3&gt;&lt;p&gt;   My Github hosted website is being used primarily as a blog… as you can see. So what I wanted to do was to host a small advertisement at the end of each blog post, just above the comments section.&lt;/p&gt;
+&lt;p&gt;   To do this, take the provided code and create yourself a file called &lt;strong&gt;advertisements.html&lt;/strong&gt; within the _includes folder. Within this file simply paste your code.&lt;/p&gt;
+&lt;p&gt;   Then go into the &lt;strong&gt;_layouts/posts.html&lt;/strong&gt; file (or any layout file for which you would like ads displayed) and insert the following code (without all the backslashes).&lt;/p&gt;
+&lt;p&gt;   &lt;code&gt;\{\% include advertising.html \%\}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;   I did this right towards the bottom, but the placements are totally up to you.&lt;/p&gt;
+&lt;p&gt;   You should then receive ads on all pages that utilize that layout!&lt;/p&gt;
+&lt;p&gt;   Notice: If you are using a template Support google-advertisement, then you can only add the following configuration in &lt;code&gt;_config. yml&lt;/code&gt; :&lt;br&gt;   {: .notice–info}&lt;/p&gt;
+   &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;google:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  ad-client: &amp;quot;ca-pub-5984522345984184&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  ad-slot: &amp;quot;9439014959&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;4-Linking-with-Analytics&quot;&gt;&lt;a href=&quot;#4-Linking-with-Analytics&quot; class=&quot;headerlink&quot; title=&quot;4. Linking with Analytics&quot;&gt;&lt;/a&gt;4. Linking with Analytics&lt;/h3&gt;&lt;p&gt;   You can link Analytics and Adsense together from the Adsense home page and click &lt;strong&gt;Integrate with Google Analytics&lt;/strong&gt; and follow the instructions. Couldn’t be simpler!&lt;/p&gt;
+&lt;p&gt;   Note: If you want to see the ads by Google AdSense running on this page, remember to disable your adblocker on this page;)&lt;br&gt;   {: .notice–success}&lt;/p&gt;
+&lt;h1 id=&quot;Reference&quot;&gt;&lt;a href=&quot;#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://cenalulu.github.io/jekyll/jekyll-with-google-advertisement/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;为jekyll博客添加google advertisement支持&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://gavlaaaaaaaa.github.io/Google-Analytics-Adsense/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Adding Google Analytics and Googe AdSense to a Jekyll Website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Google-Analytics&quot;&gt;&lt;a href=&quot;#Google-Analytics&quot; class=&quot;headerlink&quot; title=&quot;Google Analytics&quot;&gt;&lt;/a&gt;Google Analytics&lt;/h2&gt;&lt;p&gt;Google Analytics allows you to get information about your site’s  visitors such as the devices or OS they were using and their location. It goes without saying that information like this can be very useful for deciding how best to deliver content.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
+    
+    
+      <category term="Jekyll" scheme="http://puhemo.tk/tags/Jekyll/"/>
+    
+      <category term="Google" scheme="http://puhemo.tk/tags/Google/"/>
+    
+  </entry>
   
   <entry>
     <title>Kindle推送</title>
@@ -325,13 +375,13 @@
     
       <category term="Kindle" scheme="http://puhemo.tk/tags/Kindle/"/>
     
-      <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
-    
       <category term="Evernote" scheme="http://puhemo.tk/tags/Evernote/"/>
     
       <category term="Clippings.io" scheme="http://puhemo.tk/tags/Clippings-io/"/>
     
       <category term="IFTTT" scheme="http://puhemo.tk/tags/IFTTT/"/>
+    
+      <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
     
   </entry>
   
