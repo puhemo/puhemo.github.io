@@ -972,10 +972,10 @@ a {
 #header .header-nav .social ._500px::before {
   content: '\f26e';
 }
-#header .header-nav .social .Note {
+#header .header-nav .social .Bookshelves {
   background: #00ab6b;
 }
-#header .header-nav .social .Note::before {
+#header .header-nav .social .Bookshelves::before {
   content: '\f249';
 }
 .duoshuo {
