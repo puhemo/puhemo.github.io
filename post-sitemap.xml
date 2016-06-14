@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://puhemo.tk/2016/06/07/python/</loc>
+        <lastmod>2016-06-14T12:03:27.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://puhemo.tk/2016/06/12/google-jekyll/</loc>
         <lastmod>2016-06-12T11:40:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -121,14 +129,6 @@
     <url>
         <loc>http://puhemo.tk/2016/06/07/hexo-top/</loc>
         <lastmod>2016-06-08T13:42:20.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://puhemo.tk/2016/06/07/python/</loc>
-        <lastmod>2016-06-08T11:43:56.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
