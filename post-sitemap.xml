@@ -7,8 +7,16 @@
     </url>
 
     <url>
+        <loc>http://puhemo.tk/2016/06/02/hexo-github/</loc>
+        <lastmod>2016-06-16T11:48:27.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://puhemo.tk/2016/06/07/python/</loc>
-        <lastmod>2016-06-15T13:01:13.000Z</lastmod>
+        <lastmod>2016-06-16T11:48:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -97,14 +105,6 @@
     <url>
         <loc>http://puhemo.tk/2016/06/08/python-variable/</loc>
         <lastmod>2016-06-09T12:59:13.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://puhemo.tk/2016/06/02/hexo-github/</loc>
-        <lastmod>2016-06-08T13:45:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

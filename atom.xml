@@ -375,13 +375,13 @@
     
       <category term="Kindle" scheme="http://puhemo.tk/tags/Kindle/"/>
     
+      <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
+    
       <category term="Evernote" scheme="http://puhemo.tk/tags/Evernote/"/>
     
       <category term="Clippings.io" scheme="http://puhemo.tk/tags/Clippings-io/"/>
     
       <category term="IFTTT" scheme="http://puhemo.tk/tags/IFTTT/"/>
-    
-      <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
     
   </entry>
   
@@ -677,11 +677,12 @@
     <link href="http://puhemo.tk/2016/06/07/python/"/>
     <id>http://puhemo.tk/2016/06/07/python/</id>
     <published>2016-06-07T11:29:35.000Z</published>
-    <updated>2016-06-15T13:01:13.000Z</updated>
+    <updated>2016-06-16T11:48:14.000Z</updated>
     
     <content type="html">&lt;p&gt;  简单记录个人学习 大家的编程 (Python 入门)的学习记录和相关资料。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;更新历史&quot;&gt;&lt;a href=&quot;#更新历史&quot; class=&quot;headerlink&quot; title=&quot;更新历史&quot;&gt;&lt;/a&gt;更新历史&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;20160616: 完成ChapterFour&lt;/li&gt;
 &lt;li&gt;20160615:完成ChapterThree&lt;/li&gt;
 &lt;li&gt;20160614: 完成ChapterTwo&lt;/li&gt;
 &lt;li&gt;20160607: 完成ChapterOne&lt;/li&gt;
@@ -1201,7 +1202,7 @@ hexo d
     <link href="http://puhemo.tk/2016/06/02/hexo-github/"/>
     <id>http://puhemo.tk/2016/06/02/hexo-github/</id>
     <published>2016-06-02T07:11:13.000Z</published>
-    <updated>2016-06-08T13:45:47.000Z</updated>
+    <updated>2016-06-16T11:48:27.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.v2ex.co/5bb7J7NT.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;想熟悉&lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;markdown&lt;/a&gt;和纪录一些东西，于是有了这个blog和这篇文章！&lt;/p&gt;
