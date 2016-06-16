@@ -51,27 +51,6 @@
     </url>
 
     <url>
-        <loc>http://puhemo.tk/tags/Markdown/</loc>
-        <lastmod>2016-06-09T13:00:09.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://puhemo.tk/tags/HTML/</loc>
-        <lastmod>2016-06-09T13:00:09.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://puhemo.tk/tags/Syntax/</loc>
-        <lastmod>2016-06-09T13:00:37.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://puhemo.tk/tags/Error/</loc>
         <lastmod>2016-06-09T13:06:02.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -200,6 +179,27 @@
     <url>
         <loc>http://puhemo.tk/tags/Github/</loc>
         <lastmod>2016-06-16T11:48:27.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/Syntax/</loc>
+        <lastmod>2016-06-16T14:44:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/Markdown/</loc>
+        <lastmod>2016-06-16T14:44:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/HTML/</loc>
+        <lastmod>2016-06-16T14:44:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

@@ -375,13 +375,13 @@
     
       <category term="Kindle" scheme="http://puhemo.tk/tags/Kindle/"/>
     
-      <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
-    
       <category term="Evernote" scheme="http://puhemo.tk/tags/Evernote/"/>
     
       <category term="Clippings.io" scheme="http://puhemo.tk/tags/Clippings-io/"/>
     
       <category term="IFTTT" scheme="http://puhemo.tk/tags/IFTTT/"/>
+    
+      <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
     
   </entry>
   
@@ -926,7 +926,7 @@
     <link href="http://puhemo.tk/2016/06/05/markdown/"/>
     <id>http://puhemo.tk/2016/06/05/markdown/</id>
     <published>2016-06-05T11:30:43.000Z</published>
-    <updated>2016-06-09T13:00:09.000Z</updated>
+    <updated>2016-06-16T14:44:52.000Z</updated>
     
     <content type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt; 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。&lt;/blockquote&gt;
 
@@ -1005,9 +1005,9 @@
 &lt;blockquote&gt;
 &lt;p&gt;你可以点击复选框修改任务状态&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&quot;注脚&quot;&gt;&lt;a href=&quot;#注脚&quot; class=&quot;headerlink&quot; title=&quot;注脚&quot;&gt;&lt;/a&gt;注脚&lt;/h3&gt;&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;你可以创建一个像这样注脚[^注脚].&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[&lt;span class=&quot;symbol&quot;&gt;^注脚&lt;/span&gt;]: &lt;span class=&quot;link&quot;&gt;这是注脚的内容.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;注脚&quot;&gt;&lt;a href=&quot;#注脚&quot; class=&quot;headerlink&quot; title=&quot;注脚&quot;&gt;&lt;/a&gt;注脚&lt;/h3&gt;&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;你可以创建一个像这样注脚[^1].&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[&lt;span class=&quot;symbol&quot;&gt;^1&lt;/span&gt;]: &lt;span class=&quot;link&quot;&gt;这是注脚的内容.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;效果：&lt;/p&gt;
-&lt;p&gt;你可以创建一个像这样的注脚&lt;a href=&quot;这是注脚的内容.&quot;&gt;^注脚&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;你可以创建一个像这样的注脚&lt;a href=&quot;这是注脚的内容.&quot;&gt;^1&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;鼠标放在注脚上，可以看到注脚的内容.&lt;/p&gt;
 &lt;h3 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;代码框：&lt;br&gt;  用两个反引号 ` 把中间的代码包裹起来，如 &lt;/p&gt;

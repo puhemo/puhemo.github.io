@@ -731,9 +731,9 @@
 <blockquote>
 <p>你可以点击复选框修改任务状态</p>
 </blockquote>
-<h3 id="注脚"><a href="#注脚" class="headerlink" title="注脚"></a>注脚</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">你可以创建一个像这样注脚[^注脚].</span><br><span class="line"></span><br><span class="line">[<span class="symbol">^注脚</span>]: <span class="link">这是注脚的内容.</span></span><br></pre></td></tr></table></figure>
+<h3 id="注脚"><a href="#注脚" class="headerlink" title="注脚"></a>注脚</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">你可以创建一个像这样注脚[^1].</span><br><span class="line"></span><br><span class="line">[<span class="symbol">^1</span>]: <span class="link">这是注脚的内容.</span></span><br></pre></td></tr></table></figure>
 <p>效果：</p>
-<p>你可以创建一个像这样的注脚<a href="这是注脚的内容.">^注脚</a>.</p>
+<p>你可以创建一个像这样的注脚<a href="这是注脚的内容.">^1</a>.</p>
 <p>鼠标放在注脚上，可以看到注脚的内容.</p>
 <h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><ol>
 <li><p>代码框：<br>  用两个反引号 ` 把中间的代码包裹起来，如 </p>
