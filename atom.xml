@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-12T11:40:10.000Z</updated>
+  <updated>2016-06-17T11:45:48.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -14,6 +14,61 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Favorite Windows Apps</title>
+    <link href="http://puhemo.tk/2016/06/17/windows-apps/"/>
+    <id>http://puhemo.tk/2016/06/17/windows-apps/</id>
+    <published>2016-06-17T11:42:55.000Z</published>
+    <updated>2016-06-17T11:45:48.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Record some applications for easy access, by the way recommend to everyone. Below is some of my favorite Windows software that I use.&lt;/p&gt;
+&lt;h2 id=&quot;Readers&quot;&gt;&lt;a href=&quot;#Readers&quot; class=&quot;headerlink&quot; title=&quot;Readers&quot;&gt;&lt;/a&gt;Readers&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://getpocket.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pocket&lt;/a&gt; - Save web pages/rss feed articles for later and view when ready including offline.  Way better than keeping a ton of bookmarks around that you never get back to.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://feedly.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Feedly&lt;/a&gt; - RSS Feed Reader with Pocket integration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Editors&quot;&gt;&lt;a href=&quot;#Editors&quot; class=&quot;headerlink&quot; title=&quot;Editors&quot;&gt;&lt;/a&gt;Editors&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://notepad-plus-plus.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Notepad++&lt;/a&gt; - A free source code editor which supports several programming languages running under the MS Windows environment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.typora.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Typora&lt;/a&gt; - A minimal markdown editor for Mac and Windows&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Browser&quot;&gt;&lt;a href=&quot;#Browser&quot; class=&quot;headerlink&quot; title=&quot;Browser&quot;&gt;&lt;/a&gt;Browser&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.google.com/chrome/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Chrome&lt;/a&gt;: A browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.mozilla.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mozilla Firefox&lt;/a&gt;:  A free Web browser. Firefox is created by a global non-profit dedicated to putting individuals in control online.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Utilities&quot;&gt;&lt;a href=&quot;#Utilities&quot; class=&quot;headerlink&quot; title=&quot;Utilities&quot;&gt;&lt;/a&gt;Utilities&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://calibre-ebook.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;calibre&lt;/a&gt;:  The one stop solution for all your &lt;strong&gt;e-book&lt;/strong&gt; needs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mediago.sony.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Media Go &lt;/a&gt;: &lt;em&gt;Media Go&lt;/em&gt; software connects and enhances your digital entertainment world. &lt;strong&gt;Music&lt;/strong&gt;, movies, TV shows, podcasts, games, photos, and more.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://evernote.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Evernote&lt;/a&gt;: The &lt;strong&gt;note&lt;/strong&gt;-taking space for your life’s work.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.xnview.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;XnView&lt;/a&gt;: Free multi-format &lt;strong&gt;graphics viewer&lt;/strong&gt; with batch conversion and image processing capabilities.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://zh-cn.libreoffice.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;LibreOffice&lt;/a&gt;: The most actively developed free and open source &lt;strong&gt;office suite&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://kmate.me/cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle Mate&lt;/a&gt;:  A freewave with rich features designed to sync, organize, import &amp;amp; export Kindle clippings (Kindle highlights and notes) and Kindle Vocabulary Builder words on computer.  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;music.163.com&quot;&gt;NetEase Cloud Music &lt;/a&gt;: The free, Chinese equivalent to Spotify Premium&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.sumatrapdfreader.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sumatra PDF&lt;/a&gt;: A free PDF, eBook (ePub, Mobi), XPS, DjVu, CHM, Comic Book (CBZ and CBR) reader for Windows.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Record some applications for easy access, by the way recommend to everyone. Below is some of my favorite Windows software that I use.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="器" scheme="http://puhemo.tk/categories/%E5%99%A8/"/>
+    
+    
+      <category term="Windows" scheme="http://puhemo.tk/tags/Windows/"/>
+    
+  </entry>
   
   <entry>
     <title>Adding Google Analytics and Googe Adsense to a Jekyll Website</title>
@@ -31,7 +86,7 @@
 &lt;p&gt;   The registration process is relatively simple, by mouse clicks and some personal information input can be made out. It is not necessary to prepare the bank card number and other personal information until mention.The audit process is comparatively long, we need to wait 7-10 days.&lt;/p&gt;
 &lt;h3 id=&quot;2-Generate-ad-tags&quot;&gt;&lt;a href=&quot;#2-Generate-ad-tags&quot; class=&quot;headerlink&quot; title=&quot;2. Generate ad tags&quot;&gt;&lt;/a&gt;2. Generate ad tags&lt;/h3&gt;&lt;p&gt;   Afterward the first instance, we can make some preliminary google ads and embedded code generation to your blog. After the final pass, official ads will be displayed on the blog.&lt;/p&gt;
 &lt;p&gt;   Login google ads to get ad code, where two of the most critical parts of is &lt;code&gt;the data-ad-client&lt;/code&gt; and &lt;code&gt;data-ad-slot&lt;/code&gt;. The other remaining parts are style information (also can modify as you like)&lt;/p&gt;
-&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;undefined&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- sidebar --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;ins&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;adsbygoogle&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;display:inline-block;width:300px;height:600px&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;attr&quot;&gt;data-ad-client&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;ca-pub-5984522345984184&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;attr&quot;&gt;data-ad-slot&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;9439014959&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;ins&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;undefined&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(adsbygoogle = window.adsbygoogle || []).push(&amp;#123;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;undefined&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- sidebar --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;ins&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;adsbygoogle&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;display:inline-block;width:300px;height:600px&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;attr&quot;&gt;data-ad-client&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;ca-pub-5984522345984184&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;attr&quot;&gt;data-ad-slot&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;9439014959&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;ins&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;javascript&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(adsbygoogle = &lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;.adsbygoogle || []).push(&amp;#123;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;3-Placing-the-code-within-your-site&quot;&gt;&lt;a href=&quot;#3-Placing-the-code-within-your-site&quot; class=&quot;headerlink&quot; title=&quot;3. Placing the code within your site&quot;&gt;&lt;/a&gt;3. Placing the code within your site&lt;/h3&gt;&lt;p&gt;   My Github hosted website is being used primarily as a blog… as you can see. So what I wanted to do was to host a small advertisement at the end of each blog post, just above the comments section.&lt;/p&gt;
 &lt;p&gt;   To do this, take the provided code and create yourself a file called &lt;strong&gt;advertisements.html&lt;/strong&gt; within the _includes folder. Within this file simply paste your code.&lt;/p&gt;
 &lt;p&gt;   Then go into the &lt;strong&gt;_layouts/posts.html&lt;/strong&gt; file (or any layout file for which you would like ads displayed) and insert the following code (without all the backslashes).&lt;/p&gt;
@@ -375,13 +430,13 @@
     
       <category term="Kindle" scheme="http://puhemo.tk/tags/Kindle/"/>
     
+      <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
+    
       <category term="Evernote" scheme="http://puhemo.tk/tags/Evernote/"/>
     
       <category term="Clippings.io" scheme="http://puhemo.tk/tags/Clippings-io/"/>
     
       <category term="IFTTT" scheme="http://puhemo.tk/tags/IFTTT/"/>
-    
-      <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
     
   </entry>
   
@@ -633,9 +688,9 @@
       <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
     
     
-      <category term="Python" scheme="http://puhemo.tk/tags/Python/"/>
-    
       <category term="Windows" scheme="http://puhemo.tk/tags/Windows/"/>
+    
+      <category term="Python" scheme="http://puhemo.tk/tags/Python/"/>
     
       <category term="Commands" scheme="http://puhemo.tk/tags/Commands/"/>
     

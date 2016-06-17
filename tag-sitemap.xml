@@ -9,13 +9,6 @@
     </url>
 
     <url>
-        <loc>http://puhemo.tk/tags/Windows/</loc>
-        <lastmod>2016-06-08T11:21:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://puhemo.tk/tags/Commands/</loc>
         <lastmod>2016-06-08T11:21:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -200,6 +193,13 @@
     <url>
         <loc>http://puhemo.tk/tags/HTML/</loc>
         <lastmod>2016-06-16T14:44:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/tags/Windows/</loc>
+        <lastmod>2016-06-17T11:45:48.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

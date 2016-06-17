@@ -4,6 +4,45 @@
   
     
     <entry>
+      <title><![CDATA[Favorite Windows Apps]]></title>
+      <url>http://puhemo.tk/2016/06/17/windows-apps/</url>
+      <content type="html"><![CDATA[<p>Record some applications for easy access, by the way recommend to everyone. Below is some of my favorite Windows software that I use.</p>
+<h2 id="Readers"><a href="#Readers" class="headerlink" title="Readers"></a>Readers</h2><ul>
+<li><a href="http://getpocket.com" target="_blank" rel="external">Pocket</a> - Save web pages/rss feed articles for later and view when ready including offline.  Way better than keeping a ton of bookmarks around that you never get back to.</li>
+<li><a href="http://feedly.com" target="_blank" rel="external">Feedly</a> - RSS Feed Reader with Pocket integration.</li>
+</ul>
+<h2 id="Editors"><a href="#Editors" class="headerlink" title="Editors"></a>Editors</h2><ul>
+<li><p><a href="https://notepad-plus-plus.org" target="_blank" rel="external">Notepad++</a> - A free source code editor which supports several programming languages running under the MS Windows environment.</p>
+</li>
+<li><p><a href="https://www.typora.io/" target="_blank" rel="external">Typora</a> - A minimal markdown editor for Mac and Windows</p>
+</li>
+</ul>
+<h2 id="Browser"><a href="#Browser" class="headerlink" title="Browser"></a>Browser</h2><ul>
+<li><a href="https://www.google.com/chrome/" target="_blank" rel="external">Chrome</a>: A browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</li>
+<li><a href="https://www.mozilla.org" target="_blank" rel="external">Mozilla Firefox</a>:  A free Web browser. Firefox is created by a global non-profit dedicated to putting individuals in control online.</li>
+</ul>
+<h2 id="Utilities"><a href="#Utilities" class="headerlink" title="Utilities"></a>Utilities</h2><ul>
+<li><p><a href="https://calibre-ebook.com/" target="_blank" rel="external">calibre</a>:  The one stop solution for all your <strong>e-book</strong> needs.</p>
+</li>
+<li><p><a href="http://mediago.sony.com/" target="_blank" rel="external">Media Go </a>: <em>Media Go</em> software connects and enhances your digital entertainment world. <strong>Music</strong>, movies, TV shows, podcasts, games, photos, and more.</p>
+</li>
+<li><p><a href="https://evernote.com/" target="_blank" rel="external">Evernote</a>: The <strong>note</strong>-taking space for your life’s work.</p>
+</li>
+<li><p><a href="http://www.xnview.com/" target="_blank" rel="external">XnView</a>: Free multi-format <strong>graphics viewer</strong> with batch conversion and image processing capabilities.</p>
+</li>
+<li><p><a href="https://zh-cn.libreoffice.org/" target="_blank" rel="external">LibreOffice</a>: The most actively developed free and open source <strong>office suite</strong>.</p>
+</li>
+<li><p><a href="http://kmate.me/cn/" target="_blank" rel="external">Kindle Mate</a>:  A freewave with rich features designed to sync, organize, import &amp; export Kindle clippings (Kindle highlights and notes) and Kindle Vocabulary Builder words on computer.  </p>
+</li>
+<li><p><a href="music.163.com">NetEase Cloud Music </a>: The free, Chinese equivalent to Spotify Premium</p>
+</li>
+<li><p><a href="http://www.sumatrapdfreader.org/" target="_blank" rel="external">Sumatra PDF</a>: A free PDF, eBook (ePub, Mobi), XPS, DjVu, CHM, Comic Book (CBZ and CBR) reader for Windows.</p>
+</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Adding Google Analytics and Googe Adsense to a Jekyll Website]]></title>
       <url>http://puhemo.tk/2016/06/12/google-jekyll/</url>
       <content type="html"><![CDATA[<h2 id="Google-Analytics"><a href="#Google-Analytics" class="headerlink" title="Google Analytics"></a>Google Analytics</h2><p>Google Analytics allows you to get information about your site’s  visitors such as the devices or OS they were using and their location. It goes without saying that information like this can be very useful for deciding how best to deliver content.<br><a id="more"></a></p>
@@ -15,7 +54,7 @@
 <p>   The registration process is relatively simple, by mouse clicks and some personal information input can be made out. It is not necessary to prepare the bank card number and other personal information until mention.The audit process is comparatively long, we need to wait 7-10 days.</p>
 <h3 id="2-Generate-ad-tags"><a href="#2-Generate-ad-tags" class="headerlink" title="2. Generate ad tags"></a>2. Generate ad tags</h3><p>   Afterward the first instance, we can make some preliminary google ads and embedded code generation to your blog. After the final pass, official ads will be displayed on the blog.</p>
 <p>   Login google ads to get ad code, where two of the most critical parts of is <code>the data-ad-client</code> and <code>data-ad-slot</code>. The other remaining parts are style information (also can modify as you like)</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"</span>&gt;</span><span class="undefined">  </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- sidebar --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">ins</span> <span class="attr">class</span>=<span class="string">"adsbygoogle"</span></span><br><span class="line">     <span class="attr">style</span>=<span class="string">"display:inline-block;width:300px;height:600px"</span></span><br><span class="line">     <span class="attr">data-ad-client</span>=<span class="string">"ca-pub-5984522345984184"</span></span><br><span class="line">     <span class="attr">data-ad-slot</span>=<span class="string">"9439014959"</span>&gt;</span><span class="tag">&lt;/<span class="name">ins</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span><br><span class="line">(adsbygoogle = window.adsbygoogle || []).push(&#123;&#125;);</span><br><span class="line"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"</span>&gt;</span><span class="undefined">  </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- sidebar --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">ins</span> <span class="attr">class</span>=<span class="string">"adsbygoogle"</span></span><br><span class="line">     <span class="attr">style</span>=<span class="string">"display:inline-block;width:300px;height:600px"</span></span><br><span class="line">     <span class="attr">data-ad-client</span>=<span class="string">"ca-pub-5984522345984184"</span></span><br><span class="line">     <span class="attr">data-ad-slot</span>=<span class="string">"9439014959"</span>&gt;</span><span class="tag">&lt;/<span class="name">ins</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span><br><span class="line">(adsbygoogle = <span class="built_in">window</span>.adsbygoogle || []).push(&#123;&#125;);</span><br><span class="line"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <h3 id="3-Placing-the-code-within-your-site"><a href="#3-Placing-the-code-within-your-site" class="headerlink" title="3. Placing the code within your site"></a>3. Placing the code within your site</h3><p>   My Github hosted website is being used primarily as a blog… as you can see. So what I wanted to do was to host a small advertisement at the end of each blog post, just above the comments section.</p>
 <p>   To do this, take the provided code and create yourself a file called <strong>advertisements.html</strong> within the _includes folder. Within this file simply paste your code.</p>
 <p>   Then go into the <strong>_layouts/posts.html</strong> file (or any layout file for which you would like ads displayed) and insert the following code (without all the backslashes).</p>
