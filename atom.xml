@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-17T12:43:13.000Z</updated>
+  <updated>2016-06-17T14:42:18.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://puhemo.tk/2016/06/17/GitHub%E5%BC%80%E6%BA%90%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
     <id>http://puhemo.tk/2016/06/17/GitHub开源电子书/</id>
     <published>2016-06-17T12:34:00.000Z</published>
-    <updated>2016-06-17T12:43:13.000Z</updated>
+    <updated>2016-06-17T14:42:18.000Z</updated>
     
     <content type="html">&lt;p&gt;这里收录比较实用的计算机相关技术的github开源电子书&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;语言无关类&quot;&gt;&lt;a href=&quot;#语言无关类&quot; class=&quot;headerlink&quot; title=&quot;语言无关类&quot;&gt;&lt;/a&gt;语言无关类&lt;/h2&gt;&lt;h3 id=&quot;操作系统&quot;&gt;&lt;a href=&quot;#操作系统&quot; class=&quot;headerlink&quot; title=&quot;操作系统&quot;&gt;&lt;/a&gt;操作系统&lt;/h3&gt;&lt;ul&gt;
@@ -425,7 +425,7 @@
     
       <category term="Github" scheme="http://puhemo.tk/tags/Github/"/>
     
-      <category term="ebook" scheme="http://puhemo.tk/tags/ebook/"/>
+      <category term="Ebook" scheme="http://puhemo.tk/tags/Ebook/"/>
     
   </entry>
   
@@ -491,7 +491,7 @@
 &lt;p&gt;   The registration process is relatively simple, by mouse clicks and some personal information input can be made out. It is not necessary to prepare the bank card number and other personal information until mention.The audit process is comparatively long, we need to wait 7-10 days.&lt;/p&gt;
 &lt;h3 id=&quot;2-Generate-ad-tags&quot;&gt;&lt;a href=&quot;#2-Generate-ad-tags&quot; class=&quot;headerlink&quot; title=&quot;2. Generate ad tags&quot;&gt;&lt;/a&gt;2. Generate ad tags&lt;/h3&gt;&lt;p&gt;   Afterward the first instance, we can make some preliminary google ads and embedded code generation to your blog. After the final pass, official ads will be displayed on the blog.&lt;/p&gt;
 &lt;p&gt;   Login google ads to get ad code, where two of the most critical parts of is &lt;code&gt;the data-ad-client&lt;/code&gt; and &lt;code&gt;data-ad-slot&lt;/code&gt;. The other remaining parts are style information (also can modify as you like)&lt;/p&gt;
-&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;undefined&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- sidebar --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;ins&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;adsbygoogle&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;display:inline-block;width:300px;height:600px&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;attr&quot;&gt;data-ad-client&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;ca-pub-5984522345984184&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;attr&quot;&gt;data-ad-slot&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;9439014959&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;ins&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;undefined&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(adsbygoogle = window.adsbygoogle || []).push(&amp;#123;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;undefined&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- sidebar --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;ins&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;adsbygoogle&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;display:inline-block;width:300px;height:600px&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;attr&quot;&gt;data-ad-client&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;ca-pub-5984522345984184&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;attr&quot;&gt;data-ad-slot&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;9439014959&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;ins&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;javascript&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(adsbygoogle = &lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;.adsbygoogle || []).push(&amp;#123;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;3-Placing-the-code-within-your-site&quot;&gt;&lt;a href=&quot;#3-Placing-the-code-within-your-site&quot; class=&quot;headerlink&quot; title=&quot;3. Placing the code within your site&quot;&gt;&lt;/a&gt;3. Placing the code within your site&lt;/h3&gt;&lt;p&gt;   My Github hosted website is being used primarily as a blog… as you can see. So what I wanted to do was to host a small advertisement at the end of each blog post, just above the comments section.&lt;/p&gt;
 &lt;p&gt;   To do this, take the provided code and create yourself a file called &lt;strong&gt;advertisements.html&lt;/strong&gt; within the _includes folder. Within this file simply paste your code.&lt;/p&gt;
 &lt;p&gt;   Then go into the &lt;strong&gt;_layouts/posts.html&lt;/strong&gt; file (or any layout file for which you would like ads displayed) and insert the following code (without all the backslashes).&lt;/p&gt;
@@ -1133,15 +1133,17 @@
   </entry>
   
   <entry>
-    <title>大家的编程 (Python 入门)--学习纪录</title>
+    <title>大家的编程 (Python 入门)</title>
     <link href="http://puhemo.tk/2016/06/07/python/"/>
     <id>http://puhemo.tk/2016/06/07/python/</id>
     <published>2016-06-07T11:29:35.000Z</published>
-    <updated>2016-06-16T11:48:14.000Z</updated>
+    <updated>2016-06-17T14:43:37.000Z</updated>
     
     <content type="html">&lt;p&gt;  简单记录个人学习 大家的编程 (Python 入门)的学习记录和相关资料。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;更新历史&quot;&gt;&lt;a href=&quot;#更新历史&quot; class=&quot;headerlink&quot; title=&quot;更新历史&quot;&gt;&lt;/a&gt;更新历史&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;20160617: 完成Getting Started with Python&lt;/li&gt;
+&lt;li&gt;20160617: 完成ChapterFive&lt;/li&gt;
 &lt;li&gt;20160616: 完成ChapterFour&lt;/li&gt;
 &lt;li&gt;20160615:完成ChapterThree&lt;/li&gt;
 &lt;li&gt;20160614: 完成ChapterTwo&lt;/li&gt;
@@ -2046,9 +2048,9 @@ hexo d #hexo deploy
       <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
     
     
-      <category term="Hexo" scheme="http://puhemo.tk/tags/Hexo/"/>
-    
       <category term="Github" scheme="http://puhemo.tk/tags/Github/"/>
+    
+      <category term="Hexo" scheme="http://puhemo.tk/tags/Hexo/"/>
     
   </entry>
   

@@ -21,13 +21,6 @@
     </url>
 
     <url>
-        <loc>http://puhemo.tk/categories/%E6%9C%AF/</loc>
-        <lastmod>2016-06-16T14:44:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://puhemo.tk/categories/%E5%99%A8/</loc>
         <lastmod>2016-06-17T11:49:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -36,7 +29,14 @@
 
     <url>
         <loc>http://puhemo.tk/categories/%E4%B9%A6/</loc>
-        <lastmod>2016-06-17T12:43:13.000Z</lastmod>
+        <lastmod>2016-06-17T14:42:18.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://puhemo.tk/categories/%E6%9C%AF/</loc>
+        <lastmod>2016-06-17T14:43:37.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
