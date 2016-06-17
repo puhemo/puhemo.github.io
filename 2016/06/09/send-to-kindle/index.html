@@ -34,7 +34,7 @@
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
 
-    <link rel="alternative" href="puhemo.tk/atom.xml" title="Linus Liu&#39;s blog" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="Linus Liu&#39;s blog" type="application/atom+xml">
 
 
 
@@ -83,9 +83,7 @@
 </script>
 
 
-    <script>
-        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
-    </script>
+    <script> yiliaConfig.jquery_ui = [false]; </script>
 
 
 
@@ -116,7 +114,7 @@
 
         
             <form id="search-form">
-            <input type="text" id="local-search-input" name="q" results="0" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true" />
+            <input type="text" id="local-search-input" name="q" results="0" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="false" />
             <i class="fa fa-times" onclick="resetSearch()"></i>
             </form>
             <div id="local-search-result"></div>
@@ -178,7 +176,7 @@
                         
                             <li><a href="/tags/">标签云</a></li>
                         
-                            <li><a href="/about/">留言板</a></li>
+                            <li><a href="/about/">关于我</a></li>
                         
                         </ul>
                     </nav>
@@ -192,8 +190,6 @@
                                 <a class="fa GitHub" target="_blank" href="https://github.com/puhemo" title="GitHub"></a>
                             
                                 <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
-                            
-                                <a class="fa TiddlyWiki" target="_blank" href="http://puhemo.xyz/code/wiki" title="TiddlyWiki"></a>
                             
                                 <a class="fa Bookshelves" target="_blank" href="http://puhemo.xyz/book/" title="Bookshelves"></a>
                             
@@ -219,12 +215,6 @@
                     
                       <a target="_blank" class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
                     
-                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.typora.io/">Typora</a>
-                    
-                      <a target="_blank" class="main-nav-link switch-friends-link" href="https://www.coursera.org">Coursera</a>
-                    
-                      <a target="_blank" class="main-nav-link switch-friends-link" href="https://www.codecademy.com">Codecademy</a>
-                    
                     </div>
                 </section>
                 
@@ -233,7 +223,7 @@
                 
                 <section class="switch-part switch-part4">
                 
-                    <div id="js-aboutme">天地一浮萍</div>
+                    <div id="js-aboutme">专注于前端</div>
                 </section>
                 
             </div>
@@ -267,7 +257,7 @@
                 
                     <li><a href="/tags/">标签云</a></li>
                 
-                    <li><a href="/about/">留言板</a></li>
+                    <li><a href="/about/">关于我</a></li>
                 
                 <div class="clearfix"></div>
                 </ul>
@@ -282,8 +272,6 @@
                                 <a class="fa GitHub" target="_blank" href="https://github.com/puhemo" title="GitHub"></a>
                             
                                 <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
-                            
-                                <a class="fa TiddlyWiki" target="_blank" href="http://puhemo.xyz/code/wiki" title="TiddlyWiki"></a>
                             
                                 <a class="fa Bookshelves" target="_blank" href="http://puhemo.xyz/book/" title="Bookshelves"></a>
                             
@@ -496,20 +484,26 @@
 
     
         <section id="comments">
-  <div id="disqus_thread"></div>
-    <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'puhemo'; // required: replace example with your forum shortname
+    <style> aside.comment-bar { margin: auto 30px; }</style>
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_config = function(){
+            this.page.url = 'http://puhemo.tk/2016/06/09/send-to-kindle/';
+            this.page.identifier = '2016/06/09/send-to-kindle/';
+        };
+        var loadComment = function(){
+            var d = document, s = d.createElement('script');
+            s.src = '//puhemo.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        }
+    </script>
+    
+    <script> loadComment(); </script>
 
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </section>
+
+
     
 
 
@@ -548,7 +542,7 @@
                 2016 Liuns Liu
             </div>
             <div class="footer-right">
-                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.0">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
             </div>
         </div>
         
@@ -612,7 +606,7 @@ ga('send', 'pageview');
 
 <div class="scroll" id="scroll">
     <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
-    <a href="#comments" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
     <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
 </div>
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
