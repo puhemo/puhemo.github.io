@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://puhemo.tk/"/>
-  <updated>2016-06-17T11:45:48.000Z</updated>
+  <updated>2016-06-17T11:47:50.000Z</updated>
   <id>http://puhemo.tk/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://puhemo.tk/2016/06/17/windows-apps/"/>
     <id>http://puhemo.tk/2016/06/17/windows-apps/</id>
     <published>2016-06-17T11:42:55.000Z</published>
-    <updated>2016-06-17T11:45:48.000Z</updated>
+    <updated>2016-06-17T11:47:50.000Z</updated>
     
     <content type="html">&lt;p&gt;Record some applications for easy access, by the way recommend to everyone. Below is some of my favorite Windows software that I use.&lt;/p&gt;
 &lt;h2 id=&quot;Readers&quot;&gt;&lt;a href=&quot;#Readers&quot; class=&quot;headerlink&quot; title=&quot;Readers&quot;&gt;&lt;/a&gt;Readers&lt;/h2&gt;&lt;ul&gt;
@@ -28,32 +28,22 @@
 &lt;li&gt;&lt;a href=&quot;http://feedly.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Feedly&lt;/a&gt; - RSS Feed Reader with Pocket integration.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Editors&quot;&gt;&lt;a href=&quot;#Editors&quot; class=&quot;headerlink&quot; title=&quot;Editors&quot;&gt;&lt;/a&gt;Editors&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://notepad-plus-plus.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Notepad++&lt;/a&gt; - A free source code editor which supports several programming languages running under the MS Windows environment.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.typora.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Typora&lt;/a&gt; - A minimal markdown editor for Mac and Windows&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://notepad-plus-plus.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Notepad++&lt;/a&gt; - A free source code editor which supports several programming languages running under the MS Windows environment.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.typora.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Typora&lt;/a&gt; - A minimal markdown editor for Mac and Windows&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Browser&quot;&gt;&lt;a href=&quot;#Browser&quot; class=&quot;headerlink&quot; title=&quot;Browser&quot;&gt;&lt;/a&gt;Browser&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.google.com/chrome/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Chrome&lt;/a&gt;: A browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.mozilla.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mozilla Firefox&lt;/a&gt;:  A free Web browser. Firefox is created by a global non-profit dedicated to putting individuals in control online.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Utilities&quot;&gt;&lt;a href=&quot;#Utilities&quot; class=&quot;headerlink&quot; title=&quot;Utilities&quot;&gt;&lt;/a&gt;Utilities&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://calibre-ebook.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;calibre&lt;/a&gt;:  The one stop solution for all your &lt;strong&gt;e-book&lt;/strong&gt; needs.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mediago.sony.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Media Go &lt;/a&gt;: &lt;em&gt;Media Go&lt;/em&gt; software connects and enhances your digital entertainment world. &lt;strong&gt;Music&lt;/strong&gt;, movies, TV shows, podcasts, games, photos, and more.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://evernote.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Evernote&lt;/a&gt;: The &lt;strong&gt;note&lt;/strong&gt;-taking space for your life’s work.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.xnview.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;XnView&lt;/a&gt;: Free multi-format &lt;strong&gt;graphics viewer&lt;/strong&gt; with batch conversion and image processing capabilities.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://zh-cn.libreoffice.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;LibreOffice&lt;/a&gt;: The most actively developed free and open source &lt;strong&gt;office suite&lt;/strong&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://kmate.me/cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle Mate&lt;/a&gt;:  A freewave with rich features designed to sync, organize, import &amp;amp; export Kindle clippings (Kindle highlights and notes) and Kindle Vocabulary Builder words on computer.  &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;music.163.com&quot;&gt;NetEase Cloud Music &lt;/a&gt;: The free, Chinese equivalent to Spotify Premium&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.sumatrapdfreader.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sumatra PDF&lt;/a&gt;: A free PDF, eBook (ePub, Mobi), XPS, DjVu, CHM, Comic Book (CBZ and CBR) reader for Windows.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://calibre-ebook.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;calibre&lt;/a&gt;:  The one stop solution for all your &lt;strong&gt;e-book&lt;/strong&gt; needs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mediago.sony.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Media Go &lt;/a&gt;: &lt;em&gt;Media Go&lt;/em&gt; software connects and enhances your digital entertainment world. &lt;strong&gt;Music&lt;/strong&gt;, movies, TV shows, podcasts, games, photos, and more.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://evernote.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Evernote&lt;/a&gt;: The &lt;strong&gt;note&lt;/strong&gt;-taking space for your life’s work.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.xnview.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;XnView&lt;/a&gt;: Free multi-format &lt;strong&gt;graphics viewer&lt;/strong&gt; with batch conversion and image processing capabilities.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh-cn.libreoffice.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;LibreOffice&lt;/a&gt;: The most actively developed free and open source &lt;strong&gt;office suite&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kmate.me/cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kindle Mate&lt;/a&gt;:  A freewave with rich features designed to sync, organize, import &amp;amp; export Kindle clippings (Kindle highlights and notes) and Kindle Vocabulary Builder words on computer.  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;music.163.com&quot;&gt;NetEase Cloud Music &lt;/a&gt;: The free, Chinese equivalent to Spotify Premium&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.sumatrapdfreader.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sumatra PDF&lt;/a&gt;: A free PDF, eBook (ePub, Mobi), XPS, DjVu, CHM, Comic Book (CBZ and CBR) reader for Windows.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     
@@ -430,13 +420,13 @@
     
       <category term="Kindle" scheme="http://puhemo.tk/tags/Kindle/"/>
     
-      <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
-    
       <category term="Evernote" scheme="http://puhemo.tk/tags/Evernote/"/>
     
       <category term="Clippings.io" scheme="http://puhemo.tk/tags/Clippings-io/"/>
     
       <category term="IFTTT" scheme="http://puhemo.tk/tags/IFTTT/"/>
+    
+      <category term="Clippings Fere" scheme="http://puhemo.tk/tags/Clippings-Fere/"/>
     
   </entry>
   
