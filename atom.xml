@@ -2048,9 +2048,9 @@ hexo d #hexo deploy
       <category term="术" scheme="http://puhemo.tk/categories/%E6%9C%AF/"/>
     
     
-      <category term="Hexo" scheme="http://puhemo.tk/tags/Hexo/"/>
-    
       <category term="Github" scheme="http://puhemo.tk/tags/Github/"/>
+    
+      <category term="Hexo" scheme="http://puhemo.tk/tags/Hexo/"/>
     
   </entry>
   
